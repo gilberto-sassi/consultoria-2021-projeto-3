@@ -37,4 +37,13 @@ Os resultados apresentados foram:
 * Gráfico de barras da raça
 * Gráfico de barras de gênero
 * Gráfico de barras de tipo de escola
+* Associação entre _vulnerabilidade territorial_ e _tipo de escola_
+* Associação entre _acesso a internet_ e _raça_
+* Associação entre _vulnerabilidade territorial_ e _TIC_
+* Respeito ao isolamento social
+* Associação entre _preocupação com falta de comida_ e _raça_
+* Relação com a família durante a pandemia
+* Agregar várias respostas de acordo com sim ou não (atividades durante a pandemia)
+* Associação entre _participação em atividades domésticas_ e _gênero_
+* Agrupamento de respostas: Escola e as crianças
 
