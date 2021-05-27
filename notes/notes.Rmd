@@ -20,7 +20,7 @@ library(tidyverse)
 
 Consulente: Juliana Prates Santana e Adriana Freire Pereira Ferriz.
 
-# Pesquisa de referência
+# Pesquisa de referência em Belo Horizonte
 
 **Título da pesquisa:** Infâncias em tempos de Pandemia; experiências das crianças da grande BH
 **Pùlbico alvo:** Criança de 8 a 12 que tiveram a rotina alterada devido a pandemia de COVID-19
@@ -47,3 +47,31 @@ Os resultados apresentados foram:
 * Associação entre _participação em atividades domésticas_ e _gênero_
 * Agrupamento de respostas: Escola e as crianças
 
+# Projeto de pesquisa na UFBA
+
+**Público alvo:** Crianças de 8 a 12 anos
+
+**Técnica de amostragem:** _bola de neve_ em que busca-se círculos de professores da rede pública e lideranças comunitárias.
+
+O questionário tem três partes:
+
+1. Identificação pessoal
+2. Informações sobre moradia
+3. Informações sobre a experiências durante o afastamento pessoal
+
+## Variáveis estratificadoras de interesse 
+
+* Idade
+* Tipo de Escola
+* Gênero
+* Raça
+* Cidade 
+
+## Variáveis para comparar as médias dentro dos estratos
+
+* Questão 13)
+* Questão 14)
+* Questão 15)
+* Questão 16) 
+* Questão 17)
+* Questão 18)
