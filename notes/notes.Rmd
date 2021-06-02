@@ -75,3 +75,5 @@ O questionário tem três partes:
 * Questão 16) 
 * Questão 17)
 * Questão 18)
+* Questão 23)
+* Questão 29)

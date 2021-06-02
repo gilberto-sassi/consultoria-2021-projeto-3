@@ -1,0 +1,112 @@
+---
+title: "Análises"
+output: bookdown::html_notebook2
+editor_options: 
+  chunk_output_type: console
+---
+
+# Used packages
+
+```{r, message=FALSE}
+library(readr)
+library(readxl)
+library(openxlsx)
+library(stringr)
+library(tidyverse)
+
+# options to chunks
+knitr::opts_chunk$set(echo = FALSE, out.width = "50%", fig.align = "center")
+
+# setting theme
+theme_set(theme_minimal())
+
+# path directory
+output <- stringr::str_interp('/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/output/')
+
+# loading data
+dados <- read_xlsx("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/data/raw/Banco de dados atualizado15-03-211.xlsx")
+
+source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/tabela_grafico.R")
+```
+
+# Initial unidimensional analysis
+
+## Cidade
+
+### Bar graph
+
+```{r}
+grafico(dados, 'Cidade', 'Cidade')
+```
+
+### Distribution table
+
+```{r}
+tabela(dados, 'Cidade', 'Cidade', "Tabela de distribuição de frequências para variável Cidade.", base = output)
+```
+
+## Tipo de escola
+
+### Bar graph
+
+```{r}
+grafico(dados, 'Escola', "Tipo de Escola")
+```
+
+### Distribution table
+
+```{r}
+tabela(dados, 'Escola', 'Tipo de Escola', "Tabela de distribuição de frequências para Tipo de Escola.", base = output)
+```
+
+## Gênero
+
+### Distribuition tabela
+
+```{r}
+tabela(dados, 'Gênero', 'Gênero', 'Tabela de distribuição de frequências para Gênero', base = output)
+```
+
+### Bar graph
+
+```{r}
+grafico(dados, 'Gênero', 'Gênero')
+```
+
+## Idade
+
+### Distribution table
+
+```{r}
+tabela(dados, 'Idade', 'Idade', 'Tabela de distribuição para Idade.', base = output)
+```
+
+### Bar graph
+
+```{r}
+grafico(dados, 'Idade', 'Idade')
+```
+
+## Raça
+
+I have collapse `Negra`, `Parda` and `Preta` into `Negra`.
+
+### Distribution table
+
+```{r}
+dados <- dados |> 
+  mutate(raca = raça |>
+           recode('Não sei responder ou não quero responder' = 'Sem resposta',
+                  'Parda' = 'Negra',
+                  'Preta' = 'Negra'))
+tabela(dados, 'raca', 'Raça','Tabela de distribuição para Raça.', base = output)
+```
+
+### Bar graph
+
+```{r}
+grafico(dados, 'raca', 'Raça')
+```
+
+# Bidimensional analysis
+
