@@ -27,6 +27,17 @@ output <- stringr::str_interp('/home/gilberto/Dropbox/UFBA/consultoria/2021/cons
 dados <- read_xlsx("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/data/raw/Banco de dados atualizado15-03-211.xlsx")
 
 source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/tabela_grafico.R")
+
+df <- dados |> 
+  dplyr::mutate_at(dplyr::vars(dplyr::matches("^Q[4-6]$")), \(x) dplyr::recode(x,
+                                                      `0` = 'Não',
+                                                      `1` = 'Sim',
+                                                      `2` = 'Não sei')) |> 
+  dplyr::mutate_at(paste0("Q", 7:22), \(x) dplyr::recode(x,
+                                       `0` = 'Sem preocupação',
+                                       `1` = 'Pouca preocupação',
+                                       `2` = 'Muita preocupação',
+                                       `3` = 'Sem resposta'))
 ```
 
 # Initial unidimensional analysis
@@ -109,4 +120,34 @@ grafico(dados, 'raca', 'Raça')
 ```
 
 # Bidimensional analysis
+
+## Questão 12
+
+In the dataset it refers to the following questions:
+
+Q14) a Q22)
+
+and we have used _linkert_ scale:
+
+
+* 0 - Não estou preocupado (a)
+* 1 - Estou um pouco preocupado (a)
+* 2 - Estou muito preocupado (a)
+* 3 - Não sei ou não quero responder
+
+### Q14)
+
+#### Resume measures
+
+```{r}
+
+tabela(df, 'Q14', 'Q14', 'Você está preocupado com minha família e meus amigos fiquem mais pobres, com menos dinheiro ou sem emprego?')
+```
+
+### Bar graph
+
+```{r}
+
+```
+
 

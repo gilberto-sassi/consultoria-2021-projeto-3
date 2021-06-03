@@ -69,6 +69,7 @@ O questionário tem três partes:
 
 ## Variáveis para comparar as médias dentro dos estratos
 
+* Questão 12)
 * Questão 13)
 * Questão 14)
 * Questão 15)
