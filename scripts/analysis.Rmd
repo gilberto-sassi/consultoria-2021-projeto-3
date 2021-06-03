@@ -141,7 +141,7 @@ and we have used _linkert_ scale:
 
 ```{r}
 
-tabela(df, 'Q14', 'Q14', 'Você está preocupado com minha família e meus amigos fiquem mais pobres, com menos dinheiro ou sem emprego?')
+tabela(df, 'Q14', 'Q14', 'Você está preocupado com minha família e meus amigos fiquem mais pobres, com menos dinheiro ou sem emprego?', base = output)
 ```
 
 ### Bar graph
