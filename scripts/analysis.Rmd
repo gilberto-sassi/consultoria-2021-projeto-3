@@ -5,6 +5,21 @@ editor_options:
   chunk_output_type: console
 ---
 
+# Some theory 
+
+## Analyzing and Interpreting Data From Likert-Type Scales
+
+* Mean and standard deviation are hard do interpret in Linkert scales
+* Use quantiles for Linkert scales
+* Use contingency table and chi-square, Spearman rho assessment, U Mann-Whitney test
+* Researchs recommend to use parametrics tests even for a Linkert scale
+* When measuring subjective concepts, use Conbach alpha, kappa test and fatorial analysis
+
+**Parametric tests can be used Likert scale responses, but means are often limited value**
+
+## Reporting and Interpreting Scores Derived from Likert-type Scales
+
+
 # Used packages
 
 ```{r, message=FALSE}
@@ -15,18 +30,30 @@ library(stringr)
 library(tidyverse)
 
 # options to chunks
-knitr::opts_chunk$set(echo = FALSE, out.width = "50%", fig.align = "center")
+knitr::opts_chunk$set(echo = FALSE, out.width = "50%", fig.align = "center", cache=TRUE, warning = FALSE, message = FALSE)
 
 # setting theme
 theme_set(theme_minimal())
 
+# Loading code
+source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/functions/bar-graph.R")
+source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/functions/contingency_table.R")
+source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/functions/distribution-table.R")
+source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/functions/grafico_2.R")
+source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/functions/qui_quadrado_test.r")
+source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/functions/resume-measures.R")
+source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/functions/resume-measures-2.R")
+
 # path directory
 output <- stringr::str_interp('/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/output/')
+
+# path to save figures
+fig_path <- "/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/figures/"
 
 # loading data
 dados <- read_xlsx("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/data/raw/Banco de dados atualizado15-03-211.xlsx")
 
-source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/tabela_grafico.R")
+# source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/tabela_grafico.R")
 
 df <- dados |> 
   dplyr::mutate_at(dplyr::vars(dplyr::matches("^Q[4-6]$")), \(x) dplyr::recode(x,
@@ -37,7 +64,31 @@ df <- dados |>
                                        `0` = 'Sem preocupação',
                                        `1` = 'Pouca preocupação',
                                        `2` = 'Muita preocupação',
-                                       `3` = 'Sem resposta'))
+                                       `3` = 'Sem resposta')) |> 
+  dplyr::mutate_at(paste0("Q", 23:26),
+                   \(x) dplyr::recode(x,
+                                      `0` = 'Não',
+                                      `1` = 'Sim',
+                                      `2` = 'Às vezes',
+                                      `3` = 'Sem resposta')) |> 
+  dplyr::mutate_at(paste0("Q", 27:39),
+                   \(x) recode(x,
+                               `0` = 'Nenhum dia',
+                               `1` = 'Poucos dias',
+                               `2` = 'Todos dias',
+                               `3` = 'Todos dias e várias vezes')) |> 
+  dplyr::mutate_at(paste0("Q", 40:43),
+                   \(x) recode(x,
+                               `0` = 'Não',
+                               `1` = 'Sim',
+                               `2` = 'Sem resposta',
+                               `3` = 'Outros')) |>
+  dplyr::mutate(raca = raça |>
+           dplyr::recode('Não sei responder ou não quero responder' = 'Sem resposta',
+                  'Parda' = 'Negra',
+                  'Preta' = 'Negra'))
+
+openxlsx::write.xlsx(df, file = "/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/data/processed/banco_dados.xlsx")
 ```
 
 # Initial unidimensional analysis
@@ -46,13 +97,13 @@ df <- dados |>
 
 ### Bar graph
 
-```{r}
-grafico(dados, 'Cidade', 'Cidade')
+```{r grafico-barra-cidade}
+grafico(dados, 'Cidade', 'Cidade', base = fig_path)
 ```
 
 ### Distribution table
 
-```{r}
+```{r tabela-distribuicao-cidade}
 tabela(dados, 'Cidade', 'Cidade', "Tabela de distribuição de frequências para variável Cidade.", base = output)
 ```
 
@@ -60,13 +111,13 @@ tabela(dados, 'Cidade', 'Cidade', "Tabela de distribuição de frequências para
 
 ### Bar graph
 
-```{r}
-grafico(dados, 'Escola', "Tipo de Escola")
+```{r grafico-barra-tipo-escola}
+grafico(dados, 'Escola', "Tipo de Escola", base = fig_path)
 ```
 
 ### Distribution table
 
-```{r}
+```{r tabela-distribuicao-tipo-escola}
 tabela(dados, 'Escola', 'Tipo de Escola', "Tabela de distribuição de frequências para Tipo de Escola.", base = output)
 ```
 
@@ -74,28 +125,28 @@ tabela(dados, 'Escola', 'Tipo de Escola', "Tabela de distribuição de frequênc
 
 ### Distribuition tabela
 
-```{r}
+```{r tabela-distribuicao-genero}
 tabela(dados, 'Gênero', 'Gênero', 'Tabela de distribuição de frequências para Gênero', base = output)
 ```
 
 ### Bar graph
 
-```{r}
-grafico(dados, 'Gênero', 'Gênero')
+```{r grafico-barra-genero}
+grafico(dados, 'Gênero', 'Gênero', base = fig_path)
 ```
 
 ## Idade
 
 ### Distribution table
 
-```{r}
+```{r tabela-distribuicao-idade}
 tabela(dados, 'Idade', 'Idade', 'Tabela de distribuição para Idade.', base = output)
 ```
 
 ### Bar graph
 
-```{r}
-grafico(dados, 'Idade', 'Idade')
+```{r grafico-barra-idade}
+grafico(dados, 'Idade', 'Idade', base = fig_path)
 ```
 
 ## Raça
@@ -104,7 +155,7 @@ I have collapse `Negra`, `Parda` and `Preta` into `Negra`.
 
 ### Distribution table
 
-```{r}
+```{r tabela-distribuicao-raca}
 dados <- dados |> 
   mutate(raca = raça |>
            recode('Não sei responder ou não quero responder' = 'Sem resposta',
@@ -115,39 +166,81 @@ tabela(dados, 'raca', 'Raça','Tabela de distribuição para Raça.', base = out
 
 ### Bar graph
 
-```{r}
-grafico(dados, 'raca', 'Raça')
+```{r grafico-barra-raca}
+grafico(dados, 'raca', 'Raça', base = fig_path)
 ```
 
 # Bidimensional analysis
 
-## Questão 12
-
 In the dataset it refers to the following questions:
 
-Q14) a Q22)
+Q12) a Q22)
 
 and we have used _linkert_ scale:
 
+* 0 - Sem preocupação
+* 1 - Pouca preocupação
+* 2 - Muita preocupação
+* 3 - Sem resposta
 
-* 0 - Não estou preocupado (a)
-* 1 - Estou um pouco preocupado (a)
-* 2 - Estou muito preocupado (a)
-* 3 - Não sei ou não quero responder
+### Q12)
 
-### Q14)
+#### Distribution table
+
+```{r tabela-distribuicao-q12}
+
+tabela(df, 'Q12', 'Q12', 'Você está preocupado que demorasse muito para eu voltar à escola?', base = output)
+```
 
 #### Resume measures
 
-```{r}
-
-tabela(df, 'Q14', 'Q14', 'Você está preocupado com minha família e meus amigos fiquem mais pobres, com menos dinheiro ou sem emprego?', base = output)
+```{r tabela-medidas-resumo-q12}
+resume_measures(dados, "Q12", base = output)
 ```
 
 ### Bar graph
 
-```{r}
-
+```{r grafico-barra-q12}
+grafico(df, "Q12", "Q12 -- volta à escola", base = fig_path)
 ```
 
+#### Contingency table: Idade versus Questão 12)
 
+```{r tabela-contingencia-q12}
+contingency(df, "Idade", "Q12", "Idade", base = output)
+```
+
+#### Resume Measures: Idade versus Questão 12
+
+```{r medidas-resumo-idade-q12}
+dados |> 
+  resume_measures_2("Idade", "Q12", base = output)
+```
+
+#### Bar graph: Idade versus Questão 12)
+
+```{r grafico-barra-idade-q12}
+grafico_2(df, "Idade", "Q12", 'Idade', base = fig_path)
+```
+
+#### Chi-squared test: Idade versus Q12
+
+```{r qui-quadrado-idade-q12}
+df |> 
+  qui_test("Idade", "Q12", base = output)
+```
+
+#### Mann-Whitney test: Idade versus Q12
+
+
+```{r}
+ggplot(dados) +
+  geom_boxplot(aes(x = as.factor(Idade), y = Q12)) +
+  labs(x = "Idade", y = "Q12")
+```
+
+To do:
+
+[] Boxplot
+[] Man Whitney Tests
+[] Organize Flux of results
