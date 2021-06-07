@@ -15,6 +15,8 @@ editor_options:
 * Researchs recommend to use parametrics tests even for a Linkert scale
 * When measuring subjective concepts, use Conbach alpha, kappa test and fatorial analysis
 
+Where to read: [rcompanion](https://rcompanion.org/handbook/index.html)
+
 **Parametric tests can be used Likert scale responses, but means are often limited value**
 
 ## Reporting and Interpreting Scores Derived from Likert-type Scales
@@ -27,6 +29,7 @@ library(readr)
 library(readxl)
 library(openxlsx)
 library(stringr)
+library(glue)
 library(tidyverse)
 
 # options to chunks
@@ -192,29 +195,22 @@ and we have used _linkert_ scale:
 tabela(df, 'Q12', 'Q12', 'Você está preocupado que demorasse muito para eu voltar à escola?', base = output)
 ```
 
-#### Resume measures
-
-```{r tabela-medidas-resumo-q12}
-resume_measures(dados, "Q12", base = output)
-```
-
 ### Bar graph
 
 ```{r grafico-barra-q12}
 grafico(df, "Q12", "Q12 -- volta à escola", base = fig_path)
 ```
 
+#### Resume measures unidimensional
+
+```{r tabela-medidas-resumo-q12}
+resume_measures(dados, "Q12", base = output)
+```
+
 #### Contingency table: Idade versus Questão 12)
 
 ```{r tabela-contingencia-q12}
 contingency(df, "Idade", "Q12", "Idade", base = output)
-```
-
-#### Resume Measures: Idade versus Questão 12
-
-```{r medidas-resumo-idade-q12}
-dados |> 
-  resume_measures_2("Idade", "Q12", base = output)
 ```
 
 #### Bar graph: Idade versus Questão 12)
@@ -230,14 +226,26 @@ df |>
   qui_test("Idade", "Q12", base = output)
 ```
 
-#### Mann-Whitney test: Idade versus Q12
 
+#### Resume Measures: Idade versus Questão 12
+
+```{r medidas-resumo-idade-q12}
+dados |> 
+  resume_measures_2("Idade", "Q12", base = output)
+```
+
+#### Boxplot: Idade versus Q12
 
 ```{r}
 ggplot(dados) +
   geom_boxplot(aes(x = as.factor(Idade), y = Q12)) +
-  labs(x = "Idade", y = "Q12")
+  labs(x = "Idade", y = "Q12") +
+  scale_y_continuous(breaks = -1:4, limits = c(-1,4))
 ```
+
+#### Mann-Whitney test: Idade versus Q12
+
+#### Dunn's Teste: Idade versus Q12
 
 To do:
 
