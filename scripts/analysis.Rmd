@@ -30,10 +30,11 @@ library(readxl)
 library(openxlsx)
 library(stringr)
 library(glue)
+library(PMCMR) # Nemeyi's test
 library(tidyverse)
 
 # options to chunks
-knitr::opts_chunk$set(echo = FALSE, out.width = "50%", fig.align = "center", cache=TRUE, warning = FALSE, message = FALSE)
+knitr::opts_chunk$set(echo = FALSE, out.width = "50%", fig.align = "center", cache=FALSE, warning = FALSE, message = FALSE)
 
 # setting theme
 theme_set(theme_minimal())
@@ -46,6 +47,10 @@ source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adrian
 source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/functions/qui_quadrado_test.r")
 source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/functions/resume-measures.R")
 source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/functions/resume-measures-2.R")
+source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/functions/boxplot_group.R")
+source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/functions/kruskal_wallis_test.R")
+source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/functions/nemenyi_tests.R")
+
 
 # path directory
 output <- stringr::str_interp('/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/output/')
@@ -92,6 +97,8 @@ df <- dados |>
                   'Preta' = 'Negra'))
 
 openxlsx::write.xlsx(df, file = "/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/data/processed/banco_dados.xlsx")
+
+options(knitr.kable.NA = '')
 ```
 
 # Initial unidimensional analysis
@@ -237,18 +244,22 @@ dados |>
 #### Boxplot: Idade versus Q12
 
 ```{r}
-ggplot(dados) +
-  geom_boxplot(aes(x = as.factor(Idade), y = Q12)) +
-  labs(x = "Idade", y = "Q12") +
-  scale_y_continuous(breaks = -1:4, limits = c(-1,4))
+dados |>
+  boxplot_group('Q12', 'Idade', 'Q12', 'Idade', base = fig_path)
 ```
 
-#### Mann-Whitney test: Idade versus Q12
+#### Kruskal-Wallis test: Idade versus Q12
 
-#### Dunn's Teste: Idade versus Q12
+```{r}
+df |> 
+  kruskal_wallis_test('Q12', 'Idade', 'ANOVA não paramétrica: Q12 e Idade.', base = output)
+```
 
-To do:
 
-[] Boxplot
-[] Man Whitney Tests
-[] Organize Flux of results
+#### O teste de Nemenyi: Idade versus Q12
+
+```{r}
+dados |> 
+  nemenyi_tests('Q12', 'Idade', caption = 'Teste de comparação de médias em pares Q12 e Idade.', base = output)
+```
+

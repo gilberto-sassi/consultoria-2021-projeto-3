@@ -41,6 +41,6 @@ resume_measures_2 <- function(df, by, variavel, rotulo, base = "") {
   
   tab |> 
     knitr::kable(format = "pipe", digits = 2, align = "c",
-                 caption = stringr::str_interp("Medidas de resumo por ${rotulo}."),
+                 caption = glue::glue("Medidas de resumo de {variavel} por {by}."),
                  format.args = list(decimal.mark = ","))
 }

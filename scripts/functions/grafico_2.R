@@ -20,18 +20,18 @@ grafico_2 <- function(df, variavel_x, variavel_fill, rotulo_x, rotulo_y = "", ba
   g <- ggplot2::ggplot(df) +
     ggplot2::geom_bar(aes_string(x = variavel_x, fill = variavel_fill),
                       position = 'fill') +
-    ggplot2::labs(x = rotulo_x, y = "Porcentabem") +
+    ggplot2::labs(x = rotulo_x, y = "Porcentagem") +
     ggplot2::scale_fill_discrete(rotulo_y) +
     ggplot2::scale_y_continuous(breaks = seq(from = 0, to = 1, by = 0.25),
                                 labels = seq(from = 0, to = 1, by = 0.25) * 100) +
     ggplot2::coord_flip()
   
   ggsave(
-    stringr::str_interp("${base}grafico_barra_bidimensional/grafico_barra_${variavel_x}_${variavel_y}.png"),
+    stringr::str_interp("${base}grafico_barra_bidimensional/grafico_barra_${variavel_x}_${variavel_fill}.png"),
     plot = g
   )
   ggsave(
-    stringr::str_interp("${base}grafico_barra_bidimensional/grafico_barra_${variavel_x}_${variavel_y}.pdf"),
+    stringr::str_interp("${base}grafico_barra_bidimensional/grafico_barra_${variavel_x}_${variavel_fill}.pdf"),
     plot = g
   )
   

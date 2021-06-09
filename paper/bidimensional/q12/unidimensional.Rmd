@@ -1,0 +1,18 @@
+#### Gráfico de barras: Q12
+
+```{r}
+grafico(df, "Q12", "Q12", base = fig_path)
+```
+
+#### Tabela de distribuição: Q12
+
+```{r}
+tabela(df, 'Q12', 'Q12', 'Você está preocupado que demorasse muito para eu voltar à escola?', base = output)
+```
+
+
+#### Medidas de resumo: Q12
+
+```{r}
+resume_measures(dados, "Q12", base = output)
+```

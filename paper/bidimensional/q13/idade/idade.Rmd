@@ -1,0 +1,57 @@
+#### Tabela de contingência: Idade e Q13
+
+```{r}
+contingency(df, "Idade", "Q13", "Idade", caption="Tabela de contingência: Idade e Q13.", base = output)
+```
+
+#### Gráfico de barras: Idade e Q13
+
+Aparentemente as duas variáveis _Idade_ e _Q13_ não estão associadas.
+
+```{r}
+grafico_2(df, "Idade", "Q13", 'Idade', base = fig_path)
+```
+
+#### Teste qui-quadrado
+
+Como o valor-p é maior que $\alpha=0,05$, não rejeitamos $H_0$ e não temos temos evidência evidência estatística que as duas variáveis estão associadas. 
+
+```{r}
+df |> 
+  qui_test("Idade", "Q13", base = output)
+```
+
+\cleardoublepage
+
+#### Medidas de Resumo Q13 por Idade
+
+```{r}
+dados |> 
+  resume_measures_2("Idade", "Q13", base = output)
+```
+
+#### Boxplot de Q13 por Idade 
+
+
+```{r}
+dados |>
+  boxplot_group('Q13', 'Idade', 'Q13', 'Idade', base = fig_path)
+```
+
+#### Teste de Kruskal-Wallis de Q13 por Idade
+
+Como o valor-p é maior que $\alpha=0,05$, não rejeitamos $H_0$ e as medianas de $Q13$ de cada idade são iguais.
+
+```{r}
+df |> 
+  kruskal_wallis_test('Q13', 'Idade', 'Valores-p para comparação múltipla de medianas: Q13 e Idade.', base = output)
+```
+
+#### Teste de Nemeyi de Q13 por Idade
+
+Os valores-p são todos maiores que $\alpha=0,05$, e não rejeitamos $H_0$ para todos os pares de idade, ou seja, as medianas são iguais para cada par de idade.
+
+```{r}
+dados |> 
+  nemenyi_tests('Q13', 'Idade', caption = 'Teste de Nemeyi de Q13 por Idade.', base = output)
+```

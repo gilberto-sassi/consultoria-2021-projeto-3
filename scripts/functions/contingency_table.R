@@ -3,6 +3,7 @@
 #' @param df a tibble 
 #' @param variavel_x a character (or factor) variable 
 #' @param variavel_y a character (or factor) variable
+#' @param caption caption of table
 #' @param rotulo label of x axis
 #' 
 #' @return a \code{knitr::kable} object
@@ -13,7 +14,7 @@
 #' df <- tibble(x = sample(letters[1:5], 100, replace = T),
 #'              y = sample(letters[6:10], 100, replace = T))
 #' contingency(df, x, y, "x", "y")
-contingency <- function(df, variavel_x, variavel_y, rotulo, base = "") {
+contingency <- function(df, variavel_x, variavel_y, rotulo, caption = "", base = "") {
 
   tab <- df |>
     group_by(.data[[variavel_x]], .data[[variavel_y]]) |>
@@ -31,6 +32,7 @@ contingency <- function(df, variavel_x, variavel_y, rotulo, base = "") {
   tab |>
     knitr::kable(format = "pipe", digits = 2,
                  align = "c",
+                 caption = caption,
                  format.args = list(decimal.mark = ","))
   
 }

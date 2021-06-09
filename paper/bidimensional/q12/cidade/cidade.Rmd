@@ -1,0 +1,60 @@
+
+#### Tabela de contingência: Cidade e Q12
+
+```{r}
+contingency(df, "Cidade", "Q12", "Cidade", caption="Tabela de contingência: Cidade e Q12.", base = output)
+```
+
+#### Gráfico de barras: Cidade e Q12
+
+Aparentemente as duas variáveis _Cidade_ e _Q12_ estão associadas.
+
+```{r}
+grafico_2(df, "Cidade", "Q12", 'Cidade', base = fig_path)
+```
+
+#### Teste qui-quadrado
+
+Como o valor-p é menor que $\alpha=0,05$, rejeitamos $H_0$ e temos evidência evidência estatística que as duas variáveis estão associadas. 
+
+```{r}
+df |> 
+  qui_test("Cidade", "Q12", base = output)
+```
+
+\cleardoublepage
+
+#### Medidas de Resumo Q12 por Cidade
+
+
+```{r}
+dados |> 
+  resume_measures_2("Cidade", "Q12", base = output)
+```
+
+#### Boxplot de Q12 por Cidade 
+
+
+```{r}
+dados |>
+  boxplot_group('Q12', 'Cidade', 'Q12', 'Cidade', base = fig_path)
+```
+
+#### Teste de Kruskal-Wallis de Q12 por Cidade
+
+
+Como o valor-p é menor que $\alpha=0,05$, não rejeitamos $H_0$ e as medianas de $Q12$ entre as crianças de diversas cidades são diferentes.
+
+```{r}
+dados |> 
+  kruskal_wallis_test('Q12', 'Cidade', 'Valores-p para comparação múltipla de medianas: Q12 e Cidade.', base = output)
+```
+
+#### Teste de Nemeyi de Q12 por Cidade
+
+As medianas de Lauro de Freitas de _Q12_ e _Cidade_ são diferentes, pois o valor-p $p = 0,01$ para este par é menor que $\alpha = 0,05$.
+
+```{r}
+dados |> 
+  nemenyi_tests('Q12', 'Cidade', caption = 'Teste de Nemeyi de Q12 por Cidade.', base = output)
+``` 

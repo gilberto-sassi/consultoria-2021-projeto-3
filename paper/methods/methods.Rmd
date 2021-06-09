@@ -1,0 +1,247 @@
+
+Começamos com uma análise descritiva de cada uma das variáveis de interesse, para depois passar para uma análise bidimensional. Na análise descritiva usamos medidas de posição e dispersão para variáveis mensuradas como uma escala Likert e tabela de distribuição de frequências para variáveis categóricas. Além disso, usamos o teste de associação qui-quadrado, o teste Kruskal-Wallis para comparar medianas e o teste de comparações múltiplas de Nemeyi. Neste projeto usamos a linguagem `R` [@Rlang]. Para detalhes de estística descritiva, recomendamos a leitura de @bussab2002estatistica. A seguir vamos apresentar detalhes metodológicos sobre o teste de associação qui-quadrado, o teste de Kruskal-Wallis para comparar medianas e o teste de comparações múltiplas de Nemeyi.
+
+## Teste qui-quadrado
+
+Vamos começar definindo o que entendemos por associação entre duas variáveis.
+Considere duas variáveis qualitativas $X$ e $Y$ com 
+
+* valores possíveis de $X$: $A_1, A_2, \dots, A_r$,
+* valores possíveis de $Y$: $B_1, B_2, \dots, B_s$.
+
+Suponha que $f_i \%$ da população de todos docentes tem valor de $X$ igual $A_i$.
+Então,
+
+1. dizemos que $X$ e $Y$ estão associados se, ao descobrirmos ou conhecermos que o valor de 
+$Y$ é $B_j$, **alteramos** o valor de $f_i \%$;
+2. dizemos que $X$ e $Y$ **não** estão associados se, ao descobrirmos ou conhecermos que o valor de 
+$Y$ é $B_j$, **não alteramos** o valor de $f_i \%$;
+
+Para verificar se duas variáveis qualitativas estão associadas usando uma amostra,
+começamos construindo a tabela de contingência que mostra a frequência da variáveis
+$X$ ao longo da variávei $Y$, conforme ilustrado na Tabela \@ref(tab:contingencia).
+
+\begin{table}[htbp]
+  \centering
+  \caption{Tabela de contingência para as variáveis $X$ e $Y$.}
+  \label{tab:contingencia}
+  \begin{tabular}{c|c|ccccc|c}
+    &  & \multicolumn{5}{|c|}{Valores possíveis de $X$} & \\ \cline{3-7}
+    &  & $B_1$ & $B_2$ & $B_3$ & $\cdots$ & $B_s$ & Total\\ \hline
+  \multirow{5}{*}{Valores possíveis de $Y$}  & $A_1$ & $n_{11}$ & $n_{12}$ & $n_{13}$ & $\cdots$ & $n_{1s}$ & $n_{1\cdot}$ \\
+    & $A_2$ & $n_{21}$ & $n_{22}$ & $n_{23}$ & $\cdots$ & $n_{2s}$ & $n_{2\cdot}$ \\
+    & $A_3$ & $n_{31}$ & $n_{32}$ & $n_{33}$ & $\cdots$ & $n_{3s}$ & $n_{3\cdot}$ \\
+    & $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$ & $\ddots$ & $\vdots$ & $\vdots$\\
+    & $A_r$ & $n_{r1}$ & $n_{r2}$ & $n_{r3}$ & $\cdots$ & $n_{rs}$ & $n_{r\cdot}$  \\ \hline
+    & Total & $n_{\cdot 1}$ & $n_{\cdot 2}$ & $n_{\cdot 3}$ & $\cdots$ & $n_{\cdot s}$ & $n_{\cdot \cdot}$ 
+  \end{tabular}
+\end{table}
+em que $n_{ij}$ é o número de docentes que tem valor de $X$ igual a $A_i, i=1, \dots, r$ e  tem valor de $Y$ igual a $B_j, j=1, \dots, s$; $n_{i\cdot}$
+é o número de docentes que tem valor de $X$ igual a $A_i, i=1, \dots, r$; 
+$n_{\cdot j}, j=1, \dots, s$ é o número de docentes que tem valor de $Y$ igual a 
+$B_j, j=1, \dots, s$; e $n_{\cdot \cdot}$ é o tamanho da amostra. Para verificar se duas variáveis estão associadas, podemos
+calcular a frequência relativa por colunas (ou por linhas), conforme ilustrado na 
+Tabela \@ref(tab:FRContingencia).
+
+\begin{table}[htbp]
+  \centering
+  \caption{Frequência relativa por coluna da tabela de contingência para as variáveis $X$ e $Y$.}
+  \label{tab:FRContingencia}
+  \begin{tabular}{c|c|ccccc|c}
+    &  & \multicolumn{5}{|c|}{Valores possíveis de $X$} & \\ \cline{3-7}
+    &  & $B_1$ & $B_2$ & $B_3$ & $\cdots$ & $B_s$ & Total\\ \hline
+  \multirow{5}{*}{Valores possíveis de $Y$}  & $A_1$ & $\frac{n_{11}}{n{\cdot 1}}$ & $\frac{n_{12}}{n_{\cdot 2}}$ & $\frac{n_{13}}{n_{\cdot 3}}$ & $\cdots$ & $\frac{n_{1s}}{n_{\cdot s}}$ & $\frac{n_{1\cdot}}{n_{\cdot \cdot}}$ \\
+    & $A_2$ & $\frac{n_{21}}{n_{\cdot 1}}$ & $\frac{n_{22}}{n_{\cdot 2}}$ & $\frac{n_{23}}{n_{\cdot 3}}$ & $\cdots$ & $\frac{n_{2s}}{n_{\cdot s}}$ & $\frac{n_{2\cdot}}{n_{\cdot \cdot}}$ \\
+    & $A_3$ & $\frac{n_{31}}{n_{\cdot 1}}$ & $\frac{n_{32}}{n_{\cdot 2}}$ & $\frac{n_{33}}{n_{\cdot 3}}$ & $\cdots$ & $\frac{n_{3s}}{n_{\cdot s}}$ & $\frac{n_{3\cdot}}{n_{\cdot \cdot}}$ \\
+    & $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$ & $\ddots$ & $\vdots$ & $\vdots$\\
+    & $A_r$ & $\frac{n_{r1}}{n_{\cdot 1}}$ & $\frac{n_{r2}}{n_{\cdot 2}}$ & $\frac{n_{r3}}{n_{\cdot 3}}$ & $\cdots$ & $\frac{n_{rs}}{n_{\cdot s}}$ & $\frac{n_{r\cdot}}{n_{\cdot \cdot}}$  \\ \hline
+    & Total & $\frac{n_{\cdot 1}}{n_{\cdot 1}} = 1$ & $\frac{n_{\cdot 2}}{n_{\cdot 2}}=1$ & $\frac{n_{\cdot 3}}{n_{\cdot 3}} = 1$ & $\cdots$ & $\frac{n_{\cdot s}}{n_{\cdot s}} = 1$ & $\frac{n_{\cdot \cdot}}{n_{\cdot \cdot}}=1$ 
+  \end{tabular}
+\end{table}
+Se $X$ e $Y$ não estão associadas, então, para cada linha $i, i=1, \dots, r$ da Tabela \@ref(tab:FRContingencia),
+temos que 
+\begin{equation}
+\frac{n_{ij}}{n_{\cdot j}} = \frac{n_{i\cdot }}{n_{\cdot \cdot}}, i=1, \dots, r,
+\label{eq:equality}
+\end{equation}
+e podemos analisar essas igualdades usando um gráfico de barras e usando o teste 
+qui-quadrado, como explicaremos a seguir.
+
+Para ilustrar a associação e a não associção entre duas variáveis qualitativas, 
+vamos considerar dois exemplos didáticos que podem ser encontrados no livro de
+@barbetta2008estatistica.
+
+### Exemplo de associação entre duas variáveis qualitativas
+
+Para ilustração vamos estudar um exempo de não associação hipotético do livro @barbetta2008estatistica. Imagine que um pesquisador está interessado em estudar a associação entre `câncer` e o `tabagismo` em uma amostra com 300 indivíduos e obteve a tabela de contingência mostrada na Tabela \@ref(tab:associacao).  A variável `câncer` tem duas categorias: `sim` (a pessoa teve ou tem câncer); `não` (a pessoa não teve nem tem câncer). A variável `tabagismo` tem duas categorias: `fumante` (a pessoa tem o hábito de fumar); `não-fumante` (a pessoa não tem hábito de fumar).
+
+\begin{table}[htbp]
+\centering
+\caption{Tabela de distribuição de frequência entre Câncer e Tabagismo.}
+\label{tab:associacao}
+\begin{tabular}{l|cc|l}
+	& \multicolumn{2}{|c|}{Câncer} & \\ \cline{2-3}
+	Tabagismo & Não & Sim & Total\\ \hline
+	Não-Fumante & 200 & 0 & 200 \\
+	Fumante & 0 & 100 & 100\\ \hline
+	Total & 200 & 100 & 300
+\end{tabular}
+\end{table}
+
+Calculando a frequência relativa por linha na Tabela \@ref(tab:associacao), obtemos as frequências relativas da Tabela \@ref(tab:associacaoRel).
+
+\begin{table}[htbp]
+\centering
+\caption{Tabela de distribuição de frequência relativa ao total das linhas.}
+\label{tab:associacaoRel}
+\begin{tabular}{l|ll|l}
+& \multicolumn{2}{|c|}{Câncer (Y)} & \\ \cline{2-3}
+Tabagismo (X) & Não & Sim & Total\\ \hline
+Não-Fumante & $\frac{200}{200}\cdot 100 = 100\%$ & {\color{brown} $\frac{0}{200}\cdot 100 = 0\%$} & $\frac{200}{200}\cdot 100= 100\%$ \\
+Fumante & $\frac{0}{100}\cdot 100 = 0\%$  & {\color{blue} $\frac{100}{100}\cdot 100= 100\%$} &  $\frac{100}{100}\cdot 100=100\%$ \\ \hline
+Total & $\frac{200}{300}\cdot 100= 66,67\%$ & {\color{red} $\frac{100}{300}\cdot 100 = 33,33\%$}  & $\frac{300}{300}\cdot 100= 100\%$ 
+\end{tabular}
+\end{table}
+
+Na Tabela \@ref(tab:associacaoRel), notamos que os valores destacados em vermelho, azul e marrom são diferentes. Se não sabemos o valor da variável `tabagismo` de um indivíduo, dizemos que ele tem aproximadamente $33\%$ de probabilidade de ter câncer (conforme destacado em vermelhado). Contudo, ao descobrir / revelar / conhecer o valor da variável `tabagismo`, essa probabilidade muda. Mais precisamente, se descobrirmos que a pessoa fuma (`tabagismo` = `fumante`) então a probabilidade da pessoa ter cancer é aproximadamente $100\%$, e se descobrirmos que a pessoa não fuma (`tabagismo` = `não-fumante`) então a probabildiade da pessoa ter câncer é aproximadamente $0\%$. Ou seja, conhecer o valor `tabagismo` para uma pessoa muda, ou altera, as probabilidades dos valores de `câncer`, e então dizemos as duas variáveis qualitativas estão associadas. Geralmente, é conveniente representar a Tabela \@ref(tab:associacaoRel) usando gráfico de barras conforme ilustrado na Figura \@ref(fig:associacao). Note que na Figura \@ref(fig:associacao), as duas barras são diferentes. De uma forma geral, se as barras iguais indicam uma não associação entre as variáveis qualitativas e barras diferentes indicam uma  associação entre as variáveis qualitativas. 
+
+```{r associacao, out.width="50%", fig.cap="Associação entre Tabagismo e Câncer.", fig.pos='htbp'}
+tab <- tibble(tabagismo = c("Não-Fumante","Fumante"),
+              `Não` = c(200,0),
+              Sim = c(0,100)) %>%
+  gather(`Não`,Sim, key = "Câncer", value = "Freq") %>%
+  group_by(`tabagismo`) %>%
+  mutate(freq_rel = 100*Freq / sum(Freq))
+ggplot(tab) +
+  geom_bar(aes(x = tabagismo,y = freq_rel, fill = `Câncer`),
+           stat = "identity", position = "fill") +
+  xlab("Tabagismo") +
+  ylab("Porcentagem") +
+  theme_minimal() +
+  theme(axis.text = element_text(size = 20),
+        axis.title = element_text(size = 25),
+        plot.title = element_text(size = 25),
+        legend.title = element_text(size = 20),
+        legend.text = element_text(size = 20)) +
+  scale_y_continuous(breaks = c(0,.25,.50,.75,1),
+                     labels = str_c(c(0,25,50,75,100))) 
+```
+
+### Exemplo de não associação entre duas variáveis qualitativas
+
+Para ilustração vamos estudar um exempo de não associação hipotético do livro @barbetta2008estatistica. Imagine que um pesquisador está interessado em estudar a associação entre as variáveis qualitativas `gênero` e `tabagismo` em uma amostra de $300$ pessoas e obteve a tabela de contingência da Tabela \@ref(tab:naoAssociacao). A variável `gênero` tem duas categorias: `masculino` (a pessoa se identifica com o gênero masculino) e `feminino` (a pessoa se identifica com o gênero feminino). A variável `tabagismo` tem duas categorias: `fumante` (a pessoa tem o hábito de fumar) e `não-fumante` (a pessoa não tem o hábito de fumar). 
+\begin{table}[htbp]
+\centering
+\caption{Tabela de contingência para as Gênero e Tabagismo.}
+\label{tab:naoAssociacao}
+\begin{tabular}{l|cc|l}
+& \multicolumn{2}{|c|}{Gênero} & \\ \cline{2-3}
+Tabagismo & Masculino & Feminino & Total\\ \hline
+Não-Fumante & 80 & 40 & 120\\
+Fumante & 120 & 60 & 180\\ \hline
+Total & 200 & 100 & 300\\
+\end{tabular}
+\end{table}
+
+
+Calculando a frequência relativa por linha na Tabela \@ref(tab:naoAssociacao), obtemos as frequências relativas da Tabela \@ref(tab:naoAssociacaoRel).
+
+\begin{table}[htbp]
+\centering
+\caption{Tabela de distribuição de frequência relativa ao total das colunas.}
+\label{tab:naoAssociacaoRel}
+\begin{tabular}{l|ll|l}
+& \multicolumn{2}{|c|}{Gênero} & \\ \cline{2-3}
+Tabagismo & Homem & Mulher & Total\\ \hline
+Não-Fumante & {\color{brown} $\frac{80}{200}\cdot 100 = 40\%$} &  {\color{blue}$\frac{40}{100}\cdot 100 = 40\%$} & {\color{red}$\frac{120}{300}\cdot 100= 40\%$} \\
+Fumante & $\frac{120}{200}\cdot 100 = 60\%$  &  $\frac{60}{100}\cdot 100= 60\%$ &  $\frac{180}{300}\cdot 100=60\%$ \\ \hline
+Total & $\frac{200}{200}\cdot 100= 100\%$ &  $\frac{100}{100}\cdot 100 = 100\%$  & $\frac{300}{300}\cdot 100= 100\%$ \\ 
+\end{tabular}
+\end{table} 
+
+
+Na Tabela \@ref(tab:naoAssociacaoRel), notamos que os valores destacados em vermelho, azul e marrom são iguais. Se não sabemos o valor da variável `gênero` de um indivíduo, dizemos que uma pessoa tem aproximadamente $40\%$ de probabilidade de ser fumante  (conforme destacado em vermelhado). Contudo, ao descobrir / revelar / conhecer o valor da variável `gênero`, essa probabilidade permanece idêntica. Mais precisamente, se descobrirmos que a pessoa se identifica com o gênero feminino (`gênero` = `feminino`) então a probabilidade da pessoa fumar é aproximadamente $40\%$ (cor azul), e se descobrirmos que a pessoa se identifica com o gênero masculino (`gênero` = `masculino`) então a probabildiade da pessoa fumar também é aproximadamente $40\%$ (cor marrom). Ou seja, conhecer o valor `gênero` para uma pessoa não muda nem se altera as probabilidades dos valores de `tabagismo`, e então dizemos as duas variáveis qualitativas não estão associadas. Isto é, conhecer o valor da variável `gênero` não nos ajuda a descobrir ou determinar o valor (ou a probabilidade dos valores) da variável `tabagismo`. Geralmente, é conveniente representar a Tabela \@ref(tab:naoAssociacaoRel) usando gráfico de barras conforme ilustrado na Figura \@ref(fig:naoAssociacao). Note que na Figura \@ref(fig:naoAssociacao), as duas barras são idênticas. De uma forma geral, se as barras iguais indicam uma não associação entre as variáveis qualitativas e barras diferentes indicam uma associação entre as variáveis qualitativas.
+
+
+```{r naoAssociacao, out.width="50%", fig.cap="Não associação entre Gênero e Tabagismo.", fig.pos="htbp"}
+tab <- tibble(tabagismo = c("Não-Fumante","Fumante"),
+              Homem = c(80,120),
+              Mulher = c(40,60)) %>%
+  gather(Homem,Mulher, key = "Genero", value = "Freq") %>%
+  group_by(Genero) %>%
+  mutate(freq_rel = 100*Freq / sum(Freq))
+ggplot(tab) +
+  geom_bar(aes(x = Genero,  fill = tabagismo, y = freq_rel),
+           position = "fill", stat = "identity") +
+  xlab("Tabagismo") +
+  ylab("Porcentagem") +
+  theme_minimal() +
+  theme(axis.text = element_text(size = 20),
+        axis.title = element_text(size = 25),
+        plot.title = element_text(size = 25),
+        legend.title = element_text(size = 20),
+        legend.text = element_text(size = 20)) +
+  scale_y_continuous(breaks = c(0,.2,.4, 0.6, .8, 1),
+                     labels = str_c(c(0,20,40,60,80, 100))) +
+  labs(fill = "Gênero") 
+```
+
+### Teste qui-quadrado
+
+O teste qui-quadrado é geralmente usado para checar a associação entre duas variáveis
+qualitativas. Considere as variáveis $X$ e $Y$ duas variáveis qualitativas da 
+Tabela \@ref(tab:contingencia), então, como já comentamos, se $X$ e $Y$ não são associadas temos que 
+\begin{equation}
+\label{eq:quiQuadrado}
+n_{ij} = \frac{n_{i \cdot } n_{\cdot j}}{n_{\cdot \cdot}} = \frac{\mbox{total da linha }i \cdot \mbox{total da colunha }j}{\mbox{tamanho da amostra}},
+\end{equation}
+em que $n_{i \cdot}$ é o total da linha que corresponde ao valor $A_i$ na Tabela \@ref(tab:contingencia), $n_{\cdot j}$ é o total da colunha que corresponde ao valor $B_j$ na Tabela \@ref(tab:contingencia), e $n_{\cdot \cdot}$ é o tamanho da amostra. 
+
+Quando coletamos uma amostra não sabemos se duas variáveis estão associadas. Então, calculamos a expressão do lado direito da equação \@ref(eq:quiQuadrado) 
+$$
+e_{ij} = \frac{\mbox{total da linha }i \cdot \mbox{total da colunha }j}{\mbox{tamanho da amostra}}
+$$
+e comparamos com o valor $n_{ij}$ que obtemos da amostra. Chamamos $e_{ij}$ de valor frequência esperada e $n_{ij}$ de valor de frequência observada. Se as frequências esperadas e as frequência observadas forem iguais (ou estiverem próximas), podemos concluir que $X$ e $Y$ não estão associadas. Ou seja, se as distâncias padronizadas  $\frac{(e_{ij} - n_{ij})^2}{e_{ij}}$ entre $e_{ij}$ e $n_{ij}$ forem pequenas, então $X$ e $Y$ **não** estão associadas. Estas distâncias padronizadas são não-negativas, então $X$ e $Y$ **não** estão associadas se, e somente se, a soma de todas estas distâncias $\frac{(e_{ij} - n_{ij})^2}{e_{ij}}$ são pequenas. Consequentemente, se 
+$$
+\chi_0^2 = \sum_{i=1}^{r} \sum_{j=1}^{s} \frac{(e_{ij} - n_{ij})^2}{e_{ij}},
+$$
+for pequeno, então $X$ e $Y$ não estão associadas. 
+
+Para saber se $\chi_0^2$ é pequeno ou grande, comparamos $\chi_0^2$ o valor de quantil da distribuição qui-quadrado com $(r-1)(s-1)$ graus de liberdade [vide @montgomery2010applied para detalhes]. Mais precisamente, queremos decidir entre as duas hipóteses científicas
+\begin{align*}
+H_0 &= \mbox{as duas variáveis qualitativas não estão associadas},\\
+H_1 &= \mbox{as duas variáveis qualitativas estão associadas},
+\end{align*}
+e para isso fixamos o nível de significância $\alpha$, calculamos o valor-p $p$ e rejeitamos $H_0$ se $p < \alpha$ [vide @spiegel2001probability para detalhes sobre valor-p]. Neste relatório, vamos usar o nível de significânica $\alpha=0,05$ .
+
+## Teste Kruskal-Wallis
+
+Usamos o Teste Kruskal-Wallis para comparar populações através da mediana e adequado para populações onde não é adequado assumir a distribuição normal, como é caso escalas Likert. Neste teste, supomos que temos $j,\quad j=1, \dots, k$ populações e para cada população $j$ temos coletamos uma amostra de tamanho $n_j$, ou seja, a amostra completa tem $N = n_1 + \dots + n_k$ crianças. Seja $X_{ij}$ é a resposta da criança $i$ da população $j$, então 
+$$
+X_{ij} = \theta + \tau_j + \epsilon_{ij}, \qquad  j=1, \dots, k,\qquad i=1, \dots, n_j,
+$$ 
+onde $\theta$ é a mediana da amostra completa, $\tau_j$ é o efeito do $j$-ésimo tratamento da população  e $\epsilon_{ij}$ são erros aleatórios com mediana igual a zero, e queremos decidir entre duas hipóteses
+$$
+\begin{split}
+&H_0: \tau_1 = \tau_2 = \dots = \tau_j,\\
+&H_1: \tau_1, \tau_2, \dots,  \tau_j \mbox{ não são todos iguais}.
+\end{split}
+$$
+e para isso fixamos o nível de significância $\alpha$, calculamos o valor-p $p$ e rejeitamos $H_0$ se $p < \alpha$ [vide @spiegel2001probability para detalhes sobre valor-p]. Neste relatório, vamos usar o nível de significânica $\alpha=0,05$.
+
+Para detalhes sobre o teste Kruskal-Wallis, recomendo a leitura de @hollander2013nonparametric.
+
+## Teste de comparação múltipla  de Nemeyi
+
+O teste de Nemeyi [@nemenyi1963distribution] é teste _posthoc_ de comparação múltipla que pode ser usada para identificar quais grupos tem medianas diferentes populações se o teste de Kruskal-Wallis indica que as populações tem medianas diferentes. O teste consiste em realizar comparações em pares para identificar quais populações tem medianas diferentes. 
+
+O número de comparações de medianas realizadas é $\frac{k(k-1)}{2}$, e o teste foi construído em soma de postos e na aplicação do método _family-wise-error_ para controlar a inflação do erro tipo I se várias comparações forem feitas. E para cada par de populações queremos decidir entre as hipóteses:
+$$
+\begin{split}
+&H_0: m_l = m_j\\
+&H_1: m_l \neq m_j
+\end{split}
+$$
+onde $m_l$ é a mediana da população $l$ e $m_j$ é a mediana da população $j$. Para decidirmos entre estas hipóteses, fixamos o nível de significância $\alpha$, calculamos o valor-p $p$ e rejeitamos $H_0$ se $p < \alpha$ [vide @spiegel2001probability para detalhes sobre valor-p]. Neste relatório, vamos usar o nível de significânica $\alpha=0,05$.
+
+Para detalhes sobre o teste de comparação múltipla de Nemeyi, recomendo a leitura da vinheta do pacote da liguagem @PMCMR.

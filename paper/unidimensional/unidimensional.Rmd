@@ -1,0 +1,67 @@
+### Gráfico de barras: Idade
+
+```{r}
+grafico(df, 'Cidade', 'Cidade', base = fig_path)
+```
+
+### Tabela de distribuição de frequências: Idade
+
+```{r}
+tabela(dados, 'Cidade', 'Cidade', "Tabela de distribuição de frequências: Cidade.", base = output)
+```
+
+\cleardoublepage
+
+### Gráfico de barras: Tipo de escola
+
+```{r}
+grafico(dados, 'Escola', "Tipo de Escola", base = fig_path)
+```
+
+### Tabela de distribuição de frequências: Tipo de Escola
+
+```{r}
+tabela(dados, 'Escola', 'Tipo de Escola', "Tabela de distribuição de frequências: Tipo de Escola", base = output)
+```
+
+\cleardoublepage
+
+### Gráfico de barras: Gênero
+
+```{r}
+grafico(dados, 'Gênero', 'Gênero', base = fig_path)
+```
+
+### Tabela de distribuição de frequências: Gênero
+
+```{r}
+tabela(dados, 'Gênero', 'Gênero', 'Tabela de distribuição de frequências: Gênero', base = output)
+```
+
+\cleardoublepage
+
+### Gráfico de barras: Raça
+
+```{r}
+grafico(df, 'raca', 'Raça', base = fig_path)
+```
+
+### Tabela de distribuição de frequências: Raça
+
+```{r}
+tabela(df, 'raca', 'Raça', 'Tabela de distribuição de frequências: Raça', base = output)
+```
+
+\cleardoublepage
+
+### Gráfico de barras: Cidades
+
+```{r}
+grafico(df, 'Cidade', 'Cidade', base = fig_path)
+```
+
+### Tabela de distribuição de frequências: Cidades
+
+```{r}
+tabela(dados, 'Cidade', 'Cidade', 'Tabela de distribuição: Cidade.', base = output)
+```

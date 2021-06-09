@@ -20,9 +20,9 @@ qui_test <- function(df, variavel_x, variavel_y, caption, base = "") {
   teste <- chisq.test(x = df[, variavel_x][[1]], y = df[, variavel_y][[1]])
   
   
-  tab <- tibble(statistic = teste$statistic,
-         df = teste$parameter,
-         p_value = teste$p.value)
+  tab <- tibble(`Estatística` = teste$statistic,
+         `Graus de liberdade` = teste$parameter,
+         `Valor-p` = teste$p.value)
 
   readr::write_csv2(
     tab, 
