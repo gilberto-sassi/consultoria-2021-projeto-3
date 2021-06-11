@@ -1,0 +1,80 @@
+
+## `r questao`
+
+A variável `r questao` corresponde ao campo de númeo `r campo` com enunciado **`r main_text`** no quesito:
+
+* _`r secondary_text`_
+
+
+### Análise descritiva para `r questao`
+
+```{r, results='asis'}
+caminho  <- glue::glue("templates/unidimensional.Rmd")
+res <- lapply(questao, \(questao) {
+    knitr::knit_child(caminho, envir = environment(), quiet = TRUE)
+})
+cat(unlist(res), sep = "\n")
+
+```
+
+\cleardoublepage
+
+### Análise bidimensional `r questao`
+
+```{r, results='asis'}
+caminho  <- glue::glue("templates/cidade.Rmd")
+res <- lapply(questao, \(questao) {
+    knitr::knit_child(caminho, envir = environment(), quiet = TRUE)
+})
+cat(unlist(res), sep = "\n")
+
+```
+
+\cleardoublepage
+
+```{r, results='asis'}
+caminho  <- glue::glue("templates/genero.Rmd")
+res <- lapply(questao, \(questao) {
+    knitr::knit_child(caminho, envir = environment(), quiet = TRUE)
+})
+cat(unlist(res), sep = "\n")
+
+```
+
+\cleardoublepage
+
+
+```{r, results='asis'}
+caminho  <- glue::glue("templates/idade.Rmd")
+res <- lapply(questao, \(questao) {
+    knitr::knit_child(caminho, envir = environment(), quiet = TRUE)
+})
+cat(unlist(res), sep = "\n")
+
+```
+
+\cleardoublepage
+
+
+```{r, results='asis'}
+caminho  <- glue::glue("templates/raca.Rmd")
+res <- lapply(questao, \(questao) {
+    knitr::knit_child(caminho, envir = environment(), quiet = TRUE)
+})
+cat(unlist(res), sep = "\n")
+
+```
+
+\cleardoublepage
+
+
+```{r, results='asis'}
+caminho  <- glue::glue("templates/tipo_escola.Rmd")
+res <- lapply(questao, \(questao) {
+    knitr::knit_child(caminho, envir = environment(), quiet = TRUE)
+})
+cat(unlist(res), sep = "\n")
+
+```
+
+\cleardoublepage

@@ -1,0 +1,111 @@
+
+#### Tabela de contingência: Tipo de escola e `r questao`
+
+Apenas sete crianças não estavam matriculadas na escola, e foram retiradas da análise para facilitar a análise de _tipo de escola_.
+
+```{r}
+df_escola <- df |> filter(!(Escola %in% "sem matrícula"))
+dados_escola <- dados |> filter(!(Escola %in% 'sem matrícula'))
+legenda <- glue("Tabela de contingência: Tipo de escola e {questao}.")
+contingency(df_escola, "Escola", questao, "Tipo de Escola", caption = legenda, base = output)
+```
+
+#### Gráfico de barras: Tipo de escola e `r questao`
+
+Apenas sete crianças não estavam matriculadas na escola, e foram retiradas da análise para facilitar a análise de _tipo de escola_.
+
+```{r}
+grafico_2(df_escola, "Escola", questao, 'Tipo de Escola', base = fig_path)
+```
+
+#### Teste qui-quadrado
+
+Apenas sete crianças não estavam matriculadas na escola, e foram retiradas da análise para facilitar a análise de _tipo de escola_.
+
+```{r, results="asis"}
+base::suppressWarnings({
+  valor_p <- chisq.test(x = df_escola[, 'Escola'][[1]], y = df_escola[, questao][[1]])$p.value
+})
+
+if (valor_p < niv_sig) {
+  glue("Como o valor-p é menor que {niv_sig} (nível de significância), rejeitamos a hipótese nula e temos evidência estatística que as duas variáveis estão associadas.") |>
+  print()
+} else {
+  glue("Como o valor-p é igual ou maior que {niv_sig} (nível de significância), não rejeitamos a hipótese nula e não temos evidência estatística que as duas variáveis estão associadas.") |>
+  print()
+} 
+```
+
+```{r}
+df_escola |> 
+  qui_test("Escola", questao, base = output)
+```
+
+\cleardoublepage
+
+#### Medidas de Resumo `r questao` por Tipo de escola
+
+Apenas sete crianças não estavam matriculadas na escola, e foram retiradas da análise para facilitar a análise de _tipo de escola_.
+
+
+```{r}
+dados_escola |> 
+  resume_measures_2("Escola", questao, base = output)
+```
+
+#### Boxplot de `r questao` por Tipo de escola 
+
+Apenas sete crianças não estavam matriculadas na escola, e foram retiradas da análise para facilitar a análise de _tipo de escola_.
+
+```{r}
+dados_escola |>
+  boxplot_group(questao, 'Escola', questao, 'Tipo de Escola', base = fig_path)
+```
+
+#### Teste de Kruskal-Wallis de `r questao` por Tipo de escola
+
+Apenas sete crianças não estavam matriculadas na escola, e foram retiradas da análise para facilitar a análise de _tipo de escola_.
+
+```{r, results="asis"}
+valor_p <- kruskal.test(unlist(dados_escola[, questao]), unlist(dados_escola[, 'Escola']))$p.value
+
+if (valor_p < niv_sig) {
+  glue("Como o valor-p é menor que {niv_sig} (nível de significância), rejeitamos a hipótese nula e as medianas de {questao} entre tipos de escola são diferentes.") |>
+  print()
+} else {
+  glue("Como o valor-p é maior ou igual a {niv_sig} (nível de significância), não rejeitamos a hipótese nula e as medianas de {questao} entre tipos de escola são  iguais.") |>
+  print()
+} 
+```
+
+```{r}
+legenda <- glue('Valores-p para comparação múltipla de medianas: {questao} e Tipo de escola.')
+dados_escola |> 
+  kruskal_wallis_test(questao, 'Escola', legenda, base = output)
+```
+
+#### Teste de Nemeyi de `r questao` por Tipo de escola
+
+Apenas sete crianças não estavam matriculadas na escola, e foram retiradas da análise para facilitar a análise de _tipo de escola_.
+
+```{r, results="asis"}
+v1 <- unlist(dados_escola[, questao])
+v2 <- unlist(dados_escola[, 'Escola']) |> as.factor()
+base::suppressWarnings({
+    valor_p <- posthoc.kruskal.nemenyi.test(v1, v2,
+                                          p.adjust.method	= 'bonferroni')$p.value
+  })
+if (all(valor_p >= niv_sig, na.rm = TRUE)) {
+  glue("Como os valores-p são iguais ou maiores que {niv_sig} (nível de significância), não rejeitamos a hipótese nula e as medianas de {questao} entre tipos de escola são iguais.") |>
+  print()
+} else {
+  glue("O valor-p é maior ou igual que {niv_sig} (nível de significância), e  rejeitamos a hipótese nula e as medianas de {questao} entre meninos e meninas são diferentes.") |>
+  print()
+} 
+```
+
+```{r}
+legenda <- glue('Teste de Nemeyi de {questao} por Escola.')
+dados_escola |> 
+  nemenyi_tests(questao, 'Escola', caption = legenda, base = output)
+``` 

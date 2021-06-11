@@ -1,0 +1,1051 @@
+Cidade;Bairro;Escola;Gênero;Idade;raça;Q1;Q2;Q3;Q4;Q5;Q6;Q7;Q8;Q9;Q10;Q11;Q12;Q13;Q14;Q15;Q16;Q17;Q18;Q19;Q20;Q21;Q22;Q23;Q24;Q25;Q26;Q27;Q28;Q29;Q30;Q31;Q32;Q33;Q34;Q35;Q36;Q37;Q38;Q39;Q40;Q41;Q42;Q43;raca
+Salvador;Jardim Apipema - Bairro de Salvador BA;Particular;Menino;12;Branca;2;1;6;1;1;1;1;1;2;2;2;1;0;1;1;2;2;2;1;0;1;1;1;1;1;0;0;1;2;2;1;0;0;1;1;0;1;1;0;1;1;1;1;Branca
+Salvador;Valéria;Particular;Menina;8;Preta;2;1;3;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;1;0;1;2;1;2;1;1;2;1;1;1;1;1;1;1;1;Negra
+Simões Filho;Pitanguinha Nova;Particular;Menina;11;Parda;2;2;4;0;1;1;1;1;1;1;1;1;0;1;0;0;1;1;0;0;0;1;1;0;1;0;0;1;0;3;2;2;2;1;0;0;0;2;0;0;0;0;1;Negra
+Simões Filho;pitanguinha nova;Particular;Menina;11;Preta;2;2;6;1;1;1;2;1;2;2;2;1;1;1;1;2;2;1;0;1;2;2;2;0;2;2;2;1;0;1;3;2;1;2;1;1;0;1;1;1;1;2;1;Negra
+Salvador;Rua da gratidão, Piatã;Particular;Menina;12;Parda;2;2;6;1;1;1;1;0;2;2;1;1;2;0;0;2;2;1;2;2;2;2;1;0;1;2;1;0;0;2;2;2;2;2;0;0;0;0;0;1;1;1;1;Negra
+Simões Filho;Pitanguinha velha;Particular;Menina;12;Parda;2;1;6;1;1;1;1;1;0;2;1;1;2;1;1;0;1;1;1;1;0;1;1;2;1;0;1;2;0;2;1;2;1;1;0;1;0;1;1;3;1;1;1;Negra
+Simões Filho;Pitanguinha;Particular;Menina;11;Parda;3;2;6;1;1;1;1;1;2;2;2;1;2;1;1;2;2;2;2;2;2;2;2;0;0;2;1;1;0;1;2;2;1;1;0;0;0;0;1;1;1;1;1;Negra
+Salvador;costa azul;Particular;Menina;11;Parda;2;2;6;1;1;1;2;1;2;2;2;1;2;2;1;2;2;2;1;2;1;1;2;0;1;2;2;2;0;2;1;1;1;1;0;0;0;0;0;1;1;1;1;Negra
+Simões Filho;Simões filho Nova Pitanga;Particular;Menina;10;Parda;2;1;6;1;1;1;2;2;2;2;2;2;2;1;2;2;2;2;2;2;2;2;1;1;1;0;2;1;0;2;2;1;2;1;1;1;1;1;1;1;1;1;1;Negra
+Simões Filho;Pitanguinha;Particular;Menino;10;Parda;2;1;6;0;1;1;1;0;1;1;0;1;1;1;0;1;1;1;1;0;1;0;1;0;1;0;2;0;0;2;2;2;0;2;2;0;0;0;0;1;1;1;1;Negra
+Simões Filho;Pitanguinha nova;Particular;Menina;10;Parda;2;2;3;1;1;1;0;0;0;0;0;0;0;1;1;2;2;2;2;2;1;2;1;1;1;0;1;3;1;3;3;3;1;3;3;3;0;1;0;1;1;2;1;Negra
+Simões Filho;Pitanguinha;Particular;Menina;10;Parda;3;2;6;1;1;1;2;2;2;2;2;1;2;2;2;2;2;2;1;2;2;2;1;0;0;2;1;2;2;1;1;1;2;1;2;2;0;1;1;1;1;1;1;Negra
+Simões Filho;Pitanguinha velho;Particular;Menino;9;Parda;4;2;6;1;1;1;1;2;2;2;2;1;1;2;2;2;2;2;2;2;2;2;1;1;3;0;2;0;0;2;2;2;1;2;2;2;0;0;2;1;1;2;1;Negra
+Simões Filho;Pitanguinha;Particular;Menino;10;Parda;2;1;6;1;1;1;1;1;2;3;2;2;2;1;1;1;2;2;1;1;1;2;1;0;1;2;1;1;0;2;2;2;1;2;1;1;0;1;0;1;1;1;1;Negra
+Simões Filho;Condomínio das palmeiras.;Particular;Menina;10;Indígena;2;2;5;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;2;1;0;1;0;1;2;1;1;2;3;1;1;1;0;0;1;1;1;1;Indígena
+Salvador;São Caetano;Particular;Menino;8;Branca;2;2;6;1;1;1;0;0;0;2;2;1;1;0;0;0;2;2;1;1;0;1;1;2;1;0;2;0;1;2;2;1;0;0;1;1;0;0;1;1;1;1;1;Branca
+Simões Filho;Pitanguinha Nova;Particular;Menino;10;Parda;2;3;6;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;1;0;0;1;1;2;1;1;1;1;0;0;0;1;1;1;1;Negra
+Simões Filho;Pitanguinha velha;Particular;Menina;9;Preta;2;1;6;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;2;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;Negra
+Simões Filho;Pitanguinha;Particular;Menino;10;Indígena;2;2;6;1;1;1;2;2;2;2;2;0;1;1;1;1;2;2;0;1;2;2;1;2;2;2;2;1;1;3;3;2;1;2;0;1;0;1;1;0;1;1;1;Indígena
+Simões Filho;Pitanguinha nova;Particular;Menina;9;Parda;3;3;6;1;1;1;0;1;1;2;2;2;2;0;1;1;2;2;1;1;2;2;1;2;1;0;2;1;1;2;2;1;2;0;2;2;0;0;0;1;1;1;1;Negra
+Salvador;Garcia.;Particular;Menina;11;Branca;2;1;6;1;1;1;3;1;3;2;1;2;2;0;0;0;2;1;2;3;1;3;1;2;2;0;0;2;3;2;3;2;1;1;0;0;1;0;1;1;1;2;1;Branca
+Simões Filho;Pintanguinha velha;Particular;Menino;10;Amarela;3;1;5;0;1;1;1;1;1;1;1;1;0;1;1;1;1;1;1;1;1;1;2;2;1;3;1;1;1;2;2;2;1;1;1;1;0;1;0;1;1;1;1;Amarela
+Simões Filho;Pintaguinha velha;Particular;Menina;12;Preta;2;2;6;0;1;1;0;0;0;0;0;0;0;1;1;1;1;1;1;1;1;0;2;0;1;3;3;1;0;2;1;2;2;2;0;0;0;0;1;1;1;1;1;Negra
+Salvador;Jardim armação;Particular;Menino;9;Parda;2;2;6;1;1;1;0;0;0;2;2;0;0;0;0;0;2;2;0;0;1;2;1;1;1;2;2;0;0;2;0;2;1;0;0;0;0;0;0;0;1;1;1;Negra
+Simões Filho;Pitanguinha velha;Particular;Menino;10;Indígena;2;1;6;1;1;1;1;2;2;2;2;1;1;1;2;2;2;2;2;2;2;2;1;1;1;0;0;1;2;2;3;0;1;2;1;1;0;0;0;1;1;1;1;Indígena
+Salvador;Boca do rio;Particular;Menino;12;Preta;4;2;6;1;1;1;1;2;2;2;2;1;2;1;2;2;2;2;1;2;2;1;1;2;1;2;3;3;0;3;3;3;1;0;2;3;0;1;1;1;3;1;1;Negra
+Simões Filho;Estrada de Candeias;Particular;Menina;11;Branca;5;1;6;1;1;1;1;2;2;2;2;1;2;1;2;2;2;2;3;2;2;1;1;1;1;0;2;1;0;2;2;2;2;2;0;1;0;1;1;1;1;1;1;Branca
+Salvador;uruguai;Particular;Menina;9;Preta;2;1;5;1;1;1;1;3;3;0;0;2;2;1;3;1;1;1;0;1;1;1;1;1;1;1;2;0;1;2;2;2;2;2;0;0;0;0;0;1;1;1;1;Negra
+Simões Filho;Nova pitanga;Particular;Menina;9;Parda;5;5;4;1;1;1;0;2;2;2;2;2;2;0;2;2;2;2;2;2;2;2;1;1;1;0;2;2;2;2;2;0;2;2;2;0;0;0;0;1;1;1;3;Negra
+Salvador;Brotas;Particular;Menino;10;Parda;2;2;3;1;1;1;0;0;0;2;2;1;2;0;0;0;1;1;1;1;0;1;2;2;1;2;3;1;0;2;2;3;0;2;1;1;2;0;0;1;1;0;1;Negra
+Simões Filho;NOVA PITANGA;Particular;Menino;12;Parda;5;1;6;1;1;1;2;2;2;2;2;1;0;2;2;2;2;2;1;1;2;2;2;1;1;0;2;2;1;2;2;2;2;2;1;2;0;0;0;1;1;1;1;Negra
+Salvador;Jardim Das Margaridas;Particular;Menina;10;Preta;3;1;6;1;1;1;0;1;0;2;2;2;2;1;1;1;2;2;2;2;2;2;1;1;1;0;2;2;2;2;2;2;2;2;2;2;0;0;0;1;1;1;1;Negra
+Salvador;Vila Laura;Particular;Menino;11;Branca;4;1;6;1;1;1;3;0;0;2;0;0;2;0;0;0;1;1;2;0;0;2;1;0;1;0;2;2;1;2;2;2;1;1;1;0;2;0;1;0;1;1;1;Branca
+Simões Filho;Pitaguinha nova;Particular;Menina;12;Amarela;1;2;6;1;1;1;0;0;0;2;2;2;2;0;0;0;2;2;2;2;2;2;1;1;1;0;2;1;1;2;2;2;2;2;0;2;2;0;0;1;1;1;1;Amarela
+Salvador;Vila Laura;Particular;Menina;11;Preta;1;1;6;1;0;1;2;2;1;2;2;2;2;2;2;1;2;2;1;1;2;2;1;2;1;2;1;2;0;2;2;1;2;2;1;1;1;0;0;1;1;1;1;Negra
+Salvador;Vila Laura;Particular;Menina;10;Branca;2;1;4;1;1;1;0;0;0;1;1;1;1;0;0;0;1;1;1;1;1;1;1;2;2;0;2;1;2;2;1;2;1;0;0;0;0;0;0;1;1;1;1;Branca
+Salvador;Patamares;Particular;Menino;12;Parda;2;1;6;1;1;1;0;1;1;2;1;0;0;0;0;0;2;1;0;0;1;1;1;0;2;1;1;2;0;2;2;2;2;1;0;0;2;0;1;1;1;1;1;Negra
+Salvador;Itaigara;Particular;Menina;9;Branca;3;3;6;1;1;1;0;1;0;2;2;1;2;1;0;0;2;2;1;2;1;2;1;1;1;0;1;1;2;0;3;2;0;2;1;1;1;0;0;1;1;1;1;Branca
+Camaçari;Arembepe bela vista;Particular;Menina;11;Branca;2;3;6;1;1;1;1;0;0;2;2;0;1;0;0;0;2;2;0;1;2;1;1;2;1;2;2;0;1;1;2;1;2;2;1;1;0;0;0;3;1;1;1;Branca
+Salvador;Vila Laura;Particular;Menina;10;Parda;2;1;6;1;1;1;2;1;1;2;2;2;2;1;0;0;1;1;1;1;0;0;1;1;1;0;2;1;1;2;2;2;2;1;2;0;2;0;0;1;1;1;1;Negra
+Salvador;Vila Laura;Particular;Menino;8;Parda;2;2;6;1;1;1;0;0;1;2;2;1;1;0;0;0;1;1;1;1;2;1;1;1;2;2;1;1;1;2;1;0;0;1;2;1;0;0;0;3;1;1;1;Negra
+Salvador;Villa Laura;Particular;Menino;11;Parda;2;1;6;1;1;1;2;0;2;2;2;1;1;1;0;2;2;2;2;2;1;2;1;2;1;2;2;1;0;1;2;2;2;1;1;0;1;1;1;0;1;3;1;Negra
+Salvador;Alphaville;Particular;Menina;8;Branca;5;2;6;1;1;1;0;0;0;2;0;0;0;0;0;0;1;0;0;0;0;0;2;2;1;2;2;2;1;2;3;1;2;2;3;3;1;1;1;0;1;0;1;Branca
+Salvador;Jardim das Margaridas;Particular;Menina;10;Parda;3;1;6;1;1;1;3;2;2;2;2;3;2;3;2;2;2;2;2;2;2;2;2;0;1;2;3;2;0;2;3;2;1;1;1;2;2;3;1;0;1;1;1;Negra
+Salvador;Liberdade;Particular;Menina;9;Parda;4;3;6;1;1;1;2;2;0;2;0;2;2;2;2;2;0;0;2;2;0;2;1;1;1;0;2;1;2;2;2;2;2;3;2;2;2;2;2;1;0;0;1;Negra
+Salvador;Massaranduba;Pública;Menina;8;Preta;2;1;4;0;1;1;1;1;1;2;2;2;3;1;1;1;2;2;2;2;2;2;1;1;1;2;1;1;1;2;3;0;1;1;2;2;0;0;0;1;1;0;1;Negra
+Salvador;Barra;Particular;Menina;10;Parda;3;1;6;1;1;1;0;0;0;2;2;2;2;0;0;0;2;2;2;2;0;2;1;2;1;2;0;1;3;3;1;1;0;3;1;1;1;0;0;1;1;1;1;Negra
+Salvador;Candeal;Particular;Menino;12;Parda;2;1;6;1;1;1;0;1;1;1;1;0;2;0;1;1;1;1;0;2;2;0;0;2;2;0;3;2;1;2;2;2;0;3;2;0;1;0;0;2;1;1;1;Negra
+Salvador;Stiep;Particular;Menino;12;Parda;3;1;6;1;1;1;2;2;2;2;2;2;2;0;1;0;1;0;2;2;0;2;1;1;1;2;3;1;1;2;3;3;3;2;1;0;0;1;0;1;1;1;1;Negra
+Salvador;Massaranduba estudante nordeste;Particular;Menino;10;Preta;2;1;6;1;1;1;2;2;2;2;2;1;2;2;2;2;2;2;2;2;2;2;2;0;1;0;1;1;1;2;2;1;1;1;1;0;0;1;0;1;1;3;3;Negra
+Lauro de Freitas;Centro;Particular;Menino;10;Parda;2;2;5;1;1;1;1;0;0;1;1;0;1;1;0;0;1;1;1;1;1;1;1;1;1;0;1;2;1;2;2;2;2;1;2;0;2;0;2;1;1;1;1;Negra
+Salvador;Jardim Placaford;Particular;Menino;11;Parda;5;2;6;1;1;1;2;1;0;2;1;0;1;0;0;0;2;1;0;0;1;1;1;1;1;2;2;1;2;2;2;2;2;1;0;2;0;0;1;1;1;1;1;Negra
+Salvador;Brotas;Particular;Menina;9;Branca;1;1;3;1;1;1;1;1;0;1;1;1;1;1;1;1;1;1;1;1;1;1;2;2;1;2;1;1;2;2;2;2;2;1;2;2;0;0;0;1;1;1;1;Branca
+Lauro de Freitas;Vilas do Atlântico;Particular;Menina;9;Parda;2;1;6;1;1;1;2;0;2;2;2;2;2;1;0;1;2;2;2;2;2;2;1;2;1;0;2;1;1;2;3;3;2;3;1;1;0;0;0;1;1;1;1;Negra
+Salvador;PATAMARES;Particular;Menino;9;Branca;4;1;4;1;1;1;1;1;1;1;1;1;1;0;0;0;1;1;0;1;1;1;1;1;1;2;1;2;1;2;2;1;0;1;0;1;0;2;0;1;1;1;1;Branca
+Salvador;Cabula;Particular;Menina;9;Parda;2;1;6;1;1;1;0;0;0;1;2;1;1;0;0;0;1;0;1;0;0;0;1;1;1;0;1;1;1;2;2;2;2;2;1;1;1;1;1;1;1;1;1;Negra
+Salvador;Rua dos Bandeirantes;Particular;Menino;10;Indígena;1;2;6;1;1;1;1;1;1;0;1;1;0;1;1;1;1;1;1;1;1;1;1;1;1;0;2;1;2;2;2;2;2;2;0;2;2;0;0;1;1;1;1;Indígena
+Salvador;Rua do timbó;Particular;Menina;9;Branca;2;1;3;1;1;1;1;1;0;1;1;1;1;0;1;0;1;1;1;1;1;1;1;1;1;0;2;0;2;2;2;0;2;1;2;0;1;0;0;1;2;2;1;Branca
+Salvador;Brotas;Particular;Menina;12;Preta;2;2;6;1;1;1;1;0;0;1;1;1;1;0;0;0;1;1;1;1;1;1;1;1;1;2;1;2;1;2;2;2;2;2;1;2;1;1;0;1;1;1;1;Negra
+Salvador;Matatu;Particular;Menina;8;Preta;3;2;6;1;1;1;2;2;2;2;2;2;2;2;2;2;2;3;2;2;2;1;1;1;1;0;3;2;1;0;2;2;2;1;2;1;1;1;1;3;1;1;1;Negra
+Salvador;Vila Laura;Particular;Menino;10;Não sei responder ou não quero responder;2;1;6;1;1;1;1;0;0;2;2;2;2;1;1;1;2;2;2;2;2;1;1;2;1;2;1;1;1;2;2;2;1;0;1;2;0;0;0;1;1;1;1;Sem resposta
+Salvador;Horto florestal;Particular;Menina;11;Branca;2;2;3;1;1;1;0;1;0;2;2;2;2;0;0;0;1;0;0;0;2;0;1;0;1;0;1;0;0;2;2;2;2;1;0;0;1;1;1;2;1;1;1;Branca
+Salvador;Pituba;Particular;Menina;12;Branca;2;1;6;1;1;1;0;0;0;1;0;0;1;1;0;0;1;0;0;1;0;1;2;0;2;1;3;1;1;3;3;3;1;2;0;0;1;0;1;0;1;1;1;Branca
+Salvador;Brotas;Particular;Menina;8;Preta;2;4;6;1;1;1;0;0;0;1;1;1;1;0;0;0;1;1;1;0;2;2;1;1;1;0;2;1;1;3;2;0;0;1;1;1;1;1;0;3;0;0;0;Negra
+Salvador;Tancredo Neves;Particular;Menina;12;Preta;1;1;6;1;1;1;0;2;2;2;2;1;1;1;1;1;2;2;1;1;2;1;2;0;1;3;2;0;1;2;2;2;2;2;0;0;0;0;0;1;1;1;1;Negra
+Salvador;Praia Grande, Subúrbio Ferroviário.;Particular;Menina;12;Outros;2;1;2;1;1;1;0;0;1;2;2;2;2;0;0;1;2;2;2;2;2;2;1;2;1;0;1;2;0;2;2;2;1;2;1;0;0;0;0;1;1;1;1;Outros
+Salvador;Pituba;Particular;Menino;9;Branca;2;2;4;1;1;1;0;0;0;2;2;2;2;0;0;0;2;2;2;2;1;1;1;2;1;0;2;2;1;2;2;2;1;1;2;1;2;1;1;1;1;1;1;Branca
+Simões Filho;Pitanguinha nova;Pública;Menina;10;Parda;2;1;6;2;1;1;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;1;0;1;0;0;1;0;2;1;1;1;1;1;1;2;0;0;1;1;1;1;Negra
+Simões Filho;Nova Pitanga;Particular;Menino;10;Branca;4;3;5;0;1;1;0;1;1;2;2;1;1;0;1;1;2;2;1;1;2;2;1;2;1;2;1;0;1;2;2;0;0;1;2;2;0;1;0;1;1;1;1;Branca
+Salvador;Horto Florestal;Particular;Menina;10;Branca;2;2;6;1;1;1;0;0;0;2;1;1;1;0;0;0;2;0;1;0;0;2;1;2;1;2;2;1;2;3;2;1;2;0;2;0;1;0;1;1;1;0;3;Branca
+Salvador;Graça  Salvador;Particular;Menino;11;Parda;4;1;5;1;1;1;0;0;0;2;2;1;1;1;1;1;2;2;2;1;2;2;1;1;1;2;3;1;0;3;1;3;2;2;0;1;0;0;0;1;1;1;1;Negra
+Salvador;Pituba;Particular;Menina;10;Branca;2;3;3;1;1;1;1;0;1;0;0;1;2;1;0;0;0;0;1;1;0;2;1;1;1;2;1;2;1;2;2;1;1;2;3;3;0;0;0;1;1;1;1;Branca
+Salvador;Armação;Particular;Menino;10;Parda;2;1;6;1;1;1;2;2;1;2;2;0;2;2;2;1;2;2;0;2;2;2;1;1;1;0;2;1;1;2;2;2;1;1;1;1;1;0;0;1;1;1;1;Negra
+Camaçari;Busca Vida;Particular;Menino;8;Parda;2;1;6;1;1;1;0;1;0;2;1;2;2;0;1;0;2;1;2;2;2;2;1;1;1;2;2;2;2;2;2;1;1;1;2;2;0;0;0;1;1;1;1;Negra
+Salvador;Pituba;Particular;Menino;12;Branca;3;2;4;1;1;1;1;1;1;1;1;2;2;1;0;0;0;0;2;2;0;1;1;2;1;2;3;1;0;1;3;3;3;1;3;0;1;0;0;0;1;0;1;Branca
+Salvador;Capelinha;Particular;Menina;12;Parda;4;2;5;1;1;1;1;1;1;2;2;2;1;1;1;1;2;2;2;1;2;0;2;0;1;1;2;1;1;1;2;2;1;2;0;0;0;0;0;1;1;1;1;Negra
+Salvador;Parque bela vista;Particular;Menina;10;Parda;2;1;6;1;1;1;1;1;2;2;2;1;1;3;1;2;2;2;2;2;0;1;2;1;1;0;1;1;2;2;2;1;1;0;1;0;1;0;0;1;1;1;1;Negra
+Salvador;Suburbana;Particular;Menina;12;Outros;4;3;4;1;1;1;1;0;0;1;1;0;0;0;0;0;1;0;0;0;3;0;2;1;2;2;2;2;0;1;2;2;2;1;2;2;0;0;0;3;1;1;1;Outros
+Salvador;Vila Laura;Particular;Menino;11;Não sei responder ou não quero responder;2;1;5;1;1;1;0;0;0;1;1;1;1;0;0;0;2;2;2;2;2;2;2;1;1;0;2;1;1;2;2;2;1;2;1;0;0;0;0;1;1;1;1;Sem resposta
+Salvador;Imbuí;Particular;Menina;11;Branca;2;2;6;1;1;1;1;0;1;2;2;2;2;0;1;2;2;2;2;1;2;2;1;2;2;0;3;3;1;2;3;3;3;1;0;1;2;2;0;1;1;1;1;Branca
+Simões Filho;Pitanguinha;sem matrícula;Menino;10;Branca;2;2;6;1;1;1;3;3;1;2;2;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;2;2;1;2;1;2;1;2;1;2;0;1;0;1;1;1;1;Branca
+Salvador;Vila Laura;Particular;Menina;10;Preta;2;1;6;1;1;1;0;0;0;2;2;1;1;2;1;1;2;2;2;1;2;2;1;1;1;0;1;1;1;2;1;2;1;1;2;1;1;0;0;1;1;0;1;Negra
+Salvador;Uruguai;Particular;Menino;10;Branca;5;1;6;1;1;1;0;1;2;2;2;0;0;0;1;2;2;2;0;0;2;0;1;1;1;1;3;0;0;2;2;3;0;0;0;1;0;0;0;3;1;1;1;Branca
+Salvador;Pituba;Pública;Menina;11;Branca;2;2;5;1;1;1;2;3;2;2;2;2;2;2;2;2;2;2;2;2;3;0;1;2;1;3;2;1;0;1;2;2;1;1;0;0;1;0;0;1;1;1;1;Branca
+Camaçari;Vila de Abrantes;Particular;Menino;10;Amarela;2;1;4;1;1;1;2;1;3;2;1;2;3;2;2;2;2;0;2;3;2;2;1;1;1;0;3;3;0;2;2;2;1;2;2;2;0;0;0;1;1;1;1;Amarela
+Salvador;Patamares;Particular;Menina;10;Branca;2;1;6;1;1;1;1;1;0;2;2;2;2;2;2;1;2;2;2;2;2;2;1;1;1;2;3;1;3;2;3;3;2;3;1;1;1;0;0;3;1;1;1;Branca
+Salvador;Pau da Lima;Particular;Menina;9;Parda;1;1;5;1;1;1;2;2;2;2;2;2;2;1;2;2;2;0;1;1;2;2;1;2;1;0;2;1;1;2;3;3;3;1;3;0;0;0;0;1;1;1;1;Negra
+Salvador;Villa Laura;Particular;Menino;11;Branca;1;1;6;1;1;1;1;1;1;2;2;1;2;1;0;1;2;2;2;2;0;2;1;0;1;0;2;1;1;3;1;2;1;1;0;0;1;1;0;1;3;1;1;Branca
+Salvador;Mussurunga II e Barra;Particular;Menina;11;Parda;4;1;6;1;1;1;0;1;0;1;1;1;1;1;0;0;1;1;1;1;0;1;1;2;1;1;2;1;0;2;2;1;1;1;2;1;1;0;0;1;1;1;1;Negra
+Salvador;Vila Laura;Particular;Menino;11;Parda;2;1;6;1;1;1;0;0;0;2;2;1;2;0;0;0;2;2;1;2;1;1;2;0;1;2;2;0;1;2;1;1;0;1;0;0;0;0;0;1;1;1;1;Negra
+Salvador;Imbuí;Particular;Menina;11;Branca;2;2;6;1;1;1;1;0;1;2;2;2;2;0;1;2;2;2;2;1;2;2;1;2;2;0;3;3;1;2;3;3;3;1;0;1;2;2;0;1;1;1;1;Branca
+Salvador;Patamares;Particular;Menino;8;Parda;3;1;4;1;1;1;0;0;0;1;1;0;1;0;0;0;1;1;0;1;1;1;1;1;1;0;1;0;1;2;2;1;1;1;1;0;0;0;0;1;1;1;1;Negra
+Salvador;Vila Laura;Particular;Menino;10;Branca;2;2;4;1;1;1;1;0;0;0;0;1;1;0;0;0;0;0;0;1;1;0;1;1;1;0;2;1;1;2;2;2;1;1;0;1;1;1;1;1;1;1;1;Branca
+Salvador;Dois de Julho;Particular;Menina;10;Não sei responder ou não quero responder;2;1;6;1;0;1;0;0;1;1;0;1;2;1;0;0;0;0;1;2;2;2;1;0;1;1;2;0;1;2;1;1;1;2;1;1;0;0;0;1;1;1;1;Sem resposta
+Salvador;Itaigara;Particular;Menina;10;Branca;2;2;4;1;1;1;1;2;2;2;2;2;2;1;0;0;2;2;2;1;2;2;1;1;1;2;1;1;1;2;1;2;1;2;2;1;2;0;0;1;1;1;1;Branca
+Salvador;Cajazeira;Pública;Menino;12;Preta;2;1;2;1;1;1;1;0;1;1;1;0;0;1;0;1;1;1;0;0;0;0;1;1;1;2;3;0;0;0;3;3;1;0;3;3;2;3;3;0;0;0;0;Negra
+Salvador;Garcia;Particular;Menina;11;Branca;2;2;6;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;1;0;2;2;1;3;3;2;2;1;2;1;2;0;0;1;1;1;1;Branca
+Salvador;Garcia;Particular;Menino;11;Branca;2;2;6;1;1;1;1;1;1;1;1;0;1;1;1;1;1;1;1;1;1;1;2;1;1;0;1;1;3;2;2;2;1;2;2;0;2;0;1;1;1;1;1;Branca
+Salvador;Nordeste;Particular;Menino;11;Parda;3;1;6;1;1;1;1;2;1;2;2;2;2;0;0;0;2;2;1;2;2;0;1;2;1;0;2;1;1;2;2;2;2;1;1;2;2;0;0;1;1;1;1;Negra
+Salvador;Cabula;Particular;Menina;11;Branca;3;1;6;1;1;1;1;2;2;2;2;1;1;1;2;2;2;2;1;0;2;1;1;0;1;2;2;2;1;2;2;2;1;2;2;1;1;0;0;1;1;1;1;Branca
+Salvador;Sete de Abril;Particular;Menino;10;Parda;2;1;3;0;1;1;2;2;2;2;2;1;2;2;2;2;2;2;1;2;2;2;0;1;0;0;1;1;1;2;1;2;2;1;1;1;0;1;0;1;1;1;1;Negra
+Salvador;Sete de Abril;Particular;Menina;12;Parda;2;2;3;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;2;1;1;2;3;3;2;1;1;2;0;0;0;1;1;1;1;Negra
+Salvador;Estrada velha do aeroporto;Particular;Menino;12;Branca;1;1;6;1;1;1;1;0;1;1;1;2;2;0;0;0;2;2;1;1;2;2;1;1;1;2;2;0;1;2;2;2;1;2;2;2;0;1;1;1;1;1;1;Branca
+Salvador;Saboeiro;Particular;Outros;12;Parda;3;1;6;1;1;1;1;1;1;2;1;2;2;1;0;0;0;0;1;1;2;2;1;1;1;2;1;0;1;0;2;2;2;2;0;0;1;0;0;3;1;1;1;Negra
+Salvador;Pituba;Particular;Menina;12;Branca;2;1;4;1;0;1;0;0;0;1;1;1;1;1;0;0;1;1;1;1;1;1;1;2;1;2;2;0;1;2;2;1;2;2;3;0;1;0;0;1;1;1;1;Branca
+Salvador;Federação;sem matrícula;Menino;12;Outros;1;1;4;0;1;1;1;1;1;1;1;0;0;1;1;1;1;1;0;0;0;0;2;0;1;0;3;2;0;0;0;2;2;1;0;0;0;0;1;1;1;1;1;Outros
+Salvador;Nazaré;Pública;Menina;8;Parda;3;2;4;1;1;1;2;2;2;2;2;2;2;2;2;2;1;1;1;2;3;3;1;2;1;1;2;0;1;0;1;1;1;0;2;0;2;0;0;1;1;0;1;Negra
+Salvador;Imbuí;Particular;Menina;12;Branca;1;1;5;1;1;1;0;2;2;2;0;2;2;0;0;0;1;0;1;0;1;2;1;2;1;0;1;1;1;0;2;2;1;1;0;0;1;0;1;1;1;1;1;Branca
+Salvador;Federação;Pública;Menina;12;Preta;3;3;6;0;0;0;2;2;2;2;2;2;2;1;2;2;2;2;2;2;2;2;1;0;1;0;1;0;1;0;1;0;0;1;0;1;0;1;0;1;0;0;0;Negra
+Salvador;Região Nordeste;Particular;Menino;11;Amarela;2;2;6;1;1;1;0;0;0;2;2;1;1;0;0;0;2;2;1;1;2;0;1;2;1;2;1;1;1;3;2;3;1;1;0;0;0;0;1;1;1;1;1;Amarela
+Salvador;Cabula;Particular;Menino;9;Parda;2;1;4;1;1;1;0;0;0;2;2;1;2;0;1;0;2;2;2;2;1;2;2;2;2;0;3;0;0;1;1;2;1;0;0;0;0;0;0;0;1;1;3;Negra
+Salvador;Clarival do Prado Valadares;Particular;Menina;11;Preta;4;1;6;1;1;1;1;1;0;1;1;1;1;0;0;0;1;0;0;1;0;0;2;2;2;0;3;1;0;3;3;2;1;1;0;0;1;0;3;2;1;0;0;Negra
+Salvador;Horto florestal;Particular;Menino;10;Não sei responder ou não quero responder;4;2;4;1;1;1;1;2;0;2;0;3;0;0;1;0;1;0;0;0;0;1;1;1;1;1;3;1;1;2;2;2;2;1;1;1;2;0;1;1;1;1;1;Sem resposta
+Salvador;Imbuí;Particular;Menino;9;Parda;3;1;4;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;1;0;3;1;1;2;1;2;1;0;1;1;1;0;0;1;1;1;1;Negra
+Camaçari;Vila de Abrantes;Particular;Menino;9;Preta;5;3;5;1;1;1;1;1;2;2;2;2;2;0;0;0;2;2;2;2;2;2;1;1;1;2;2;1;1;3;1;2;2;2;1;1;1;2;1;1;1;1;1;Negra
+Salvador;Itapuan;Particular;Menina;8;Preta;4;1;4;1;1;1;0;0;0;1;1;2;2;0;0;0;1;1;2;2;2;2;1;1;1;1;3;0;2;2;3;1;0;2;1;1;0;1;0;1;1;1;1;Negra
+Camaçari;JAUÁ;Particular;Menino;8;Parda;4;2;6;1;1;1;2;1;2;2;1;1;1;2;2;0;1;1;1;1;2;2;1;1;1;0;1;1;2;2;2;1;0;2;1;2;0;1;0;1;1;0;1;Negra
+Salvador;Nazaré;Particular;Menino;8;Preta;3;1;6;1;1;1;0;1;1;1;1;1;0;0;1;1;1;1;0;0;1;0;1;2;1;1;2;2;1;0;2;3;1;1;2;0;1;1;1;1;1;1;1;Negra
+Lauro de Freitas;Lauro de Freitas;Pública;Menina;8;Preta;2;1;5;1;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;2;1;0;2;2;1;1;1;1;0;0;1;1;1;1;0;1;Negra
+Salvador;Jardim Nova esperança,;Particular;Menino;12;Preta;3;1;6;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;2;1;2;2;2;1;2;2;2;0;2;0;0;1;1;0;1;1;1;1;Negra
+Salvador;Sim;Particular;Menina;12;Branca;2;1;6;1;1;1;2;1;1;2;1;2;1;1;2;1;2;1;1;2;1;1;1;2;1;0;2;0;1;2;2;2;1;2;1;1;2;0;0;0;1;1;1;Branca
+Salvador;Vila Laura;Particular;Menino;9;Preta;2;1;3;1;1;1;1;1;1;1;1;1;1;1;0;1;1;1;1;1;1;1;1;2;1;2;3;2;1;2;2;1;1;1;1;1;3;0;0;1;1;1;1;Negra
+Salvador;Nazaré;Particular;Menino;11;Branca;1;1;6;0;1;1;0;0;0;0;0;1;2;2;0;2;2;0;2;2;2;2;2;2;1;2;2;0;0;1;1;2;1;0;1;1;0;0;0;1;1;1;1;Branca
+Salvador;Jardim Apipema;Particular;Menina;8;Parda;4;2;6;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;2;2;2;1;0;2;1;0;0;1;2;1;2;0;1;1;1;1;1;Negra
+Salvador;Vila Laura;Particular;Menino;10;Preta;1;2;6;1;1;1;0;1;0;1;1;0;2;0;1;0;1;0;0;2;1;2;1;1;1;0;3;0;1;2;2;1;2;2;2;0;1;0;1;0;1;1;1;Negra
+Salvador;Pirajá;Particular;Menino;9;Não sei responder ou não quero responder;2;2;4;0;1;1;1;1;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;1;0;2;1;2;2;1;2;0;1;2;1;1;1;0;1;1;1;1;Sem resposta
+Salvador;Graça;Particular;Menina;9;Branca;1;1;6;1;1;1;0;1;0;1;1;0;1;0;0;0;1;1;1;1;1;1;2;2;1;2;2;1;1;2;2;2;1;1;2;0;1;0;1;2;1;1;1;Branca
+Simões Filho;Fazenda Nova;Particular;Menina;11;Parda;2;2;4;1;1;1;2;1;1;2;2;2;2;2;1;0;2;2;2;2;2;2;1;1;2;0;2;3;2;3;2;3;1;2;2;1;0;0;1;1;1;1;1;Negra
+Camaçari;Centro /Empresária/Arembepe;Particular;Menino;10;Parda;2;1;4;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;1;1;1;2;2;1;1;2;1;1;3;1;3;0;2;0;1;0;0;0;1;1;1;1;Negra
+Salvador;Alto de Coutos;Particular;Menino;8;Parda;2;1;5;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;0;1;0;1;2;2;0;0;0;1;1;0;1;1;1;1;1;1;Negra
+Salvador;Resgate Cabula;Particular;Menina;8;Preta;4;1;5;1;1;1;1;2;2;2;2;1;2;1;2;2;2;2;1;1;2;1;1;1;1;0;1;1;1;2;2;2;1;1;2;2;2;1;1;1;1;1;1;Negra
+Salvador;Horto Florestal;Particular;Menino;9;Branca;2;2;3;1;1;1;0;1;0;1;0;1;1;0;0;0;0;0;0;0;0;0;1;1;1;0;2;1;1;2;2;2;1;2;2;1;1;1;0;1;1;1;1;Branca
+Lauro de Freitas;Ipitanga;Particular;Menino;10;Preta;3;1;6;1;1;1;0;1;0;2;2;2;2;0;1;0;2;2;2;2;2;2;1;1;1;0;2;1;1;2;2;2;2;2;1;1;1;1;1;1;1;1;1;Negra
+Salvador;Alphaville;Particular;Menino;9;Branca;1;2;4;0;1;1;1;1;1;1;1;1;1;1;0;0;1;1;0;0;0;0;2;0;0;1;3;0;1;2;3;3;1;1;3;0;3;0;2;1;1;0;3;Branca
+Camaçari;Catu de Abrantes;Particular;Menina;10;Branca;2;2;4;1;0;1;2;0;2;2;2;2;2;1;0;1;2;2;1;2;1;2;1;1;1;0;0;2;3;2;1;1;0;2;3;3;3;0;1;1;1;1;1;Branca
+Salvador;Clarival do Prado Valadares;Particular;Menina;11;Preta;4;1;6;1;1;1;1;1;0;1;1;1;1;0;0;0;1;0;0;1;0;0;2;2;2;0;3;1;0;3;3;2;1;1;0;0;1;0;3;2;1;0;0;Negra
+Salvador;Dom Avelar - Rua Doutor Oswaldo Cruz;Particular;Menino;12;Preta;3;1;5;1;1;1;2;0;1;2;2;2;1;2;0;0;2;2;2;2;2;1;1;1;1;2;2;1;0;2;1;2;1;2;0;0;0;0;0;1;1;1;1;Negra
+Salvador;Vila laura;Particular;Menino;11;Parda;2;2;6;1;1;1;1;2;1;1;1;1;1;0;0;0;1;2;1;1;2;1;2;1;1;2;1;1;3;2;2;2;1;1;1;1;0;0;0;1;1;1;1;Negra
+Salvador;Pernabues;Pública;Menino;10;Indígena;2;2;6;1;1;1;1;1;1;1;1;1;1;1;1;0;0;0;0;0;0;0;1;0;2;0;1;2;1;0;3;1;0;1;3;3;0;1;0;1;1;1;1;Indígena
+Salvador;Jardim Nova Esperança;Particular;Menino;8;Parda;2;1;4;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;1;0;1;2;1;2;2;1;1;2;2;2;2;1;0;1;1;1;1;Negra
+Salvador;Rio vermelho;Particular;Menino;9;Branca;2;2;6;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;0;1;1;1;2;1;2;1;1;1;1;2;0;1;0;0;2;1;1;1;Branca
+Salvador;Jardim Nova Esperança;Particular;Menino;10;Preta;3;1;5;1;1;1;0;1;0;0;1;1;1;1;1;1;2;2;2;2;2;2;2;1;1;0;1;2;2;2;2;1;1;1;2;0;2;0;1;1;1;1;1;Negra
+Salvador;Rio Vermelho;Particular;Menino;12;Não sei responder ou não quero responder;2;2;6;1;1;1;1;1;1;2;2;1;2;1;1;1;2;2;0;1;2;2;1;1;1;2;1;1;3;1;1;1;1;1;2;2;1;0;0;1;1;1;1;Sem resposta
+Simões Filho;pitanguinha nova;Particular;Menino;11;Parda;2;2;6;1;2;1;2;2;2;2;2;0;2;2;2;2;2;2;0;2;2;2;1;1;1;2;3;3;0;1;3;3;1;1;1;3;0;0;1;1;1;2;1;Negra
+Salvador;Rua da Imperatriz;Particular;Menino;11;Indígena;4;1;6;1;1;1;1;1;1;2;2;0;1;0;0;0;0;1;0;0;0;1;2;2;1;2;3;0;0;1;1;1;0;0;0;0;0;0;0;2;3;1;1;Indígena
+Salvador;Horto Florestal;Particular;Menina;8;Branca;4;2;6;1;1;1;0;0;0;1;1;1;1;0;0;0;0;0;0;0;0;0;1;1;1;0;1;1;1;2;3;1;1;1;3;2;1;0;0;1;1;1;1;Branca
+Salvador;Piatã;sem matrícula;Menina;8;Parda;2;2;2;0;1;1;0;0;0;2;2;1;2;1;0;0;1;1;2;2;1;2;1;1;1;0;3;1;0;0;3;2;2;2;1;2;2;0;0;1;1;0;1;Negra
+Salvador;Bonfim;Particular;Menino;9;Branca;5;2;3;1;1;1;0;2;2;2;2;0;2;2;1;2;2;2;0;2;2;2;1;1;1;1;3;0;0;2;2;2;0;0;1;0;1;0;0;1;1;1;1;Branca
+Salvador;Bonfim;Particular;Menina;8;Não sei responder ou não quero responder;3;1;4;1;1;1;0;0;0;1;1;1;1;0;0;0;1;1;1;1;1;1;1;2;1;2;2;1;1;1;1;2;1;0;1;1;0;1;0;1;1;1;1;Sem resposta
+Salvador;Pau Miudo;Particular;Menino;8;Preta;2;1;4;1;1;1;0;0;0;1;1;1;1;0;0;0;1;1;1;1;1;1;1;2;1;1;2;1;1;2;3;1;1;0;2;2;1;0;0;1;1;1;1;Negra
+Salvador;Garcia;Particular;Menino;12;Preta;2;1;6;1;1;1;1;0;0;2;1;1;1;1;0;0;1;1;1;1;2;1;1;0;1;2;2;1;0;2;1;2;1;1;1;1;0;0;0;1;1;1;1;Negra
+Salvador;Candeal;Particular;Menina;8;Branca;2;3;3;1;1;1;0;0;0;1;1;1;1;0;1;1;1;1;1;1;1;1;2;2;1;2;2;1;1;1;2;1;1;1;1;1;1;0;0;2;1;1;1;Branca
+Camaçari;Vila de Abrantes;Particular;Menina;10;Branca;2;1;6;1;1;1;1;0;0;1;1;2;1;1;0;0;1;1;2;1;2;2;1;1;1;0;1;2;2;2;2;2;1;2;3;3;0;3;1;1;1;1;1;Branca
+Salvador;Engenho velho da federação;Particular;Menina;12;Branca;3;2;6;1;1;1;1;1;1;2;1;1;1;1;0;0;2;1;1;1;1;1;2;0;1;3;2;1;1;2;2;2;0;1;1;0;1;0;1;1;1;1;1;Branca
+Salvador;Pituba;Particular;Menino;12;Branca;3;2;6;1;1;1;0;2;1;2;2;2;2;0;0;0;2;1;2;2;0;2;1;1;1;3;2;2;0;1;2;2;1;1;0;0;2;0;1;1;1;0;1;Branca
+Salvador;Itaigara;Particular;Menina;10;Branca;2;2;4;1;1;1;1;2;2;2;2;2;2;1;0;0;2;2;2;1;2;2;1;1;1;2;1;1;1;2;1;2;1;2;2;1;2;0;0;1;1;1;1;Branca
+Salvador;Salvador;Particular;Menina;9;Amarela;3;1;5;1;1;1;3;1;0;0;0;0;0;3;0;2;2;2;2;2;2;3;1;1;1;2;1;0;0;2;2;1;1;2;2;2;0;0;0;1;1;1;1;Amarela
+Salvador;Brotas;Particular;Menino;9;Branca;2;2;6;1;1;1;2;1;2;2;2;1;2;2;0;2;2;2;1;2;3;2;2;1;1;1;3;1;1;1;3;2;2;0;0;1;1;0;1;0;1;1;1;Branca
+Salvador;Itapoá;Pública;Menina;9;Parda;2;2;3;0;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;2;0;0;1;1;2;1;1;1;2;2;0;0;0;1;1;1;1;Negra
+Camaçari;Gleba b;Particular;Menino;8;Parda;3;4;4;1;1;1;1;2;2;2;2;1;1;1;1;0;2;2;2;2;2;2;1;1;2;2;1;0;2;2;1;1;1;1;1;2;0;1;0;1;1;0;1;Negra
+Salvador;Federação;Particular;Menina;8;Parda;2;2;6;1;1;1;0;1;1;1;1;0;0;0;0;0;1;1;1;1;0;1;1;1;1;2;2;1;1;2;2;2;2;2;1;0;2;1;0;1;1;1;1;Negra
+Salvador;Itapuã;Pública;Menino;9;Parda;1;5;5;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;1;1;2;2;1;1;1;1;2;2;0;0;0;1;1;1;1;Negra
+Salvador;Pernambués;Pública;Menino;12;Preta;2;5;4;0;1;1;0;0;0;0;0;0;0;2;2;2;2;2;2;2;2;2;2;2;2;2;2;0;1;2;1;2;2;1;0;0;0;0;0;1;1;0;0;Negra
+Salvador;Brotas;Particular;Menino;10;Preta;2;1;6;1;1;1;0;0;0;2;1;0;2;2;2;2;2;2;2;2;2;2;1;2;3;0;2;1;1;2;2;1;0;1;1;1;1;1;0;1;1;0;1;Negra
+Salvador;Pituba;Particular;Menina;9;Parda;1;1;6;1;1;1;1;1;1;1;1;0;1;1;1;1;1;1;0;1;0;1;1;2;2;0;1;1;2;2;3;2;1;0;1;1;1;1;1;1;1;0;1;Negra
+Salvador;Pituba;Particular;Menino;10;Branca;4;1;3;1;1;1;2;1;1;2;1;2;2;1;0;1;2;1;2;2;1;2;1;2;1;1;3;1;1;2;1;3;1;1;1;0;0;0;1;1;1;3;1;Branca
+Salvador;Graça, Salvador;Particular;Menina;10;Branca;2;2;6;1;1;1;1;2;1;2;2;0;1;1;1;1;2;2;2;2;2;1;1;1;1;0;2;1;1;3;3;2;2;1;2;2;1;0;0;1;1;1;1;Branca
+Lauro de Freitas;Praia de Ipitanga;Particular;Menino;12;Parda;2;1;3;1;1;1;0;0;0;1;1;0;1;0;0;0;1;1;0;1;1;0;2;2;2;2;1;1;0;2;1;2;1;3;3;3;0;0;0;0;1;1;1;Negra
+Salvador;Vila ruy Barbosa;Particular;Menino;12;Parda;3;1;6;1;1;1;1;1;1;0;1;1;1;0;0;0;0;0;0;0;0;0;2;0;2;0;3;1;0;2;1;1;1;2;0;1;0;1;1;2;1;1;1;Negra
+Salvador;Pau Miúdo;Particular;Menino;8;Preta;2;1;4;1;1;1;0;0;0;1;1;0;1;0;0;0;1;1;0;1;0;1;1;2;1;2;2;0;1;3;2;1;1;1;2;2;0;0;0;1;1;1;1;Negra
+Salvador;Costa Azul;Particular;Menino;8;Parda;3;1;3;1;1;1;1;0;0;1;1;1;1;1;0;0;1;1;1;1;1;1;1;1;1;0;2;1;1;2;2;2;2;1;2;0;0;1;0;1;1;1;1;Negra
+Salvador;Sete de Abril;Particular;Menino;10;Preta;2;2;5;1;0;1;1;1;2;1;1;1;1;1;1;1;1;1;1;1;2;1;2;0;2;0;1;0;1;2;1;0;0;1;2;2;0;0;0;1;1;1;1;Negra
+Salvador;Vale dos lagos;Particular;Menina;9;Branca;2;1;5;1;1;1;0;0;0;1;2;2;2;0;0;0;1;1;2;2;0;2;1;2;1;2;3;2;1;3;2;1;1;0;3;3;3;1;0;1;1;1;1;Branca
+Salvador;Sete de Abril;Particular;Menino;10;Preta;2;2;6;0;1;1;0;0;1;2;2;0;1;0;1;0;1;1;1;1;2;0;2;2;2;0;1;0;1;2;2;1;1;1;2;2;0;0;0;1;1;1;1;Negra
+Salvador;Nordeste de Amaralina;Particular;Menino;9;Parda;2;1;5;1;1;1;1;1;2;2;2;0;1;1;1;2;2;2;0;1;1;2;1;2;1;2;1;0;0;2;2;1;0;0;1;0;0;1;1;1;1;1;1;Negra
+Salvador;Ribeira;Particular;Menina;10;Parda;2;1;4;1;1;1;0;0;0;1;0;0;0;0;0;0;1;0;0;0;0;0;1;2;1;0;2;1;1;2;2;1;0;0;0;0;0;0;0;1;1;1;1;Negra
+Salvador;Pituba;Particular;Menina;8;Branca;2;2;4;1;1;1;3;0;0;2;2;1;2;0;0;0;2;2;1;2;2;1;1;2;1;2;3;0;1;3;3;2;2;2;2;1;1;1;0;1;1;1;1;Branca
+Salvador;Costa azul;Particular;Menino;9;Branca;2;1;4;1;1;1;1;0;1;1;1;1;1;0;0;0;1;1;0;0;1;1;1;0;1;2;2;1;1;2;3;2;1;1;3;1;2;0;1;1;1;1;1;Branca
+Pojuca;Cruzeiro;Particular;Menina;9;Parda;1;1;5;1;1;1;3;0;0;2;2;2;2;1;0;0;2;3;2;2;0;2;1;2;1;0;3;2;1;3;3;3;2;2;2;3;0;1;1;1;1;1;1;Negra
+Lauro de Freitas;Itinga;Particular;Menino;8;Preta;4;1;4;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;2;2;2;1;2;2;3;1;1;0;0;0;0;1;1;1;Negra
+Salvador;Jardim das Margaridas;Particular;Menino;8;Parda;3;2;6;1;1;1;1;2;2;2;2;2;2;1;2;2;2;2;2;2;2;2;2;2;1;2;1;0;1;2;2;0;1;2;2;2;0;1;0;1;1;1;1;Negra
+Lauro de Freitas;Praia de Ipitanga;Pública;Menina;9;Preta;4;2;3;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;1;0;1;0;2;2;2;0;0;2;2;2;0;1;0;1;1;1;1;Negra
+Lauro de Freitas;Praia de ipitanga;Pública;Menino;8;Parda;4;2;5;2;1;1;0;1;1;1;1;1;1;0;0;1;1;1;1;1;1;1;2;2;2;3;1;1;0;2;2;0;1;1;2;1;0;0;0;1;1;1;1;Negra
+Outros;cabore;Pública;Menina;12;Preta;2;1;6;1;1;1;2;2;2;2;2;2;2;1;0;1;1;1;0;0;2;2;1;1;2;0;3;1;1;2;1;1;1;1;1;0;1;0;1;1;1;0;1;Negra
+Lauro de Freitas;Ipitanga;Pública;Menina;11;Preta;1;2;6;1;1;1;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;2;0;2;2;2;2;1;2;1;0;0;0;1;1;1;1;1;Negra
+Salvador;Trobogy;Particular;Menino;8;Parda;2;2;5;1;0;1;0;0;1;2;2;0;1;0;0;1;1;2;0;1;2;0;0;0;0;1;3;0;0;2;3;2;1;0;1;2;0;2;2;0;1;0;0;Negra
+Salvador;Trobogy;Particular;Menino;8;Parda;2;2;5;1;1;1;0;1;1;2;2;1;1;0;0;0;1;1;2;1;2;2;2;0;0;1;2;1;0;2;2;1;3;0;1;1;0;1;1;2;1;1;1;Negra
+Outros;Lessa Ribeiro;Pública;Menina;9;Branca;2;4;5;1;1;1;1;2;2;2;1;2;2;2;2;2;2;2;2;2;2;2;1;1;1;2;1;1;1;2;2;0;1;2;2;2;0;0;0;1;1;1;1;Branca
+Salvador;Jd das margaridas;Particular;Menina;10;Parda;2;2;4;1;1;1;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;1;1;1;0;1;0;0;1;2;0;0;0;0;0;1;1;0;1;1;1;1;Negra
+Salvador;Patamares;Particular;Menino;9;Branca;3;1;6;1;1;1;0;0;0;2;2;2;2;0;0;0;1;1;2;2;0;2;1;1;1;2;2;0;2;2;3;1;1;0;1;0;2;1;1;1;1;0;1;Branca
+Camaçari;Gravata;Pública;Menina;9;Preta;1;1;3;0;1;1;2;1;2;2;2;1;1;1;2;2;2;2;2;2;2;1;1;0;1;0;1;0;0;3;2;1;0;2;1;1;0;0;1;0;1;0;1;Negra
+Salvador;Imbuí;Particular;Menino;9;Branca;2;1;3;1;1;1;0;0;0;2;2;1;2;0;0;0;2;2;0;2;3;1;0;1;1;0;3;1;1;2;2;2;1;1;1;1;1;1;1;1;1;1;1;Branca
+Salvador;Jardim Nova Esperança;Pública;Menina;10;Indígena;2;2;5;1;1;1;0;0;1;1;0;1;1;0;0;1;1;0;1;1;1;1;2;0;1;2;3;2;1;1;1;3;1;2;0;0;0;0;1;1;1;1;1;Indígena
+Salvador;Acupe de Brotas;Particular;Menino;9;Branca;1;1;6;1;1;1;0;0;2;2;2;0;1;1;2;2;2;2;1;1;2;2;1;1;1;0;2;1;1;2;3;3;1;1;2;0;2;1;1;1;1;1;1;Branca
+Salvador;Federação;Particular;Menino;8;Branca;3;1;6;1;1;1;3;0;2;2;1;0;0;2;0;2;2;2;0;0;2;1;1;2;1;1;1;0;0;1;2;0;0;1;1;0;2;1;0;1;1;1;1;Branca
+Salvador;Pituba;Particular;Menina;11;Parda;2;1;6;1;0;1;3;3;3;2;1;0;3;1;0;1;2;1;1;3;2;2;1;2;1;0;1;1;3;2;2;1;1;2;3;3;0;0;0;1;1;1;1;Negra
+Salvador;Brotas;Particular;Menina;9;Parda;2;1;4;1;1;1;0;0;0;0;1;2;2;0;0;0;0;0;0;0;0;0;1;1;1;0;1;1;0;2;2;1;1;1;2;2;1;1;1;0;1;1;1;Negra
+Outros;Nova sao francisco;Pública;Menina;11;Preta;2;1;5;1;1;1;0;1;1;1;0;1;0;1;0;0;1;0;1;0;1;1;1;0;1;0;2;1;0;2;2;2;0;2;0;0;0;0;0;1;0;0;1;Negra
+Outros;Garcia D'Avila parque 1;Pública;Menina;8;Preta;2;2;5;1;1;1;2;2;2;2;2;1;1;2;2;2;2;2;2;1;2;2;1;1;1;2;3;2;1;1;3;3;3;1;3;3;3;1;1;1;1;1;1;Negra
+Outros;São Roque;Particular;Menina;10;Preta;4;1;6;1;1;1;1;0;0;1;1;1;0;0;0;0;1;1;1;1;1;1;1;1;1;0;3;1;1;3;2;2;1;1;1;1;1;0;1;1;1;1;1;Negra
+Salvador;Graça;Particular;Menina;8;Branca;2;1;6;1;1;1;0;1;1;2;2;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;1;0;0;1;0;1;1;0;1;0;1;0;0;1;1;1;1;Branca
+Camaçari;Jardim limoeiro;Pública;Menina;9;Branca;2;1;4;1;1;1;0;0;0;1;1;1;1;0;0;0;2;2;1;1;1;1;1;2;1;0;3;1;0;2;2;1;2;2;0;0;1;1;0;0;1;1;0;Branca
+Salvador;Pituba;Particular;Menino;8;Parda;2;1;4;1;1;1;0;0;0;1;1;1;1;0;0;0;1;1;1;1;1;1;1;1;1;2;2;2;1;2;2;2;1;1;2;1;2;1;0;1;1;0;1;Negra
+Salvador;Cabula;Particular;Menino;11;Preta;4;2;4;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;0;2;2;3;0;0;1;1;3;1;1;0;0;0;0;0;0;1;1;1;Negra
+Salvador;Não sabe;Particular;Menina;11;Branca;4;2;6;1;1;1;1;0;0;2;1;2;1;0;0;0;1;1;2;2;0;1;1;2;1;2;3;1;1;2;1;2;1;1;2;0;1;0;1;1;1;1;1;Branca
+Outros;Centro;Particular;Menina;10;Parda;2;2;6;1;1;1;2;2;2;2;2;2;2;1;1;1;2;1;1;1;1;1;1;1;1;0;1;0;1;2;2;1;1;1;1;0;0;0;0;1;1;1;1;Negra
+Outros;Centro;Particular;Menina;10;Parda;3;2;3;1;1;1;2;1;1;1;1;1;1;1;2;2;2;2;0;2;2;2;0;0;1;0;2;0;0;2;1;3;1;1;1;2;0;2;0;1;1;1;1;Negra
+Outros;Rua Castro Alves/Centro;Particular;Menina;11;Parda;2;2;4;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;2;1;1;3;1;2;1;3;1;1;0;0;0;1;1;1;1;Negra
+Outros;Brasil bairro avenida santa rita;Particular;Menino;10;Preta;4;1;3;0;1;1;0;1;2;2;2;1;2;0;2;2;2;2;0;2;2;2;1;1;1;0;2;2;1;2;1;2;2;0;0;0;0;2;1;1;1;0;1;Negra
+Camaçari;Gleba B bomba;Pública;Menino;8;Branca;4;4;4;1;1;1;2;3;2;2;2;2;2;2;2;2;0;0;0;0;0;0;1;2;2;3;2;1;2;2;2;2;2;2;1;2;0;0;0;1;1;1;1;Branca
+Salvador;Itaigara;Particular;Menino;12;Parda;2;1;6;1;1;1;0;0;0;1;1;0;1;1;0;0;1;1;0;1;1;1;1;1;1;2;2;1;1;0;3;2;2;2;1;2;1;0;0;1;1;1;1;Negra
+Salvador;Caixa D'água;Particular;Menino;10;Preta;2;1;4;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;2;1;2;2;0;0;2;2;2;1;1;2;0;0;0;0;1;1;1;1;Negra
+Salvador;Federação.;Particular;Menino;9;Branca;2;2;4;1;2;1;0;0;1;2;2;1;1;0;0;1;2;2;2;2;2;2;1;2;1;0;1;2;0;2;2;0;0;1;1;2;2;0;1;1;1;0;1;Branca
+Outros;Nova São Francisco, estudante;Particular;Menina;11;Preta;1;1;6;1;1;1;1;0;1;1;1;0;0;2;0;1;1;1;0;0;1;0;1;1;1;0;2;0;1;2;2;2;2;2;2;2;0;0;0;1;1;1;1;Negra
+Outros;Centro da cidade;Particular;Menina;9;Parda;2;1;6;1;1;1;2;0;0;1;1;2;0;1;1;1;2;2;2;2;0;0;1;1;1;0;3;1;0;1;3;3;0;0;1;2;0;0;1;2;1;2;1;Negra
+Outros;Centro;Pública;Menina;9;Preta;3;1;3;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;1;1;0;2;0;3;2;1;2;1;3;1;0;0;1;0;1;1;3;1;Negra
+Salvador;Engenho velho da federação;Particular;Menina;12;Branca;3;2;6;1;1;1;1;1;1;2;1;1;1;1;0;0;2;1;1;1;1;1;2;0;1;3;2;1;1;2;2;2;0;1;1;0;1;0;1;1;1;1;1;Branca
+Lauro de Freitas;Catu de abrantes;Particular;Menina;9;Branca;2;1;5;1;1;1;1;0;1;2;0;0;1;1;0;1;2;0;0;1;0;1;2;2;1;0;2;0;1;2;2;3;2;1;2;0;1;0;1;3;1;1;1;Branca
+Salvador;Centro;Particular;Menina;10;Outros;2;1;6;1;0;1;0;0;0;2;1;2;1;0;0;0;2;2;1;1;2;2;1;2;1;2;1;1;3;2;2;1;1;2;2;0;1;1;0;1;1;1;1;Outros
+Salvador;Piraja;Particular;Menina;12;Preta;3;1;5;1;1;1;2;2;2;2;2;1;2;1;0;1;1;1;1;1;1;1;2;2;2;0;2;0;0;2;2;2;1;1;1;0;0;0;0;1;1;3;1;Negra
+Outros;Centro;Particular;Menino;12;Preta;3;1;6;1;1;1;0;0;0;2;2;2;2;0;0;0;2;2;1;1;2;2;1;1;1;0;2;1;0;2;2;2;1;2;1;1;1;1;0;1;1;1;1;Negra
+Lauro de Freitas;Jambeiro;Pública;Menino;11;Preta;1;2;5;0;1;1;1;0;2;2;2;1;1;0;0;1;1;0;1;0;2;1;1;1;1;0;1;0;1;1;2;0;1;2;2;2;0;0;0;1;1;1;1;Negra
+Outros;Centro;Particular;Menino;10;Parda;3;1;6;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;1;1;1;2;2;1;1;0;1;2;0;0;0;1;1;1;1;Negra
+Salvador;Vila laura;Particular;Menino;11;Parda;2;2;6;1;1;1;1;2;1;1;1;1;1;0;0;0;1;2;1;1;2;1;2;1;1;2;1;1;3;2;2;2;1;1;1;1;0;0;0;1;1;1;1;Negra
+Salvador;Graça;Particular;Menina;8;Branca;2;1;6;1;1;1;0;1;1;2;2;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;1;0;0;1;0;1;1;0;1;0;1;0;0;1;1;1;1;Branca
+Salvador;Campo grande;Particular;Menino;10;Branca;5;2;6;1;0;1;0;0;0;2;1;1;1;0;0;0;1;0;2;2;0;2;1;1;1;2;1;1;1;1;1;1;0;1;1;1;1;0;0;1;1;1;1;Branca
+Salvador;Ondina;Particular;Menino;8;Branca;2;1;4;1;1;1;0;0;0;1;1;1;1;0;0;0;1;1;1;1;1;1;1;1;1;0;2;0;1;2;2;2;2;1;1;2;1;1;0;1;1;1;1;Branca
+Outros;Mario Cruz;Particular;Menino;10;Parda;2;3;6;0;1;1;1;0;2;2;2;2;1;2;0;1;2;2;1;0;2;1;2;1;1;2;2;2;0;2;2;1;1;1;1;1;0;1;0;1;1;1;1;Negra
+Salvador;Paralela;Particular;Menina;11;Branca;3;2;5;1;1;1;2;2;2;2;2;0;2;2;2;2;2;2;2;0;2;2;1;2;1;2;3;0;0;3;3;3;3;3;2;0;0;0;0;0;1;1;1;Branca
+Salvador;Barra;Particular;Menina;8;Branca;3;3;5;1;1;1;0;0;0;2;1;2;2;1;1;0;2;2;2;2;1;2;1;1;1;0;1;2;1;2;2;1;1;0;1;1;2;0;1;1;1;0;2;Branca
+Salvador;Roma;Particular;Menino;11;Parda;3;1;3;1;0;1;2;2;2;2;2;1;2;2;2;2;2;2;2;2;2;2;1;0;1;1;3;1;0;0;3;0;0;1;3;3;0;0;1;0;1;1;1;Negra
+Salvador;Pernambués;Particular;Menina;11;Parda;2;1;4;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;1;0;2;2;2;1;0;2;0;2;0;0;1;1;1;1;1;Negra
+Salvador;Pituba e Barra;Particular;Menina;12;Parda;2;1;6;1;1;1;1;0;2;2;1;1;2;1;1;0;2;1;2;2;2;2;1;2;1;0;2;1;2;2;2;2;1;1;2;2;0;0;1;1;1;1;1;Negra
+Salvador;Nova Brasília;Pública;Menino;10;Branca;2;1;4;0;1;1;1;1;1;1;1;1;1;0;0;0;1;1;1;1;1;1;1;0;1;2;2;0;0;1;2;1;2;2;1;2;0;0;0;1;1;1;1;Branca
+Salvador;Itaigara;Particular;Menina;10;Branca;2;2;4;1;1;1;1;0;0;1;0;2;1;0;0;0;1;0;2;1;0;2;1;2;1;0;3;0;0;3;2;3;1;1;0;1;0;1;1;1;1;1;1;Branca
+Salvador;João José Rescala Imbui;Pública;Menina;8;Preta;3;2;6;1;1;1;0;1;1;0;0;0;0;0;1;1;0;0;0;0;0;0;1;2;1;0;2;0;1;2;1;1;0;2;1;1;1;1;1;1;1;1;1;Negra
+Salvador;Itapuã;Pública;Menino;12;Parda;2;2;6;0;1;1;0;1;1;1;1;0;1;0;0;0;1;1;0;1;0;1;1;1;1;0;3;1;1;2;3;2;1;1;2;2;0;3;1;1;1;0;0;Negra
+Outros;Centro;Particular;Menino;12;Parda;5;1;6;1;1;1;0;0;0;1;1;1;1;0;1;1;1;1;1;1;1;1;1;2;2;0;2;1;0;2;2;2;1;1;0;0;0;1;1;1;1;1;1;Negra
+Outros;Centro;Particular;Menino;9;Preta;2;2;6;1;1;1;1;1;1;2;2;1;2;1;1;1;2;2;1;1;2;1;2;2;1;0;2;2;0;2;2;2;2;1;1;2;1;2;1;1;1;1;1;Negra
+Salvador;Alphaville 1;Particular;Outros;11;Branca;4;4;3;1;1;1;1;1;1;1;1;0;0;1;1;1;1;1;0;0;1;0;2;0;1;2;3;0;1;0;2;1;1;2;0;0;0;0;0;2;1;1;1;Branca
+Salvador;Pernambués;Particular;Menino;9;Parda;2;1;6;1;1;1;1;1;2;2;2;2;2;2;2;2;2;2;1;1;2;2;1;1;1;0;2;1;2;2;1;1;1;1;2;2;0;0;0;1;1;1;1;Negra
+Salvador;Pernambués;Particular;Menino;9;Branca;2;2;6;1;1;1;0;1;1;1;1;1;1;0;0;0;1;1;1;1;1;1;2;1;1;0;2;1;1;2;3;2;1;2;2;2;0;0;1;1;1;1;1;Branca
+Salvador;Liberdade;Particular;Menino;9;Indígena;1;1;5;1;1;1;0;1;0;2;1;1;0;1;0;0;1;0;1;2;1;0;1;2;1;0;2;0;0;1;2;1;0;0;1;1;0;0;0;0;1;1;1;Indígena
+Salvador;Barra;Particular;Menina;8;Branca;3;3;5;1;1;1;0;0;0;2;1;2;2;1;1;0;2;2;2;2;1;2;1;1;1;0;1;2;1;2;2;1;1;0;1;1;2;0;1;1;1;0;2;Branca
+Salvador;Patamares;Particular;Menino;12;Parda;2;1;6;1;1;1;2;1;2;2;2;2;1;1;2;2;2;2;2;1;3;2;1;1;1;2;3;1;0;0;3;1;1;1;1;2;0;1;0;1;1;1;1;Negra
+Salvador;Cabula;Particular;Menino;11;Preta;4;2;4;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;0;2;2;3;0;0;1;1;3;1;1;0;0;0;0;0;0;1;1;1;Negra
+Lauro de Freitas;Centro;Particular;Menina;11;Preta;4;1;6;1;1;1;0;1;1;2;2;1;2;0;0;0;2;2;2;1;2;2;1;2;1;2;2;2;1;2;2;2;0;1;1;0;1;1;0;1;1;3;1;Negra
+Salvador;Cabula VI;Pública;Menino;11;Branca;2;1;6;1;1;1;2;2;2;2;2;1;2;2;2;2;2;2;2;2;2;2;0;1;1;0;2;1;2;2;2;2;1;1;0;0;0;2;2;1;1;1;1;Branca
+Outros;Centro;Particular;Menino;11;Parda;2;1;4;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;2;2;0;1;2;2;2;2;1;1;0;1;1;0;1;1;1;1;Negra
+Salvador;Cosme de Farias;Particular;Menina;9;Parda;2;1;2;1;1;1;0;0;0;1;0;0;0;0;0;0;1;1;1;1;1;1;1;2;0;2;3;2;0;2;3;2;0;0;3;2;0;0;0;1;1;1;1;Negra
+Salvador;Graciliano de Freitas;Particular;Menina;9;Parda;2;1;5;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;3;1;1;1;2;1;1;2;3;1;0;0;1;1;1;1;1;Negra
+Salvador;Nordeste;Particular;Menina;9;Parda;2;1;2;1;1;1;0;1;1;1;1;1;1;1;1;1;1;0;1;1;0;1;2;0;1;1;3;1;0;2;1;3;2;1;3;0;1;1;0;0;1;1;1;Negra
+Salvador;federação;Particular;Menino;8;Branca;2;1;6;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;1;2;1;0;2;1;1;2;2;1;1;2;2;1;2;0;1;1;1;1;3;Branca
+Salvador;Vila laura;Particular;Menina;8;Indígena;4;1;6;1;1;1;1;0;1;1;0;1;1;1;1;0;1;1;1;1;1;1;2;1;1;0;1;1;0;2;3;2;1;1;2;1;2;0;1;1;3;2;1;Indígena
+Lauro de Freitas;Itinga;Particular;Menino;8;Preta;2;2;6;1;1;1;1;2;2;2;2;0;2;1;2;2;2;2;0;2;2;2;1;0;1;0;2;1;0;1;2;1;2;1;0;0;0;0;1;1;0;1;1;Negra
+Outros;Centro;Particular;Menino;11;Preta;3;1;3;1;1;1;2;2;1;1;1;1;1;1;1;2;2;2;2;2;2;2;1;1;1;0;2;1;1;2;2;2;1;1;1;1;1;1;0;1;1;1;1;Negra
+Lauro de Freitas;Itinga;Particular;Menino;12;Preta;2;2;6;1;1;1;1;1;1;1;1;0;0;1;1;1;1;1;0;0;1;1;2;1;1;0;0;0;0;2;2;0;1;1;1;0;0;0;0;1;1;1;1;Negra
+Salvador;Federação;Particular;Menina;8;Parda;2;1;5;0;1;1;1;1;1;1;1;2;2;1;2;1;1;1;2;2;1;2;1;1;1;0;2;0;0;2;2;2;2;1;1;1;1;0;0;1;1;0;1;Negra
+Lauro de Freitas;Vida nova;Particular;Menina;9;Preta;2;1;4;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;1;1;2;1;0;2;0;1;1;2;2;0;1;1;0;0;1;0;3;3;1;1;Negra
+Lauro de Freitas;Vida nova;Particular;Menina;11;Preta;2;1;6;0;1;1;1;2;0;2;2;2;1;1;1;0;2;2;1;2;2;2;2;1;1;2;1;0;1;1;2;1;1;2;0;1;0;0;1;1;1;0;1;Negra
+Simões Filho;Pitanguinha.;Particular;Menina;10;Branca;2;1;5;1;1;1;1;2;1;2;2;0;0;1;1;1;1;1;0;0;2;2;1;1;1;2;1;0;1;2;2;2;1;2;1;2;0;1;1;1;1;1;1;Branca
+Lauro de Freitas;Vida Nova;Particular;Menina;12;Parda;2;1;6;1;1;1;1;3;1;2;2;0;0;2;3;3;2;1;0;0;1;0;1;2;3;0;0;1;2;3;3;1;0;2;1;3;2;0;0;1;1;1;1;Negra
+Lauro de Freitas;Pitangueiras;Particular;Menino;10;Amarela;2;1;6;1;0;1;0;0;0;2;2;2;1;0;1;1;1;1;1;1;1;1;2;2;2;2;1;1;1;2;1;1;1;1;1;1;1;1;1;1;1;0;1;Amarela
+Salvador;Amaralina;Particular;Menino;10;Preta;2;2;6;1;0;1;3;1;0;2;1;2;1;0;1;0;2;1;3;1;3;1;1;2;1;0;2;1;1;2;2;2;0;1;2;1;1;0;0;1;1;1;1;Negra
+Salvador;Federaçao rua engenheiro  lidio Campos;Particular;Menina;12;Preta;1;2;3;1;1;1;1;1;0;2;2;1;1;1;0;0;2;2;1;1;2;0;1;0;1;0;1;1;2;2;1;2;2;3;0;0;1;0;1;1;1;1;1;Negra
+Salvador;Engenho velho da federação;Particular;Menina;11;Parda;3;2;5;1;1;1;1;0;0;2;2;0;0;1;0;0;2;2;1;1;1;1;1;2;1;2;1;0;1;2;2;3;1;2;1;0;2;0;0;1;1;1;1;Negra
+Lauro de Freitas;Vida nova;Particular;Menina;12;Preta;2;1;6;1;1;1;1;1;1;1;1;1;0;0;1;0;1;1;0;0;1;1;2;2;1;0;2;1;1;2;2;2;2;2;2;2;0;2;1;1;1;0;1;Negra
+Salvador;Paralela;Particular;Menino;9;Parda;2;1;6;1;1;1;0;1;1;2;2;1;1;1;1;1;2;2;0;1;2;1;1;1;1;0;2;1;1;2;2;1;0;2;2;1;2;0;0;1;1;1;1;Negra
+Salvador;Costa Azul;Particular;Menina;11;Parda;2;2;6;1;1;1;0;1;0;1;1;1;1;1;0;0;1;1;1;1;0;1;1;1;1;0;3;1;1;3;2;2;2;2;1;1;1;0;0;1;1;1;1;Negra
+Lauro de Freitas;Região Nordeste;Particular;Menina;10;Branca;2;2;5;1;1;1;0;1;0;1;1;1;1;1;1;0;1;1;1;1;1;1;1;1;1;0;1;2;3;3;2;1;1;3;3;0;1;1;0;1;1;1;1;Branca
+Salvador;Engenho Velho de Brotas;Particular;Menino;11;Não sei responder ou não quero responder;2;1;5;1;1;1;1;0;2;2;2;0;2;1;0;0;2;2;0;1;2;2;1;0;1;0;1;1;1;2;1;2;1;1;2;2;2;1;0;2;1;1;2;Sem resposta
+Salvador;Alphaville;Particular;Menina;11;Branca;2;2;3;1;1;1;1;2;1;2;2;2;2;1;1;0;2;2;2;2;2;2;1;2;1;2;1;2;1;1;2;2;1;3;1;1;1;0;1;1;1;1;1;Branca
+Salvador;São rafael;Particular;Menina;12;Parda;2;1;6;1;1;1;1;2;0;2;2;2;2;1;0;0;2;2;2;1;2;2;1;0;1;2;1;2;0;0;1;2;1;1;0;0;1;0;1;1;1;1;1;Negra
+Salvador;Federação;Particular;Menino;11;Parda;2;1;6;1;1;1;1;1;2;2;2;0;1;0;0;0;2;2;0;0;2;1;1;2;1;0;2;1;1;2;1;2;1;1;1;0;1;0;1;1;1;1;1;Negra
+Salvador;Candeal;Particular;Menina;12;Parda;2;1;6;1;1;1;0;0;0;2;2;2;2;2;1;1;2;2;2;2;1;1;1;1;1;0;2;1;1;2;2;2;2;1;1;0;2;0;0;1;1;1;1;Negra
+Salvador;Comércio;Pública;Menino;11;Amarela;5;4;3;0;0;1;2;2;1;2;2;1;1;0;2;1;2;2;1;3;3;0;0;1;2;0;0;1;1;2;2;0;0;1;2;2;0;0;0;1;1;1;1;Amarela
+Salvador;Paralela;Particular;Menina;8;Não sei responder ou não quero responder;3;2;4;1;1;1;0;0;0;2;2;2;2;0;0;0;2;2;2;2;2;2;1;2;1;1;3;1;1;2;2;3;2;1;2;2;1;1;0;1;1;0;1;Sem resposta
+Lauro de Freitas;Lauro de Freitas bairro vida nova;Particular;Menina;11;Parda;2;2;6;1;1;1;1;2;1;2;2;2;1;1;1;1;2;2;0;1;2;1;1;0;1;2;1;1;1;2;1;2;1;2;1;1;0;0;0;1;1;1;1;Negra
+Camaçari;Arembepe;Pública;Menino;11;Parda;2;4;5;1;1;1;0;1;1;1;1;1;1;0;1;1;1;1;1;1;0;1;1;1;1;0;2;1;1;2;2;2;2;2;2;2;0;1;0;1;1;3;1;Negra
+Camaçari;Arembepe;Pública;Menina;10;Indígena;3;2;1;0;0;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;1;0;1;1;2;2;2;0;0;2;2;2;0;0;0;1;1;1;1;Indígena
+Camaçari;Arembepe;Pública;Menino;9;Branca;2;1;4;0;1;1;2;0;2;2;2;2;2;2;0;2;2;2;2;2;2;2;2;2;1;0;2;1;0;2;2;1;0;1;2;2;0;0;1;1;1;1;1;Branca
+Camaçari;Arembepe;Pública;Menino;12;Preta;2;1;5;0;1;0;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;2;1;0;1;1;1;1;1;2;1;2;0;0;0;1;1;1;1;Negra
+Camaçari;Parque tucunaré(arembepe);Pública;Menino;8;Parda;2;2;4;0;1;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;1;0;1;0;0;1;3;0;0;0;2;1;0;1;0;2;1;1;1;Negra
+Camaçari;Camacari arembepe;Pública;Menino;9;Parda;2;3;3;1;1;1;2;2;1;2;2;2;2;1;1;1;1;1;1;1;2;2;1;1;1;2;2;1;2;2;1;2;1;1;2;2;0;0;1;0;1;1;1;Negra
+Camaçari;Cordoaria;Pública;Menino;9;Preta;2;1;4;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;2;1;0;2;0;0;1;1;1;1;0;2;2;0;2;2;1;1;1;1;Negra
+Salvador;Jardim Nova esperança;Particular;Menino;8;Parda;2;1;6;1;1;1;1;0;1;2;2;2;2;1;0;1;2;2;2;1;2;1;1;1;1;0;0;1;1;0;2;0;0;1;2;2;0;0;0;1;1;1;1;Negra
+Camaçari;Bosque de Arembepe;Pública;Menina;10;Amarela;2;1;3;1;1;1;3;3;3;2;2;3;3;3;3;3;2;2;2;2;3;2;1;0;3;0;1;0;0;3;1;3;0;2;2;1;0;0;1;1;1;1;1;Amarela
+Salvador;Boca do Rio;Particular;Menino;12;Indígena;2;2;3;1;1;1;1;1;1;2;2;2;1;0;0;0;2;1;2;3;2;2;1;1;1;0;2;1;2;3;3;1;1;2;0;2;0;0;0;1;1;1;1;Indígena
+Salvador;Brotas;Pública;Menina;11;Parda;2;1;4;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;1;3;0;1;2;1;1;1;1;1;0;0;0;1;1;0;1;Negra
+Salvador;Luis Anselmo;Pública;Menina;8;Parda;2;2;2;1;1;1;2;2;2;2;2;2;2;1;1;1;1;1;1;1;0;1;1;1;1;0;2;2;2;2;2;2;2;2;2;2;0;0;0;1;1;1;1;Negra
+Salvador;Não sabe;Particular;Menino;10;Não sei responder ou não quero responder;2;2;6;1;0;1;0;0;0;1;1;0;0;0;0;0;1;1;0;0;0;0;1;2;3;0;2;1;0;2;2;2;1;1;1;1;1;0;0;1;1;1;1;Sem resposta
+Salvador;Luiz anselmo;Pública;Menina;11;Preta;5;3;6;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;0;1;0;1;0;2;2;1;1;1;0;1;2;0;2;1;0;0;0;0;Negra
+Camaçari;Arembepe;Pública;Menina;8;Branca;3;3;5;0;1;1;2;1;2;2;2;0;1;2;1;2;2;2;1;1;2;2;0;1;1;0;3;0;0;2;3;3;0;2;3;3;0;0;0;1;1;1;1;Branca
+Salvador;Luís Anselmo brotas;Pública;Menino;8;Parda;3;1;4;1;1;1;0;0;0;1;1;0;1;0;0;0;1;1;0;0;0;0;1;1;1;0;2;0;0;1;2;1;0;0;0;2;0;1;1;1;1;1;1;Negra
+Salvador;Matatu;Pública;Menino;8;Branca;2;1;3;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;1;2;1;1;1;1;1;0;0;1;1;2;0;1;1;1;1;1;1;Branca
+Camaçari;Alto da cruz;Pública;Menina;10;Branca;2;1;5;1;1;1;2;2;2;2;2;1;1;1;1;1;1;1;1;1;2;1;1;1;1;2;1;1;1;2;1;2;1;2;2;2;1;0;0;1;1;1;1;Branca
+Camaçari;Loteamento Parque Tucunaré Camaçari Arrebepe;Pública;Menino;8;Parda;4;1;6;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;0;1;0;2;2;0;0;0;1;2;0;0;0;1;1;1;1;Negra
+Camaçari;arembepe;Pública;Menino;10;Parda;2;1;2;0;1;1;0;0;1;1;1;1;1;0;1;1;1;1;1;1;1;1;0;1;1;0;1;0;0;2;2;0;0;1;1;2;0;2;0;1;1;1;1;Negra
+Salvador;Luiz Anselmo;Pública;Menina;10;Parda;2;1;6;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;1;0;1;1;2;2;2;1;2;2;2;1;1;1;1;1;1;Negra
+Lauro de Freitas;Buraquinho;Particular;Menina;11;Branca;3;2;5;1;1;1;0;0;1;2;2;0;0;0;0;0;1;1;1;0;1;0;1;1;1;0;1;1;2;2;2;1;0;2;1;1;0;0;1;1;1;1;1;Branca
+Camaçari;Arembepe;Pública;Menina;11;Parda;2;2;3;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;2;1;1;2;3;2;1;1;1;1;0;1;1;1;1;1;1;Negra
+Camaçari;Arembepe;Pública;Menino;8;Preta;2;1;5;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;2;1;0;1;1;0;2;2;1;1;1;1;2;0;1;1;1;1;1;1;Negra
+Salvador;Santo Antônio além do Carmo;Particular;Menina;11;Parda;2;2;5;0;1;1;1;0;0;2;2;1;0;1;0;1;2;2;0;1;3;2;1;0;3;3;1;1;2;2;1;1;1;2;0;0;0;0;0;1;1;1;0;Negra
+Salvador;Nazaré;Pública;Menina;10;Parda;2;2;3;0;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;2;1;2;2;2;1;2;2;2;1;0;1;0;1;1;1;1;Negra
+Camaçari;Condomínio portal de Arembepe quadra 4 lote 3;Pública;Menino;12;Preta;3;1;4;1;1;1;0;0;0;1;1;1;1;0;1;1;1;1;1;1;1;1;1;1;1;2;3;0;0;2;2;1;1;1;0;1;0;0;1;1;1;1;1;Negra
+Camaçari;Fazenda Açu da capivara Coqueiro de Arempepe  camaçari bahia .;Pública;Menina;10;Parda;2;2;4;0;0;0;2;2;2;2;2;2;2;1;2;2;2;2;2;2;2;2;2;1;1;0;1;1;1;1;2;1;1;1;1;2;0;0;0;1;1;1;1;Negra
+Salvador;luis anselmo;Pública;Menino;9;Preta;3;1;2;0;1;1;2;2;3;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;1;1;1;1;2;2;0;1;2;2;0;1;0;1;1;1;1;Negra
+Lauro de Freitas;Buraquinho;Particular;Menina;12;Preta;3;2;6;1;1;1;1;1;0;2;2;1;2;1;1;0;1;1;2;2;2;2;1;2;2;0;3;0;1;2;2;2;1;2;0;0;0;0;0;1;1;1;1;Negra
+Camaçari;Arembepe;Pública;Menina;11;Preta;3;3;2;0;1;1;3;3;3;0;0;0;1;1;1;1;2;2;1;2;3;2;2;2;1;2;1;0;1;2;2;0;0;1;1;1;0;1;1;1;1;0;1;Negra
+Salvador;Rua Luís Anselmo;Pública;Menina;8;Preta;2;4;5;0;1;1;1;1;1;2;1;2;2;1;1;0;1;2;2;2;2;2;1;1;1;2;1;0;1;2;2;1;1;1;2;2;0;1;0;1;1;1;1;Negra
+Salvador;Pituba;Particular;Menina;11;Preta;1;2;6;1;1;1;3;2;2;2;2;2;2;3;2;2;2;2;2;2;2;2;2;2;1;2;2;1;0;3;3;3;1;1;1;0;1;0;0;1;1;1;1;Negra
+Camaçari;Camaçari;Pública;Menina;10;Branca;5;2;4;1;1;1;1;2;2;2;2;2;2;1;1;1;1;1;1;1;1;1;2;2;1;0;1;1;0;2;2;2;2;1;2;2;0;0;0;1;1;1;1;Branca
+Salvador;Pituba;Particular;Menina;8;Parda;1;2;6;1;1;1;3;2;2;2;2;2;2;3;2;2;2;2;2;2;2;2;1;1;1;2;3;1;0;3;3;0;1;1;3;0;0;0;0;1;1;1;1;Negra
+Salvador;Centro, estudante, nordeste.;Pública;Menino;11;Preta;2;2;4;0;1;1;1;2;2;2;2;2;2;1;2;2;2;2;2;2;2;2;1;1;1;0;2;1;0;1;2;1;1;1;2;2;0;0;0;1;1;1;1;Negra
+Salvador;Pituba;Particular;Menino;11;Branca;3;1;6;1;1;1;1;1;2;2;1;0;1;1;1;1;2;1;1;1;2;1;1;2;1;2;2;1;1;1;1;3;0;1;1;1;1;0;0;1;1;1;1;Branca
+Salvador;Pelourinho;Pública;Menina;11;Parda;2;5;4;0;1;1;2;2;2;2;2;1;1;2;1;2;2;2;1;1;2;1;2;2;2;0;1;1;0;2;2;1;0;3;1;1;0;1;1;1;1;1;1;Negra
+Salvador;Calcada rua Elias Nazare;Pública;Menino;12;Preta;5;2;2;0;1;1;1;3;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;1;2;1;1;1;1;1;1;2;2;1;1;1;1;Negra
+Outros;Centro;Particular;Menina;12;Parda;4;1;4;1;1;1;1;0;0;0;0;0;0;1;1;1;1;1;1;1;1;1;1;2;1;0;2;1;1;2;2;2;2;1;1;1;0;1;0;1;1;1;1;Negra
+Salvador;Rua do pilar;Pública;Menina;12;Preta;3;2;3;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;2;0;2;0;2;0;0;2;2;2;0;0;0;1;1;1;1;Negra
+Salvador;Cabula;Particular;Menina;10;Branca;2;2;1;1;1;1;1;1;1;1;1;0;1;1;1;1;1;1;1;1;1;1;1;1;1;0;1;0;1;2;2;2;2;2;2;2;1;0;0;1;1;1;1;Branca
+Camaçari;Vilas de Abrantes;Pública;Menino;8;Parda;3;1;4;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;2;2;1;2;2;0;0;0;1;2;0;2;0;1;1;1;1;Negra
+Salvador;Comércio;Pública;Menino;12;Branca;2;2;4;1;1;1;0;0;1;0;0;1;0;0;0;1;0;0;0;0;0;0;1;0;1;0;1;0;0;2;2;0;3;2;1;0;3;3;3;1;1;1;1;Branca
+Outros;Monte Recôncavo;Pública;Menino;8;Preta;2;1;6;1;1;1;1;1;1;1;1;0;1;1;1;1;1;1;1;1;1;1;1;2;1;0;1;1;2;2;2;1;1;1;2;2;0;1;0;1;1;1;1;Negra
+Salvador;Saramandaia;Pública;Menino;10;Parda;2;1;4;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;1;1;1;2;0;2;1;2;0;1;2;2;1;2;1;1;1;0;0;0;1;1;1;1;Negra
+Salvador;Luís Anselmo;Pública;Menina;9;Parda;2;2;4;1;1;1;1;0;1;0;1;1;1;1;2;1;1;1;1;1;1;1;1;2;1;0;2;1;1;1;1;2;2;2;2;1;1;0;0;1;1;1;1;Negra
+Salvador;Brotas;Particular;Menino;10;Preta;2;2;4;1;1;1;1;0;1;1;1;1;1;1;0;1;1;1;1;1;1;1;1;1;1;2;1;1;1;2;1;1;1;2;2;2;0;0;0;1;1;1;1;Negra
+Lauro de Freitas;Itinga;Pública;Menino;8;Parda;4;1;4;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;Negra
+Outros;Terceira Etapa caminho 3;Particular;Menino;9;Parda;3;1;6;0;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;0;1;1;2;0;0;2;2;2;0;2;0;1;0;0;0;1;1;1;1;Negra
+Salvador;Trobogy;Pública;Menina;10;Preta;5;4;6;1;1;1;1;1;0;1;1;1;1;1;0;1;1;1;1;0;1;1;2;2;2;0;1;0;1;2;2;1;2;1;1;2;0;1;0;1;1;1;1;Negra
+Camaçari;Cordoaria, Abrantes;Pública;Menino;9;Parda;2;2;6;1;1;1;0;0;1;2;2;1;2;1;1;0;2;2;0;2;2;2;1;1;1;0;2;2;0;2;2;1;0;1;2;3;0;1;1;1;1;1;1;Negra
+Salvador;Brotas;Pública;Menino;11;Parda;4;1;4;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;2;1;2;2;2;2;2;2;1;1;0;2;1;1;1;1;1;Negra
+Salvador;Luis Anselmo;Pública;Menino;8;Parda;3;1;3;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;0;0;2;2;0;0;0;0;1;0;2;2;1;1;1;1;Negra
+Camaçari;Catu de abrantes, estrada do coco;Particular;Menino;12;Parda;5;3;6;0;1;1;1;1;1;0;2;2;2;2;2;2;3;3;3;3;2;2;2;2;1;0;2;2;0;2;1;2;0;1;2;1;0;3;0;1;1;0;1;Negra
+Camaçari;Lama preta;Pública;Menino;10;Preta;1;2;2;0;1;0;1;0;1;1;1;1;0;1;0;1;1;1;1;0;1;1;1;1;1;2;0;0;0;1;1;1;1;2;1;1;0;0;0;1;1;1;1;Negra
+Salvador;Engenho velho da federação;Pública;Menina;11;Preta;3;1;6;1;1;1;2;1;2;1;0;0;1;1;0;1;2;2;0;0;2;0;1;1;1;0;2;1;0;3;3;2;0;1;0;1;0;0;1;1;1;1;1;Negra
+Camaçari;Gleba A;Pública;Menino;8;Preta;2;1;5;1;1;1;1;1;1;0;0;1;0;1;1;1;0;0;0;0;1;0;1;1;1;0;2;2;1;2;2;1;2;2;2;2;0;0;1;1;1;1;1;Negra
+Camaçari;Verde Horizonte, evangélica.;Pública;Menina;10;Branca;3;2;3;1;1;1;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;1;1;1;1;0;3;3;2;1;2;3;1;3;3;0;0;0;0;1;1;1;1;Branca
+Camaçari;Phoc II;Pública;Menina;8;Parda;3;3;4;0;1;1;2;1;2;2;2;2;2;1;0;1;2;2;1;2;2;2;2;1;1;0;1;0;2;3;2;0;1;2;1;1;0;1;0;1;1;1;1;Negra
+Salvador;Vale do matatú cosme de farias;Pública;Menina;8;Negra;3;1;3;0;1;1;2;2;2;2;2;2;2;1;1;1;1;1;1;1;1;1;1;2;1;2;1;1;1;2;1;1;1;1;2;2;0;2;1;1;1;1;1;Negra
+Camaçari;Centro Camacari;Pública;Menina;11;Parda;2;1;2;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;1;0;1;2;1;2;1;1;0;1;0;0;0;1;1;1;1;Negra
+Camaçari;Ponto certo;Pública;Menino;10;Branca;2;2;4;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;1;2;2;3;1;2;3;2;2;1;2;2;0;2;1;1;1;1;1;Branca
+Salvador;Cosme de Farias;Pública;Menina;11;Preta;2;2;3;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;1;2;1;2;1;1;0;1;1;0;0;0;0;1;1;1;1;Negra
+Camaçari;Gleba A;Pública;Menino;9;Parda;2;1;4;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;0;1;1;2;0;2;1;1;1;1;0;1;1;0;1;0;1;1;0;1;Negra
+Camaçari;Lama preta;Pública;Menina;8;Branca;2;1;4;0;1;1;2;2;2;2;2;2;1;2;2;2;2;2;2;2;2;2;1;2;1;2;1;1;1;2;2;0;0;2;1;2;0;1;1;1;1;1;1;Branca
+Camaçari;Nova  Vitória;Pública;Menina;12;Preta;3;2;5;0;0;0;1;2;2;2;2;2;2;2;2;2;2;2;2;1;2;2;1;1;1;0;0;2;2;2;2;1;1;2;1;2;0;0;1;1;1;1;1;Negra
+Camaçari;Phoc 1 Nova Aliança;Pública;Menino;8;Parda;2;1;6;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;2;1;0;0;1;1;2;2;1;1;2;2;2;1;1;0;1;1;1;1;Negra
+Camaçari;Jardim Brasília Camaçari, região metropolitana de Salvador;Pública;Menina;11;Branca;2;1;6;1;1;1;1;2;0;2;1;1;1;0;0;0;1;1;0;0;1;1;1;2;1;0;2;1;0;1;2;1;1;1;0;1;0;1;1;1;1;1;1;Branca
+Camaçari;Nova vitória;Pública;Menino;9;Branca;3;1;5;0;1;1;2;1;2;2;2;2;2;1;1;2;2;2;1;2;1;2;2;2;1;0;1;1;1;2;2;1;1;1;1;2;0;0;0;1;1;1;1;Branca
+Salvador;Avenida Jequitaia comecio;Pública;Menina;8;Preta;5;2;6;0;1;1;1;1;1;2;2;2;2;1;1;1;2;2;1;1;1;1;1;1;1;0;2;1;0;1;2;1;1;1;1;1;1;2;0;1;1;1;1;Negra
+Camaçari;Espaço Alpha;Pública;Menino;8;Negra;2;1;5;1;1;1;2;2;2;2;2;2;1;2;2;2;2;2;2;1;2;1;1;1;1;0;2;0;2;2;0;2;2;1;0;2;2;0;0;1;1;1;1;Negra
+Camaçari;Ponto Certo;Pública;Menino;10;Parda;2;3;5;1;1;1;1;1;1;1;1;1;1;1;3;1;1;1;1;1;1;1;2;1;1;0;1;2;1;2;1;1;1;2;2;1;2;0;0;1;1;1;1;Negra
+Camaçari;Natal;Pública;Menino;9;Preta;5;1;6;0;1;1;1;2;2;2;2;2;1;2;2;2;2;2;2;2;2;1;1;0;1;0;1;1;0;2;2;0;1;1;2;2;0;1;1;1;1;1;1;Negra
+Camaçari;Nova vitoria;Pública;Menina;9;Parda;5;3;5;0;1;1;2;0;2;2;2;2;2;2;1;1;2;2;2;2;2;2;0;1;0;0;1;0;1;2;2;1;0;2;1;1;0;0;0;1;1;1;1;Negra
+Camaçari;Nova Vitoria;Pública;Menino;10;Parda;4;2;3;0;1;1;0;1;1;1;1;1;1;0;1;0;0;0;0;0;0;0;1;1;1;1;0;0;0;1;1;1;1;1;2;1;0;0;0;1;1;1;1;Negra
+Camaçari;Nova Vitória;Pública;Menino;10;Parda;2;3;3;0;0;0;2;1;2;1;1;2;2;1;2;1;2;2;2;1;2;0;0;1;1;0;0;0;1;2;2;0;0;1;0;0;0;1;0;2;1;1;1;Negra
+Camaçari;Limoeiro;Pública;Menino;9;Parda;3;1;5;0;1;1;1;0;1;0;0;0;0;2;0;1;2;2;2;1;2;2;1;1;1;1;1;1;1;3;2;1;0;0;2;2;0;1;1;1;1;1;1;Negra
+Camaçari;Ponto certo;Pública;Menino;11;Parda;2;3;6;1;1;1;0;0;0;1;1;0;1;0;0;0;1;1;0;1;0;0;1;2;1;0;2;1;1;2;3;1;0;0;0;0;1;0;0;1;1;1;1;Negra
+Camaçari;Ficam 2;Pública;Menina;10;Parda;2;2;4;1;1;1;1;1;1;1;1;1;1;1;1;2;2;2;2;2;2;2;1;1;1;0;2;1;0;3;3;2;1;1;2;2;0;0;1;1;1;3;1;Negra
+Camaçari;Phoc 1;Pública;Menino;10;Parda;1;4;5;1;0;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;1;0;1;2;2;2;2;1;2;2;0;0;0;1;1;1;1;Negra
+Camaçari;Açu da capivara;Pública;Menino;8;Branca;4;1;5;0;0;0;0;2;2;2;1;1;0;0;1;1;2;2;1;0;0;2;1;1;1;2;0;0;0;1;2;0;1;0;2;2;0;0;0;1;1;1;1;Branca
+Camaçari;Novo Horizonte;Pública;Menina;10;Parda;3;4;6;0;1;1;0;1;0;1;1;1;0;0;1;0;1;1;1;0;1;1;2;2;1;0;2;0;1;1;3;1;0;1;1;2;0;1;0;1;1;1;1;Negra
+Camaçari;Ponto certo;Pública;Menina;8;Branca;5;2;6;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;1;1;2;1;1;1;1;0;2;0;2;2;2;0;0;2;2;2;0;0;0;1;1;1;1;Branca
+Camaçari;Rua 10;Pública;Menino;11;Indígena;2;1;2;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;1;0;1;1;1;0;3;1;1;1;1;1;0;1;1;1;1;0;1;Indígena
+Camaçari;Phoc II;Pública;Menino;9;Indígena;4;5;5;1;2;1;2;2;1;2;2;2;2;2;1;2;2;2;2;2;2;2;1;1;1;2;1;1;1;2;2;1;1;1;3;3;0;0;0;1;1;1;1;Indígena
+Salvador;Federação;Particular;Menina;12;Branca;2;2;6;1;1;1;2;1;1;2;2;1;1;0;0;0;1;1;0;0;1;1;1;1;1;0;2;1;2;2;2;2;0;2;1;1;1;0;0;1;1;1;1;Branca
+Camaçari;Cristo Redentor;Pública;Menino;10;Parda;5;2;4;0;1;1;1;1;1;1;1;1;0;1;1;1;1;1;1;1;1;1;1;2;1;0;2;1;0;1;2;2;1;2;1;2;3;1;0;1;1;1;1;Negra
+Camaçari;Nova Vitória;Pública;Outros;9;Preta;2;3;4;1;1;1;2;1;2;2;2;1;0;1;1;2;2;2;1;1;2;1;1;1;1;0;2;1;1;2;2;2;2;1;2;2;0;1;1;1;1;1;1;Negra
+Camaçari;Ponto certo camacari;Pública;Menina;9;Branca;5;2;6;1;1;1;1;0;2;2;2;1;0;0;0;1;1;2;1;0;2;1;2;0;1;0;2;0;0;2;2;0;0;3;3;2;0;0;0;1;1;1;1;Branca
+Salvador;Santa Cruz;Particular;Menina;12;Preta;3;1;3;1;1;1;0;0;3;1;1;3;1;2;0;1;2;2;0;1;1;1;0;1;1;0;1;1;1;2;3;2;1;1;0;1;0;0;0;1;1;1;1;Negra
+Camaçari;Gleba A;Pública;Menina;11;Parda;2;4;6;1;1;1;1;2;2;2;2;1;1;1;2;2;2;2;2;2;2;2;1;1;2;0;2;0;0;1;2;2;1;1;2;2;0;1;0;1;1;1;1;Negra
+Camaçari;Bela vista;Pública;Menino;10;Parda;3;1;5;1;1;1;1;2;2;2;2;1;1;2;2;2;2;2;1;1;1;1;1;1;1;0;2;2;1;2;1;2;2;1;2;2;2;1;1;1;1;1;1;Negra
+Lauro de Freitas;Vida Nova;Particular;Menino;10;Parda;3;2;5;0;0;0;1;1;1;1;1;0;1;1;0;1;1;1;0;0;1;1;1;1;1;2;0;1;0;0;1;1;1;2;0;2;1;1;0;0;1;1;1;Negra
+Camaçari;Gravatá;Pública;Menina;10;Branca;3;2;3;0;1;1;1;1;1;2;2;2;2;1;1;1;2;2;2;2;2;2;1;1;1;0;2;1;1;1;2;1;1;1;1;2;0;0;0;1;1;1;1;Branca
+Salvador;Luis Anselmo;Pública;Menina;9;Negra;2;1;3;2;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;2;0;0;1;3;1;0;1;2;3;0;1;0;1;1;1;1;Negra
+Camaçari;Vilhas de Abrantes;Pública;Menina;10;Parda;3;2;6;0;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;2;0;1;2;0;2;2;2;2;3;0;2;0;1;1;1;1;Negra
+Camaçari;Parque Verde 2, Camaçari Ba;Pública;Menino;10;Parda;4;2;5;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;1;1;1;2;1;1;1;2;2;2;0;1;1;1;1;1;1;Negra
+Camaçari;Nao quero dizer;Pública;Menino;10;Não sei responder ou não quero responder;2;2;5;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;2;2;1;1;2;0;0;2;1;2;0;2;0;0;1;2;1;Sem resposta
+Salvador;Comércio;Pública;Menino;12;Parda;2;2;4;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;1;0;3;0;0;3;2;0;3;2;2;0;2;2;0;1;1;1;1;Negra
+Camaçari;novo horizonte;Pública;Menino;10;Parda;5;2;5;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;2;2;1;1;2;3;1;1;1;1;1;0;0;0;1;1;1;1;Negra
+Camaçari;"Glrba ""E""";Pública;Menina;8;Parda;1;3;6;1;1;1;2;0;2;1;0;1;0;1;0;0;2;2;2;1;1;1;1;1;1;1;2;1;1;2;2;1;1;3;2;3;0;1;1;1;1;1;1;Negra
+Camaçari;Nova vitória;Pública;Menina;9;Preta;4;2;4;0;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;0;1;2;2;1;2;1;2;2;2;0;0;0;1;1;1;1;Negra
+Candeias;Bairro da paz;Particular;Menino;10;Parda;2;2;5;1;1;1;2;1;2;2;2;2;2;1;0;2;2;2;2;2;2;2;1;1;1;0;3;1;3;3;3;3;3;1;3;3;0;0;0;1;1;1;1;Negra
+Camaçari;novo horizonte;Pública;Menino;8;Parda;4;2;5;1;1;1;0;1;0;1;1;0;1;0;0;0;1;1;1;1;0;1;1;1;1;3;2;2;1;2;2;2;2;2;2;2;1;2;1;1;1;1;1;Negra
+Candeias;Areia;Particular;Menina;10;Parda;2;2;3;0;1;1;0;1;1;1;2;0;0;1;0;1;2;2;0;0;0;2;2;1;1;0;0;2;0;2;2;1;1;2;0;0;0;1;0;1;1;1;1;Negra
+Camaçari;Novo Horizonte;Pública;Menina;9;Parda;2;2;6;0;1;1;0;1;0;1;1;0;1;0;1;0;1;1;0;1;1;1;1;1;1;2;2;3;2;3;2;2;2;0;2;2;1;1;1;1;1;1;1;Negra
+Salvador;Pituba;Particular;Menina;8;Branca;4;1;4;1;1;1;2;2;2;2;2;2;2;2;1;1;2;2;2;2;2;2;1;1;1;2;1;0;1;3;2;1;1;2;2;0;2;0;0;1;1;1;1;Branca
+Camaçari;Jardin limoeiro,doméstica, Camaçari,;Pública;Menino;11;Parda;1;1;5;0;1;1;0;0;0;1;1;0;0;1;0;1;1;1;0;0;1;0;1;1;1;0;3;0;2;2;1;1;1;2;0;0;0;0;0;2;1;1;1;Negra
+Camaçari;GLEBA E;Pública;Menina;11;Branca;1;3;6;1;1;1;1;2;2;2;2;2;0;0;2;2;2;2;2;2;1;0;2;2;1;2;1;1;1;2;1;1;1;2;1;2;0;1;1;1;1;1;1;Branca
+Salvador;Aeroporto;Particular;Menina;11;Parda;4;1;6;1;1;1;0;0;1;2;1;2;1;0;0;1;2;1;2;1;1;1;1;2;1;2;2;1;1;2;1;2;1;2;1;2;0;0;1;1;1;1;1;Negra
+Outros;Urbis 3 caminho 6;Particular;Menino;10;Preta;3;1;3;1;1;1;2;2;1;1;1;1;1;2;2;2;2;2;2;2;2;2;1;1;1;1;1;0;0;1;1;2;0;0;1;1;0;0;0;1;1;1;1;Negra
+Salvador;Patamares;Particular;Menina;8;Branca;2;3;6;1;0;1;1;1;1;2;2;2;2;0;0;0;1;1;2;2;2;2;1;2;1;2;1;2;1;2;3;3;0;0;2;2;2;1;0;1;1;1;1;Branca
+Outros;Araçatiba;Pública;Menino;8;Parda;1;1;5;1;1;1;2;2;2;2;2;1;2;1;1;0;2;2;1;3;2;2;2;2;1;2;1;0;0;1;2;0;0;1;0;2;0;2;2;1;1;1;1;Negra
+Candeias;Centro-Ba;Pública;Menina;11;Parda;3;1;6;1;1;1;0;1;0;1;2;1;1;0;1;0;1;1;1;0;1;0;1;1;1;0;2;1;1;2;2;2;1;1;2;2;0;1;0;3;1;1;1;Negra
+Camaçari;nova vitoria;Pública;Menino;11;Parda;4;5;6;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;0;1;1;2;0;1;0;1;0;0;1;0;1;0;2;1;0;0;0;3;Negra
+Camaçari;limoeiro;Pública;Menino;12;Parda;2;2;4;1;1;1;1;0;2;2;2;0;0;1;1;1;2;2;0;0;0;0;2;1;1;0;2;2;0;2;2;2;2;2;0;2;2;2;0;0;1;0;1;Negra
+Lauro de Freitas;Vida nova;Particular;Menino;12;Preta;3;1;6;0;1;1;1;0;1;2;2;0;0;0;0;1;2;2;0;0;1;0;1;2;2;2;2;0;1;2;1;1;0;2;1;0;0;1;1;0;1;0;1;Negra
+Camaçari;Dois de julho;Pública;Menino;9;Parda;2;1;2;0;1;1;2;1;2;2;2;2;2;2;1;1;2;2;2;0;2;2;3;1;1;0;0;1;0;1;2;0;1;0;2;2;0;0;0;2;1;1;1;Negra
+Camaçari;Jardim Brasília;Pública;Menina;10;Parda;1;2;5;1;1;1;2;2;2;2;2;2;0;2;2;2;2;2;2;0;2;0;0;2;2;0;0;1;0;2;0;0;0;2;2;1;2;0;0;0;1;1;1;Negra
+Camaçari;AREMBEPE;Pública;Menina;9;Preta;2;2;5;0;1;1;1;2;2;2;2;1;1;2;1;2;2;2;1;1;2;1;2;2;0;0;2;0;1;1;2;0;1;0;1;0;0;0;0;2;1;1;1;Negra
+Camaçari;Arembepe;Pública;Menina;12;Parda;2;2;6;1;1;1;0;2;1;2;1;1;1;3;0;0;0;0;0;0;0;0;1;1;1;0;0;1;1;2;2;2;2;2;2;2;0;0;0;1;1;1;1;Negra
+Outros;Monte Recôncavo;Pública;Menino;8;Preta;2;3;6;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;2;1;1;1;2;2;1;1;2;2;2;0;1;1;1;1;1;1;Negra
+Camaçari;Gleba E;Pública;Menina;12;Parda;2;2;4;0;0;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;1;0;0;0;1;2;2;0;0;1;1;2;0;1;1;1;1;1;1;Negra
+Camaçari;Novo horizonte;Pública;Menina;9;Não sei responder ou não quero responder;5;1;6;1;1;1;1;0;1;2;2;2;0;1;1;1;1;1;1;1;2;1;1;2;1;0;2;1;1;1;2;2;2;2;1;2;0;1;0;1;1;2;1;Sem resposta
+Camaçari;Jardim Limoeiro;Pública;Menino;10;Parda;2;4;4;0;0;0;1;0;1;1;1;1;1;1;0;1;1;1;1;1;1;0;2;2;2;0;0;0;1;2;2;0;0;1;1;1;0;1;1;1;1;1;1;Negra
+Salvador;7 portas;Pública;Menino;10;Parda;2;3;3;0;0;0;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;1;2;1;2;2;0;0;1;2;2;0;2;0;0;1;1;1;Negra
+Camaçari;Nova vitória;Pública;Menina;11;Parda;1;2;4;0;1;1;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;2;2;2;3;2;0;1;2;2;2;1;0;1;0;2;2;1;1;1;1;Negra
+Salvador;Sao tome de paripe;Pública;Menino;12;Parda;3;1;4;1;1;1;1;1;0;1;1;1;1;0;0;1;1;1;0;1;1;0;2;1;1;2;1;0;1;1;1;2;1;2;1;2;0;0;0;1;1;1;1;Negra
+Camaçari;Nova vitoria;Pública;Menina;8;Preta;2;2;4;0;1;1;2;2;2;2;2;1;2;2;2;2;2;2;2;2;2;2;2;2;1;0;1;0;1;1;1;0;0;0;2;2;2;1;0;1;1;1;1;Negra
+Camaçari;Jardim Limoeiro;Pública;Menina;9;Parda;2;1;3;1;1;1;3;2;2;2;2;2;2;2;1;1;1;1;1;1;1;1;1;1;1;0;1;0;1;2;1;3;3;3;3;3;3;1;1;1;1;1;1;Negra
+Camaçari;Novo horizonte;Pública;Menina;11;Parda;2;2;5;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;1;2;0;0;2;1;2;2;2;2;2;0;2;0;1;1;1;1;Negra
+Camaçari;novo Horizonte;Pública;Menina;10;Parda;4;3;5;1;2;1;2;2;1;2;2;1;1;2;2;2;2;2;1;1;1;1;1;1;0;0;1;1;1;1;2;2;2;2;1;1;0;0;0;1;1;1;1;Negra
+Camaçari;Dois de julho. Casa;Pública;Menino;10;Parda;4;2;5;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;2;1;0;1;1;1;2;2;1;0;1;2;2;0;0;1;1;1;1;1;Negra
+Camaçari;Gleba E Camaçari;Pública;Menino;8;Branca;5;4;4;1;1;0;2;0;0;2;2;0;0;2;2;2;2;2;2;2;2;2;1;1;1;0;0;1;1;0;2;1;0;1;2;1;0;1;0;1;1;1;1;Branca
+Camaçari;Santa maria;Pública;Menino;8;Branca;2;2;5;1;0;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;0;1;1;2;0;0;0;2;1;1;1;1;1;1;1;0;0;1;1;1;Branca
+Camaçari;Parque das palmeiras;Pública;Menino;10;Branca;3;1;5;0;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;2;0;0;0;2;1;1;2;1;1;1;1;0;1;1;1;1;Branca
+Camaçari;Gleba b;Pública;Menina;11;Parda;2;3;3;1;1;1;2;2;2;2;2;2;2;0;1;2;1;1;1;1;1;1;1;2;2;0;2;0;0;2;1;2;2;2;1;0;0;0;1;1;1;1;1;Negra
+Camaçari;Praia do múta;Pública;Menina;11;Preta;4;1;5;2;1;1;1;2;2;2;2;2;2;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;2;2;2;2;2;1;1;1;1;1;1;1;1;1;Negra
+Salvador;Canabrava;Pública;Menino;12;Parda;1;1;3;0;1;1;1;0;0;1;0;0;0;1;0;0;1;0;0;0;0;0;0;2;2;0;2;1;1;2;2;1;1;2;1;1;0;2;0;2;1;2;1;Negra
+Camaçari;Terra brasilis;Pública;Menino;10;Parda;4;3;5;0;1;1;1;2;2;2;1;2;2;3;2;2;2;2;1;2;2;2;2;1;2;1;1;0;1;3;1;0;0;1;1;1;1;1;1;2;1;2;0;Negra
+Camaçari;Gravata;Pública;Menino;11;Parda;2;2;3;0;0;0;3;3;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;0;1;1;2;2;0;0;1;2;2;0;1;1;1;1;1;1;Negra
+Candeias;Nordeste;Particular;Menino;11;Branca;5;5;6;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;3;3;3;3;3;3;3;3;3;3;3;2;3;3;0;3;0;2;0;1;1;Branca
+Camaçari;Camaçari de Dentro;Pública;Menina;9;Parda;2;2;4;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;2;1;2;2;1;0;2;2;0;1;2;2;2;0;0;0;1;1;1;1;Negra
+Salvador;Pelourinho;Pública;Menina;8;Parda;5;3;2;0;1;0;0;2;2;2;3;2;3;0;2;2;2;2;2;3;2;2;2;0;1;1;2;0;0;1;1;1;1;0;1;1;0;0;0;2;1;1;1;Negra
+Camaçari;Camaçari;Pública;Menino;11;Parda;2;2;4;0;1;1;1;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;1;1;1;0;2;2;2;2;2;2;2;2;2;0;0;0;0;1;1;1;1;Negra
+Camaçari;Ficam;Pública;Menino;12;Parda;2;1;6;1;1;1;0;0;0;2;1;1;2;1;1;0;2;2;1;2;1;2;1;2;0;2;2;0;1;1;1;1;1;2;0;0;0;0;0;1;1;1;1;Negra
+Salvador;Sim baixão;Pública;Menino;10;Amarela;3;1;2;0;1;1;2;2;2;2;2;2;2;1;1;1;1;1;1;1;1;1;1;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;1;Amarela
+Camaçari;Parque nascente do rio capivara;Pública;Menino;10;Preta;2;1;5;1;1;1;2;1;2;2;2;2;0;2;1;2;2;2;2;1;2;0;1;2;1;0;0;2;1;2;3;0;1;2;2;0;1;0;0;1;1;1;3;Negra
+Camaçari;Parque das magabas;Pública;Menino;11;Parda;2;2;5;1;1;1;2;2;2;2;2;1;2;1;1;1;1;1;1;1;1;1;0;1;1;0;1;1;1;2;1;1;1;2;0;0;0;0;0;1;1;1;1;Negra
+Camaçari;Moro no bairro gleba B  Camaçari;Pública;Menina;9;Branca;2;2;3;0;1;1;2;3;2;3;1;2;3;2;3;1;2;3;2;2;1;2;3;1;2;0;2;3;2;2;2;1;3;1;2;1;1;1;2;1;1;1;1;Branca
+Salvador;Barris;Pública;Menina;10;Parda;1;4;3;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;0;3;1;0;2;2;1;2;1;1;0;0;1;1;1;1;1;Negra
+Camaçari;Santo Antônio;Pública;Menina;11;Preta;2;4;6;1;1;1;2;2;1;2;3;3;3;2;0;2;2;3;3;3;3;2;2;0;1;2;2;1;0;2;1;1;0;0;0;1;0;1;0;1;1;1;1;Negra
+Lauro de Freitas;Lauro de freitas;Pública;Menino;10;Preta;2;2;3;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;1;0;1;1;1;2;1;2;0;2;2;3;1;0;1;1;1;1;1;Negra
+Salvador;Luiz Anselmo;Pública;Menino;8;Parda;2;3;1;1;1;1;1;1;1;2;1;2;2;0;0;1;1;1;2;2;1;1;1;1;1;0;1;0;1;2;1;0;0;1;1;1;0;0;0;1;1;1;1;Negra
+Lauro de Freitas;Vida nova;Pública;Menina;11;Preta;3;2;6;1;1;1;1;1;1;1;1;0;1;1;1;1;1;1;1;1;0;1;1;1;2;0;3;3;1;1;3;3;2;1;0;2;0;3;2;2;1;2;1;Negra
+Outros;Monte Reconcavo;Particular;Menina;12;Preta;2;1;6;1;1;1;1;2;2;2;2;1;2;1;0;0;1;2;2;0;2;0;1;2;1;0;3;2;0;2;1;2;1;1;0;2;0;0;0;1;1;1;1;Negra
+Salvador;Barbalho;Pública;Menina;9;Parda;2;2;6;1;1;1;2;2;2;2;2;1;1;2;2;2;2;2;1;1;2;2;1;0;1;0;2;2;2;2;1;2;2;2;1;1;0;1;0;1;1;1;1;Negra
+Lauro de Freitas;Caji;Pública;Menino;10;Parda;5;4;6;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;2;1;1;2;2;1;2;2;2;1;2;1;1;0;1;1;1;1;Negra
+Salvador;Matatu de brotas;Pública;Menino;12;Parda;2;1;4;1;1;1;2;2;2;2;2;1;2;2;2;2;2;2;1;2;2;1;1;2;1;0;1;2;1;1;2;2;1;2;2;2;1;2;1;1;1;1;1;Negra
+Lauro de Freitas;Recreio de ipitanga;Pública;Menino;10;Parda;2;2;5;1;1;1;0;1;1;1;3;0;2;1;1;2;3;3;2;2;2;2;1;1;1;1;2;1;0;1;1;2;2;0;0;1;2;0;0;1;1;1;1;Negra
+Lauro de Freitas;Vida Nova;Pública;Menina;10;Parda;2;3;5;1;1;1;0;1;1;2;2;1;0;0;1;1;2;2;1;1;1;1;1;2;1;0;2;1;0;1;2;2;2;2;0;1;0;1;0;1;1;1;1;Negra
+Lauro de Freitas;Caji;Pública;Menino;10;Parda;2;1;4;0;1;1;1;1;1;1;1;1;0;1;1;1;1;1;1;1;1;1;1;2;1;0;2;0;2;3;3;2;2;2;1;2;0;1;0;1;1;1;1;Negra
+Salvador;Matatu de brotas;Pública;Menina;10;Branca;3;3;5;2;1;1;1;2;2;2;2;2;3;1;2;2;2;2;2;2;2;1;1;2;2;0;2;1;1;2;2;2;2;2;1;1;0;1;1;3;3;1;1;Branca
+Salvador;Pituba;Particular;Menino;9;Parda;2;2;3;1;0;1;2;1;1;2;2;2;2;1;0;0;1;1;1;1;1;1;1;2;0;0;3;1;0;3;3;1;0;0;0;1;0;1;0;1;1;1;1;Negra
+Lauro de Freitas;Vida nova;Pública;Menino;10;Preta;3;1;6;1;1;1;2;2;2;2;2;2;2;1;1;1;1;1;1;1;1;1;1;1;1;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;Negra
+Simões Filho;Palmares;Pública;Menina;9;Parda;2;3;4;0;1;1;1;1;1;1;1;1;1;2;2;2;2;2;2;2;2;2;2;1;1;0;1;1;0;1;2;0;0;1;2;2;0;0;0;1;1;1;1;Negra
+Salvador;Matatu de brotas;Pública;Menina;10;Branca;3;3;5;0;1;1;1;2;2;2;2;2;2;1;2;2;2;2;2;2;2;2;2;2;2;3;2;1;1;2;2;2;2;2;1;1;0;0;1;3;1;1;1;Branca
+Salvador;Matatu de brotas e rua 3 tavesa auto du coqueril;Pública;Menino;12;Preta;2;2;5;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;0;1;1;2;1;1;1;1;2;2;3;0;0;0;1;1;1;1;1;1;Negra
+Salvador;Avenida jequitaia;Pública;Menina;8;Preta;5;2;6;0;1;1;1;3;3;3;3;3;3;2;2;2;2;2;2;2;2;2;1;1;1;3;0;1;0;2;2;1;1;0;2;2;2;0;0;1;1;1;1;Negra
+Salvador;Avenida Jequitaia comércio;Pública;Menina;11;Indígena;2;1;6;0;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;0;0;1;0;1;0;1;1;1;1;1;1;1;1;1;0;0;1;0;1;1;Indígena
+Salvador;Vida nova lauro de freitas;Pública;Menino;8;Branca;4;2;4;1;1;1;0;1;1;1;1;1;0;1;1;1;1;1;1;1;1;1;1;2;2;0;1;0;1;1;2;1;1;0;2;1;0;0;1;1;1;1;1;Branca
+Salvador;Matatu de bortas rua 3 traversa auto dos cocoiro;Pública;Menino;12;Preta;2;2;5;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;0;2;1;1;1;3;3;1;1;1;3;1;1;0;0;1;1;1;1;1;Negra
+Salvador;Matatu de brotas;Pública;Menina;12;Preta;3;3;5;0;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;1;2;2;1;1;1;0;1;1;1;1;2;2;2;2;0;0;0;0;0;3;1;1;1;Negra
+Lauro de Freitas;Caji caixa d'água;Pública;Menino;9;Parda;2;2;6;1;1;1;1;2;2;2;2;2;2;0;1;2;2;2;2;2;2;2;1;1;1;2;2;0;1;2;2;0;0;2;1;2;0;0;0;1;1;1;1;Negra
+Lauro de Freitas;Portao;Pública;Menino;11;Preta;2;3;6;0;1;1;1;2;1;1;1;1;2;2;2;2;2;2;1;1;2;2;1;1;1;2;1;1;1;2;2;1;1;1;1;2;0;0;0;1;1;1;1;Negra
+Salvador;Pelourinho;Pública;Menina;11;Parda;3;5;4;1;1;1;2;2;2;2;2;2;2;1;2;2;2;2;2;2;2;2;2;2;1;2;1;0;1;1;2;1;1;2;1;2;1;2;0;1;1;1;1;Negra
+Lauro de Freitas;Vida nova;Pública;Menino;10;Preta;2;2;5;0;1;1;1;2;2;2;2;0;1;2;2;2;2;2;1;2;2;2;1;1;1;0;1;0;0;1;1;0;1;1;1;1;0;1;0;1;1;1;1;Negra
+Salvador;Ladeira de são roque;Pública;Menino;12;Preta;2;2;6;0;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;1;0;0;1;2;0;0;2;2;2;0;0;0;1;1;2;1;Negra
+Lauro de Freitas;Vida nova;Pública;Menina;10;Preta;2;2;6;0;1;1;2;2;2;2;2;2;2;1;0;1;1;2;1;0;2;0;1;0;1;0;2;0;0;1;2;2;2;1;1;1;0;0;1;1;1;1;1;Negra
+Camaçari;Residencial Caminho do Mar;Pública;Menino;10;Preta;3;1;5;1;1;1;1;1;2;2;2;2;2;2;1;2;2;2;2;1;2;2;1;2;1;2;2;1;1;1;2;0;0;1;2;1;1;0;0;1;1;1;1;Negra
+Lauro de Freitas;Caji caixa d'água Lauro de Freitas;Pública;Menino;10;Parda;2;2;5;2;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;0;2;1;1;2;2;2;0;1;2;1;1;0;0;1;1;1;1;Negra
+Lauro de Freitas;Rua Chile Sítio Ebenezer n°10, Caji- Lauro de Freitas.;Pública;Menina;10;Branca;2;1;3;1;1;1;2;1;2;2;2;2;2;2;1;1;2;1;1;1;1;1;1;1;1;0;1;1;1;1;1;1;1;0;1;1;0;0;0;1;1;1;1;Branca
+Lauro de Freitas;Caji;Pública;Menino;10;Parda;2;3;3;0;1;1;2;2;2;2;2;2;1;2;1;2;2;2;2;1;2;2;1;1;1;0;2;1;1;2;2;0;0;1;1;0;0;0;0;1;1;1;1;Negra
+Outros;Centro;Particular;Menino;11;Parda;5;1;6;1;1;1;0;2;2;2;2;2;2;1;2;2;2;2;2;2;2;2;1;1;1;0;1;1;1;2;2;1;1;0;1;1;0;0;0;1;1;1;1;Negra
+Camaçari;Bomba;Pública;Menina;9;Preta;5;1;4;0;1;1;1;1;1;1;1;1;1;2;2;2;2;2;2;2;2;2;1;1;1;0;0;0;0;0;2;2;2;2;2;2;2;0;0;0;1;1;1;Negra
+Salvador;Barra;Particular;Menino;11;Branca;2;1;3;1;0;1;0;0;0;1;0;3;0;0;0;0;1;0;0;0;1;1;1;0;1;3;2;1;1;2;2;1;1;1;1;1;1;1;0;2;1;3;1;Branca
+Camaçari;Rua Goiás;Pública;Menino;8;Outros;5;2;5;0;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;1;Outros
+Salvador;Matatu de Brotas;Pública;Menina;12;Preta;2;2;5;0;1;1;2;2;2;2;2;2;0;2;2;1;2;2;2;2;2;0;0;0;1;1;1;1;0;1;2;2;2;2;0;0;0;1;1;1;1;1;1;Negra
+Salvador;Luis Anselmo;Pública;Menino;8;Parda;2;1;2;1;1;1;0;1;2;2;1;1;0;1;1;1;2;1;1;0;2;1;2;2;1;0;2;0;0;1;1;0;1;0;1;1;0;0;0;1;1;1;1;Negra
+Salvador;Luiz Anselmo;Pública;Menina;9;Preta;2;2;6;1;1;1;0;0;0;1;0;1;1;0;1;0;1;0;1;1;0;1;1;2;1;0;3;0;0;1;3;1;2;1;0;3;0;0;0;1;1;1;1;Negra
+Camaçari;Rua setima do parque numero12;Pública;Menina;10;Branca;5;2;6;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;1;Branca
+Lauro de Freitas;Caji cx d água;Pública;Menino;10;Preta;2;2;5;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;1;1;2;2;2;0;1;1;2;0;1;0;0;1;1;1;1;Negra
+Salvador;Pituba;Particular;Menino;9;Parda;2;2;3;1;0;1;2;1;1;2;2;2;2;1;0;0;1;1;1;1;1;1;1;2;0;0;3;1;0;3;3;1;0;0;0;1;0;1;0;1;1;1;1;Negra
+Salvador;Rua baixa das pedrinhas, Luiz anselmo.;Pública;Menina;8;Preta;2;1;5;0;1;0;1;1;2;2;2;2;2;1;1;1;2;2;1;1;1;1;1;1;1;0;1;0;0;1;2;1;1;1;1;1;0;1;1;1;1;1;1;Negra
+Salvador;Pilar no comercio;Pública;Menina;11;Parda;2;4;4;1;1;1;1;2;2;2;2;1;1;0;1;1;2;2;2;0;2;1;1;0;1;1;1;1;0;1;2;0;2;2;1;0;3;2;1;1;1;0;1;Negra
+Lauro de Freitas;Moro na Itinga / caji;Pública;Menino;12;Parda;1;3;4;0;1;1;2;2;2;2;2;2;1;2;1;2;2;2;1;1;2;2;2;0;1;2;0;1;2;1;2;0;0;1;2;2;3;0;0;1;1;1;1;Negra
+Salvador;Barra;Particular;Menina;11;Parda;2;1;6;1;1;1;1;2;1;2;1;2;2;1;2;1;2;2;2;2;2;2;2;0;1;2;3;3;2;2;2;2;1;2;2;2;2;0;1;1;1;1;1;Negra
+Camaçari;Alto da cruz;Pública;Menina;9;Outros;2;2;5;1;1;1;3;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;0;1;1;0;1;0;1;2;1;1;1;2;1;1;0;1;0;1;1;1;1;Outros
+Salvador;Pituba;Particular;Menino;9;Parda;2;2;3;1;0;1;2;1;1;2;2;2;2;1;0;0;1;1;1;1;1;1;1;2;0;0;3;1;0;3;3;1;0;0;0;1;0;1;0;1;1;1;1;Negra
+Salvador;Pelourinho;Pública;Menino;11;Preta;2;3;2;0;0;0;2;1;2;2;2;1;1;2;1;2;1;2;0;2;2;1;1;0;2;0;1;0;1;2;1;0;2;1;1;0;1;1;0;1;0;0;1;Negra
+Camaçari;Gleba é;Pública;Menino;8;Parda;2;2;2;0;0;0;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;0;0;1;0;1;0;0;0;2;1;0;0;0;1;1;1;1;Negra
+Lauro de Freitas;Caji;Pública;Menina;9;Preta;1;2;4;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;1;1;1;2;2;0;0;1;2;0;2;0;0;1;1;1;1;Negra
+Candeias;Centro;Particular;Menina;8;Preta;2;1;5;1;1;1;0;0;0;2;2;1;2;3;0;0;1;1;1;1;1;1;2;1;1;1;2;1;2;2;2;1;1;1;1;2;2;1;0;1;0;0;1;Negra
+Salvador;Avenida Jequitaia comércio;Pública;Menino;11;Preta;3;2;6;0;1;1;1;3;2;3;3;3;2;1;1;1;1;1;1;1;1;1;1;1;1;0;1;0;0;3;2;1;1;0;2;1;2;0;0;1;1;1;1;Negra
+Salvador;Luis Anselmo;Pública;Menino;9;Parda;2;1;4;0;1;1;1;1;2;2;1;2;1;2;2;2;2;2;2;2;2;2;2;1;1;2;3;1;1;2;2;1;3;0;2;2;0;1;1;1;1;1;1;Negra
+Camaçari;Nova vitoria;Pública;Menino;10;Parda;2;1;6;1;1;1;1;1;1;1;1;1;1;2;2;2;2;2;2;2;2;2;0;1;1;2;2;1;1;2;2;2;1;0;1;2;0;1;0;1;1;1;1;Negra
+Salvador;Uruguai;Particular;Menina;8;Não sei responder ou não quero responder;4;1;6;1;1;1;3;1;2;2;2;1;2;1;0;1;2;2;0;1;2;1;1;2;1;0;1;1;0;2;3;1;1;0;3;3;0;1;0;1;1;1;1;Sem resposta
+Lauro de Freitas;Caji;Pública;Menino;12;Preta;2;2;2;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;0;1;1;0;2;1;2;0;2;2;1;2;2;2;2;2;1;1;1;0;1;Negra
+Camaçari;Nova vitoria;Pública;Menina;11;Preta;1;1;4;1;1;1;2;1;2;2;2;2;1;2;2;2;2;2;2;2;2;1;2;1;1;0;2;1;2;2;2;2;2;1;2;2;0;1;0;1;1;1;1;Negra
+Camaçari;Parque real serra verde;Pública;Menino;11;Parda;3;2;4;0;1;1;1;0;1;1;1;1;1;1;0;1;1;1;1;1;1;1;2;2;1;2;2;1;2;2;1;2;1;2;2;2;0;2;2;1;1;1;1;Negra
+Salvador;Pituba;Particular;Menino;8;Branca;2;1;6;1;1;1;1;0;0;2;2;0;2;0;1;1;2;2;1;2;0;2;1;2;1;2;3;1;0;2;3;0;1;1;1;0;1;1;1;1;1;1;1;Branca
+Camaçari;Nova Vitória;Pública;Menina;10;Parda;2;1;3;1;1;1;2;2;2;2;2;2;1;2;2;2;2;2;2;1;2;1;1;0;1;0;0;0;1;2;2;0;1;2;0;1;0;0;0;1;1;1;1;Negra
+Camaçari;Triângulo;Pública;Menina;10;Parda;2;1;3;0;0;0;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;0;1;1;2;2;0;0;2;2;2;0;0;0;1;1;1;1;Negra
+Camaçari;Santo António;Pública;Menino;10;Preta;1;2;3;1;1;1;2;2;2;2;2;2;2;1;2;1;2;2;2;1;2;1;1;0;0;0;1;2;2;2;3;1;1;1;0;2;0;0;1;3;1;1;1;Negra
+Camaçari;Baireo dos 46 camaçari Bahia;Pública;Menino;8;Parda;3;3;6;2;2;2;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;3;3;3;3;3;1;1;3;1;1;1;2;1;1;0;0;0;2;1;1;1;Negra
+Salvador;Pelourinho;Pública;Menino;11;Parda;2;4;2;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;1;2;2;0;1;2;0;0;0;1;1;0;2;2;1;1;1;1;Negra
+Salvador;Luiz Anselmo;Pública;Menina;8;Preta;2;1;3;1;1;1;2;1;2;1;2;2;0;2;2;2;2;2;2;2;2;2;1;1;1;0;1;1;1;1;2;1;2;2;2;1;0;0;0;1;1;1;1;Negra
+Salvador;Paripe;Particular;Menina;10;Parda;2;3;6;1;1;1;1;2;1;2;2;1;1;0;1;1;2;2;0;1;2;1;1;1;1;0;2;1;1;3;3;2;2;3;1;1;1;1;0;1;1;2;1;Negra
+Camaçari;Novo Horizonte;Pública;Menino;10;Parda;1;2;4;0;1;1;0;1;0;1;1;1;1;0;0;0;0;0;1;1;1;1;2;0;1;2;2;1;1;2;2;2;1;0;2;2;2;2;0;0;1;0;1;Negra
+Salvador;Pituba;Particular;Menina;10;Parda;3;2;3;1;1;1;0;0;0;1;0;1;1;1;0;0;1;1;2;2;1;2;1;2;1;0;2;0;1;2;2;2;1;1;1;1;1;0;1;1;1;1;1;Negra
+Pojuca;Parque das palmeiras;Pública;Menina;10;Parda;3;1;4;0;1;1;2;2;1;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;1;1;0;1;1;1;1;0;1;1;0;0;1;1;1;1;1;Negra
+Pojuca;Palmeiras;Pública;Menino;10;Parda;3;2;6;1;1;0;2;2;2;2;2;1;1;1;1;1;1;1;1;1;0;1;2;2;1;1;2;1;0;3;2;0;2;0;2;2;0;0;0;1;1;1;1;Negra
+Salvador;Paripe;Particular;Menina;11;Preta;2;1;6;1;1;1;2;2;2;2;2;1;2;2;2;2;2;2;1;1;0;2;2;0;1;1;3;3;1;0;2;3;3;3;0;0;1;0;0;1;1;1;1;Negra
+Pojuca;Fazenda palmeiras;Pública;Menina;9;Parda;2;2;5;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;1;1;0;1;0;0;2;2;3;0;1;1;2;0;0;0;1;1;1;1;Negra
+Salvador;Luis Anselmo;Pública;Menina;11;Amarela;2;5;6;1;1;1;1;2;2;1;2;2;2;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;1;1;1;3;1;1;3;2;0;1;0;1;1;1;1;Amarela
+Salvador;Matatu;Pública;Menino;8;Preta;3;1;4;0;0;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;1;2;0;0;0;0;1;0;0;0;1;1;0;0;0;3;1;1;1;Negra
+Pojuca;Palmeiras de cima rua D;Pública;Menino;9;Parda;2;2;6;0;1;1;0;0;1;2;2;1;2;0;1;2;2;1;2;1;3;3;1;3;2;2;1;2;0;2;1;0;0;0;1;2;0;2;1;1;2;2;1;Negra
+Camaçari;Parque Satélite;Pública;Menina;9;Parda;2;3;3;1;1;1;0;1;0;0;1;1;0;0;1;0;0;0;1;0;1;0;1;1;1;0;2;0;1;2;2;1;1;1;2;1;0;0;0;1;1;1;1;Negra
+Camaçari;Phoc2;Pública;Menina;11;Parda;5;2;4;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;2;1;1;2;2;0;1;2;1;2;0;1;0;1;1;1;1;Negra
+Pojuca;Parque das Palmeiras região nordeste;Pública;Menina;9;Parda;3;1;3;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;1;0;0;2;1;3;2;2;2;2;3;0;2;1;0;1;1;1;1;Negra
+Salvador;Pelorinho;Pública;Menino;11;Branca;4;1;3;2;1;1;2;2;2;2;2;2;2;0;0;0;0;0;0;0;0;0;2;1;2;1;2;1;1;1;2;1;1;1;2;2;1;1;1;1;0;1;0;Branca
+Salvador;Pelourinho;Pública;Menino;11;Branca;4;1;3;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;2;2;2;2;2;2;1;1;1;1;2;1;1;1;1;1;1;1;2;2;Branca
+Pojuca;Palmeiras;Pública;Menino;10;Parda;5;3;4;0;1;1;1;1;1;1;1;1;1;0;1;1;1;1;1;0;1;1;2;1;2;0;1;0;2;2;1;0;1;2;2;2;0;1;0;1;1;1;1;Negra
+Salvador;Pelourinho;Pública;Menino;11;Branca;4;1;3;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;0;0;1;1;1;1;1;1;1;0;1;1;1;1;1;1;1;1;1;Branca
+Camaçari;lama preta;Pública;Menina;8;Parda;5;3;5;1;1;1;2;2;2;2;2;2;3;2;2;2;2;2;2;3;2;2;2;0;0;0;2;0;2;2;2;1;0;0;0;0;0;0;0;1;1;1;2;Negra
+Salvador;Federação;Pública;Menino;12;Parda;2;2;6;1;1;1;1;2;2;2;2;2;2;1;1;1;2;2;2;2;2;2;1;2;1;2;3;2;1;2;0;3;1;1;2;1;1;1;2;1;1;0;1;Negra
+Camaçari;Nordeste;Pública;Menina;10;Preta;3;1;4;0;1;1;2;1;1;2;2;1;1;1;1;1;2;2;1;1;2;1;1;2;2;0;1;1;1;2;1;1;1;2;1;1;0;0;0;1;1;1;1;Negra
+Pojuca;Palmeiras de baixo;Pública;Menina;9;Parda;2;1;6;1;1;1;2;2;2;2;2;1;2;2;2;2;2;2;1;2;2;2;2;2;2;2;1;0;0;1;1;2;2;1;2;2;0;1;0;1;1;1;3;Negra
+Salvador;Dois de julho;Particular;Menina;9;Preta;2;2;6;1;1;1;1;2;0;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;2;1;2;1;2;1;2;2;1;2;0;2;0;0;3;1;1;3;Negra
+Pojuca;Rua Alfredo leite em frente à praça;Pública;Menina;8;Parda;2;3;4;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;3;0;0;0;1;1;1;2;2;2;0;2;1;1;1;1;1;Negra
+Pojuca;Nova Pojuca;Pública;Menino;10;Não sei responder ou não quero responder;1;2;5;0;1;1;3;0;0;2;1;1;0;0;0;0;2;1;0;0;2;2;1;0;1;0;1;1;0;2;2;1;1;2;2;2;0;0;0;1;1;1;1;Sem resposta
+Pojuca;Centro;Pública;Menina;10;Parda;2;3;6;0;1;1;3;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;1;0;1;1;1;2;1;2;2;0;1;1;2;2;0;2;0;1;1;0;1;Negra
+Pojuca;Nova Pojuca;Pública;Menino;9;Parda;2;2;6;0;1;1;0;1;2;2;2;0;0;1;1;2;2;2;0;1;2;2;1;1;1;2;2;1;0;2;1;0;2;0;0;0;0;1;2;1;1;1;1;Negra
+Camaçari;Arembepe;Pública;Menino;8;Branca;2;1;4;0;1;1;1;1;1;1;1;0;1;1;1;1;1;1;0;1;0;1;1;1;2;1;2;1;1;2;2;0;1;2;2;3;0;0;1;0;1;1;1;Branca
+Pojuca;Vitória;Pública;Menina;10;Parda;4;2;4;1;1;1;1;2;1;2;2;2;2;1;2;2;2;2;2;2;2;1;1;1;1;0;1;1;1;1;2;1;1;2;2;2;0;1;0;1;1;1;1;Negra
+Pojuca;Vitoria;Pública;Menino;8;Parda;2;1;6;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;2;1;0;2;0;1;2;2;1;1;1;1;1;0;1;0;1;1;1;1;Negra
+Pojuca;JARDIM SHANGRILA;Pública;Menino;11;Parda;5;1;4;1;1;1;1;0;2;2;2;0;0;1;0;1;2;2;0;0;2;2;1;0;1;2;3;1;1;1;3;0;1;0;0;0;0;1;1;0;0;0;1;Negra
+Salvador;Matatu de brotas;Pública;Menina;8;Parda;2;2;5;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;2;1;1;1;1;2;1;1;2;2;0;1;0;1;1;1;1;Negra
+Pojuca;Centro;Pública;Menino;10;Parda;2;1;2;0;1;2;2;2;2;2;2;1;3;3;2;2;2;2;2;2;2;2;2;2;2;2;1;0;0;2;2;1;0;1;1;1;0;0;0;1;1;1;1;Negra
+Pojuca;Palmeiras;Pública;Menino;8;Parda;3;1;4;0;1;1;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;1;3;2;3;2;1;1;1;2;2;0;0;0;1;1;1;1;Negra
+Pojuca;Rua Alfredo leite Bairro Shangri-lá;Pública;Menina;10;Preta;1;2;4;1;1;1;1;1;0;1;1;1;1;0;1;0;1;1;1;1;1;1;1;1;1;0;1;1;2;2;2;1;1;2;3;2;1;0;1;1;1;1;1;Negra
+Salvador;Pituba;Particular;Menina;9;Branca;2;2;6;1;1;1;0;0;1;0;0;0;0;0;1;0;2;2;2;2;1;2;1;0;1;2;3;1;1;2;2;1;0;0;1;0;0;0;0;1;1;1;1;Branca
+Pojuca;Los Angeles;Pública;Menina;11;Parda;1;1;5;1;1;1;1;0;0;2;2;2;1;0;0;0;1;1;1;1;0;0;1;1;1;0;1;2;1;1;2;1;1;2;2;2;0;1;1;1;1;1;1;Negra
+Salvador;Stela Maris;Particular;Menina;9;Branca;1;1;2;1;1;1;2;0;0;2;2;2;2;0;0;0;1;1;2;2;1;2;1;1;1;2;3;2;0;2;2;1;0;2;1;0;3;0;1;1;1;1;1;Branca
+Pojuca;Nova Pojuca;Pública;Menina;9;Parda;2;2;5;1;1;1;0;0;0;1;1;1;1;1;0;0;1;1;1;1;1;1;1;1;1;0;0;1;2;1;2;1;1;2;2;2;0;0;1;1;1;1;1;Negra
+Lauro de Freitas;Itinga;Particular;Menino;12;Parda;2;1;4;1;1;1;1;0;1;1;1;1;1;0;0;1;1;1;1;1;1;1;1;1;1;0;2;1;0;1;2;2;2;1;0;2;0;1;1;1;1;1;1;Negra
+Pojuca;Shangrilá;Pública;Menino;9;Preta;5;3;5;0;1;0;3;1;1;2;2;1;3;2;2;2;2;2;1;1;3;3;2;2;1;1;0;1;0;1;1;1;0;0;1;1;0;0;0;2;1;1;1;Negra
+Pojuca;Star;Pública;Menina;11;Preta;1;1;4;1;1;1;2;1;2;2;2;1;1;2;1;2;2;2;1;1;2;2;2;2;1;0;1;1;1;1;1;0;1;0;1;1;0;0;0;0;1;1;1;Negra
+Pojuca;Nova Pojuca;Pública;Menino;10;Parda;2;1;6;1;1;1;0;1;1;1;1;1;0;0;0;0;1;1;1;1;2;1;1;1;1;0;3;2;1;1;2;1;1;1;0;2;0;1;0;1;1;1;1;Negra
+Salvador;Luiz  Anselmo;Pública;Menino;8;Preta;4;2;5;1;1;1;0;1;0;1;1;3;3;1;1;0;2;1;2;1;3;2;1;1;1;0;1;1;0;1;1;0;0;0;2;1;0;2;1;1;1;2;1;Negra
+Camaçari;Limoeiro;Pública;Menino;9;Parda;2;2;4;0;0;1;1;1;1;1;1;1;0;1;1;1;1;1;1;1;1;1;1;2;1;2;0;0;1;2;1;1;1;0;1;1;0;0;0;1;1;1;1;Negra
+Camaçari;Gleba c;Pública;Menino;12;Parda;5;2;5;0;1;1;0;1;1;1;1;1;1;0;1;1;1;1;1;0;1;1;1;2;2;2;3;0;0;3;2;3;0;1;0;0;0;0;0;1;1;1;1;Negra
+Pojuca;Vitoria;Pública;Menina;8;Preta;2;1;4;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;1;0;2;0;1;1;2;2;1;1;1;1;0;0;0;1;1;1;1;Negra
+Pojuca;Luis Eduardo Magalhães;Pública;Menina;8;Parda;2;1;5;0;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;1;0;1;1;0;1;1;1;1;2;0;1;0;1;1;1;1;Negra
+Pojuca;Condominio minha casa minha vida(los angelis);Pública;Menino;10;Parda;3;1;5;1;1;1;1;1;1;1;1;1;1;2;2;2;2;2;3;3;2;2;1;2;1;0;2;1;2;2;2;2;2;2;2;2;0;0;0;1;1;1;1;Negra
+Pojuca;Los Angeles;Pública;Menino;11;Preta;2;2;6;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;2;1;0;1;1;1;1;2;0;1;0;0;1;1;1;1;1;Negra
+Pojuca;Luiz Eduardo;Pública;Menina;9;Parda;3;1;5;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;2;0;2;2;2;2;1;2;2;2;1;1;0;1;1;1;1;Negra
+Pojuca;Shangrila;Pública;Menino;11;Parda;1;2;5;0;1;1;2;2;2;2;2;1;2;2;2;2;2;2;1;2;2;2;1;0;1;0;0;0;0;2;2;0;0;1;0;0;0;0;0;1;1;1;1;Negra
+Pojuca;Shangrila;Pública;Menino;9;Parda;1;2;5;0;1;1;2;2;2;2;2;2;1;2;2;2;2;2;2;1;2;2;1;0;1;0;0;0;2;2;2;0;0;1;1;1;0;0;0;1;1;1;1;Negra
+Salvador;Stella Maris;Particular;Menina;12;Branca;2;1;3;1;1;1;0;1;0;1;1;1;1;0;0;0;1;1;1;1;1;1;1;1;1;0;1;1;3;3;2;2;2;1;1;0;0;1;1;1;1;2;1;Branca
+Salvador;Imbuí;Particular;Menina;10;Branca;5;1;6;1;1;1;0;0;0;2;1;1;2;0;0;0;2;1;0;1;2;2;1;2;1;2;2;2;2;2;3;3;1;1;2;2;0;0;0;1;1;1;1;Branca
+Salvador;Bonfim;Particular;Menina;10;Preta;3;1;6;1;1;1;2;2;2;2;2;1;1;2;1;1;2;2;1;1;2;1;1;1;1;1;2;1;0;2;1;1;1;1;2;1;1;2;1;1;1;1;1;Negra
+Candeias;Sarandy;Particular;Menina;11;Preta;3;3;6;1;1;1;1;1;0;2;1;2;1;1;1;0;2;1;2;1;2;2;2;2;1;0;2;1;1;2;1;2;2;2;1;1;0;0;0;1;1;1;1;Negra
+Salvador;Aguas claras;Particular;Menino;8;Parda;2;1;4;0;1;1;0;0;0;1;1;0;1;0;0;0;1;1;0;1;0;1;2;2;1;1;3;0;1;1;1;3;3;0;1;3;0;2;1;1;0;0;1;Negra
+Salvador;Patamares;Particular;Menina;8;Branca;2;2;6;1;1;1;1;1;1;1;1;1;1;0;0;0;0;0;1;1;0;1;1;1;1;0;2;1;1;1;2;1;2;2;2;2;1;1;0;1;1;1;1;Branca
+Lauro de Freitas;Vida nova;Particular;Menina;10;Parda;2;2;6;1;1;1;0;1;1;2;2;1;1;3;1;3;2;2;2;2;2;2;0;1;0;0;1;1;1;2;2;1;1;2;2;2;0;1;0;1;1;1;1;Negra
+Pojuca;Vitória;Pública;Menino;10;Parda;2;1;6;1;1;1;1;1;1;1;1;1;1;2;2;2;2;2;2;2;2;2;1;1;2;0;2;2;2;2;2;2;2;1;2;2;1;1;0;1;1;1;1;Negra
+Camaçari;Arembepe;Pública;Menina;10;Parda;4;5;6;0;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;2;1;0;1;1;0;0;0;2;2;2;1;2;0;2;0;1;0;1;1;1;1;Negra
+Camaçari;Rua nova do triangulo;Pública;Menina;11;Parda;1;2;6;0;1;1;1;1;0;1;1;1;1;3;1;1;1;1;1;1;1;1;1;1;2;0;1;0;0;1;1;1;1;2;0;1;0;1;0;1;0;0;1;Negra
+Pojuca;Luiz Eduardo Magalhães;Pública;Menino;11;Parda;2;2;6;0;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;1;1;1;2;1;1;1;2;2;2;0;1;0;1;1;1;1;Negra
+Pojuca;Liberdade;Pública;Menina;11;Preta;5;4;6;0;1;1;2;2;2;2;2;2;2;1;1;1;1;1;1;1;1;1;1;1;1;0;0;1;2;0;1;1;1;1;1;1;0;0;0;1;1;1;1;Negra
+Pojuca;Rua j;Pública;Menina;12;Preta;5;5;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;1;Negra
+Pojuca;Fazenda Sapé;Pública;Menina;10;Parda;2;1;5;0;1;1;1;2;2;2;2;2;2;1;1;1;2;2;1;1;2;1;1;2;1;0;1;1;1;2;1;0;0;1;2;2;0;0;0;1;1;1;1;Negra
+Pojuca;Fazenda palmeiras;Pública;Menina;11;Parda;2;1;6;1;1;1;2;0;0;2;2;1;1;2;0;0;2;2;1;1;2;1;1;1;1;0;2;1;1;2;2;2;1;2;2;1;0;1;1;1;1;1;1;Negra
+Pojuca;Parque social;Pública;Menina;8;Parda;4;4;6;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;0;1;0;1;2;1;0;1;1;2;3;0;1;0;1;1;1;1;Negra
+Pojuca;Los Angeles;Pública;Menino;8;Parda;2;1;5;1;1;1;2;1;2;2;2;1;1;2;2;2;2;2;1;1;2;2;1;1;1;0;1;1;0;1;1;0;0;2;2;2;0;0;0;1;1;1;1;Negra
+Camaçari;Caminho do horizonte 17 gleba E Camaçari;Pública;Menino;11;Branca;1;1;4;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;1;1;2;2;2;1;1;2;2;2;0;2;1;1;1;1;1;Branca
+Pojuca;Rua da lama;Pública;Menino;11;Parda;2;2;6;1;1;1;2;2;2;2;2;1;2;2;2;2;2;2;1;2;2;2;1;1;1;0;2;2;0;2;2;2;1;2;0;0;0;2;2;1;1;1;0;Negra
+Pojuca;Los Angeles;Pública;Menino;9;Preta;2;2;6;0;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;0;1;2;2;1;2;1;2;0;0;1;2;2;0;1;0;1;1;1;1;Negra
+Camaçari;Bivo horizonte;Pública;Menina;8;Parda;2;1;4;1;0;1;3;1;1;1;1;1;3;1;1;1;1;1;1;1;1;3;1;1;1;3;1;2;1;0;1;1;1;1;1;1;1;1;1;1;1;1;1;Negra
+Salvador;São Marcos;Particular;Menino;10;Parda;2;1;2;1;1;1;3;1;2;1;0;2;2;3;1;0;1;0;0;0;1;0;3;1;1;0;2;1;1;2;1;2;1;1;1;2;2;1;2;3;3;2;1;Negra
+Outros;Urbis 3;Particular;Menino;11;Parda;3;1;6;1;1;1;0;0;1;2;2;2;2;0;0;1;2;2;2;2;2;2;1;1;1;2;0;1;1;2;1;2;1;1;0;1;1;0;0;1;1;1;1;Negra
+Pojuca;Los Angeles;Pública;Menino;8;Parda;2;3;5;0;1;1;1;2;2;2;2;1;1;1;2;2;2;2;1;1;2;1;1;1;1;0;2;1;1;2;2;1;2;1;1;2;0;1;0;1;1;1;1;Negra
+Pojuca;Parque social losangeles;Pública;Menina;11;Preta;5;1;6;1;1;1;1;1;2;1;1;2;2;1;1;1;1;1;2;2;1;2;1;1;1;0;1;1;1;3;2;1;1;2;1;1;0;0;0;1;1;1;1;Negra
+Pojuca;Los Angeles;Pública;Menino;9;Parda;1;1;5;0;1;1;0;2;2;3;3;1;1;3;2;3;3;3;1;1;3;3;1;2;1;0;2;0;0;1;3;1;1;1;0;1;0;0;1;1;1;2;1;Negra
+Pojuca;Los Angeles;Pública;Menino;11;Parda;3;2;6;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;1;2;0;1;2;1;1;0;0;2;2;3;3;3;0;1;0;0;1;Negra
+Pojuca;Central;Pública;Menino;10;Parda;2;3;5;1;1;1;3;2;2;2;2;2;2;1;1;1;1;1;1;1;1;1;1;1;1;0;1;2;1;2;2;1;0;2;2;2;0;1;0;1;1;1;1;Negra
+Pojuca;Rua tome de Souza bairro cajazeira;Pública;Menino;12;Preta;2;2;5;0;1;1;2;0;2;0;2;2;1;2;1;1;2;2;2;2;2;2;2;2;2;0;2;0;0;2;0;1;0;2;0;2;0;1;1;1;1;1;1;Negra
+Pojuca;Parque social;Pública;Menino;12;Branca;1;3;5;0;1;1;2;2;2;2;2;2;1;2;2;2;2;2;2;2;2;1;1;1;1;0;2;0;1;2;1;1;0;1;0;1;0;0;0;1;1;1;1;Branca
+Pojuca;Star;Pública;Menina;11;Parda;5;2;2;0;1;1;2;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;2;1;0;0;0;1;1;2;0;0;1;1;1;0;0;0;1;1;1;1;Negra
+Pojuca;Satr;Pública;Menina;11;Não sei responder ou não quero responder;3;2;5;0;1;1;2;1;2;2;2;2;2;2;1;2;2;2;2;2;2;2;2;0;1;0;0;0;1;1;2;0;1;1;1;1;0;0;1;1;1;1;1;Sem resposta
+Camaçari;Gleba c;Pública;Menina;11;Preta;3;2;5;0;1;1;1;2;2;2;2;1;2;1;1;1;1;1;0;1;2;2;1;1;1;2;2;0;0;2;2;1;0;0;1;1;0;0;0;1;1;1;1;Negra
+Pojuca;Los angeles;Pública;Menino;9;Parda;1;3;5;0;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;1;0;1;3;1;1;1;2;1;1;1;0;1;1;1;1;1;Negra
+Camaçari;Phoc 2;Pública;Menino;9;Parda;3;1;5;0;1;1;1;0;1;2;2;1;2;1;0;1;2;2;2;2;2;2;1;2;1;0;2;1;0;3;1;1;0;0;1;2;0;1;0;1;1;1;1;Negra
+Salvador;Ipitanga;Particular;Menino;9;Parda;2;1;6;1;1;1;2;1;2;2;2;2;2;2;1;2;2;2;2;2;2;2;2;2;1;0;2;1;0;2;1;2;1;0;1;1;0;1;1;0;1;1;1;Negra
+Pojuca;Parque social;Pública;Menina;9;Parda;2;2;6;0;1;1;2;1;1;1;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;1;0;0;2;2;1;0;1;2;2;0;0;0;0;1;1;1;Negra
+Pojuca;PQ social Los Angeles;Pública;Menino;10;Parda;2;2;6;0;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;0;1;0;2;2;0;1;2;2;2;0;1;1;1;1;1;1;Negra
+Pojuca;Cabloco;Pública;Menino;11;Preta;4;1;4;1;1;1;1;1;1;1;1;1;1;1;0;1;1;1;1;1;1;1;2;2;2;0;1;0;0;2;2;0;0;0;1;0;0;0;0;1;1;1;1;Negra
+Outros;Amoreiras;Pública;Menino;12;Parda;2;1;4;1;1;1;0;1;1;1;0;1;1;0;1;1;0;0;1;1;1;1;1;1;1;2;2;0;2;2;1;2;2;2;2;3;0;0;0;1;1;1;1;Negra
+Pojuca;Invasão do caboclo;Pública;Menina;9;Parda;2;2;6;1;1;1;0;1;1;1;1;1;1;0;1;1;1;1;1;1;0;1;3;3;1;0;2;0;0;1;1;0;1;0;2;2;0;0;0;1;1;1;1;Negra
+Pojuca;Nova Pojuca;Pública;Menina;9;Parda;2;1;4;0;1;1;2;0;1;1;1;0;1;1;1;2;2;2;2;2;2;2;2;2;1;2;1;0;1;1;2;1;2;1;2;1;0;1;0;1;1;1;1;Negra
+Pojuca;Nova pojuca;Pública;Menina;9;Parda;2;2;5;1;1;1;2;2;2;2;2;1;1;1;1;2;2;2;1;1;2;1;1;2;1;2;1;0;1;1;2;0;1;0;2;2;0;0;0;1;1;1;1;Negra
+Camaçari;Buri Satuba;Pública;Menina;10;Parda;1;1;6;1;1;1;2;2;2;2;2;2;2;1;1;1;1;1;1;1;1;1;2;1;2;0;1;0;0;2;1;2;2;1;2;2;0;1;0;1;1;1;1;Negra
+Outros;Amoreiras;Pública;Menino;10;Parda;4;1;4;0;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;0;1;1;1;2;2;1;2;2;2;2;2;2;2;0;0;2;1;1;1;1;Negra
+Pojuca;Corujão;Particular;Menino;10;Preta;3;2;4;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;1;1;1;1;2;0;0;2;2;1;0;0;0;1;1;1;1;Negra
+Camaçari;Parque satélite;Pública;Menino;8;Parda;2;4;6;0;0;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;1;0;1;2;2;0;0;2;2;2;0;1;0;1;1;1;1;Negra
+Outros;Praia da caja;Pública;Menina;11;Negra;3;1;3;2;0;0;2;1;1;1;1;0;2;2;2;2;2;2;1;1;2;2;0;1;1;1;1;2;2;1;2;2;2;2;2;2;0;1;1;1;1;1;1;Negra
+Outros;Ponta de areia;Pública;Menino;12;Parda;3;2;6;0;1;1;1;2;2;2;1;1;1;1;0;1;1;1;1;1;2;2;1;2;2;2;2;1;1;2;3;3;1;2;1;2;0;1;0;1;1;2;1;Negra
+Camaçari;Parque satélite;Pública;Menino;9;Branca;3;1;3;2;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;1;2;2;1;1;1;0;2;1;0;2;1;1;0;1;1;2;0;0;0;1;1;1;1;Branca
+Pojuca;Nome do bairro: são Francisco número da casa 310;Pública;Menino;11;Negra;1;1;1;0;1;1;0;0;0;0;0;0;0;1;1;1;1;1;1;1;1;1;0;1;1;0;1;0;0;2;2;0;0;0;0;0;0;1;1;1;0;1;1;Negra
+Outros;Amoreiras;Pública;Menino;8;Preta;2;2;4;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;2;0;0;1;1;0;0;1;0;2;0;1;1;1;1;1;1;Negra
+Camaçari;Nova Vitoria;Pública;Menina;11;Parda;4;1;6;1;1;1;2;2;2;2;1;2;2;2;1;1;2;0;2;2;2;2;1;1;1;2;1;1;2;2;2;0;0;1;2;2;0;1;0;1;1;1;1;Negra
+Camaçari;Parque satélite;Pública;Menino;8;Parda;2;1;4;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;1;1;3;2;1;2;1;2;2;2;0;1;0;1;1;1;1;Negra
+Salvador;Rio vermelho;Particular;Menina;10;Parda;2;1;5;1;0;1;2;2;2;2;2;0;2;2;2;2;2;2;2;2;2;2;1;2;1;2;2;0;1;2;2;1;1;1;2;0;0;0;0;1;1;1;1;Negra
+Salvador;Fazenda grande do retiro;Particular;Menina;8;Parda;2;2;6;1;1;1;2;0;2;2;2;2;0;1;1;0;2;2;2;1;2;0;1;1;1;2;1;1;1;2;2;2;3;2;2;2;2;0;3;1;1;1;1;Negra
+Pojuca;Cajazeiras;Pública;Menino;9;Parda;2;3;5;0;1;1;3;2;2;2;2;2;2;1;0;0;0;0;0;0;1;0;2;1;1;2;1;0;1;2;1;1;1;2;1;1;0;1;0;1;1;1;1;Negra
+Salvador;Fazenda Grande do Retiro;Particular;Menina;10;Parda;2;2;6;1;1;1;2;1;2;1;1;2;2;0;0;0;2;1;3;0;1;0;2;1;1;0;2;2;3;2;2;2;3;2;2;2;0;1;3;1;1;1;1;Negra
+Salvador;Sete de Abril;Particular;Menina;10;Preta;2;1;3;1;1;1;0;1;1;2;2;2;2;1;1;1;2;2;2;2;2;2;1;1;1;0;3;0;0;1;1;1;1;2;1;0;0;1;0;1;1;1;1;Negra
+Camaçari;Phoc l;Pública;Menino;9;Parda;2;1;4;1;1;1;1;2;2;2;2;2;2;1;2;2;2;2;2;2;2;2;1;1;1;0;1;0;1;2;2;1;0;0;2;2;0;0;1;1;1;1;1;Negra
+Outros;Loteamemto parque das amoreiras;Pública;Menina;8;Parda;2;3;2;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;1;0;1;1;2;2;0;0;1;2;2;0;0;0;1;1;1;1;Negra
+Candeias;Passé;Pública;Menino;10;Parda;2;1;4;1;1;1;1;1;2;2;2;2;2;1;1;2;2;2;2;2;2;2;1;1;1;2;1;1;1;2;2;1;1;1;1;2;0;0;0;1;1;1;1;Negra
+Pojuca;nova pojuca região;Pública;Menina;11;Preta;2;3;3;1;1;1;1;1;1;1;1;2;1;1;2;1;1;1;2;1;1;2;1;1;1;1;3;0;0;0;1;2;0;2;2;2;1;1;1;1;0;1;1;Negra
+Candeias;Passé distrito de Candeias Ba, região metropolitana;Pública;Menina;9;Negra;3;1;3;1;1;1;1;0;2;2;2;1;1;2;1;1;2;2;2;2;2;2;1;1;1;0;0;1;1;2;2;1;1;1;2;1;0;1;1;1;1;1;1;Negra
+Pojuca;Parque Social losangeles;Pública;Menino;10;Parda;2;2;4;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;1;1;0;2;1;1;0;2;1;1;0;2;2;1;1;1;1;Negra
+Pojuca;Parque Social;Pública;Menina;9;Parda;2;2;5;1;1;1;1;1;0;1;1;1;0;1;1;1;1;1;1;1;0;1;2;1;1;2;2;0;1;2;2;1;0;1;2;2;0;0;0;1;1;1;1;Negra
+Salvador;Iapi;Particular;Menina;10;Parda;4;1;6;1;1;1;0;0;0;0;1;2;2;0;0;0;0;0;0;0;1;2;1;0;1;0;0;1;2;2;2;2;2;2;1;1;0;0;1;1;1;0;0;Negra
+Salvador;Sao Tomé de paripe;Pública;Menino;11;Parda;5;5;5;0;1;1;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;1;1;2;1;0;0;2;2;2;2;2;2;2;0;1;0;1;1;1;1;Negra
+Salvador;Uruguai;Particular;Menina;12;Parda;2;2;6;1;1;1;0;2;2;2;1;2;1;1;2;2;2;2;2;2;2;2;1;1;1;1;0;1;1;2;1;1;1;1;0;0;0;0;0;1;1;1;1;Negra
+Salvador;Iapi;Particular;Menina;8;Parda;2;2;6;1;1;1;1;2;1;2;2;1;1;1;1;1;2;2;1;1;2;2;1;1;1;2;2;0;1;1;3;1;1;2;2;2;2;1;0;1;1;1;1;Negra
+Salvador;Sete de abril;Particular;Menino;12;Preta;4;2;5;1;1;1;1;2;2;2;2;2;2;1;2;2;2;2;2;2;1;2;1;1;1;0;2;2;0;2;2;2;1;2;0;1;0;0;0;1;1;1;1;Negra
+Salvador;Sete de abril;Pública;Menino;8;Parda;2;2;3;0;1;1;0;0;1;1;1;0;2;1;1;2;1;1;0;1;1;2;1;1;1;0;2;0;1;0;1;1;1;1;2;1;0;0;0;1;1;1;1;Negra
+Salvador;7 de abril;Pública;Menino;8;Parda;5;1;5;0;1;1;0;1;2;2;2;2;2;1;1;2;2;2;1;1;2;2;1;1;1;2;2;0;1;1;2;2;1;0;2;2;0;1;0;1;1;1;1;Negra
+Salvador;sete de abril Salvador -Ba;Particular;Menino;9;Parda;3;1;3;0;1;1;2;1;2;2;2;2;2;1;1;0;0;0;0;0;0;0;1;1;1;0;0;0;1;2;2;1;2;2;2;2;0;1;0;1;1;1;1;Negra
+Salvador;Sete de Abril;Particular;Menino;12;Preta;2;2;6;1;1;1;1;2;2;2;2;2;2;0;2;2;2;2;2;2;1;2;2;2;2;2;3;3;1;3;2;3;1;1;2;2;0;3;1;2;1;0;1;Negra
+Salvador;MILENE VITORIA DA SILVA SANTOS;Pública;Menina;8;Parda;2;2;4;0;0;0;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;3;2;2;3;0;0;0;3;2;0;0;2;2;1;0;0;0;1;1;1;1;Negra
+Pojuca;Central;Pública;Menino;11;Parda;2;3;5;1;1;1;1;0;1;2;2;2;1;1;0;1;2;2;2;2;2;1;0;2;1;0;1;1;1;2;2;0;0;2;1;2;0;1;1;1;1;0;1;Negra
+Camaçari;Gleba A;Pública;Menina;8;Parda;2;1;3;1;1;1;2;1;1;1;1;1;1;0;0;1;1;1;1;1;1;1;1;1;1;0;1;1;1;1;2;2;2;1;2;2;2;1;1;1;1;1;1;Negra
+Salvador;Roma;Pública;Menina;10;Preta;2;2;2;0;1;1;0;1;1;0;1;1;1;2;2;2;2;2;2;2;2;2;1;1;1;1;0;0;0;1;2;1;0;1;1;0;0;1;1;2;1;1;1;Negra
+Camaçari;Inocoop;Particular;Menina;10;Preta;2;1;5;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;2;1;1;2;2;2;1;2;2;2;2;2;1;0;1;1;1;0;Negra
+Camaçari;Gleba c;Particular;Menino;10;Parda;2;2;6;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;2;1;0;1;1;1;2;1;1;1;2;2;2;0;1;1;1;1;1;1;Negra
+Salvador;Piatã;Particular;Menino;8;Parda;1;1;5;0;1;1;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;1;1;1;2;0;0;0;2;0;0;0;0;0;2;2;0;3;3;0;0;Negra
+Camaçari;Gravata;Pública;Menino;11;Parda;2;1;6;1;1;1;2;1;2;2;2;2;2;2;1;2;2;2;1;2;1;2;1;2;1;1;2;2;0;2;2;0;0;1;1;2;1;1;0;1;1;1;1;Negra
+Salvador;Patamares;Particular;Menino;9;Parda;2;2;6;1;1;1;0;0;0;2;2;0;0;0;0;0;2;2;2;2;1;2;1;1;1;1;2;1;2;1;3;2;1;2;2;2;0;0;0;1;1;1;1;Negra
+Salvador;Chame chame;Particular;Menina;10;Branca;1;1;2;1;1;1;0;1;0;1;0;2;2;0;0;0;1;0;2;2;1;1;0;0;0;1;2;0;1;2;1;3;0;1;0;0;0;0;0;1;1;1;1;Branca
+Salvador;Imbui;Particular;Menina;10;Branca;2;2;6;1;1;1;2;1;1;2;1;0;0;1;1;1;2;0;0;0;1;0;2;2;1;3;2;1;0;1;2;2;2;1;1;0;2;0;1;0;1;1;1;Branca
+Salvador;Jardim Nova Esperança;Pública;Menina;12;Parda;5;3;4;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;0;1;2;3;1;1;1;1;1;1;2;1;1;0;1;1;1;1;1;1;Negra
+Salvador;Vila Laura;Particular;Menina;10;Parda;3;2;6;1;1;1;1;2;1;2;2;0;2;1;0;0;1;1;1;1;1;2;1;2;1;2;3;1;1;2;3;1;0;2;1;2;1;0;0;1;1;1;1;Negra
+Camaçari;Nova Vitória;Pública;Menina;8;Branca;2;2;5;0;1;1;1;0;2;2;2;1;1;2;0;2;2;2;2;1;2;2;1;1;1;0;2;1;1;2;2;1;1;1;2;2;0;1;0;1;1;1;1;Branca
+Salvador;Barra;Particular;Menino;11;Branca;2;1;6;1;1;1;1;0;0;1;2;0;1;1;0;0;1;1;0;1;0;0;1;1;1;2;1;2;3;3;2;2;2;2;2;0;3;1;1;1;1;1;1;Branca
+Camaçari;Natal;Particular;Menina;9;Parda;2;1;4;1;1;1;1;0;1;2;2;2;0;1;0;1;2;2;1;0;2;0;0;2;1;0;1;1;1;2;2;2;2;1;1;1;3;0;1;1;1;3;1;Negra
+Salvador;Pituba;Particular;Menino;9;Não sei responder ou não quero responder;2;1;4;1;1;1;0;0;0;1;0;1;0;0;0;0;0;0;1;0;0;1;1;2;1;2;2;2;1;2;2;2;2;1;2;2;2;1;1;1;1;0;1;Sem resposta
+Salvador;Gamboa de baixo;Pública;Menino;11;Parda;4;3;3;1;1;1;2;2;2;2;2;3;2;1;1;1;1;1;1;1;1;1;1;2;1;0;1;1;1;1;2;0;0;1;2;2;0;1;1;1;1;1;1;Negra
+Salvador;Trobogy prédio ocupacional;Pública;Menina;10;Parda;2;4;5;0;1;1;2;1;0;3;3;3;3;0;0;0;2;0;1;1;1;1;1;1;1;2;0;1;1;1;2;0;0;1;1;1;1;0;0;1;1;1;1;Negra
+Salvador;Mussurunga;Particular;Menino;8;Parda;4;2;6;1;1;1;0;0;0;2;2;1;2;0;0;0;2;2;2;2;2;2;1;1;1;2;2;1;1;2;2;1;1;1;2;2;0;0;0;1;1;1;1;Negra
+Salvador;Garibalde;Pública;Menina;12;Parda;2;2;5;1;1;1;1;1;0;2;2;1;1;1;1;0;2;2;1;1;1;1;2;1;1;0;1;1;1;1;2;1;1;1;0;1;0;1;0;1;1;1;1;Negra
+Outros;Centro;Particular;Menino;12;Não sei responder ou não quero responder;5;2;6;1;1;1;1;1;2;2;2;2;2;0;0;1;1;1;1;1;0;1;1;0;1;2;2;1;0;2;2;2;1;2;1;0;0;0;0;0;1;1;1;Sem resposta
+Outros;Centro;Particular;Menina;10;Não sei responder ou não quero responder;2;3;6;1;1;1;1;2;2;2;2;0;2;1;2;2;2;2;2;2;2;2;1;1;1;0;2;2;0;2;2;2;1;2;2;0;0;0;0;3;1;1;1;Sem resposta
+Salvador;Imbuí;Particular;Menina;12;Branca;3;1;6;1;1;1;0;0;0;2;1;0;0;1;0;0;2;2;0;0;1;1;1;2;1;0;2;2;1;2;1;2;2;2;1;1;1;0;0;1;1;1;1;Branca
+Salvador;Matatu de brotas;Particular;Menina;12;Parda;5;3;5;1;1;1;0;1;1;2;2;1;2;0;0;0;2;2;2;2;1;2;1;1;1;0;1;1;1;2;2;2;2;1;1;2;0;0;0;1;1;1;1;Negra
+Salvador;Uruguai;Pública;Menina;9;Preta;3;3;3;0;0;0;1;0;1;1;1;1;1;1;0;1;1;1;0;1;1;1;2;2;2;2;0;1;3;1;3;0;0;3;1;0;0;3;3;1;1;0;2;Negra
+Salvador;Ondina;Particular;Menino;11;Branca;2;2;6;1;1;1;1;2;2;2;1;2;1;3;1;1;2;1;2;1;0;2;1;1;1;0;2;1;1;2;2;2;2;2;2;2;0;0;0;1;1;3;1;Branca
+Salvador;Pituba;Particular;Menino;9;Branca;2;1;4;1;1;1;0;1;0;1;1;1;1;0;0;0;1;1;1;1;1;1;1;0;1;0;2;0;1;2;2;2;1;1;1;0;1;0;1;1;1;0;1;Branca
+Salvador;Horto florestal;Particular;Menino;8;Branca;2;2;4;1;1;1;0;0;0;0;1;0;2;0;0;0;1;1;0;2;0;0;1;2;1;0;3;2;1;3;1;1;1;0;2;3;3;1;0;1;1;1;1;Branca
+Salvador;Patamares;Particular;Menina;8;Parda;2;1;4;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;2;1;0;2;1;0;3;1;2;0;1;1;1;1;1;1;1;1;1;1;Negra
+Salvador;Jardim Apipema;Particular;Menina;9;Branca;2;2;3;1;1;1;0;1;2;2;2;2;2;0;0;0;2;2;2;2;0;2;1;1;1;0;3;1;1;2;2;3;2;1;1;1;1;0;0;1;1;1;1;Branca
+Salvador;Barra.;Particular;Menina;11;Parda;5;1;6;1;1;1;0;0;0;1;0;1;1;0;0;0;0;0;0;0;0;0;1;1;1;0;2;1;1;2;1;3;1;0;1;1;1;1;0;1;1;1;1;Negra
+Salvador;Peripiri;Particular;Menina;9;Preta;2;1;5;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;2;0;2;2;2;2;2;2;2;2;0;0;0;1;1;1;1;Negra
+Salvador;Nazaré;Pública;Menina;10;Parda;3;1;3;0;1;1;1;1;1;1;1;1;1;2;2;2;2;2;2;2;2;2;2;1;1;0;2;1;1;2;2;2;2;1;2;2;0;1;0;1;1;1;1;Negra
+Salvador;Patamares;Particular;Menina;8;Parda;3;2;2;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;3;0;1;3;2;0;0;1;2;2;2;0;0;1;1;1;1;Negra
+Salvador;Federação;Particular;Menino;11;Não sei responder ou não quero responder;2;2;6;1;1;1;2;1;2;2;2;0;1;2;1;2;2;2;1;1;2;2;1;1;1;1;1;2;1;1;1;2;1;1;1;1;2;0;1;0;1;1;1;Sem resposta
+Lauro de Freitas;Rua jurema 608,caixa d'água;Particular;Menina;10;Preta;2;1;5;1;1;1;1;0;1;0;0;0;0;1;1;1;0;0;0;0;0;0;1;1;1;0;2;2;2;2;2;2;2;2;0;0;1;0;1;1;1;1;1;Negra
+Salvador;Uruguai;Pública;Menina;9;Preta;3;1;4;1;1;1;1;1;1;1;1;1;1;2;2;2;2;2;2;2;2;2;1;1;1;0;2;0;2;1;2;2;2;2;2;2;0;2;0;1;1;1;1;Negra
+Salvador;Graça;Particular;Menino;12;Branca;2;1;4;1;1;1;1;1;1;1;0;1;1;1;1;1;1;1;1;0;1;0;1;2;1;0;3;1;2;2;1;0;2;2;0;0;0;0;0;1;1;1;1;Branca
+Salvador;Calçada;Pública;Menino;12;Preta;5;2;2;0;0;0;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;Negra
+Salvador;Patamares;Particular;Menina;9;Branca;2;3;6;1;1;1;2;2;2;2;2;1;1;2;2;2;2;2;1;1;2;1;1;2;1;0;0;0;1;2;3;3;2;2;1;0;1;1;1;1;1;3;1;Branca
+Salvador;Graça;Particular;Menino;10;Branca;2;1;6;1;1;1;1;0;0;2;2;1;1;1;1;1;2;2;1;1;1;2;1;2;1;0;3;0;0;1;1;3;0;0;1;1;1;0;1;1;1;1;1;Branca
+Salvador;Nazaré;Particular;Menino;12;Branca;3;1;3;1;1;1;2;3;1;1;2;2;2;2;0;2;1;1;2;2;1;2;1;0;1;0;3;1;1;3;3;3;3;1;1;2;1;0;0;1;3;3;1;Branca
+Salvador;Imbuí;Particular;Menina;12;Parda;5;1;6;1;1;1;0;0;0;1;0;0;0;0;0;0;1;0;0;0;0;0;1;2;0;2;3;1;0;2;1;0;0;0;0;0;1;1;0;0;1;3;3;Negra
+Camaçari;Morrinho;Pública;Menino;11;Parda;4;2;4;1;1;1;1;2;2;2;2;1;1;1;1;2;2;2;1;1;1;1;1;1;1;2;2;2;2;2;2;2;2;1;2;2;0;1;0;1;1;1;1;Negra
+Salvador;Gamboa de baixo;Pública;Menina;11;Preta;1;2;4;0;1;1;1;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;Negra
+Salvador;Nova Brasília de Valéria;Pública;Menina;12;Parda;1;2;3;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;0;2;2;2;1;1;2;2;2;1;0;0;1;2;1;0;1;1;Negra
+Salvador;Comercio;Pública;Menino;11;Preta;5;4;5;0;1;1;1;1;2;1;1;0;0;1;1;1;2;1;0;2;2;2;1;1;1;0;1;2;1;0;3;1;1;2;1;1;1;2;2;1;1;0;1;Negra
+Salvador;No Brasil de Valéria;Pública;Menina;12;Branca;2;2;3;1;1;1;2;2;2;2;3;2;2;2;2;2;2;2;2;2;2;2;1;1;0;0;2;2;2;2;0;2;2;2;1;1;0;2;1;1;0;0;1;Branca
+Salvador;Comercio;Particular;Menino;11;Parda;4;5;2;1;1;1;2;0;1;2;2;1;2;1;0;2;2;2;1;2;0;2;1;0;1;0;1;2;1;2;1;2;0;2;0;0;0;2;1;1;0;1;1;Negra
+Salvador;Canabrava;Particular;Menina;11;Preta;3;1;6;1;1;1;0;0;0;3;1;1;1;0;0;0;0;1;2;1;0;1;1;0;1;0;2;0;1;2;2;2;1;2;0;2;0;1;3;1;1;1;1;Negra
+Salvador;Pernambués;Pública;Menino;11;Preta;3;1;4;1;1;1;0;0;1;1;1;1;0;1;0;1;1;1;1;1;1;1;2;1;1;1;0;2;1;1;1;2;2;2;1;0;0;2;2;1;1;1;1;Negra
+Camaçari;PHOC 1-Nova Aliança;Particular;Menino;9;Preta;4;1;6;1;1;1;2;2;2;2;2;0;2;0;0;0;1;1;0;0;0;1;1;1;1;2;1;1;2;2;2;1;1;1;2;3;0;1;1;1;1;1;1;Negra
+Salvador;Uruguai;Particular;Menino;10;Parda;5;1;6;1;1;1;1;2;2;2;2;2;2;1;2;2;2;2;2;2;2;2;1;2;1;0;2;1;0;0;2;2;2;0;1;2;0;1;1;1;1;1;1;Negra
+Candeias;Areia;Particular;Menino;9;Parda;2;2;5;1;1;1;1;2;2;2;2;2;2;1;1;1;2;2;2;2;2;2;1;1;1;0;2;1;1;2;2;2;2;2;2;2;1;1;0;1;1;1;1;Negra
+Candeias;Centro;Particular;Menina;9;Preta;3;2;6;1;1;1;0;0;0;1;1;0;1;0;0;0;1;1;0;1;1;0;2;1;1;0;2;1;0;2;2;1;1;1;1;1;0;0;1;1;1;1;1;Negra
+Candeias;Centro, planejadora, moro em Candeias;Particular;Menina;8;Preta;2;1;6;1;1;1;1;2;0;2;2;0;1;1;0;1;2;2;1;2;1;1;1;2;1;0;3;1;0;2;2;1;1;1;2;2;0;0;0;1;1;1;1;Negra
+Lauro de Freitas;Caixa d'água;Particular;Menina;9;Parda;1;1;6;1;1;1;0;1;0;1;0;0;2;0;0;0;2;0;0;0;0;0;1;1;2;2;3;1;1;2;2;3;1;1;1;1;2;2;2;0;0;0;1;Negra
+Simões Filho;Pintanginha nova;Particular;Menino;8;Parda;2;1;6;0;1;1;2;2;2;2;2;0;1;2;2;2;2;2;0;1;2;1;1;1;1;0;2;0;0;1;2;2;2;0;2;2;0;1;1;2;1;0;1;Negra
+Candeias;Centro;Particular;Menina;11;Branca;2;1;2;1;1;1;1;2;2;2;2;2;2;2;1;2;2;2;2;2;2;2;1;1;1;0;2;1;1;2;1;2;2;2;1;1;1;0;0;1;1;1;1;Branca
+Salvador;Imbuí;Particular;Menina;12;Branca;3;1;6;1;1;1;0;0;0;2;1;0;0;1;0;0;2;2;0;0;1;1;1;2;1;0;2;2;1;2;1;2;2;2;1;1;1;0;0;1;1;1;1;Branca
+Salvador;federação;Particular;Menino;12;Parda;2;1;6;1;1;1;0;1;0;2;2;2;2;1;0;0;2;2;2;2;2;2;1;2;1;0;3;1;3;2;1;3;1;2;0;0;0;0;0;1;1;1;1;Negra
+Candeias;Nova Brasília;Particular;Menina;8;Indígena;3;2;6;1;1;1;1;1;1;1;1;1;1;2;2;2;2;2;2;2;2;2;1;1;1;2;2;1;1;2;2;2;2;2;2;2;1;1;1;1;1;1;1;Indígena
+Candeias;Santo Antônio;Pública;Menina;10;Branca;2;2;6;1;1;1;0;0;1;2;2;2;2;0;0;0;2;2;2;2;2;2;1;1;1;2;2;0;1;2;2;1;1;1;2;2;0;0;1;1;1;1;0;Branca
+Candeias;Caboto;Particular;Menina;8;Parda;1;1;6;1;1;1;1;1;1;2;2;2;2;1;1;1;1;1;1;1;1;1;1;1;1;0;2;2;1;2;2;2;2;2;2;2;1;2;1;1;1;1;1;Negra
+Salvador;Coutos;Particular;Menina;8;Parda;3;1;6;1;1;1;2;0;1;2;2;2;2;2;0;1;2;2;2;2;2;2;2;1;1;2;3;1;1;1;1;0;1;1;2;1;0;1;0;2;1;1;1;Negra
+Salvador;Pituba;Particular;Menina;11;Branca;2;2;4;1;1;1;0;2;2;2;2;2;2;1;1;1;2;2;2;2;2;2;1;1;1;0;2;1;0;1;2;2;1;1;1;1;1;0;0;1;1;0;1;Branca
+Salvador;Vista alegre;Pública;Menino;11;Preta;1;1;6;1;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;2;2;2;1;2;2;2;2;2;1;0;1;1;2;1;1;1;Negra
+Simões Filho;Nova pitanga;Particular;Menino;11;Preta;3;1;5;1;1;1;0;0;1;1;1;0;0;0;0;1;1;1;1;1;1;0;1;2;0;2;2;0;0;2;1;2;1;0;0;0;0;2;0;1;1;1;1;Negra
+Salvador;Itapuã;Pública;Menino;12;Preta;5;4;6;1;1;1;2;2;2;2;2;1;2;2;2;2;2;2;1;2;2;2;2;2;1;0;3;1;1;2;3;3;3;2;2;3;0;1;1;1;1;0;1;Negra
+Salvador;Vila verde;Pública;Menina;8;Preta;2;2;4;1;1;1;1;1;1;1;0;0;0;1;1;1;1;0;0;0;0;1;1;1;1;2;0;0;0;2;1;0;0;0;2;2;0;1;1;1;1;1;1;Negra
+Salvador;Novo Brasil em Valéria;Pública;Menina;12;Branca;1;2;3;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;0;1;2;1;2;1;1;1;1;1;2;2;2;0;0;0;1;1;1;1;1;1;Branca
+Salvador;Cabula;Particular;Menino;12;Preta;3;1;6;0;1;1;1;1;0;1;1;0;0;1;1;1;1;1;0;0;1;0;1;2;0;0;2;2;0;1;2;2;2;2;0;0;0;1;0;1;1;1;1;Negra
+Salvador;Não sabe;Particular;Menina;11;Preta;3;1;6;1;1;1;0;0;0;2;2;0;2;0;0;0;2;0;0;2;1;1;1;1;1;2;3;1;1;1;2;3;1;3;1;0;0;0;1;1;1;1;1;Negra
+Salvador;Nova Brasília de Itapuã;Particular;Menina;12;Outros;2;1;6;1;1;1;1;0;1;2;2;2;2;0;0;1;2;2;2;2;1;2;0;0;0;1;3;3;1;2;3;3;1;2;3;3;0;0;0;3;1;1;1;Outros
+Salvador;Vila Verde;Pública;Menina;12;Preta;3;1;1;0;1;1;2;2;2;2;2;2;2;0;0;0;0;0;0;0;0;0;3;3;3;3;1;1;1;0;1;3;3;3;0;0;0;0;1;1;1;1;1;Negra
+Salvador;Jardim Nova Esperança;Particular;Menina;8;Preta;2;2;5;1;1;1;1;0;0;2;2;2;2;0;0;0;2;2;2;2;2;2;1;1;1;0;2;0;1;2;2;1;0;0;2;0;2;0;0;1;1;0;1;Negra
+Salvador;Pituaçu;Particular;Menina;8;Parda;4;2;4;1;1;1;0;0;0;1;0;0;1;0;0;0;1;0;0;1;2;1;1;2;1;0;1;1;0;2;2;1;1;1;2;2;0;1;0;1;1;1;1;Negra
+Candeias;Colonia;Pública;Menina;10;Parda;2;1;6;1;1;1;1;1;1;1;1;1;1;2;1;2;2;2;1;1;2;1;1;0;1;0;2;1;0;3;1;2;0;1;1;1;0;1;0;1;1;1;1;Negra
+Lauro de Freitas;Buraquinho;Particular;Menino;12;Preta;2;2;4;1;1;1;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;0;2;2;3;1;1;0;2;2;1;1;0;0;2;2;0;2;1;1;1;Negra
+Outros;Monte  Líbano;Pública;Menina;11;Preta;4;1;5;1;1;1;1;1;0;1;1;1;1;1;0;0;1;1;0;0;1;1;1;1;1;0;1;0;1;2;2;2;2;2;1;2;0;0;0;1;1;1;1;Negra
+Salvador;Graça;Particular;Menino;10;Parda;1;1;6;1;1;1;0;1;1;1;1;0;0;0;1;1;1;1;1;1;2;1;1;2;2;0;2;1;1;3;0;3;0;1;1;1;1;1;1;1;1;1;1;Negra
+Candeias;Malembá;Pública;Menina;12;Parda;2;2;6;1;1;1;1;2;2;2;2;2;2;1;1;1;1;1;1;1;1;1;0;1;0;0;2;2;2;2;2;2;2;2;2;2;1;2;1;1;1;1;2;Negra
+Salvador;Federação;Pública;Menina;11;Branca;2;5;3;0;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;2;1;2;2;2;1;0;0;2;1;2;0;0;0;1;1;1;1;Branca
+Candeias;Malemba;Pública;Menina;8;Preta;5;2;5;0;0;0;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;0;1;3;1;3;0;0;1;3;3;0;1;0;1;1;1;1;Negra
+Candeias;Rua princesa leopoldina N°30, Candeias bahia;Pública;Menina;12;Parda;2;1;4;1;1;1;1;1;1;1;1;1;0;0;1;1;1;1;1;1;1;1;0;2;0;1;1;2;1;1;1;2;0;2;1;1;1;0;1;1;1;1;1;Negra
+Candeias;Malemba;Pública;Menina;12;Branca;4;1;6;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;2;1;2;3;1;0;3;3;3;1;1;1;2;0;0;0;2;1;1;1;Branca
+Candeias;Santo Antônio;Pública;Menino;12;Parda;4;2;6;1;1;1;1;2;2;2;2;1;2;2;2;2;2;2;1;2;2;2;2;0;1;0;2;0;0;2;2;2;2;2;0;0;0;1;0;1;1;1;1;Negra
+Candeias;URBIS 2;Pública;Menino;11;Parda;3;1;5;0;1;0;1;1;1;2;2;1;1;1;1;1;1;1;1;1;3;1;1;1;1;2;1;1;1;1;2;0;0;1;2;2;0;1;0;3;1;1;1;Negra
+Salvador;cabula;Particular;Menina;12;Preta;1;1;4;1;1;1;2;2;0;2;2;2;2;0;0;0;1;2;2;2;2;2;1;2;2;2;2;1;1;1;2;2;2;2;1;1;1;1;1;1;1;0;1;Negra
+Salvador;Estrada velha do aeroporto;Particular;Menino;10;Parda;1;1;5;0;1;1;1;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0;1;1;1;1;3;0;1;0;3;3;3;1;3;3;1;3;3;2;1;2;1;Negra
+Candeias;Passagem dos Teixeira;Pública;Menina;11;Preta;4;3;5;0;1;1;0;0;0;0;0;0;0;2;2;2;2;2;2;2;2;2;2;2;0;1;2;0;0;1;1;1;1;1;0;0;0;0;0;1;1;1;1;Negra
+Candeias;Conjunto santa cruz rua k numero 45;Pública;Menina;12;Parda;3;1;5;1;1;1;0;0;1;1;1;0;1;0;0;0;1;0;0;0;1;0;1;1;1;0;2;2;1;2;2;1;0;1;0;1;0;0;0;1;1;1;1;Negra
+Salvador;Tancredo Neves;Pública;Menino;12;Parda;3;1;3;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;2;0;0;0;2;2;1;3;0;1;0;0;0;0;1;1;1;Negra
+Salvador;Pituba;Particular;Menina;10;Parda;4;1;3;1;1;1;1;0;1;2;2;2;2;1;0;1;2;2;2;2;2;2;1;1;1;0;3;1;2;3;1;1;2;1;1;0;1;0;1;2;1;1;1;Negra
+Salvador;Fazenda Grande IV;Particular;Menino;10;Preta;2;1;5;1;1;1;1;2;2;2;2;1;2;2;2;2;2;2;1;1;2;1;2;1;2;2;3;1;1;2;1;2;2;1;1;0;1;0;0;1;1;1;1;Negra
+Candeias;Fazenda madeira;Pública;Menina;11;Branca;5;2;6;1;1;1;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;1;1;2;1;2;1;2;1;2;0;0;0;0;1;1;1;1;1;Branca
+Candeias;Urbis II;Pública;Menino;12;Parda;2;3;6;1;1;1;1;1;1;2;2;1;1;1;0;1;2;2;1;1;2;1;1;2;2;2;2;1;0;1;1;1;1;2;0;1;0;1;0;1;1;0;3;Negra
+Candeias;Areia;Pública;Menina;12;Amarela;2;1;5;1;1;1;1;2;1;2;2;2;2;1;2;2;2;2;2;2;2;2;1;0;1;0;1;1;2;2;1;2;0;2;0;0;0;0;0;1;1;1;1;Amarela
+Candeias;Malemba;Pública;Menino;12;Preta;1;1;2;1;1;1;1;0;0;0;0;3;2;0;3;3;0;0;0;0;1;1;1;0;1;0;2;2;2;2;2;2;2;2;0;2;0;2;0;1;1;1;1;Negra
+Salvador;Fazenda grande ,Rua mello Moraes filho n°55;Particular;Menina;11;Não sei responder ou não quero responder;2;1;5;1;1;1;2;2;2;2;2;2;1;2;2;2;2;2;1;2;2;1;1;1;1;0;1;1;2;3;1;1;1;2;2;1;1;0;0;1;1;1;1;Sem resposta
+Candeias;Distrito Caroba;Pública;Menino;11;Preta;3;4;6;0;1;1;3;0;1;2;2;1;2;0;0;0;1;1;0;0;1;0;1;1;1;0;3;0;0;2;2;2;2;2;2;2;0;1;0;1;1;1;1;Negra
+Candeias;Fazenda madeira;Pública;Menina;11;Preta;2;2;6;1;1;1;0;0;0;1;1;1;1;0;0;0;2;0;1;1;1;1;1;2;2;0;1;1;1;1;2;1;1;2;1;1;0;1;0;1;1;1;1;Negra
+Salvador;Engenho velho brotas;Particular;Menino;8;Branca;4;2;5;1;1;1;0;0;0;0;1;1;1;0;0;0;1;1;1;1;0;1;1;2;1;0;3;0;1;3;3;0;0;1;2;1;0;1;1;1;1;3;1;Branca
+Salvador;Doron;Particular;Menino;8;Parda;1;1;6;1;1;1;1;0;2;2;2;0;1;1;1;2;2;2;1;1;2;1;1;2;1;2;2;1;0;2;2;1;2;1;2;1;2;0;0;1;1;1;1;Negra
+Candeias;Desembargador Teixeira de Freitas, pitanga;Particular;Menina;8;Preta;1;1;4;1;1;1;1;1;0;0;0;1;1;1;1;0;1;1;0;0;1;1;1;1;1;2;2;1;1;2;1;2;2;0;2;2;2;0;0;0;1;1;1;Negra
+Salvador;Brotas;Particular;Menino;10;Preta;4;1;6;1;1;1;2;0;0;2;2;0;2;2;0;0;2;2;0;2;2;2;1;1;0;0;1;0;2;2;2;2;2;2;2;2;2;0;0;1;1;1;1;Negra
+Salvador;Jardim Apipema;Particular;Menina;12;Branca;2;2;6;1;1;1;2;2;0;2;0;0;2;1;0;0;2;1;2;2;2;2;1;2;1;2;2;1;0;2;1;2;1;2;0;1;1;1;0;0;1;3;1;Branca
+Outros;BAIXIO,;Pública;Menina;11;Parda;2;1;4;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;1;1;1;1;1;2;2;1;2;1;2;2;2;1;0;0;0;0;1;1;1;1;Negra
+Salvador;Graça;Particular;Menino;8;Parda;2;2;6;1;1;1;0;0;0;2;2;0;0;0;0;0;1;1;0;0;1;0;1;2;1;1;2;1;1;2;1;1;0;1;1;0;1;1;1;1;1;1;1;Negra
+Salvador;ARMAÇÃO;Particular;Menino;10;Não sei responder ou não quero responder;2;1;6;1;1;1;1;0;0;2;2;0;2;1;1;1;1;2;0;0;2;0;2;0;0;0;3;0;1;2;1;2;0;1;2;0;2;0;1;1;1;1;1;Sem resposta
+Salvador;feira de Santana bairro muchila;Particular;Outros;11;Parda;2;1;6;1;1;1;1;1;1;2;2;2;3;1;1;1;2;2;2;2;2;2;2;2;1;0;2;1;1;1;2;2;1;1;1;0;1;1;1;1;1;1;1;Negra
+Salvador;Periperi;Pública;Menina;10;Preta;5;5;6;1;1;2;2;0;2;1;3;2;0;2;1;1;2;0;0;0;1;0;2;1;0;3;3;2;1;2;1;2;1;2;1;2;0;0;0;1;1;1;1;Negra
+Salvador;Acupe de brotas;Particular;Menina;8;Negra;2;1;3;1;1;1;0;0;0;2;2;2;1;1;2;2;2;2;2;2;2;2;1;1;1;0;2;2;2;2;2;2;2;2;1;2;2;0;0;1;1;1;1;Negra
+Salvador;Saboeiro;Pública;Menino;8;Parda;5;1;6;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;0;1;1;2;2;0;1;2;2;1;0;0;2;1;1;1;1;Negra
+Salvador;Barra;Particular;Menino;12;Parda;2;2;6;1;0;1;1;1;0;2;2;2;2;0;1;0;2;2;2;2;2;2;2;2;1;2;2;0;1;2;2;0;0;1;1;0;0;0;0;1;1;1;1;Negra
+Salvador;São Cristóvão;Pública;Menino;10;Parda;3;2;4;0;1;1;2;2;2;2;2;2;2;0;0;0;0;0;0;0;0;0;1;1;1;1;2;0;0;1;2;0;0;0;2;2;0;0;0;1;1;1;1;Negra
+Salvador;Resgate;Particular;Menino;10;Parda;3;1;6;1;1;1;2;2;2;2;2;0;2;1;0;1;1;1;0;1;1;1;2;0;1;2;2;1;0;2;1;1;1;0;1;1;0;1;0;1;0;3;3;Negra
+Salvador;Pelourinho;Pública;Menina;11;Parda;2;5;4;1;1;1;2;2;1;2;1;2;2;2;1;1;2;2;2;2;2;1;1;1;1;1;2;0;1;2;2;1;0;2;1;1;2;1;1;1;1;1;1;Negra
+Salvador;Chame-Chame;Particular;Menina;12;Parda;2;1;4;1;1;1;0;0;0;1;1;1;1;0;0;0;1;1;1;1;2;0;1;0;1;1;3;1;3;0;3;2;1;1;0;0;0;0;0;1;1;1;1;Negra
+Salvador;Horto florestal;Particular;Menino;8;Branca;2;2;4;1;1;1;0;0;0;0;1;0;2;0;0;0;1;1;0;2;0;0;1;2;1;0;3;2;1;3;1;1;1;0;2;3;3;1;0;1;1;1;1;Branca
+Salvador;Santo Antônio;Particular;Menina;9;Negra;3;2;6;1;1;1;1;2;2;2;2;3;1;0;1;1;2;2;2;3;1;3;1;2;0;0;2;1;1;1;2;1;2;1;1;1;0;0;0;3;1;1;1;Negra
+Salvador;Barbalho;Particular;Menina;9;Parda;2;2;6;1;1;1;0;1;2;2;2;0;2;2;0;0;1;2;0;2;2;2;1;1;1;2;2;1;0;3;2;3;1;2;2;0;0;0;0;1;1;1;1;Negra
+Candeias;Bairro da Paz;Pública;Menina;12;Parda;2;3;6;0;1;1;2;2;2;2;2;0;0;2;2;2;2;2;2;0;2;0;1;1;1;2;1;0;1;2;3;1;0;0;1;1;0;0;0;1;1;1;1;Negra
+Salvador;Rua do Bambui- São Caetano;Pública;Menino;9;Branca;2;1;3;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;2;1;2;2;1;1;3;2;3;3;3;1;3;0;1;1;1;1;1;1;Branca
+Salvador;Boca do rio;Pública;Menina;9;Preta;1;1;4;0;1;1;2;2;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;1;1;0;0;1;1;2;2;2;2;2;0;1;1;1;0;1;1;1;1;Negra
+Salvador;Engenho velho da federação;Pública;Menino;9;Preta;2;1;4;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;2;2;1;1;2;2;0;1;1;1;2;0;0;0;1;1;1;1;Negra
+Salvador;Federação;Pública;Menina;8;Parda;3;1;5;1;1;1;2;2;2;2;2;2;1;1;2;2;2;2;2;1;2;1;1;1;2;0;2;1;2;1;2;2;0;1;2;2;0;1;0;1;1;1;1;Negra
+Salvador;Garcia;Particular;Menina;10;Parda;2;1;2;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;1;1;1;1;1;3;2;1;1;1;0;0;0;1;1;1;1;Negra
+Salvador;Itapuã;Particular;Menino;10;Amarela;2;1;6;2;1;1;2;2;2;2;0;0;1;3;3;3;3;3;3;3;3;3;1;0;2;0;1;3;3;3;2;2;0;0;1;0;0;0;0;0;1;1;1;Amarela
+Salvador;Gamboa de Baixo;Pública;Menino;10;Amarela;1;5;3;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;2;2;2;1;1;1;3;2;1;0;3;2;2;0;1;0;1;1;1;1;Amarela
+Salvador;Federação;sem matrícula;Menino;8;Parda;2;1;4;0;0;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;1;1;0;0;2;0;1;0;2;2;2;0;0;1;1;1;1;Negra
+Salvador;São José;Particular;Menina;10;Parda;2;2;6;1;1;1;0;1;1;1;1;1;1;0;2;2;2;2;2;2;0;2;2;0;1;0;3;2;1;3;3;2;1;3;2;1;0;2;1;1;1;0;1;Negra
+Salvador;Fazenda Grande 3, Cajazeiras;Particular;Menina;9;Preta;3;1;5;1;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;2;2;1;1;2;2;2;1;1;1;1;0;1;1;0;1;1;1;1;Negra
+Salvador;7 portas;Pública;Menino;10;Parda;2;5;3;0;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;1;1;1;2;1;1;1;2;1;1;0;2;1;1;1;1;0;Negra
+Salvador;Barbalho;Particular;Menina;11;Parda;3;1;6;1;1;1;0;0;0;0;0;0;0;1;0;1;1;0;0;1;0;1;1;1;1;0;2;1;1;2;1;2;1;1;1;1;0;0;0;3;1;1;1;Negra
+Salvador;Liberdade;Particular;Menina;10;Parda;2;1;6;1;1;1;2;2;2;2;2;0;1;1;1;1;2;2;1;1;2;2;1;1;1;3;2;1;1;1;2;2;1;1;2;1;0;0;0;1;1;1;1;Negra
+Candeias;Centro,estudo;Pública;Menina;11;Preta;2;3;3;1;1;1;1;1;1;1;2;0;2;3;3;3;3;3;2;3;3;3;1;1;1;0;2;1;0;0;2;1;1;2;1;0;0;1;1;1;0;0;2;Negra
+Salvador;Brotas;Pública;Menina;10;Parda;4;1;5;2;1;1;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0;1;1;1;0;1;3;1;2;2;1;1;1;2;3;0;0;0;1;1;1;1;Negra
+Salvador;Boca do Rio;Particular;Menina;12;Branca;2;1;6;1;1;1;1;1;1;1;0;0;1;0;0;1;1;1;1;0;1;1;3;0;0;0;1;1;2;3;2;2;1;3;1;0;2;0;0;1;1;2;1;Branca
+Candeias;Candeias/no bairro Dom Avelar;Pública;Menina;10;Parda;2;1;6;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;2;1;0;2;2;2;2;2;2;2;0;0;0;1;1;0;1;Negra
+Candeias;Rua Cláudio Meirelles fazenda mamão;Pública;Menina;11;Parda;2;2;5;1;1;1;1;1;1;2;2;2;2;1;1;1;2;2;2;2;2;2;1;2;1;0;1;1;1;3;1;2;1;3;2;1;1;1;1;1;1;1;1;Negra
+Salvador;Cabula;Particular;Menina;10;Preta;3;2;6;1;1;1;1;0;0;2;1;2;2;1;0;0;2;1;2;2;1;2;1;2;1;0;3;1;2;2;2;1;3;2;3;3;0;1;0;1;1;1;1;Negra
+Salvador;Valéria;Pública;Menina;12;Parda;2;3;3;0;1;0;2;2;2;3;2;3;2;0;1;1;1;0;0;0;1;0;0;0;2;2;1;2;2;1;2;2;0;2;0;0;0;0;0;1;1;1;1;Negra
+Salvador;Rua curiaxito n 9;Pública;Menina;12;Preta;2;2;3;1;1;1;2;2;2;2;2;2;2;1;2;2;2;2;2;2;2;2;1;2;1;0;0;0;1;2;2;1;0;2;2;1;0;0;0;1;1;1;1;Negra
+Salvador;Praia do flamengo.;Particular;Menino;11;Parda;4;1;6;1;1;1;0;0;0;2;2;1;2;0;0;0;2;2;0;2;2;2;1;2;1;1;0;2;2;2;2;2;1;1;1;2;0;1;0;1;1;3;1;Negra
+Salvador;Pirajá;Particular;Menina;11;Preta;2;2;5;0;1;1;0;0;0;0;0;0;0;2;2;2;2;2;2;2;2;2;1;1;0;0;2;2;1;2;2;2;1;2;1;2;2;0;0;1;1;1;1;Negra
+Salvador;Pituba;Particular;Menino;9;Branca;2;2;6;1;0;1;0;0;0;1;2;1;2;0;0;0;1;1;2;2;1;2;1;2;2;2;3;3;1;2;2;2;2;0;2;1;1;1;1;1;1;1;1;Branca
+Salvador;Cabula;Particular;Menino;11;Preta;2;1;6;1;1;1;1;2;1;1;2;1;2;1;1;1;2;1;1;2;1;1;1;1;1;2;2;1;1;2;2;2;1;2;1;1;0;1;1;1;1;1;1;Negra
+Salvador;Itapuã;Pública;Menino;12;Preta;5;4;6;1;1;1;2;2;2;2;2;1;2;2;2;2;2;2;1;2;2;2;2;2;1;0;3;1;1;2;3;3;3;2;2;3;0;1;1;1;1;0;1;Negra
+Salvador;Calabar;Particular;Menina;10;Parda;2;1;3;1;1;1;1;1;2;2;2;3;2;2;1;2;2;2;2;2;1;2;1;2;1;2;2;1;0;1;2;1;1;1;1;0;0;0;0;1;1;1;1;Negra
+Salvador;Armação;Particular;Menino;10;Parda;2;2;6;1;1;1;1;0;0;2;0;2;2;0;0;0;0;0;0;0;1;1;1;2;1;0;3;0;1;0;1;1;1;0;1;1;1;0;1;1;1;0;0;Negra
+Salvador;STIEP;Particular;Menina;10;Não sei responder ou não quero responder;2;1;6;1;1;1;1;0;0;1;0;2;1;0;0;0;1;0;1;1;0;0;1;2;2;0;2;1;1;2;2;2;1;1;1;0;1;1;1;1;1;1;3;Sem resposta
+Salvador;Santa cruz;Pública;Menina;9;Parda;2;2;4;0;0;1;0;0;1;2;1;0;0;0;0;1;1;1;1;0;1;1;1;2;1;0;0;0;1;2;2;0;0;2;2;0;0;0;0;0;1;1;1;Negra
+Salvador;Vale Das Pedrinhas;Particular;Menino;10;Preta;4;3;6;1;1;1;0;0;0;2;2;1;2;1;0;1;0;2;1;1;2;1;1;0;0;2;3;1;0;0;1;3;2;1;0;1;0;1;1;1;3;3;1;Negra
+Salvador;Boca do rio;Particular;Menina;12;Preta;1;1;6;1;1;1;2;2;1;2;2;2;2;1;1;1;1;1;1;1;1;1;1;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;1;0;1;1;Negra
+Salvador;Canela;Particular;Menino;9;Parda;2;2;3;1;1;1;2;2;1;2;2;2;2;2;2;1;2;2;2;2;2;2;2;1;1;1;2;2;2;2;2;2;1;2;1;2;1;1;1;1;1;1;1;Negra
+Salvador;Periperi;Pública;Menina;10;Preta;5;5;5;1;1;1;2;2;2;2;2;2;3;1;2;2;2;2;3;1;2;2;1;2;1;1;1;2;1;1;1;1;2;1;1;1;1;1;0;1;1;1;1;Negra
+Camaçari;Industrial;Pública;Menino;10;Preta;4;1;4;0;1;1;2;1;2;2;2;0;0;2;0;2;2;2;0;0;0;0;1;1;0;1;3;2;3;0;3;1;2;3;3;1;0;1;0;1;1;1;1;Negra
+Outros;RUA SÃO JUDAS TADEU;Pública;Menina;8;Parda;5;1;4;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;2;0;3;2;2;1;2;2;2;2;0;0;0;1;1;1;1;Negra
+Salvador;Pituba;Particular;Menino;9;Branca;2;1;6;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;1;1;1;2;2;1;0;2;1;0;2;1;1;1;1;1;1;Branca
+Salvador;Pituba;Particular;Menino;9;Branca;2;2;6;1;0;1;0;0;0;1;2;1;2;0;0;0;1;1;2;2;1;2;1;2;2;2;3;3;1;2;2;2;2;0;2;1;1;1;1;1;1;1;1;Branca
+Outros;Centro;Particular;Menina;10;Branca;3;2;4;1;1;1;3;2;2;2;2;0;0;2;2;2;2;2;0;0;2;0;1;0;1;0;1;0;0;1;2;2;2;2;1;2;0;2;2;1;1;0;1;Branca
+Simões Filho;Recanto dos Eucaliptos Centro;Pública;Menino;11;Parda;1;1;5;1;1;1;0;1;1;2;2;1;1;1;0;1;2;2;2;2;1;1;1;1;1;0;2;0;0;1;2;1;1;2;2;2;0;0;0;1;1;1;1;Negra
+Outros;Rua das Algas;Pública;Menino;12;Branca;2;3;4;0;1;1;0;1;1;1;1;0;1;1;0;0;1;1;0;1;0;0;1;2;1;2;3;3;1;3;2;2;2;2;0;0;0;1;1;1;1;0;1;Branca
+Salvador;Imbuí;Particular;Menino;8;Branca;2;1;6;1;1;1;1;1;0;1;1;0;0;0;0;0;1;1;0;0;0;1;1;2;1;0;2;0;1;2;2;1;1;0;2;0;2;1;0;0;1;1;1;Branca
+Salvador;Brotas;Particular;Menino;12;Parda;2;1;6;1;1;1;1;1;0;2;2;0;1;1;0;0;2;2;0;1;2;1;1;2;2;0;2;1;1;2;2;2;1;1;2;0;2;0;0;1;1;1;1;Negra
+Salvador;Praça igaratinga;Particular;Menino;10;Parda;3;2;6;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;2;1;1;1;1;2;2;2;1;1;1;1;1;1;1;1;1;Negra
+Salvador;Pituba;Particular;Menino;8;Parda;3;2;6;1;1;1;1;0;0;2;1;2;2;1;2;2;2;2;2;2;2;2;1;1;1;0;2;1;1;1;1;1;1;1;0;0;0;0;1;1;1;1;1;Negra
+Salvador;Brotas;Particular;Outros;11;Branca;2;2;3;1;1;1;0;1;1;2;2;2;2;1;0;0;2;2;2;2;2;2;1;1;2;2;2;1;1;2;1;2;3;1;0;1;1;1;1;1;1;3;1;Branca
+Salvador;Resgate;Particular;Menina;8;Parda;1;2;6;1;1;1;0;2;2;2;2;2;2;1;1;0;1;1;1;1;2;2;1;2;1;2;3;1;1;1;3;3;3;1;1;0;1;0;0;1;1;1;1;Negra
+Salvador;Itapuã;Particular;Menino;10;Parda;1;1;5;1;1;1;1;2;2;2;2;1;1;1;1;2;2;2;2;2;2;2;1;2;2;2;1;0;1;2;2;1;1;1;1;1;0;1;0;1;1;1;1;Negra
+Salvador;Caminho Das Árvores;Particular;Menina;10;Branca;1;2;6;1;1;1;0;0;0;1;1;1;1;0;0;0;1;1;1;1;3;1;3;1;1;0;2;1;0;2;1;2;2;1;2;0;2;0;0;1;1;1;1;Branca
+Salvador;Barbalho/Alto do Cabrito;Particular;Menina;9;Preta;2;1;4;1;1;1;1;1;1;1;1;0;1;0;0;1;1;1;0;0;1;1;1;0;1;0;3;0;0;1;3;3;1;1;1;0;0;0;0;1;1;0;1;Negra
+Lauro de Freitas;Pitangueiras;Particular;Menina;9;Parda;2;1;6;1;1;1;1;2;1;2;2;1;2;0;0;0;1;1;2;2;1;0;2;1;1;2;3;1;1;2;2;1;0;1;1;2;2;0;2;1;1;1;1;Negra
+Lauro de Freitas;Buraquinho;Particular;Menino;9;Branca;2;2;6;1;1;1;0;0;0;2;2;0;2;0;0;0;2;2;0;2;2;2;3;1;1;0;2;1;2;2;2;0;0;1;1;1;2;2;1;1;1;1;1;Branca
+Lauro de Freitas;Pitangueiras;Particular;Menina;9;Branca;3;2;6;1;1;1;0;0;0;2;2;1;2;1;0;0;2;2;2;2;2;2;1;1;1;0;2;0;0;2;1;0;1;1;1;0;0;0;0;1;1;1;1;Branca
+Salvador;Jd das Margaridas;Particular;Menina;9;Parda;1;3;6;1;1;1;0;2;1;2;2;2;0;0;0;0;2;2;1;1;1;1;1;1;1;2;3;1;1;2;3;3;2;1;1;2;1;0;1;1;1;1;1;Negra
+Lauro de Freitas;Pitangueiras;Particular;Menina;9;Outros;2;2;6;1;1;1;0;1;0;1;1;1;1;0;1;0;1;1;1;1;0;0;1;1;1;2;2;2;2;2;2;2;0;2;2;2;1;2;2;1;1;1;1;Outros
+Outros;Centro;Particular;Menino;11;Indígena;4;3;6;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;1;1;0;2;1;2;2;0;0;0;0;1;0;1;1;1;1;Indígena
+Salvador;Rua Manuel Rangel;Particular;Menino;11;Indígena;1;2;5;1;1;1;1;2;2;2;0;2;2;0;0;0;1;0;0;0;1;2;1;0;1;0;1;3;1;2;2;2;2;2;0;2;0;0;1;1;1;3;1;Indígena
+Lauro de Freitas;Pitangueiras;Particular;Menino;11;Não sei responder ou não quero responder;2;2;6;1;1;1;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;2;2;2;2;1;0;0;2;0;1;2;2;2;1;1;1;1;Sem resposta
+Outros;Centro;Particular;Menino;11;Parda;4;2;6;1;1;1;1;0;1;2;2;1;1;1;0;0;2;2;1;1;2;1;1;2;1;2;2;2;1;3;1;3;2;2;1;2;0;1;0;1;1;2;1;Negra
+Lauro de Freitas;Caji caixa d'água;Particular;Menina;9;Parda;1;1;6;1;1;1;0;1;0;2;2;1;2;0;1;0;2;2;1;2;1;0;1;0;1;1;3;1;0;2;2;2;2;2;0;0;1;0;0;0;1;1;1;Negra
+Camaçari;Ipitanga;Particular;Outros;11;Parda;2;1;6;1;1;1;3;0;0;1;1;1;2;0;0;0;1;1;2;2;1;2;1;2;1;0;1;1;0;2;3;1;1;1;1;1;0;1;1;1;1;1;1;Negra
+Outros;São Roque;Particular;Menina;8;Preta;3;1;4;1;1;1;0;1;1;1;0;1;1;0;1;1;1;0;1;1;1;1;1;1;1;0;1;1;0;2;2;1;1;1;1;1;0;1;0;1;2;1;1;Negra
+Salvador;Nova brasília;Particular;Menino;11;Parda;3;1;6;1;1;1;0;0;1;2;2;2;2;0;0;1;2;2;2;2;2;2;1;2;2;0;3;2;0;3;3;3;3;1;1;2;1;0;0;1;1;1;1;Negra
+Lauro de Freitas;Vilas do Atlântico;Particular;Menino;12;Amarela;3;1;6;1;1;1;2;2;1;2;1;2;2;2;0;2;2;0;2;1;2;2;1;2;1;1;3;1;0;2;1;2;1;1;1;1;0;0;1;2;1;1;1;Amarela
+Salvador;Vale dos Lagos.;Particular;Menino;10;Parda;2;1;6;1;1;1;1;1;1;2;2;1;2;1;0;1;2;2;1;1;2;2;1;1;1;2;3;1;1;3;3;2;1;1;2;0;1;0;0;1;1;1;1;Negra
+Outros;Condomínio da aracatiba;Pública;Menina;12;Parda;2;3;2;0;1;0;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;0;0;1;0;2;1;0;0;1;0;0;0;0;0;1;1;3;Negra
+Camaçari;Catu de Abrantes;Particular;Menina;8;Parda;2;2;4;1;1;1;1;0;0;2;2;1;2;1;0;1;2;2;2;2;0;1;1;2;2;0;3;1;1;2;2;3;2;2;1;1;1;0;1;3;3;3;1;Negra
+Salvador;STIEP;Particular;Menino;8;Parda;2;2;3;1;1;1;1;0;1;1;1;1;1;0;0;0;1;1;1;1;1;1;1;2;1;2;3;2;2;2;3;3;1;1;3;1;0;0;0;1;0;1;1;Negra
+Salvador;Vale das pedrinhas;Particular;Menina;8;Preta;2;1;5;1;1;1;1;2;2;2;2;2;2;2;1;2;2;2;2;2;2;2;1;1;1;2;2;2;1;2;1;2;2;2;2;2;0;1;0;1;1;1;1;Negra
+Salvador;Ondina;Particular;Menina;12;Branca;1;1;3;1;1;1;1;1;1;1;1;1;1;1;0;1;1;1;0;1;1;1;1;0;2;0;3;2;0;1;1;3;2;2;0;0;0;0;0;0;1;1;1;Branca
+Camaçari;Catu de Abrantes;Particular;Menina;9;Preta;2;2;5;1;1;1;0;0;1;2;2;2;2;0;0;0;2;1;2;2;0;2;2;1;1;0;2;1;1;2;1;2;0;1;2;0;2;0;1;1;1;2;2;Negra
+Salvador;Santa cruz Chapada do rio vermelho;Particular;Menina;8;Parda;3;1;5;1;1;1;0;0;1;1;1;0;1;0;0;1;1;1;0;1;1;1;3;1;1;0;2;2;0;2;2;2;1;0;1;0;0;1;1;1;1;1;1;Negra
+Salvador;Engenho Velho da Federação;Particular;Menino;12;Outros;1;1;6;1;1;1;1;3;3;2;1;1;2;1;3;1;1;1;0;2;2;2;1;1;1;2;2;1;0;1;2;2;2;2;2;2;0;2;1;1;1;3;1;Outros
+Lauro de Freitas;Pitangueiras;Particular;Menina;8;Branca;2;2;3;1;1;1;1;1;0;1;1;1;1;1;0;0;1;1;1;1;1;1;1;1;1;2;2;1;1;2;2;2;1;1;3;2;2;0;0;1;1;1;1;Branca
+Salvador;Paripe;Pública;Menino;9;Preta;2;1;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;0;1;1;2;1;0;0;0;3;3;0;0;0;1;1;1;1;Negra
+Salvador;Vale das Pedrinhas;Particular;Menina;8;Preta;2;1;6;1;1;1;1;2;2;2;2;0;2;1;2;2;2;2;2;2;1;1;1;2;2;2;1;2;2;1;2;2;1;0;1;3;0;0;0;1;1;1;1;Negra
+Salvador;Rua vila mata;Pública;Menina;10;Indígena;3;1;6;0;1;1;1;2;2;2;2;3;3;2;2;2;2;3;3;3;2;3;3;0;2;3;2;0;1;1;2;0;2;2;1;1;0;1;0;2;1;2;1;Indígena
+Salvador;Rio vermelho;Particular;Menina;11;Parda;2;2;6;1;1;1;1;0;1;2;2;1;1;0;0;0;1;2;2;1;2;2;2;1;1;0;2;1;1;2;3;3;2;1;0;1;0;0;1;1;1;1;1;Negra
+Camaçari;Vila de Abrantes;Particular;Menino;8;Branca;2;2;4;1;1;1;0;0;0;2;2;2;2;0;0;0;1;1;2;2;1;2;1;1;1;0;3;1;0;0;3;1;0;1;1;1;0;1;0;1;1;1;1;Branca
+Camaçari;Vilas de Abrantes;Particular;Menina;12;Branca;2;2;3;1;1;1;0;0;0;2;0;0;0;0;0;0;2;1;1;1;1;1;1;2;1;0;3;1;1;2;2;2;2;1;1;1;0;0;0;1;1;1;1;Branca
+Salvador;Massaranduba;Particular;Menino;9;Preta;2;1;5;1;1;1;1;2;2;2;1;1;1;2;2;2;2;1;2;2;2;2;1;2;1;0;2;1;1;2;2;2;1;2;2;2;0;0;0;1;1;1;1;Negra
+Lauro de Freitas;Itinga;Particular;Menino;8;Parda;2;2;6;1;1;1;0;1;0;1;1;1;1;0;1;0;1;1;1;1;0;0;1;1;1;0;2;2;2;2;2;2;2;2;2;2;2;1;0;1;1;1;1;Negra
+Salvador;Pituba;Particular;Menino;12;Branca;3;1;4;1;1;1;0;0;0;2;1;2;2;0;3;0;2;1;2;1;2;1;1;1;1;0;3;2;0;2;1;0;0;2;0;0;0;0;1;0;1;0;1;Branca
+Salvador;Ranulfo de Oliveira;sem matrícula;Menino;10;Branca;2;2;4;1;1;1;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;1;2;2;2;2;2;2;2;1;2;0;2;0;1;1;1;1;3;Branca
+Lauro de Freitas;Portão;Particular;Menina;11;Branca;2;1;5;1;1;1;0;0;0;1;1;1;1;0;0;0;1;1;0;0;0;1;1;2;1;2;3;1;0;1;3;3;1;1;0;0;0;0;0;1;3;3;3;Branca
+Salvador;Graça;Particular;Menino;9;Não sei responder ou não quero responder;2;2;6;1;0;1;3;0;0;1;2;1;0;0;0;0;1;0;1;0;3;2;1;2;1;3;1;1;1;3;2;1;3;1;1;1;1;0;1;1;1;1;1;Sem resposta
+Salvador;Engenho Velho de Brotas;Particular;Menina;11;Parda;2;1;5;1;1;1;1;1;2;2;2;2;2;1;1;1;2;2;2;2;2;2;1;2;1;0;2;2;2;2;1;1;1;1;1;0;0;0;0;1;1;1;1;Negra
+Salvador;Barra;Particular;Menino;9;Outros;4;2;3;1;1;1;1;2;1;2;2;2;2;1;0;0;1;1;2;2;0;2;1;1;1;0;3;1;0;2;3;3;0;2;1;1;0;0;0;1;1;3;1;Outros
+Salvador;Boca do rio;Particular;Menino;12;Parda;1;1;6;0;1;1;0;1;1;2;2;1;0;0;0;0;1;1;1;0;1;1;1;2;1;0;2;1;1;2;1;1;1;2;0;1;0;1;1;1;1;1;1;Negra
+Salvador;Alto de Ondina;Pública;Menina;8;Preta;3;1;4;1;1;1;1;2;2;2;2;1;2;0;1;2;2;2;1;2;2;2;1;1;1;2;2;0;0;1;1;2;0;1;0;0;0;1;1;0;0;1;1;Negra
+Salvador;Brotas;Particular;Menino;9;Indígena;1;2;6;1;1;1;1;1;1;1;1;2;2;1;1;1;1;1;2;2;0;0;2;2;2;0;2;0;1;2;2;2;1;1;2;0;1;0;1;1;1;1;1;Indígena
+Salvador;Barra;Particular;Menino;12;Branca;2;1;3;1;1;1;0;0;0;0;2;2;0;0;0;0;3;3;2;3;3;3;1;1;1;0;3;0;1;1;1;2;1;1;0;0;1;1;1;1;1;1;1;Branca
+Outros;Alto de Santo Antônio;Particular;Menino;10;Branca;3;1;6;1;1;1;0;0;0;1;1;2;2;0;0;0;1;1;1;1;2;1;1;1;1;0;2;0;0;2;1;1;1;1;2;1;0;0;0;1;1;1;1;Branca
+Outros;Santa rita;Particular;Menina;9;Parda;3;2;6;1;1;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;2;1;3;3;0;2;3;3;3;0;2;2;0;3;2;1;1;1;1;Negra
+Outros;Bom Despacho;Particular;Menino;10;Preta;2;1;4;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;1;0;2;2;3;0;1;2;2;3;1;2;0;0;0;2;1;1;1;Negra
+Outros;Alto do Santo Antônio (Itaparica);Particular;Menina;10;Parda;3;1;6;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;2;3;3;3;3;3;1;2;2;2;0;1;0;1;1;1;1;Negra
+Outros;Misericórdia;Particular;Menino;11;Parda;2;2;4;1;1;1;1;1;0;0;0;0;0;0;1;1;0;0;1;1;0;0;2;1;1;2;2;1;1;1;2;1;1;1;1;1;1;1;1;1;1;1;1;Negra
+Salvador;Barra Avenida;Particular;Menina;11;Branca;4;2;3;1;1;1;1;2;2;2;2;2;2;1;0;0;0;0;2;2;0;2;1;1;1;0;1;1;1;2;2;2;0;2;1;0;0;0;0;1;1;0;1;Branca
+Outros;Fonte da prata;Particular;Menino;11;Amarela;2;1;6;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;1;1;3;0;0;3;2;2;1;0;0;2;0;0;0;1;1;1;1;Amarela
+Camaçari;Abrantes;Particular;Menina;8;Branca;3;1;5;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;2;1;1;1;2;2;2;1;2;2;2;2;1;2;2;1;2;2;1;1;1;1;Branca
+Outros;Alto de Santo Antônio;Particular;Menino;12;Preta;4;2;6;1;0;1;1;1;2;2;2;2;2;1;1;2;2;2;2;2;2;2;1;2;1;2;1;0;1;2;2;1;0;1;1;1;0;1;0;1;1;1;1;Negra
+Salvador;Campinas De Brotas;Particular;Menino;12;Branca;2;1;6;1;1;1;1;1;0;1;1;1;1;0;0;0;0;1;0;0;1;1;1;0;1;2;3;1;1;2;2;3;2;1;1;1;0;0;0;1;1;0;1;Branca
+Salvador;Candeal de Brotas;Particular;Menina;9;Branca;2;1;5;1;1;1;0;0;0;2;2;1;2;0;0;0;2;2;1;2;2;2;1;2;1;0;2;1;1;3;1;2;1;2;1;0;1;0;0;1;1;1;1;Branca
+Salvador;Engenho Velho da Federação;Particular;Menino;9;Parda;2;2;6;0;1;1;2;0;2;2;2;2;2;2;0;2;2;2;2;2;2;2;1;1;1;2;2;1;0;2;2;0;0;1;1;0;1;1;0;1;1;1;1;Negra
+Salvador;Barra;Particular;Menino;9;Parda;4;2;6;1;1;1;1;1;1;2;2;0;0;1;0;0;2;2;0;0;0;0;1;1;1;0;1;1;2;2;2;1;1;1;2;2;2;0;0;1;1;1;1;Negra
+Outros;Fonte da Prata;Particular;Menina;8;Preta;2;2;4;1;1;1;0;0;0;1;1;1;1;1;0;0;1;1;1;1;1;1;1;1;1;0;1;1;2;1;3;0;2;2;3;3;0;0;0;1;1;1;1;Negra
+Salvador;Cosme De Farias;Pública;Menino;11;Branca;1;1;4;0;1;1;0;0;0;0;0;2;2;0;0;0;0;1;1;0;0;0;0;0;1;1;1;1;0;0;2;2;0;0;0;0;0;0;0;0;1;1;1;Branca
+Outros;Barra Grande;Particular;Menino;9;Branca;2;2;6;1;1;1;2;2;2;2;2;1;1;1;2;2;2;2;1;1;2;1;1;1;1;2;2;2;1;1;2;1;1;1;1;1;0;1;0;1;1;1;1;Branca
+Outros;Riachinho;Particular;Menina;10;Parda;2;2;6;1;1;1;1;1;1;2;1;2;2;1;1;0;2;1;2;1;2;1;0;2;1;2;2;1;1;0;2;1;1;3;1;0;0;1;0;1;1;1;1;Negra
+Salvador;Engenho Velho de Brotas;Pública;Menina;10;Preta;2;1;6;1;1;1;1;2;1;2;2;2;1;1;1;2;2;2;2;1;2;2;1;2;1;0;2;0;1;2;2;2;1;2;1;2;0;1;0;1;1;1;1;Negra
+Salvador;Iapi;sem matrícula;Menina;12;Preta;2;1;6;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;2;0;0;3;1;2;1;3;2;3;2;0;0;0;0;1;1;1;1;1;Negra
+Salvador;Praia Grande;Particular;Menina;8;Preta;2;1;4;0;1;1;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;3;3;1;0;3;0;0;1;1;3;0;1;0;0;1;0;0;Negra
+Salvador;Comércio;Pública;Menino;9;Parda;4;1;4;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;1;1;2;2;1;1;1;2;2;1;2;2;1;2;2;1;3;3;1;Negra
+Salvador;Barra;Particular;Menino;12;Branca;1;1;5;1;1;1;1;2;0;2;0;1;2;0;1;0;1;0;0;0;0;1;1;2;1;2;2;2;1;2;1;3;1;2;0;0;1;0;1;1;1;1;1;Branca
+Salvador;Mussurunga;Pública;Menino;8;Parda;4;1;5;0;1;1;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;1;1;0;1;0;2;0;0;1;2;0;0;0;0;0;0;0;0;1;1;1;1;Negra
+Salvador;imbuí;Particular;Menina;12;Parda;2;2;6;1;1;1;1;2;2;2;2;1;1;1;1;1;2;2;2;2;2;1;1;2;1;2;2;2;2;2;2;2;1;2;2;0;1;1;1;1;1;1;1;Negra
+Salvador;MUSSURUNGA;Particular;Menino;10;Preta;5;3;6;1;1;1;3;3;3;2;1;1;1;3;1;0;2;2;2;2;2;2;1;1;1;0;2;2;1;2;1;2;2;2;2;2;2;0;0;1;1;1;1;Negra
+Salvador;Roma;Particular;Menina;10;Preta;2;1;6;1;1;1;0;0;0;1;1;1;1;0;0;0;1;1;1;1;0;0;1;1;1;2;3;1;1;2;2;2;2;1;1;0;0;0;0;3;1;1;1;Negra
+Salvador;Vasco da Gama;Particular;Menina;8;Amarela;5;1;5;1;1;1;0;0;0;3;3;0;0;0;0;0;3;3;0;0;0;0;1;0;1;0;2;0;2;2;2;2;2;1;2;2;0;0;0;1;1;1;1;Amarela
+Salvador;Massaranduba;Particular;Menino;11;Preta;5;2;3;1;1;1;2;0;0;0;2;2;3;0;0;1;0;1;2;2;3;3;1;2;0;0;2;2;0;1;2;2;3;0;0;0;0;2;1;3;1;3;1;Negra
+Salvador;Pituba;Particular;Menina;11;Não sei responder ou não quero responder;2;1;6;1;1;1;1;0;0;1;1;0;0;0;0;0;1;1;1;0;0;0;1;2;1;0;3;1;1;2;1;1;1;1;2;1;2;0;1;1;1;2;1;Sem resposta
+Candeias;Malembá;Pública;Menina;12;Parda;2;1;2;0;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;1;1;1;1;2;0;0;1;1;1;0;0;0;1;1;1;1;Negra
+Salvador;Apipema;Particular;Menina;10;Parda;3;3;6;1;1;1;0;0;0;2;2;2;2;0;0;0;2;2;2;2;2;1;1;2;3;0;3;0;2;2;3;3;3;1;1;1;1;0;0;1;1;1;1;Negra
+Salvador;Apipema;Particular;Menino;8;Parda;3;3;6;1;1;1;3;1;1;1;1;0;1;1;1;1;2;2;0;1;0;1;2;0;3;2;2;0;2;2;2;2;0;0;1;1;1;0;0;1;1;1;1;Negra
+Salvador;Apipema;Particular;Menino;8;Branca;3;3;6;1;1;1;0;0;0;0;0;3;1;0;0;0;1;2;2;1;2;1;2;0;2;0;3;0;2;2;2;0;0;1;1;1;2;0;0;1;1;1;1;Branca
+Outros;Centro;Pública;Menina;12;Parda;2;1;6;1;1;1;0;0;0;2;0;0;2;0;0;0;0;0;1;1;1;1;1;1;1;0;1;2;1;1;1;1;1;1;1;1;1;0;0;1;1;1;1;Negra
+Salvador;Avenida Jequitaía;Pública;Menino;9;Parda;3;2;5;0;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;1;2;2;0;1;0;1;1;1;2;0;2;2;1;1;1;1;1;Negra
+Salvador;Resgate;Particular;Menina;9;Outros;2;1;4;1;1;1;0;0;0;1;1;1;1;0;0;0;2;1;2;1;2;2;1;1;2;0;2;1;0;2;2;3;1;0;2;0;1;1;0;1;1;1;1;Outros
+Camaçari;Abrantes;Particular;Menino;11;Branca;2;2;6;1;1;1;0;0;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;1;2;2;1;1;1;1;2;1;1;2;2;1;1;0;1;1;1;1;Branca
+Salvador;Stiep;Particular;Menina;11;Parda;3;2;6;1;1;1;0;3;2;1;0;0;0;0;0;2;1;0;0;0;0;0;2;0;2;0;2;2;1;2;0;2;0;1;3;1;2;0;0;1;1;2;1;Negra
+Outros;Duro;Pública;Menina;11;Parda;3;1;5;0;1;1;0;0;0;2;2;2;2;0;0;0;1;1;1;1;0;0;0;0;1;1;2;0;0;1;2;2;2;2;1;0;0;1;1;1;1;1;1;Negra
+Outros;Alto do Santo Antônio (Itaparica);Particular;Menina;10;Parda;3;1;6;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;2;3;3;3;3;3;1;2;2;2;0;1;0;1;1;1;1;Negra
+Salvador;Ondina;Particular;Menina;12;Preta;5;2;6;1;1;1;1;2;2;2;2;2;2;0;0;1;1;1;1;1;1;1;1;1;1;2;3;1;1;3;2;2;2;2;1;1;2;0;0;1;1;1;1;Negra
+Salvador;Brotas;Particular;Menino;11;Outros;1;2;6;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;0;1;0;2;1;1;0;2;0;1;1;0;0;0;0;0;2;1;1;1;Outros
+Salvador;Brotas;Particular;Menino;11;Parda;1;2;6;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;2;1;2;2;2;1;1;1;0;0;0;0;0;1;1;1;1;Negra
+Salvador;Rua oscar duque de almeida;Particular;Menino;12;Parda;2;1;6;1;1;1;3;3;3;3;3;2;0;0;0;0;0;0;0;0;0;0;1;1;1;0;1;1;2;0;2;2;2;2;2;2;2;2;2;0;1;0;0;Negra
+Salvador;STIEP;Particular;Menina;11;Parda;2;1;4;1;1;1;1;1;1;1;1;1;1;1;0;0;1;1;1;1;0;1;2;2;0;2;2;1;1;2;1;2;1;1;1;1;0;0;1;1;1;1;1;Negra
+Salvador;Patamares;Particular;Menino;11;Não sei responder ou não quero responder;2;2;2;1;1;1;0;0;0;1;0;1;1;0;0;0;1;0;1;0;1;0;1;2;1;0;1;2;1;2;1;2;0;0;1;1;2;0;1;1;1;3;1;Sem resposta
+Salvador;Federação;Particular;Menina;10;Parda;1;1;6;0;1;1;0;0;0;1;1;0;1;0;0;0;1;1;0;1;0;0;1;2;1;1;2;1;1;0;2;3;1;1;1;0;0;0;0;1;1;1;1;Negra
+Outros;Condomínio parque Enseada do sol,Bahia, Gameleira;Particular;Menina;10;Branca;5;2;6;1;1;1;0;0;0;1;1;0;0;0;0;0;1;1;1;1;0;1;1;2;1;2;2;2;0;2;1;0;0;1;2;1;2;3;0;2;1;1;1;Branca
+Salvador;Santo Estêvão, centro;Particular;Menina;9;Não sei responder ou não quero responder;4;3;4;1;1;1;1;2;2;2;2;2;2;1;2;2;2;2;2;2;2;2;1;1;1;2;2;0;1;2;1;0;1;1;2;2;0;0;0;1;1;1;1;Sem resposta
+Salvador;Stella Maris;Particular;Menino;12;Preta;3;2;5;1;1;1;1;1;1;1;0;0;1;1;0;1;1;0;1;1;1;0;1;2;1;2;2;2;1;3;2;3;2;2;1;2;0;1;0;1;1;1;1;Negra
+Salvador;Barra;Particular;Menina;8;Branca;2;2;3;1;1;1;1;2;2;2;2;1;2;2;2;2;2;2;1;2;1;2;1;1;1;2;3;1;0;0;2;2;2;0;1;0;1;0;1;1;1;0;1;Branca
+Salvador;Pituba;Particular;Menino;11;Parda;2;2;6;1;1;1;1;2;2;2;2;1;1;1;2;2;1;1;0;0;1;1;2;1;1;2;3;1;0;0;3;0;0;2;2;0;1;1;1;3;3;0;2;Negra
+Salvador;Barra;Particular;Menino;12;Preta;2;3;4;1;1;1;3;1;0;2;2;1;1;1;1;2;2;1;1;1;2;1;1;1;1;0;3;1;0;3;3;1;1;1;1;0;1;1;0;1;1;1;1;Negra
+Salvador;Santo Estêvão, centro;Particular;Menina;9;Não sei responder ou não quero responder;4;3;4;1;1;1;1;2;2;2;2;2;2;1;2;2;2;2;2;2;2;2;1;1;1;2;2;0;1;2;1;0;1;1;2;2;0;0;0;1;1;1;1;Sem resposta
+Salvador;Santa Teresa;Particular;Menina;11;Preta;1;2;6;1;1;1;1;2;2;2;2;1;1;1;2;2;1;1;2;2;2;2;1;1;2;0;2;0;0;2;3;2;2;2;0;0;1;1;0;1;1;0;1;Negra
+Camaçari;Porque das mangaba;Pública;Menina;8;Preta;2;3;5;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;0;1;2;2;1;1;1;1;1;1;0;0;0;1;1;1;1;Negra
+Camaçari;Vila de Abrantes;Particular;Menino;10;Preta;2;2;6;1;1;1;1;2;2;2;2;1;2;2;2;2;2;2;2;2;2;2;1;1;1;0;1;1;1;1;2;0;0;1;1;2;2;2;0;1;1;1;1;Negra
+Camaçari;Barra do Jacuípe;Pública;Menino;8;Parda;2;1;5;1;0;1;1;2;2;2;2;2;1;2;2;2;2;2;1;1;2;2;2;0;1;0;1;1;0;2;2;1;2;0;2;2;0;2;0;0;1;1;1;Negra
+Camaçari;Lama preta;Pública;Menina;12;Parda;2;2;5;1;1;1;2;2;1;2;2;1;1;2;2;1;2;2;1;1;1;1;0;2;0;0;2;0;0;1;1;0;2;3;0;0;0;0;0;1;1;1;1;Negra
+Camaçari;Parque satélite;Pública;Menina;10;Preta;2;2;6;0;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;1;1;1;1;2;1;1;1;1;1;1;1;1;1;1;1;1;Negra
+Camaçari;Parque satelite;Pública;Menino;11;Preta;3;2;5;0;1;1;2;1;1;2;2;2;2;1;1;1;1;1;1;1;1;1;1;1;1;1;2;1;1;2;2;2;2;2;2;2;0;1;1;1;1;1;1;Negra
+Camaçari;LAMA PRETA;Pública;Menina;10;Branca;2;2;5;1;1;1;1;1;2;2;2;1;2;1;1;2;2;2;2;2;2;1;0;1;1;0;1;0;1;2;1;1;1;2;2;1;0;1;1;1;1;1;1;Branca
+Camaçari;Vila de Abrantes;Pública;Menino;9;Preta;1;1;3;0;1;1;1;1;1;1;1;1;1;1;1;0;1;1;1;0;0;0;1;2;1;0;2;0;0;2;2;0;0;1;1;2;0;1;1;2;1;0;1;Negra
+Camaçari;Parque satélite;Pública;Menina;11;Preta;2;2;5;1;1;1;1;2;1;2;2;1;1;1;1;1;2;2;1;1;2;1;1;2;1;2;2;0;2;2;2;1;1;2;1;1;0;0;0;1;1;1;1;Negra
+Camaçari;Parque verde;Pública;Menino;8;Preta;2;2;4;0;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;1;0;1;2;1;0;0;2;2;2;0;1;1;1;1;1;1;Negra
+Camaçari;auto da crus;Pública;Menina;12;Branca;3;1;6;0;1;1;2;1;2;2;2;2;2;1;1;1;1;1;1;1;1;1;1;0;1;0;1;0;0;2;2;2;2;2;1;0;0;0;2;1;1;1;1;Branca
+Camaçari;Condonimio moradas dos pinheiros;Pública;Menina;12;Parda;2;1;3;1;1;1;1;0;1;1;1;0;1;1;1;0;1;1;0;1;1;0;2;0;1;1;1;0;0;1;2;0;2;3;3;1;1;0;2;0;1;1;1;Negra
+Camaçari;Nova Vitória;Pública;Menina;11;Parda;2;2;6;1;1;1;1;0;1;1;0;1;1;0;0;0;1;0;1;1;0;1;1;0;0;1;3;0;1;2;0;1;0;1;0;1;0;0;0;1;1;1;1;Negra
+Camaçari;Phoc 3;Pública;Menina;11;Parda;3;1;6;1;1;1;1;1;1;1;1;1;1;0;0;0;1;1;1;1;0;1;0;2;1;2;3;2;2;2;3;2;2;2;2;2;0;0;1;1;1;1;1;Negra
+Camaçari;Parque Floresta;Pública;Menina;10;Parda;4;4;5;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;2;1;2;1;2;1;2;2;2;2;2;0;1;0;1;1;1;1;Negra
+Camaçari;Gleba E;Pública;Menina;8;Preta;4;1;6;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;2;1;2;0;1;1;3;2;1;2;1;1;2;1;1;1;1;1;0;1;Negra
+Camaçari;Bonba;Pública;Menina;11;Branca;3;2;6;1;1;1;1;2;2;2;1;2;0;2;2;2;2;2;1;1;1;3;2;0;0;2;2;1;1;2;1;0;0;2;1;1;0;2;1;1;1;3;3;Branca
+Camaçari;Mutirão de Catu de Abrantes;Pública;Menino;8;Parda;4;1;4;0;1;1;2;1;1;1;3;3;3;1;1;1;1;1;1;2;1;2;0;0;0;0;2;2;2;0;2;3;3;3;2;0;0;0;0;1;1;1;1;Negra
+Camaçari;Phoc1;Pública;Menina;10;Preta;3;3;3;1;1;1;1;1;1;2;1;2;2;2;2;2;2;2;1;1;2;2;1;0;1;0;1;0;3;2;1;1;0;3;1;0;0;1;0;1;1;1;1;Negra
+Camaçari;Parque satélite;Pública;Menino;8;Preta;3;2;3;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;2;1;0;2;3;1;1;0;2;2;0;0;0;1;1;1;1;Negra
+Salvador;Abrantes;Pública;Menina;11;Amarela;2;1;2;0;1;1;0;1;1;1;1;1;1;0;1;1;1;1;1;1;1;1;1;1;0;0;1;1;2;1;1;1;1;2;2;1;0;1;1;3;3;1;1;Amarela
+Camaçari;Vila de abrantes;Pública;Menina;12;Parda;2;1;6;1;1;1;1;1;3;2;2;2;1;3;3;3;2;2;2;1;2;1;0;3;1;3;1;2;1;2;1;1;1;2;1;2;2;1;0;1;1;3;3;Negra
+Camaçari;Vilas de Abrantes;Pública;Menino;8;Preta;2;3;4;0;0;0;1;0;1;2;2;3;3;1;0;0;3;2;2;2;0;2;1;1;1;0;1;2;1;1;2;1;0;2;2;2;0;2;1;2;1;1;1;Negra
+Outros;Alto do bela vista;Particular;Menina;8;Preta;3;1;6;1;1;1;0;1;1;2;2;1;1;0;1;1;2;2;2;2;2;2;1;1;1;2;2;0;1;2;2;1;1;1;2;2;2;1;0;2;1;1;1;Negra
+Salvador;Cidade jardim;Particular;Menina;9;Branca;3;2;3;1;1;1;0;1;1;2;2;1;2;1;1;1;2;2;1;2;1;2;1;1;1;0;1;1;1;2;2;2;1;1;1;1;1;0;1;1;1;1;1;Branca
+Salvador;García;Particular;Menino;10;Branca;2;2;3;1;1;1;2;1;1;2;2;1;1;2;2;1;2;2;1;2;1;3;1;1;1;0;3;2;1;2;2;1;1;2;0;1;0;1;1;1;1;1;1;Branca
+Camaçari;Phoc 3;Pública;Menina;11;Parda;2;1;4;0;1;1;2;2;1;1;1;2;2;3;3;3;2;2;3;3;3;3;2;1;1;0;2;1;2;2;2;0;0;2;0;0;0;0;0;1;1;1;1;Negra
+Camaçari;Lama preta;Particular;Menina;11;Parda;2;1;5;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;0;2;1;1;1;0;2;1;0;2;2;2;2;2;1;1;2;1;1;3;3;3(Eu acho melhor aula presencial do que a remota);1;Negra
+Pojuca;Nova pojuca;Particular;Menino;12;Parda;2;1;6;1;1;1;0;1;0;1;1;1;1;0;0;0;1;0;0;1;0;1;1;0;1;2;2;1;1;2;2;2;1;2;0;1;0;1;1;1;1;1;1;Negra
+Camaçari;Phoc3;Pública;Menina;10;Branca;2;1;6;1;1;1;0;0;0;2;2;2;0;0;0;0;2;2;2;0;2;2;1;1;1;0;1;1;2;2;2;1;1;2;2;2;0;0;0;1;1;1;1;Branca
+Camaçari;Phoc 3;Pública;Menino;11;Não sei responder ou não quero responder;2;2;5;1;1;1;3;1;1;2;2;2;2;3;1;1;2;2;2;2;2;2;1;3;2;2;1;2;0;1;2;0;1;2;1;1;0;1;0;2;1;1;1;Sem resposta
+Camaçari;Parque satelite;Pública;Menino;8;Parda;2;1;4;1;1;1;0;0;0;1;1;0;1;0;0;0;0;0;0;0;1;1;2;2;1;2;3;1;2;2;3;1;1;0;1;2;0;1;1;1;1;1;1;Negra
+Salvador;Pituba;Pública;Menino;12;Parda;3;1;6;1;1;1;1;0;0;1;1;3;3;2;1;1;1;1;3;3;0;3;2;1;1;2;2;1;1;2;1;1;1;2;1;1;1;1;0;1;1;0;1;Negra
+Outros;Duro;Pública;Menina;10;Parda;4;2;6;1;1;1;0;1;1;1;1;1;1;0;0;0;1;1;1;1;1;1;1;1;1;1;2;1;0;1;1;2;2;1;2;2;0;1;0;1;1;1;1;Negra
+Outros;Centro;Pública;Menina;12;Parda;4;2;6;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;2;0;1;2;2;2;1;1;0;0;1;0;1;1;1;1;Negra
+Salvador;Graça;Particular;Menina;10;Parda;2;1;6;1;1;1;0;0;0;1;1;0;0;0;0;0;0;1;2;2;0;2;1;2;1;0;2;1;2;2;2;2;1;3;1;0;1;0;1;1;1;3;1;Negra
+Salvador;Brotas;Particular;Menino;10;Branca;2;2;4;1;1;1;2;2;2;2;2;1;1;2;1;2;2;2;0;0;2;0;1;1;1;0;2;0;2;2;3;2;1;1;3;3;0;0;0;1;1;1;1;Branca
+Camaçari;Vila de Abrantes;Pública;Menino;9;Parda;4;2;2;0;0;0;2;2;2;2;2;2;2;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;0;1;2;0;0;1;1;2;0;0;0;1;1;1;1;Negra
+Camaçari;Natal;Pública;Menino;9;Preta;2;1;3;1;1;1;1;1;1;2;2;1;1;2;1;1;2;2;2;1;1;2;1;2;1;2;2;2;0;2;2;0;1;2;1;1;0;2;1;1;1;3;1;Negra
+Candeias;Urbis 2 bairro da Paz Rua da Paz Candeias Bahia;Pública;Menina;12;Parda;3;2;3;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;0;2;1;1;2;2;2;0;2;0;0;0;0;0;1;1;1;1;Negra
+Salvador;Pituaçu;Particular;Menina;11;Preta;1;3;5;1;1;1;2;2;2;2;2;2;1;2;2;2;2;2;2;2;2;2;2;0;1;0;2;0;1;2;2;1;1;2;0;0;0;1;0;1;1;1;1;Negra
+Salvador;Boca do Rio;Particular;Menino;12;Parda;2;2;6;1;1;1;3;1;0;1;0;1;1;0;0;0;0;0;2;2;0;1;0;1;1;0;2;2;2;0;2;2;2;2;1;2;2;0;1;0;0;0;1;Negra
+Salvador;Imbuí;Particular;Menina;12;Parda;3;1;6;1;1;1;0;1;1;1;1;1;1;0;1;1;1;1;1;1;1;1;1;1;1;2;3;2;1;1;3;3;0;2;1;0;0;0;1;2;1;1;1;Negra
+Salvador;Orla marítima;Particular;Menina;11;Parda;2;1;6;0;1;1;1;1;1;1;1;0;0;1;0;0;1;0;2;1;1;0;1;1;1;0;2;2;1;1;2;2;0;2;0;0;1;1;1;1;1;1;1;Negra
+Salvador;Armação;Particular;Menina;11;Parda;2;1;6;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;0;2;3;3;2;1;3;2;1;3;3;1;1;1;1;1;1;1;Negra
+Salvador;Armação;Particular;Menina;11;Parda;2;1;6;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;0;2;3;3;2;1;3;2;1;3;3;1;1;1;1;1;1;1;Negra
+Salvador;Boca do Rio;Particular;Menino;11;Parda;5;1;4;1;1;1;2;2;2;2;2;1;2;1;0;0;1;1;2;1;2;2;1;1;1;2;2;1;0;0;1;1;2;1;1;2;0;1;0;1;1;1;1;Negra
+Salvador;Paralela;Particular;Menino;12;Parda;2;1;6;1;1;1;1;1;0;2;1;1;1;1;0;0;1;1;1;1;1;1;2;0;2;0;2;1;0;2;2;2;1;2;1;1;0;0;0;1;1;1;1;Negra
+Salvador;Boca do rio .Nordestw;Particular;Menina;12;Parda;4;1;5;1;1;1;1;2;2;2;2;2;2;1;2;2;2;2;2;2;2;2;0;1;1;0;2;1;2;2;2;2;2;1;1;2;1;0;0;1;1;1;1;Negra
+Salvador;TV. Rio das Pedras;Particular;Menina;11;Branca;1;1;6;0;1;1;0;0;0;1;1;0;0;0;0;0;1;1;1;1;2;0;2;0;2;1;2;0;1;1;2;0;1;2;0;0;0;0;0;2;1;1;3;Branca
+Salvador;Boca do Rio;Particular;Menina;12;Branca;2;2;6;1;1;1;0;1;0;1;1;1;1;0;0;0;0;0;1;1;0;0;1;0;1;2;3;0;1;2;2;2;2;2;0;0;1;0;1;1;1;0;1;Branca
+Salvador;Boca do Rio;Particular;Menina;12;Preta;3;1;3;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;0;2;1;1;0;2;2;2;0;1;2;2;2;0;3;0;0;0;1;1;1;1;Negra
+Salvador;Pituaçu;Particular;Menina;11;Preta;1;3;5;1;1;1;2;2;2;2;2;2;1;2;2;2;2;2;2;2;2;2;2;0;1;0;2;0;1;2;2;1;1;2;0;0;0;1;0;1;1;1;1;Negra
+Salvador;Imbuí;Particular;Menino;8;Parda;2;2;6;1;1;1;0;0;0;1;1;1;1;0;0;0;1;1;1;1;1;1;1;1;1;0;3;1;1;2;2;2;0;1;2;2;1;1;0;1;1;1;1;Negra
+Salvador;Imbuí;Particular;Menino;10;Branca;2;1;4;0;1;1;0;1;1;2;2;2;2;1;1;1;2;2;2;2;1;2;2;2;1;2;3;0;0;1;2;3;3;0;1;1;2;0;0;3;1;0;1;Branca
+Salvador;Boca do Rio;Particular;Menino;10;Não sei responder ou não quero responder;1;1;4;1;1;1;0;0;0;1;1;0;0;0;0;0;1;1;0;0;1;0;1;1;1;0;2;2;2;2;2;1;1;2;2;0;0;0;0;1;1;1;1;Sem resposta
+Salvador;Pituaçu;Particular;Menino;10;Parda;2;1;6;1;1;1;0;0;1;2;1;2;1;0;0;1;1;0;2;0;1;0;2;0;1;2;3;2;0;0;3;3;3;1;2;0;3;0;1;2;1;1;1;Negra
+Camaçari;Maracaiuba/vila de Abrantes;Pública;Menino;8;Parda;2;1;3;1;1;1;3;1;1;2;2;2;2;1;1;1;1;1;1;1;0;0;1;1;1;0;2;1;1;2;2;1;1;1;1;2;0;1;1;1;1;1;1;Negra
+Camaçari;Cajazeiras de abrantes,vila verde;Pública;Menino;8;Preta;2;1;5;0;1;1;3;2;2;2;1;3;3;3;1;2;1;0;0;1;3;1;1;0;1;1;0;1;1;2;1;0;1;2;2;1;0;1;0;1;1;1;1;Negra
+Salvador;Itapoan;Particular;Menina;10;Branca;4;1;6;1;1;1;1;0;1;2;2;2;2;0;0;0;1;1;2;2;2;2;1;1;1;2;2;2;0;2;2;3;2;1;0;1;0;0;0;1;1;0;1;Branca
+Salvador;Boca do rio;Particular;Menina;11;Preta;4;1;3;1;1;1;1;1;1;1;1;0;1;1;1;1;1;1;1;1;1;1;1;1;1;0;3;1;2;2;3;3;3;2;3;3;3;0;0;1;1;1;1;Negra
+Salvador;Boca do rio;Particular;Menino;11;Parda;2;1;4;0;1;1;1;0;0;0;1;0;0;1;1;1;0;1;1;1;0;1;2;0;2;0;2;2;1;2;2;1;2;2;0;0;2;0;2;1;1;0;1;Negra
+Salvador;Boca do Rio;Particular;Menina;10;Branca;3;1;6;1;1;1;1;0;1;2;2;1;1;1;0;1;2;2;1;1;1;1;1;2;1;0;1;0;0;1;1;1;1;1;1;1;1;0;1;1;1;1;1;Branca
+Camaçari;Vila de Abrantes;Particular;Menina;11;Parda;2;1;3;0;1;1;1;2;2;3;3;3;3;1;2;2;2;2;2;2;2;2;1;1;1;0;3;0;1;2;2;2;2;2;0;2;0;1;1;1;1;1;1;Negra
+Salvador;Costa azul;Particular;Menina;10;Branca;1;2;6;1;1;1;1;1;1;1;1;0;1;1;1;1;1;1;0;1;1;1;1;2;1;0;3;1;1;2;2;2;1;1;0;0;0;0;1;1;1;1;1;Branca
+Salvador;Pituaçu;Particular;Menino;10;Preta;3;2;6;1;1;1;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;3;1;1;1;1;2;2;0;0;3;3;3;3;1;1;1;3;1;1;0;0;1;Negra
+Salvador;Rio das Pedras;Particular;Menina;11;Preta;3;1;6;1;1;1;1;3;3;2;2;1;1;1;0;0;2;2;1;1;3;0;1;1;3;0;1;2;1;2;2;2;2;3;1;1;0;0;1;1;1;1;1;Negra
+Camaçari;Capivara;Pública;Menino;8;Preta;2;1;4;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;2;2;2;2;1;1;0;0;1;1;0;0;0;1;1;1;1;Negra
+Salvador;Armação - Estudante;Particular;Menino;12;Branca;2;2;4;1;1;1;0;0;0;2;2;2;2;0;1;1;2;2;2;2;2;2;1;2;1;0;1;2;2;3;3;2;2;1;2;0;0;0;0;1;1;1;1;Branca
+Salvador;Salvador - Ba , imbui .;Particular;Menina;11;Branca;2;1;5;1;1;1;1;2;1;2;2;2;2;1;2;1;2;2;2;2;2;2;1;1;1;0;2;0;0;2;2;2;2;1;0;0;0;1;0;1;1;1;1;Branca
+Salvador;Pituaçu;Particular;Menina;11;Branca;3;1;6;1;1;1;0;0;0;2;1;2;1;0;0;0;1;1;0;0;1;0;1;1;1;0;3;1;1;2;2;2;1;3;0;0;0;0;0;1;1;1;1;Branca
+Camaçari;Parque das mangabas  Camaçari;Pública;Menina;8;Preta;3;1;5;1;1;1;1;1;2;2;2;0;0;1;0;0;2;2;1;1;2;2;1;1;1;0;1;0;1;2;1;1;1;2;1;2;0;0;0;1;1;1;1;Negra
+Salvador;Boca do Rio, Nordeste;Particular;Menino;10;Preta;3;1;6;1;1;1;3;1;0;2;1;2;2;3;0;0;2;1;2;2;2;0;1;2;1;0;1;2;3;2;3;2;2;2;3;2;1;0;3;1;1;1;1;Negra
+Camaçari;Cajazeiras de abrante;Pública;Menina;8;Parda;3;1;6;1;1;1;0;2;0;2;2;1;1;2;2;1;3;3;0;0;3;2;0;1;1;0;2;1;1;2;2;2;0;1;1;1;0;1;1;1;1;1;1;Negra
+Salvador;Boca do Rio;Particular;Menino;10;Parda;4;1;6;1;1;1;2;1;2;2;2;1;2;1;1;2;2;2;2;1;2;2;1;1;1;0;2;0;1;0;2;0;0;0;1;2;0;0;0;0;1;1;1;Negra
+Salvador;Boca do Rio;Particular;Menina;11;Preta;2;1;6;1;1;1;0;1;1;2;2;0;0;0;2;2;2;2;0;0;1;1;1;0;1;0;2;0;0;0;2;1;2;2;0;1;0;0;0;1;1;1;1;Negra
+Camaçari;Las palma Vila de abrate camaçari Ba;Pública;Menina;12;Parda;2;2;4;0;1;1;1;0;1;2;2;1;1;0;1;2;2;2;1;2;2;1;2;2;1;3;0;0;1;3;3;1;1;3;2;3;0;0;0;1;1;1;1;Negra
+Salvador;Boca do Rio;Particular;Menina;11;Outros;2;1;5;1;1;1;3;0;0;2;2;1;1;0;0;0;2;2;2;1;0;0;2;0;1;0;1;1;0;2;1;1;1;1;1;1;1;0;0;1;1;1;1;Outros
+Camaçari;Vila Verde;Pública;Menina;11;Indígena;2;3;4;1;1;1;1;2;2;2;2;2;2;1;2;2;2;2;2;2;2;2;1;2;2;0;0;0;3;2;1;0;1;2;1;0;0;0;0;1;1;1;1;Indígena
+Salvador;Imbuí;Particular;Menina;8;Parda;5;1;6;1;1;1;1;2;2;2;2;1;2;2;2;2;2;2;1;2;2;2;1;1;1;0;1;1;1;2;2;1;1;1;1;2;2;1;0;1;1;1;1;Negra
+Salvador;Boca do Rio;Particular;Menina;10;Parda;3;1;6;1;1;1;2;1;0;2;2;1;1;1;1;0;2;2;1;1;2;1;1;1;1;0;2;1;0;0;2;2;0;0;0;0;0;0;0;1;1;2;1;Negra
+Salvador;Costa Azul;Particular;Menina;9;Parda;2;1;2;1;1;1;0;0;1;1;0;1;0;0;0;1;0;0;0;0;0;1;0;2;2;0;3;1;1;1;3;2;2;1;2;3;0;0;1;2;1;1;1;Negra
+Salvador;R. Elesbão  do Carmo,  Bairro Armação;Particular;Menina;11;Parda;2;1;6;1;1;1;0;0;0;1;1;1;1;0;0;0;1;1;0;0;1;0;2;2;1;0;2;1;1;2;2;2;2;2;0;0;1;0;1;1;1;1;1;Negra
+Camaçari;Àgua fria;Pública;Menino;8;Parda;3;1;3;1;0;1;0;2;1;2;2;2;2;0;0;0;1;1;1;1;1;1;1;1;1;0;0;0;2;2;2;0;0;3;2;2;0;0;1;1;1;1;1;Negra
+Salvador;Pituaçu;Particular;Menina;10;Preta;1;1;6;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;0;1;1;1;3;2;1;1;2;2;2;0;0;0;1;1;1;1;Negra
+Salvador;Pituaçu;Particular;Menino;10;Branca;2;1;6;1;1;1;1;0;0;1;1;1;1;0;0;0;1;1;1;1;1;1;1;2;1;0;3;1;1;2;1;2;1;1;1;1;0;1;0;2;1;1;1;Branca
+Salvador;Engenho velho de Brotas;Pública;Menina;9;Preta;2;2;3;1;1;1;1;2;2;2;2;1;2;2;2;2;2;2;2;2;2;2;1;1;1;0;2;0;1;0;2;1;1;1;2;2;0;0;0;1;1;0;1;Negra
+Camaçari;Cajazeiras de abrantes;Pública;Menina;10;Preta;4;1;6;0;1;1;1;2;2;2;2;1;1;0;2;2;2;2;1;1;2;2;1;1;1;1;2;0;0;2;1;1;2;0;1;2;0;0;0;1;1;1;1;Negra
+Camaçari;Cajazeiras de Abrantes;Pública;Menino;11;Parda;2;2;4;1;1;1;0;1;1;1;0;0;1;0;1;1;1;1;0;1;1;1;1;2;2;0;2;0;1;2;2;2;1;0;1;1;0;1;1;1;1;1;1;Negra
+Salvador;Imbui;Particular;Menina;9;Parda;2;1;4;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;2;2;2;1;3;2;3;1;2;2;3;2;1;2;1;1;1;1;3;1;Negra
+Salvador;Imbui;Particular;Menino;12;Branca;3;1;6;1;1;1;0;1;0;1;1;0;0;0;1;0;1;1;0;0;1;1;1;2;1;2;2;1;0;1;1;2;1;1;1;1;3;0;0;1;1;3;1;Branca
+Camaçari;Rua do futuro phoc1;Pública;Menina;8;Parda;4;2;4;1;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;1;0;1;0;1;1;1;0;0;1;1;2;0;0;0;1;1;1;1;Negra
+Outros;Fonte da Prata;Particular;Menino;8;Parda;2;1;6;1;1;1;3;1;1;1;1;2;1;1;2;2;2;2;1;1;2;2;1;1;1;0;1;1;1;2;1;1;1;2;1;1;0;1;0;1;1;1;1;Negra
+Salvador;Praia do Flamengo Stella Mares;Particular;Menino;12;Parda;4;2;4;1;1;1;1;0;1;1;1;1;1;1;0;1;1;1;1;1;1;1;1;1;1;2;3;2;3;2;3;3;3;1;0;0;0;1;0;1;1;1;1;Negra
+Salvador;Stiep;Particular;Menina;11;Parda;2;2;4;1;1;1;1;1;1;0;0;0;0;0;0;0;1;1;1;1;1;1;1;2;1;0;3;0;0;2;2;2;2;2;1;1;1;0;0;1;1;0;1;Negra
+Salvador;Boca do rio;Particular;Menino;9;Parda;1;1;6;1;1;1;1;2;2;2;2;0;2;2;2;2;2;2;0;2;2;2;1;0;1;0;1;1;1;0;2;1;1;1;2;2;2;0;1;1;1;1;1;Negra
+Salvador;Piatã;Particular;Menino;10;Parda;2;1;6;1;1;1;2;2;2;2;2;2;2;3;3;3;3;3;3;3;3;3;1;2;1;3;3;1;1;1;3;3;3;1;1;0;1;1;0;2;1;1;1;Negra
+Outros;Entrocamento de mar grande;Pública;Menino;8;Preta;2;2;3;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;1;0;2;2;1;1;2;2;2;0;1;1;1;1;1;1;Negra
+Outros;Marcelino;Particular;Menina;11;Parda;2;1;2;1;1;1;0;0;0;1;1;0;0;0;0;1;1;1;0;0;1;0;2;0;1;1;2;1;1;2;2;2;2;1;1;1;0;0;0;1;1;1;1;Negra
+Outros;Barra do Pote;Particular;Menino;10;Branca;4;1;6;1;1;1;1;0;1;2;2;2;2;2;0;2;2;2;2;2;1;2;1;2;1;1;3;1;1;2;2;3;3;0;2;2;0;1;1;1;1;1;1;Branca
+Camaçari;Abrantes;Particular;Menino;11;Branca;3;3;4;1;1;1;1;0;0;1;1;1;1;1;0;0;0;0;1;1;0;1;2;2;1;0;3;1;0;2;2;1;1;1;1;2;0;2;2;0;1;0;1;Branca
+Salvador;Cidade Nova;Pública;Menino;12;Outros;5;2;5;1;1;1;2;2;2;2;2;2;2;2;1;0;2;2;2;2;2;2;2;1;1;2;2;0;1;1;1;2;2;1;0;0;0;0;0;1;1;1;1;Outros
+Salvador;Pituaçu ,Salvador;Particular;Menino;9;Parda;2;1;3;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;2;1;0;2;1;1;2;1;2;1;2;1;3;3;0;2;1;1;3;3;Negra
+Salvador;Jardim das Margaridas.;Pública;Menina;11;Parda;3;3;5;0;1;1;2;1;2;2;2;2;2;1;1;1;2;2;2;2;2;1;1;2;1;2;2;1;0;1;1;2;1;1;2;2;0;1;1;1;1;0;1;Negra
+Salvador;Stella Maris;Particular;Menina;10;Branca;2;3;6;1;0;1;1;0;1;2;1;3;3;0;0;0;0;0;0;0;0;1;1;1;1;2;0;2;2;1;1;1;1;1;2;2;1;0;1;2;1;1;1;Branca
+Outros;Centro;Particular;Menina;11;Amarela;2;1;4;1;1;1;1;1;0;1;1;1;1;1;1;0;1;1;1;1;1;1;2;2;2;2;2;1;2;2;2;2;1;1;1;1;0;1;0;1;1;1;1;Amarela
+Outros;Rua Rio Paramirim, bairro Suape,;Pública;Menino;8;Parda;1;1;4;1;1;1;2;1;2;2;2;2;1;2;2;2;2;2;2;2;2;2;1;1;0;1;2;0;1;1;1;1;1;0;1;0;0;0;1;1;1;1;1;Negra
+Outros;Centro;Particular;Menino;10;Parda;1;1;6;1;1;1;0;1;0;2;2;2;1;0;0;0;1;2;1;1;1;0;1;2;1;1;3;1;0;2;3;2;3;0;1;1;0;1;1;1;1;0;1;Negra
+Outros;Centro, Madre de Deus;Particular;Menina;9;Branca;3;2;4;1;1;1;1;0;1;1;1;1;1;1;0;0;1;1;1;0;1;1;2;0;0;0;1;0;1;3;3;3;3;3;0;1;3;0;2;1;1;0;1;Branca
+Outros;Mar grande;Pública;Menina;12;Preta;2;3;5;1;1;1;1;1;1;2;2;1;2;1;1;1;2;2;1;2;2;2;2;0;2;0;1;2;1;1;2;2;1;1;0;1;0;1;0;2;1;1;1;Negra
+Camaçari;Vila de Abrantes;Particular;Menina;11;Outros;2;2;6;1;1;1;0;1;1;2;2;1;2;1;0;0;2;2;2;2;1;1;1;0;1;2;2;1;0;0;1;2;1;2;1;1;1;1;1;1;1;1;1;Outros
+Outros;Av . Amilton Bahia Ribeiro;Pública;Menina;10;Parda;4;2;5;0;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;2;1;1;1;2;2;1;2;2;2;1;0;1;0;1;1;1;1;Negra
+Outros;São João;Particular;Menino;11;Amarela;1;2;6;1;1;1;1;2;2;2;1;2;2;0;1;2;2;1;0;2;0;2;1;0;1;2;1;1;2;0;1;1;1;2;0;2;0;1;0;3;1;1;3;Amarela
+Salvador;Rio vermelho;Particular;Menino;9;Preta;2;1;6;1;1;1;1;3;2;2;2;0;1;0;1;0;2;2;0;2;2;2;1;1;1;0;2;1;1;2;2;2;1;1;1;0;1;0;0;1;1;1;1;Negra
+Salvador;Garibalde;Particular;Menino;11;Parda;2;1;6;1;0;1;3;3;0;1;1;1;1;3;3;0;1;1;0;0;1;0;3;1;0;1;2;1;2;2;2;1;1;2;1;1;1;1;0;1;1;1;1;Negra
+Salvador;Pituba;Particular;Menino;12;Branca;2;1;4;1;1;1;1;1;1;1;1;0;1;0;0;0;1;1;0;1;1;1;1;2;1;0;2;1;1;2;2;2;1;1;1;1;1;1;1;3;1;1;1;Branca
+Outros;Dulo;Pública;Menina;12;Branca;1;1;4;1;1;1;2;2;1;1;2;0;0;2;2;2;2;2;0;0;1;1;2;1;1;2;2;2;0;0;2;2;2;2;2;1;0;2;1;0;2;1;3;Branca
+Salvador;BARRA;Particular;Menino;10;Parda;4;2;3;1;1;1;0;0;0;2;1;2;2;0;0;0;2;0;2;2;0;2;1;2;1;2;1;2;2;1;2;1;1;1;2;2;2;1;1;3;1;0;3;Negra
+Salvador;BARRA;Particular;Menino;12;Parda;4;2;3;1;1;1;1;1;0;2;2;2;2;0;0;0;2;0;2;2;0;2;2;2;1;2;1;2;2;2;2;1;1;1;2;1;2;1;1;1;1;0;3;Negra
+Salvador;Vasco da gama;Particular;Menina;11;Não sei responder ou não quero responder;3;2;5;1;1;1;1;1;0;2;1;0;0;1;0;0;2;0;1;0;1;0;2;2;0;2;1;0;2;2;3;2;1;3;1;0;0;0;0;1;1;1;1;Sem resposta
+Outros;Duro;sem matrícula;Menina;10;Preta;2;1;6;1;1;1;2;0;1;2;2;0;0;1;0;1;2;1;2;0;1;0;2;2;1;0;2;1;1;0;1;2;1;1;2;0;0;3;1;1;1;1;1;Negra
+Salvador;Federação;Pública;Menina;12;Parda;5;5;5;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;2;2;2;2;2;1;1;2;1;1;2;2;2;0;0;0;1;1;1;1;Negra
+Salvador;Ondina;Pública;Menina;12;Parda;1;1;3;0;1;1;1;1;1;1;1;0;1;1;1;1;1;1;0;0;0;0;1;1;1;0;0;1;1;2;2;1;1;2;2;1;0;2;1;0;1;2;1;Negra
+Salvador;Horto Florestal;Particular;Menina;12;Branca;2;2;4;1;1;1;1;0;0;2;2;2;2;0;0;0;2;0;2;2;0;2;1;2;1;2;1;0;1;2;2;1;1;1;1;0;1;0;1;1;1;1;1;Branca
+Lauro de Freitas;Itinga;Pública;Menino;8;Parda;4;2;4;1;1;1;0;0;0;0;0;0;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;2;0;1;0;1;1;1;1;1;1;1;1;1;Negra
+Salvador;Cajazeiras;Particular;Menina;8;Branca;2;1;3;1;1;1;0;0;0;2;2;1;2;0;0;0;2;2;2;2;2;2;1;0;1;1;2;0;1;2;2;1;1;0;2;2;0;2;1;0;1;0;2;Branca
+Salvador;Patamares;Particular;Menina;8;Parda;2;2;4;1;1;1;3;1;1;0;0;0;0;3;3;3;0;0;1;1;0;0;1;2;2;2;2;0;1;2;1;2;1;1;0;1;0;1;0;1;1;1;1;Negra
+Salvador;Torroro;Particular;Menino;9;Preta;2;2;6;1;1;1;2;2;2;2;2;1;2;1;1;0;2;2;0;2;0;1;1;1;1;2;3;1;1;0;3;1;0;1;3;0;1;1;0;1;1;1;1;Negra
+Salvador;Brotas;Particular;Menino;8;Preta;2;2;6;1;1;1;1;1;0;1;1;1;1;1;1;0;1;1;1;1;1;1;1;2;1;0;1;3;1;2;2;1;0;1;2;0;1;1;2;1;1;1;1;Negra
+Salvador;Pituaçu;Particular;Menino;8;Branca;3;2;5;1;1;1;1;2;1;2;2;0;0;0;0;0;1;1;2;2;1;2;1;2;0;0;3;1;1;1;3;2;2;1;1;0;0;0;0;1;1;0;1;Branca
+Salvador;Patamares;Particular;Menina;8;Parda;2;2;4;1;1;1;3;1;1;0;0;0;0;3;3;3;0;0;1;1;0;0;1;2;2;2;2;0;1;2;1;2;1;1;0;1;0;1;0;1;1;1;1;Negra
+Salvador;Itaigara;Particular;Menina;9;Parda;3;2;6;1;1;1;0;0;0;1;1;0;3;0;0;0;1;1;2;2;1;2;2;2;1;1;3;1;1;1;2;3;0;0;1;0;1;0;0;2;1;1;1;Negra
+Lauro de Freitas;Recreio Ipitanga;Particular;Menino;11;Parda;3;1;6;1;1;1;0;1;1;1;1;1;1;0;1;1;1;1;1;1;1;1;1;1;1;0;2;1;0;1;2;3;2;2;1;2;0;1;0;1;1;1;1;Negra
+Salvador;CABULA;Pública;Menina;8;Preta;3;2;5;1;1;1;1;0;1;0;0;0;0;0;1;1;1;0;0;0;0;0;1;1;1;2;2;1;1;2;2;2;0;1;1;1;1;1;1;1;1;0;1;Negra
+Salvador;Vila Laura;Particular;Menina;11;Parda;1;2;6;1;1;1;1;0;0;2;2;2;2;0;0;0;1;1;2;2;0;1;2;2;1;2;2;1;0;1;2;1;0;1;1;0;0;0;1;1;1;1;1;Negra
+Salvador;Barra;Particular;Menino;11;Branca;2;1;6;1;1;1;1;0;1;1;1;1;1;0;0;0;1;1;1;1;1;1;1;2;1;0;3;1;1;2;2;2;1;1;1;0;1;0;0;1;1;1;1;Branca
+Simões Filho;CIA I, Simões Filho;Particular;Menino;10;Parda;3;1;6;1;1;1;1;2;1;2;2;2;2;2;2;2;2;2;2;2;2;2;1;1;1;0;2;0;1;2;1;2;1;2;1;1;0;1;0;1;1;1;1;Negra
+Salvador;Rio Vermelho;Particular;Menina;8;Parda;3;1;2;1;1;1;0;0;0;2;1;1;2;0;0;0;2;1;2;2;1;2;1;1;1;0;2;0;1;2;2;2;2;2;1;0;0;0;0;1;1;0;1;Negra
+Salvador;Villa Laura;Particular;Menino;12;Branca;3;1;4;1;1;1;0;1;0;1;1;1;1;1;1;0;1;1;1;1;1;1;1;2;1;1;3;0;1;2;2;1;0;1;1;0;1;0;0;1;1;1;1;Branca
+Salvador;Graça;Particular;Menino;11;Não sei responder ou não quero responder;1;1;4;1;1;1;0;0;0;1;0;0;1;0;0;0;0;0;0;0;1;1;1;1;1;0;3;1;2;2;2;2;2;2;1;0;2;0;1;1;1;1;1;Sem resposta
+Salvador;Tororó;Particular;Menina;9;Preta;3;1;6;1;1;1;2;1;2;2;2;1;2;0;1;2;2;2;1;2;1;2;1;1;1;0;3;1;1;2;3;1;1;1;1;1;0;1;1;1;1;1;1;Negra
+Salvador;Ocupação quilombo do paraiso;Pública;Menina;12;Preta;3;3;5;0;1;1;2;2;2;2;2;0;0;2;2;2;2;2;0;0;2;2;2;1;1;0;3;2;1;2;3;3;3;3;2;3;3;3;3;1;1;1;1;Negra
+Salvador;Calabar;Pública;Menina;11;Parda;5;4;4;1;1;1;2;0;2;2;2;1;1;1;0;2;3;3;0;2;0;3;1;1;1;1;2;2;1;1;2;2;1;0;1;2;0;2;1;1;0;0;1;Negra
+Salvador;Quingoma;Particular;Menina;11;Indígena;2;1;3;0;1;1;3;2;2;2;1;2;2;3;1;1;1;0;3;3;3;3;0;0;1;1;1;0;1;1;1;0;0;2;0;0;0;0;0;1;3;2;1;Indígena
+Salvador;Imbuí;Particular;Menina;9;Parda;2;1;4;1;1;1;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;2;0;1;2;2;3;1;2;1;2;1;3;2;1;2;1;0;1;2;1;1;Negra
+Outros;Fonte da Prata;Particular;Menino;8;Preta;3;1;6;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;3;2;1;2;2;2;2;2;2;2;0;0;1;1;1;1;1;Negra
+Outros;Loteamento Recanto das Mangueira AMOREIRAS;Particular;Menina;9;Preta;3;1;6;1;1;1;1;2;2;2;3;2;2;1;2;2;3;3;2;2;2;2;1;1;1;2;2;2;1;0;2;2;2;2;2;2;2;1;0;1;1;1;1;Negra
+Outros;Rua Fernando Agostinho número 96, Nova São Francisco, região metropolitana;Particular;Menina;11;Preta;1;1;5;1;1;1;1;1;0;0;0;0;0;1;1;1;0;0;0;0;0;0;1;1;1;0;2;0;1;2;2;2;2;2;2;2;0;0;0;1;1;1;1;Negra
+Simões Filho;Bahia simões filho pitanguinha nova;Particular;Menina;11;Parda;2;2;4;1;1;1;0;1;1;0;0;1;1;1;1;1;1;1;1;1;0;1;1;0;2;0;3;2;0;3;3;3;3;2;0;0;0;3;1;0;0;0;1;Negra
+Salvador;patamares;Particular;Menino;12;Preta;2;1;6;1;1;1;2;2;2;2;2;2;2;0;0;0;2;2;2;2;2;2;1;1;1;2;3;1;0;2;2;2;2;2;2;1;1;0;0;1;1;1;1;Negra
+Outros;Imbasai;Pública;Menina;9;Outros;1;1;3;1;1;1;1;2;2;2;2;1;2;2;2;2;2;2;2;2;2;2;2;1;2;0;3;1;1;1;3;3;3;1;3;3;3;3;3;1;3;3;3;Outros
+Outros;Parque das Mangueiras;Particular;Menina;10;Parda;2;2;5;1;1;1;0;0;0;1;1;2;0;0;0;0;1;1;1;0;2;0;1;2;1;0;3;0;0;2;2;1;1;1;1;1;0;1;1;1;1;1;1;Negra
+Outros;Ilhota;Pública;Menino;9;Parda;1;2;5;1;1;1;2;1;2;2;2;2;0;1;1;1;1;1;0;0;1;1;1;1;1;0;1;1;0;2;1;1;2;2;0;1;0;2;0;1;1;1;1;Negra
+Outros;Suape;Particular;Menino;9;Parda;2;1;6;1;1;1;2;2;1;2;2;2;2;2;2;1;2;2;2;2;3;2;1;2;1;2;3;0;1;1;1;2;1;0;1;1;1;1;0;1;1;1;1;Negra
+Outros;Macaco;Pública;Menina;9;Preta;2;4;3;0;0;1;1;0;1;1;1;0;0;1;0;0;0;0;0;0;0;0;1;1;1;2;0;1;1;1;3;0;0;2;2;3;0;3;2;1;1;0;1;Negra
+Candeias;URBIS 2;Pública;Menino;11;Parda;3;2;6;1;1;1;2;2;2;2;2;2;1;1;1;1;2;3;2;1;2;0;2;0;1;3;3;1;3;3;3;3;0;0;1;1;0;1;3;1;1;1;1;Negra

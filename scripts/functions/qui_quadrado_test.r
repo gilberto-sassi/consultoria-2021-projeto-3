@@ -17,7 +17,10 @@
 qui_test <- function(df, variavel_x, variavel_y, caption, base = "") {
 
   if(missing(caption)) caption <- stringr::str_interp("Teste qui-quadrado entre ${variavel_x} e ${variavel_y}.")
-  teste <- chisq.test(x = df[, variavel_x][[1]], y = df[, variavel_y][[1]])
+  base::suppressWarnings({
+    teste <- chisq.test(x = df[, variavel_x][[1]], y = df[, variavel_y][[1]])
+  })
+  
   
   
   tab <- tibble(`Estatística` = teste$statistic,

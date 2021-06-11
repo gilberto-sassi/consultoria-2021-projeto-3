@@ -1,0 +1,19 @@
+
+## `r questao`
+
+A variável `r questao` corresponde ao campo de númeo `r campo` com enunciado **`r main_text`** no quesito:
+
+* _`r secondary_text`_
+
+
+### Análise descritiva para `r questao`
+
+```{r, results='asis'}
+caminho  <- glue::glue("unidimensional.Rmd")
+res <- lapply(questao, \(questao) {
+    knitr::knit_child(caminho, envir = environment(), quiet = TRUE)
+})
+cat(unlist(res), sep = "\n")
+
+```
+

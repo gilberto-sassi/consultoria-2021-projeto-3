@@ -1,0 +1,61 @@
+
+#### Tabela de contingência: Raça e Q22
+
+```{r}
+dados_raca <- dados |> dplyr::mutate(raca = raça |>
+           dplyr::recode('Não sei responder ou não quero responder' = 'Sem resposta',
+                  'Parda' = 'Negra',
+                  'Preta' = 'Negra'))
+contingency(df, "raca", "Q22", "Raça", caption="Tabela de contingência: Raça e Q22.", base = output)
+```
+
+#### Gráfico de barras: Raça e Q22
+
+```{r}
+grafico_2(df, "raca", "Q22", 'Raça', base = fig_path)
+```
+
+#### Teste qui-quadrado
+
+Como o valor-p é maior que $\alpha=0,05$, não rejeitamos $H_0$ e não temos evidência evidência estatística que as duas variáveis estão associadas. 
+
+```{r}
+df |> 
+  qui_test("raca", "Q22", base = output)
+```
+
+\cleardoublepage
+
+#### Medidas de Resumo Q22 por Raça
+
+
+```{r}
+dados_raca |> 
+  resume_measures_2("raca", "Q22", base = output)
+```
+
+#### Boxplot de Q22 por Raça 
+
+```{r}
+dados_raca |>
+  boxplot_group('Q22', 'raca', 'Q22', 'Raça', base = fig_path)
+```
+
+#### Teste de Kruskal-Wallis de Q22 por Raça
+
+
+Como o valor-p é maior que $\alpha=0,05$ e não rejeitamos $H_0$, ou seja, não existe uma diferença significativa de Q22 entre pessoas _Negras_ e _Brancas_.
+
+```{r}
+dados_raca |> 
+  kruskal_wallis_test('Q22', 'raca', 'Valores-p para comparação múltipla de medianas: Q22 e Raça.', base = output)
+```
+
+#### Teste de Nemeyi de Q22 por Raça
+
+Como os valores-p são maiores que $\alpha=0,05$ e não rejeitamos $H_0$, ou seja, as medianas entre as raças são iguais.
+
+```{r}
+dados_raca |> 
+  nemenyi_tests('Q22', 'raca', caption = 'Teste de Nemeyi de Q22 por Raça.', base = output)
+``` 

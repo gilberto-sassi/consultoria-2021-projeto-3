@@ -141,7 +141,6 @@ i. Cidades
 
 nas seguintes variáveis que forem mensuradas como uma escala Likert:
 
-i. Questão 12)
 i. Questão 13)
 i. Questão 14)
 i. Questão 15)
@@ -189,84 +188,405 @@ Nesta parte, apresentamos as tabelas de distribuição de frequências e o gráf
 
 \cleardoublepage
 
-## Q12
 
-A variável Q12 corresponde a questão 13 com enunciado **No início da pandemia de coronavírus, o quanto você se preocupou com as questões abaixo:** no quesito:
+## Q14
 
-* _Que demorasse muito para eu voltar à escola?_
+A variável Q14 corresponde ao campo de númeo 13 com enunciado **O quanto você está preocupado hoje com as questões abaixo:** no quesito:
 
-### Análise descritiva para Q12
+* _Que demorasse muito para eu encontrar meus amigos?_
 
-```{r, child="bidimensional/q12/unidimensional.Rmd"}
+
+### Análise descritiva para Q14
+
+```{r, child="bidimensional/q14/unidimensional.Rmd"}
 ```
 
 \cleardoublepage
 
-### Análise bidimensional para Q12
+### Análise bidimensional Q14
 
-```{r, child="bidimensional/q12/cidade/cidade.Rmd"}
+```{r, child="bidimensional/q14/cidade.Rmd"}
 ```
 
 \cleardoublepage
 
-```{r, child="bidimensional/q12/genero/genero.Rmd"}
-```
-
-\cleardoublepage
-
-
-```{r, child="bidimensional/q12/idade/idade.Rmd"}
-```
-
-\cleardoublepage
-
-
-```{r, child="bidimensional/q12/raca/raca.Rmd"}
-```
-
-\cleardoublepage
-
-```{r, child="bidimensional/q12/tipo_escola/tipo_escola.Rmd"}
+```{r, child="bidimensional/q14/genero.Rmd"}
 ```
 
 \cleardoublepage
 
 
-
-### Análise descritiva para Q13
-
-```{r, child="bidimensional/q13/unidimensional.Rmd"}
-```
-
-\cleardoublepage
-
-### Análise bidimensional para Q13
-
-```{r, child="bidimensional/q13/cidade/cidade.Rmd"}
+```{r, child="bidimensional/q14/idade.Rmd"}
 ```
 
 \cleardoublepage
 
 
-```{r, child="bidimensional/q13/genero/genero.Rmd"}
+```{r, child="bidimensional/q14/raca.Rmd"}
 ```
 
 \cleardoublepage
 
 
-```{r, child="bidimensional/q13/idade/idade.Rmd"}
+```{r, child="bidimensional/q14/tipo_escola.Rmd"}
+```
+
+\cleardoublepage
+
+## Q15
+
+A variável Q15 corresponde ao campo de númeo 13 com enunciado **O quanto você está preocupado hoje com as questões abaixo:** no quesito:
+
+* _Que falte comida nos supermercados_
+
+
+### Análise descritiva para Q15
+
+```{r, child="bidimensional/q15/unidimensional.Rmd"}
+```
+
+\cleardoublepage
+
+### Análise bidimensional Q15
+
+```{r, child="bidimensional/q15/cidade.Rmd"}
+```
+
+\cleardoublepage
+
+```{r, child="bidimensional/q15/genero.Rmd"}
 ```
 
 \cleardoublepage
 
 
-```{r, child="bidimensional/q13/raca/raca.Rmd"}
+```{r, child="bidimensional/q15/idade.Rmd"}
 ```
 
 \cleardoublepage
 
 
-```{r, child="bidimensional/q13/tipo_escola/tipo_escola.Rmd"}
+```{r, child="bidimensional/q15/raca.Rmd"}
+```
+
+\cleardoublepage
+
+
+```{r, child="bidimensional/q15/tipo_escola.Rmd"}
+```
+
+\cleardoublepage
+
+## Q16
+
+A variável Q16 corresponde ao campo de númeo 13 com enunciado **O quanto você está preocupado hoje com as questões abaixo:** no quesito:
+
+* _Que falte comida na minha casa_
+
+
+### Análise descritiva para Q16
+
+```{r, child="bidimensional/q16/unidimensional.Rmd"}
+```
+
+\cleardoublepage
+
+### Análise bidimensional Q16
+
+```{r, child="bidimensional/q16/cidade.Rmd"}
+```
+
+\cleardoublepage
+
+
+```{r, child="bidimensional/q16/genero.Rmd"}
+```
+
+\cleardoublepage
+
+
+```{r, child="bidimensional/q16/idade.Rmd"}
+```
+
+\cleardoublepage
+
+
+```{r, child="bidimensional/q16/raca.Rmd"}
+```
+
+\cleardoublepage
+
+
+```{r, child="bidimensional/q16/raca.Rmd"}
+```
+
+\cleardoublepage
+
+
+```{r, child="bidimensional/q16/tipo_escola.Rmd"}
+```
+
+\cleardoublepage
+
+## Q17
+
+A variável Q17 corresponde ao campo de númeo 13 com enunciado **O quanto você está preocupado hoje com as questões abaixo:** no quesito:
+
+* _Que pessoas da minha família fiquem doentes com o coronavírus_
+
+
+### Análise descritiva para Q17
+
+```{r, child="bidimensional/q17/unidimensional.Rmd"}
+```
+
+\cleardoublepage
+
+### Análise bidimensional Q17
+
+```{r, child="bidimensional/q17/cidade.Rmd"}
+```
+
+\cleardoublepage
+
+
+```{r, child="bidimensional/q17/genero.Rmd"}
+```
+
+\cleardoublepage
+
+
+```{r, child="bidimensional/q17/idade.Rmd"}
+```
+
+\cleardoublepage
+
+
+```{r, child="bidimensional/q17/raca.Rmd"}
+```
+
+\cleardoublepage
+
+```{r, child="bidimensional/q17/tipo_escola.Rmd"}
+```
+
+\cleardoublepage
+
+## Q18
+
+A variável Q18 corresponde ao campo de númeo 13 com enunciado **O quanto você está preocupado hoje com as questões abaixo:** no quesito:
+
+* _Que eu fique doente com o coronavírus_
+
+
+### Análise descritiva para Q18
+
+```{r, child="bidimensional/q18/unidimensional.Rmd"}
+```
+
+\cleardoublepage
+
+### Análise bidimensional Q18 
+
+```{r, child="bidimensional/q18/cidade.Rmd"}
+```
+
+\cleardoublepage
+
+
+```{r, child="bidimensional/q18/genero.Rmd"}
+```
+
+\cleardoublepage
+
+
+```{r, child="bidimensional/q18/idade.Rmd"}
+```
+
+\cleardoublepage
+
+```{r, child="bidimensional/q18/raca.Rmd"}
+```
+
+\cleardoublepage
+
+## Q19
+
+A variável Q19 corresponde ao campo de númeo 13 com enunciado **O quanto você está preocupado hoje com as questões abaixo:** no quesito:
+
+* _Que demore muito para eu voltar à escola_
+
+
+### Análise descritiva para Q19
+
+```{r, child="bidimensional/q19/unidimensional.Rmd"}
+```
+
+\cleardoublepage
+
+### Análise bidimensional Q19
+
+```{r, child="bidimensional/q19/cidade.Rmd"}
+```
+
+\cleardoublepage
+
+```{r, child="bidimensional/q19/genero.Rmd"}
+```
+
+\cleardoublepage
+
+
+```{r, child="bidimensional/q19/idade.Rmd"}
+```
+
+\cleardoublepage
+
+
+```{r, child="bidimensional/q19/raca.Rmd"}
+```
+
+\cleardoublepage
+
+
+```{r, child="bidimensional/q19/tipo_escola.Rmd"}
+```
+
+\cleardoublepage
+
+## Q20
+
+A variável Q20 corresponde ao campo de númeo 13 com enunciado **O quanto você está preocupado hoje com as questões abaixo:** no quesito:
+
+* _Que demore muito para eu encontrar meus amigos_
+
+
+### Análise descritiva para Q20
+
+```{r, child="bidimensional/q20/unidimensional.Rmd"}
+```
+
+\cleardoublepage
+
+### Análise bidimensional Q20
+
+```{r, child="bidimensional/q20/cidade.Rmd"}
+```
+
+\cleardoublepage
+
+```{r, child="bidimensional/q20/genero.Rmd"}
+```
+
+\cleardoublepage
+
+```{r, child="bidimensional/q20/idade.Rmd"}
+```
+
+\cleardoublepage
+
+
+```{r, child="bidimensional/q20/raca.Rmd"}
+```
+
+\cleardoublepage
+
+
+```{r, child="bidimensional/q20/tipo_escola.Rmd"}
+```
+
+\cleardoublepage
+
+## Q21
+
+A variável Q21 corresponde ao campo de número 13 com enunciado **O quanto você está preocupado hoje com as questões abaixo:** no quesito:
+
+* _Que eu precise voltar para a escola sem ter uma vacina para o coronavírus_
+
+
+### Análise descritiva para Q21
+
+```{r, child="bidimensional/q21/unidimensional.Rmd"}
+```
+
+\cleardoublepage
+
+### Análise bidimensional Q21
+
+```{r, child="bidimensional/q21/cidade.Rmd"}
+```
+
+\cleardoublepage
+
+
+```{r, child="bidimensional/q21/genero.Rmd"}
+```
+
+\cleardoublepage
+
+
+```{r, child="bidimensional/q21/idade.Rmd"}
+```
+
+\cleardoublepage
+
+```{r, child="bidimensional/q21/raca.Rmd"}
+```
+
+\cleardoublepage
+
+```{r, child="bidimensional/q21/tipo_escola.Rmd"}
+```
+
+\cleardoublepage
+
+## Q22
+
+A variável Q22 corresponde ao campo de número 13 com enunciado **O quanto você está preocupado hoje com as questões abaixo:** no quesito:
+
+* _Que eu não possa brincar com meus amigos como eu brincava antes_
+
+
+### Análise descritiva para Q22
+
+```{r, child="bidimensional/q22/unidimensional.Rmd"}
+```
+
+\cleardoublepage
+
+### Análise bidimensional Q22
+
+```{r, child="bidimensional/q22/cidade.Rmd"}
+```
+
+\cleardoublepage
+
+
+```{r, child="bidimensional/q22/genero.Rmd"}
+```
+
+\cleardoublepage
+
+
+```{r, child="bidimensional/q22/idade.Rmd"}
+```
+
+\cleardoublepage
+
+
+```{r, child="bidimensional/q22/idade.Rmd"}
+```
+
+\cleardoublepage
+
+
+```{r, child="bidimensional/q22/raca.Rmd"}
+```
+
+\cleardoublepage
+
+
+```{r, child="bidimensional/q22/tipo_escola.Rmd"}
 ```
 
 \cleardoublepage

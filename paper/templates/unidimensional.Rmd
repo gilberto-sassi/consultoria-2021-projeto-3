@@ -1,0 +1,18 @@
+#### Gráfico de barras: `r questao`
+
+```{r}
+grafico(df, questao, questao, base = fig_path)
+```
+
+#### Tabela de distribuição: `r questao`
+
+```{r}
+tabela(df, questao, questao, secondary_text, base = output)
+```
+
+
+#### Medidas de resumo: `r questao`
+
+```{r}
+resume_measures(dados, questao, base = output)
+```

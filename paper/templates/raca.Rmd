@@ -1,0 +1,102 @@
+
+#### Tabela de contingência: Raça e `r questao`
+
+```{r}
+dados_raca <- dados |> dplyr::mutate(raca = raça |>
+           dplyr::recode('Não sei responder ou não quero responder' = 'Sem resposta',
+                  'Parda' = 'Negra',
+                  'Preta' = 'Negra'))
+legenda <- glue("Tabela de contingência: Raça e {questao}.")
+contingency(df, "raca", questao, "Raça", caption = legenda, base = output)
+```
+
+#### Gráfico de barras: Raça e `r questao`
+
+```{r}
+grafico_2(df, "raca", questao, 'Raça', base = fig_path)
+```
+
+#### Teste qui-quadrado
+
+```{r, results="asis"}
+base::suppressWarnings({
+  valor_p <- chisq.test(x = df[, 'raca'][[1]], y = df[, questao][[1]])$p.value
+})
+
+if (valor_p < niv_sig) {
+  glue("Como o valor-p é menor que {niv_sig} (nível de significância), rejeitamos a hipótese nula e temos evidência estatística que as duas variáveis estão associadas.") |>
+  print()
+} else {
+  glue("Como o valor-p é igual ou maior que {niv_sig} (nível de significância), não rejeitamos a hipótese nula e não temos evidência estatística que as duas variáveis estão associadas.") |>
+  print()
+} 
+```
+
+```{r}
+df |> 
+  qui_test("raca", questao, base = output)
+```
+
+\cleardoublepage
+
+#### Medidas de Resumo `r questao` por Raça
+
+
+```{r}
+dados_raca |> 
+  resume_measures_2("raca", questao, base = output)
+```
+
+#### Boxplot de `r questao` por Raça 
+
+```{r}
+dados_raca |>
+  boxplot_group(questao, 'raca', questao, 'Raça', base = fig_path)
+```
+
+#### Teste de Kruskal-Wallis de `r questao` por Raça
+
+
+```{r, results="asis"}
+valor_p <- kruskal.test(unlist(dados_raca[, questao]), unlist(dados_raca[, 'raca']))$p.value
+
+if (valor_p < niv_sig) {
+  glue("Como o valor-p é menor que {niv_sig} (nível de significância), rejeitamos a hipótese nula e as medianas de {questao} entre raças não são todas diferentes.") |>
+  print()
+} else {
+  glue("Como o valor-p é maior ou igual a {niv_sig} (nível de significância), não rejeitamos a hipótese nula e as medianas de {questao} entre raças  são todas  iguais.") |>
+  print()
+} 
+```
+
+```{r}
+legenda <- glue('Valores-p para comparação múltipla de medianas: {questao} e Raça.')
+dados_raca |> 
+  kruskal_wallis_test(questao, 'raca', legenda, base = output)
+```
+
+#### Teste de Nemeyi de `r questao` por Raça
+
+```{r, results="asis"}
+v1 <- unlist(dados_raca[, questao])
+v2 <- unlist(dados_raca[, 'raca']) |> as.factor()
+base::suppressWarnings({
+    valor_p <- posthoc.kruskal.nemenyi.test(v1, v2,
+                                          p.adjust.method	= 'bonferroni')$p.value
+  })
+if (all(valor_p >= niv_sig, na.rm = TRUE)) {
+  glue("Como os valores-p são iguais ou maiores que {niv_sig} (nível de significância), não rejeitamos a hipótese nula e as medianas de {questao} entre as raças são iguais.") |>
+  print()
+} else {
+  glue("Existem valores-p menores que {niv_sig} (nível de significância), e para estes pares rejeitamos a hipótese nula e as medianas de {questao} entre as raças destes pares são diferentes.") |>
+  print()
+}
+```
+
+
+
+```{r}
+legenda <- glue('Valores-p para o teste de Nemeyi de {questao} por Raça.')
+dados_raca |> 
+  nemenyi_tests(questao, 'raca', caption = legenda, base = output)
+``` 

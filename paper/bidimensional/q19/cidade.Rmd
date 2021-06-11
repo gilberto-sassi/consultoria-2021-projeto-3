@@ -1,0 +1,60 @@
+
+#### Tabela de contingência: Cidade e Q19
+
+```{r}
+contingency(df, "Cidade", "Q19", "Cidade", caption="Tabela de contingência: Cidade e Q19.", base = output)
+```
+
+#### Gráfico de barras: Cidade e Q19
+
+Aparentemente as duas variáveis _Cidade_ e _Q19_ não estão associadas.
+
+```{r}
+grafico_2(df, "Cidade", "Q19", 'Cidade', base = fig_path)
+```
+
+#### Teste qui-quadrado
+
+Como o valor-p está próximo a $\alpha=0,05$, não rejeitamos $H_0$ e não temos evidência evidência estatística que as duas variáveis estão associadas. 
+
+```{r}
+df |> 
+  qui_test("Cidade", "Q19", base = output)
+```
+
+\cleardoublepage
+
+#### Medidas de Resumo Q19 por Cidade
+
+
+```{r}
+dados |> 
+  resume_measures_2("Cidade", "Q19", base = output)
+```
+
+#### Boxplot de Q19 por Cidade 
+
+
+```{r}
+dados |>
+  boxplot_group('Q19', 'Cidade', 'Q19', 'Cidade', base = fig_path)
+```
+
+#### Teste de Kruskal-Wallis de Q19 por Cidade
+
+
+Como o valor-p é maior que $\alpha=0,05$, não rejeitamos $H_0$ e as medianas de $Q19$ entre as crianças de diversas cidades são todas iguais.
+
+```{r}
+dados |> 
+  kruskal_wallis_test('Q19', 'Cidade', 'Valores-p para comparação múltipla de medianas: Q19 e Cidade.', base = output)
+```
+
+#### Teste de Nemeyi de Q19 por Cidade
+
+Os valores-p são maiores que $\alpha=0,05$, então não rejeitamos $H_0$, ou seja, as medianas são iguais para todos os pares de cidades.
+
+```{r}
+dados |> 
+  nemenyi_tests('Q19', 'Cidade', caption = 'Teste de Nemeyi de Q19 por Cidade.', base = output)
+``` 

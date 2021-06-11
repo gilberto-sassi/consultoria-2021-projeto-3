@@ -1,0 +1,18 @@
+#### Gráfico de barras: Q21
+
+```{r}
+grafico(df, "Q21", "Q21", base = fig_path)
+```
+
+#### Tabela de distribuição: Q21
+
+```{r}
+tabela(df, 'Q21', 'Q21', 'Que eu precise voltar para a escola sem ter uma vacina para o coronavírus', base = output)
+```
+
+
+#### Medidas de resumo: Q21
+
+```{r}
+resume_measures(dados, "Q21", base = output)
+```

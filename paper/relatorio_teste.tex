@@ -1,0 +1,1239 @@
+\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provides euro and other symbols
+\else % if luatex or xelatex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\usepackage{hyperref}
+\hypersetup{
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage[paper=a4paper,lmargin=2cm, rmargin=2cm, tmargin=2cm, bmargin=2cm]{geometry}
+\usepackage{longtable,booktabs}
+% Fix footnotes in tables (requires footnote package)
+\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{longtable}}{}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\usepackage[portuguese]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsthm,amssymb,amsfonts,amsmath}
+\usepackage{bm}
+\usepackage{setspace}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{times}
+\usepackage{xcolor}
+\usepackage{csquotes}
+\usepackage{natbib}
+\usepackage{xcolor}
+
+\addto\captionsportuguese{
+      \renewcommand{\contentsname}%
+        {Sumário}%
+  }
+  
+\newlength{\drop}
+
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\usepackage[all]{background}
+
+\backgroundsetup{
+placement=center,
+scale=1.5,
+color=black,
+opacity=0.075,
+angle=0,
+contents={
+  \includegraphics[width=0.65\linewidth]{logo-ufba}
+  }
+}
+
+\DeclareMathOperator{\vari}{Var}
+\DeclareMathOperator{\espe}{E}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+
+\onehalfspacing
+
+\begin{titlepage}
+    \drop=0.1\textheight
+    \centering
+    \vspace*{\baselineskip}
+    \rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt}
+    \rule{\textwidth}{0.4pt}\\[\baselineskip]
+    {\LARGE RELATÓRIO FINAL \\ 
+    \vspace*{\baselineskip}
+    INFÂNCIA EM TEMPOS DE PANDEMIA: EXPERIÊNCIAS DE CRIANÇAS 8 A 12 ANOS DURANTE O ISOLAMENTO SOCIAL EM DIFERENTES CONTEXTOS}\\[0.2\baselineskip]
+    \rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt}
+    \rule{\textwidth}{1.6pt}\\[\baselineskip]
+    \scshape
+    Trabalho de consultoria realizado no contexto da ação de extensão da Universidade Federal da Bahia com título \textit{Consultoria Estatística}. \\
+    \vspace*{2\baselineskip}
+    Elaborado por \\[\baselineskip]
+    {\Large Gilberto Pereira Sassi\par}
+    \vfill
+    {\scshape 2021} \\
+    {\large Universidade Federal da Bahia}\\
+    {\large Instituto de Matemática e Estatística}\\
+    {\large Departamento de Estatística}\par
+  \end{titlepage}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\hypertarget{introduuxe7uxe3o}{%
+\section{Introdução}\label{introduuxe7uxe3o}}
+
+Este relatório apresenta os resultados da análise estatística do conjunto de dados referente à seguinte consultoria:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Consulentes:} Profa. Dra. Juliana Prates Santana -- IPS/UFBA, e Profa. Dra. Adriana Ferriz -- IPS/UFBA;
+\item
+  \textbf{Título do projeto:} Infância em tempos de Pandemia: Experiências de crianças 8 a 12 anos
+  durante o isolamento social em diferentes contextos.
+\end{itemize}
+
+O projeto tem o objetivo de analisar a percepção de crianças durante a pandemia de COVID-19 na região metropolitana de Salvador. As Consulentes solicitaram apoio para realizar comparações de médias de algumas escalas Likert. Mais especificamente, as consulentes desejam avaliar a influência das seguintes variáveis categóricas:
+
+\begin{enumerate}
+\def\labelenumi{\roman{enumi}.}
+\tightlist
+\item
+  Idade
+\item
+  Tipo de escola
+\item
+  Gênero
+\item
+  Raça
+\item
+  Cidades
+\end{enumerate}
+
+nas seguintes variáveis que forem mensuradas como uma escala Likert:
+
+\begin{enumerate}
+\def\labelenumi{\roman{enumi}.}
+\tightlist
+\item
+  Questão 13)
+\item
+  Questão 14)
+\item
+  Questão 15)
+\item
+  Questão 16)
+\item
+  Questão 17)
+\item
+  Questão 18)
+\item
+  Questão 23)
+\item
+  Questão 29)
+\end{enumerate}
+
+\hypertarget{materias-e-muxe9todos}{%
+\section{Materias e Métodos}\label{materias-e-muxe9todos}}
+
+Começamos com uma análise descritiva de cada uma das variáveis de interesse, para depois passar para uma análise bidimensional. Na análise descritiva usamos medidas de posição e dispersão para variáveis mensuradas como uma escala Likert e tabela de distribuição de frequências para variáveis categóricas. Além disso, usamos o teste de associação qui-quadrado, o teste Kruskal-Wallis para comparar medianas e o teste de comparações múltiplas de Nemeyi. Neste projeto usamos a linguagem \texttt{R} (R Core Team \protect\hyperlink{ref-Rlang}{2021}). Para detalhes de estística descritiva, recomendamos a leitura de Bussab and Morettin (\protect\hyperlink{ref-bussab2002estatistica}{2002}). A seguir vamos apresentar detalhes metodológicos sobre o teste de associação qui-quadrado, o teste de Kruskal-Wallis para comparar medianas e o teste de comparações múltiplas de Nemeyi.
+
+\hypertarget{teste-qui-quadrado}{%
+\subsection{Teste qui-quadrado}\label{teste-qui-quadrado}}
+
+Vamos começar definindo o que entendemos por associação entre duas variáveis.
+Considere duas variáveis qualitativas \(X\) e \(Y\) com
+
+\begin{itemize}
+\tightlist
+\item
+  valores possíveis de \(X\): \(A_1, A_2, \dots, A_r\),
+\item
+  valores possíveis de \(Y\): \(B_1, B_2, \dots, B_s\).
+\end{itemize}
+
+Suponha que \(f_i \%\) da população de todos docentes tem valor de \(X\) igual \(A_i\).
+Então,
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  dizemos que \(X\) e \(Y\) estão associados se, ao descobrirmos ou conhecermos que o valor de
+  \(Y\) é \(B_j\), \textbf{alteramos} o valor de \(f_i \%\);
+\item
+  dizemos que \(X\) e \(Y\) \textbf{não} estão associados se, ao descobrirmos ou conhecermos que o valor de
+  \(Y\) é \(B_j\), \textbf{não alteramos} o valor de \(f_i \%\);
+\end{enumerate}
+
+Para verificar se duas variáveis qualitativas estão associadas usando uma amostra,
+começamos construindo a tabela de contingência que mostra a frequência da variáveis
+\(X\) ao longo da variávei \(Y\), conforme ilustrado na Tabela \ref{tab:contingencia}.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Tabela de contingência para as variáveis $X$ e $Y$.}
+  \label{tab:contingencia}
+  \begin{tabular}{c|c|ccccc|c}
+    &  & \multicolumn{5}{|c|}{Valores possíveis de $X$} & \\ \cline{3-7}
+    &  & $B_1$ & $B_2$ & $B_3$ & $\cdots$ & $B_s$ & Total\\ \hline
+  \multirow{5}{*}{Valores possíveis de $Y$}  & $A_1$ & $n_{11}$ & $n_{12}$ & $n_{13}$ & $\cdots$ & $n_{1s}$ & $n_{1\cdot}$ \\
+    & $A_2$ & $n_{21}$ & $n_{22}$ & $n_{23}$ & $\cdots$ & $n_{2s}$ & $n_{2\cdot}$ \\
+    & $A_3$ & $n_{31}$ & $n_{32}$ & $n_{33}$ & $\cdots$ & $n_{3s}$ & $n_{3\cdot}$ \\
+    & $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$ & $\ddots$ & $\vdots$ & $\vdots$\\
+    & $A_r$ & $n_{r1}$ & $n_{r2}$ & $n_{r3}$ & $\cdots$ & $n_{rs}$ & $n_{r\cdot}$  \\ \hline
+    & Total & $n_{\cdot 1}$ & $n_{\cdot 2}$ & $n_{\cdot 3}$ & $\cdots$ & $n_{\cdot s}$ & $n_{\cdot \cdot}$ 
+  \end{tabular}
+\end{table}
+
+em que \(n_{ij}\) é o número de docentes que tem valor de \(X\) igual a \(A_i, i=1, \dots, r\) e tem valor de \(Y\) igual a \(B_j, j=1, \dots, s\); \(n_{i\cdot}\)
+é o número de docentes que tem valor de \(X\) igual a \(A_i, i=1, \dots, r\);
+\(n_{\cdot j}, j=1, \dots, s\) é o número de docentes que tem valor de \(Y\) igual a
+\(B_j, j=1, \dots, s\); e \(n_{\cdot \cdot}\) é o tamanho da amostra. Para verificar se duas variáveis estão associadas, podemos
+calcular a frequência relativa por colunas (ou por linhas), conforme ilustrado na
+Tabela \ref{tab:FRContingencia}.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Frequência relativa por coluna da tabela de contingência para as variáveis $X$ e $Y$.}
+  \label{tab:FRContingencia}
+  \begin{tabular}{c|c|ccccc|c}
+    &  & \multicolumn{5}{|c|}{Valores possíveis de $X$} & \\ \cline{3-7}
+    &  & $B_1$ & $B_2$ & $B_3$ & $\cdots$ & $B_s$ & Total\\ \hline
+  \multirow{5}{*}{Valores possíveis de $Y$}  & $A_1$ & $\frac{n_{11}}{n{\cdot 1}}$ & $\frac{n_{12}}{n_{\cdot 2}}$ & $\frac{n_{13}}{n_{\cdot 3}}$ & $\cdots$ & $\frac{n_{1s}}{n_{\cdot s}}$ & $\frac{n_{1\cdot}}{n_{\cdot \cdot}}$ \\
+    & $A_2$ & $\frac{n_{21}}{n_{\cdot 1}}$ & $\frac{n_{22}}{n_{\cdot 2}}$ & $\frac{n_{23}}{n_{\cdot 3}}$ & $\cdots$ & $\frac{n_{2s}}{n_{\cdot s}}$ & $\frac{n_{2\cdot}}{n_{\cdot \cdot}}$ \\
+    & $A_3$ & $\frac{n_{31}}{n_{\cdot 1}}$ & $\frac{n_{32}}{n_{\cdot 2}}$ & $\frac{n_{33}}{n_{\cdot 3}}$ & $\cdots$ & $\frac{n_{3s}}{n_{\cdot s}}$ & $\frac{n_{3\cdot}}{n_{\cdot \cdot}}$ \\
+    & $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$ & $\ddots$ & $\vdots$ & $\vdots$\\
+    & $A_r$ & $\frac{n_{r1}}{n_{\cdot 1}}$ & $\frac{n_{r2}}{n_{\cdot 2}}$ & $\frac{n_{r3}}{n_{\cdot 3}}$ & $\cdots$ & $\frac{n_{rs}}{n_{\cdot s}}$ & $\frac{n_{r\cdot}}{n_{\cdot \cdot}}$  \\ \hline
+    & Total & $\frac{n_{\cdot 1}}{n_{\cdot 1}} = 1$ & $\frac{n_{\cdot 2}}{n_{\cdot 2}}=1$ & $\frac{n_{\cdot 3}}{n_{\cdot 3}} = 1$ & $\cdots$ & $\frac{n_{\cdot s}}{n_{\cdot s}} = 1$ & $\frac{n_{\cdot \cdot}}{n_{\cdot \cdot}}=1$ 
+  \end{tabular}
+\end{table}
+
+Se \(X\) e \(Y\) não estão associadas, então, para cada linha \(i, i=1, \dots, r\) da Tabela \ref{tab:FRContingencia},
+temos que
+\begin{equation}
+\frac{n_{ij}}{n_{\cdot j}} = \frac{n_{i\cdot }}{n_{\cdot \cdot}}, i=1, \dots, r,
+\label{eq:equality}
+\end{equation}
+e podemos analisar essas igualdades usando um gráfico de barras e usando o teste
+qui-quadrado, como explicaremos a seguir.
+
+Para ilustrar a associação e a não associção entre duas variáveis qualitativas,
+vamos considerar dois exemplos didáticos que podem ser encontrados no livro de
+Barbetta (\protect\hyperlink{ref-barbetta2008estatistica}{2008}).
+
+\hypertarget{exemplo-de-associauxe7uxe3o-entre-duas-variuxe1veis-qualitativas}{%
+\subsubsection{Exemplo de associação entre duas variáveis qualitativas}\label{exemplo-de-associauxe7uxe3o-entre-duas-variuxe1veis-qualitativas}}
+
+Para ilustração vamos estudar um exempo de não associação hipotético do livro Barbetta (\protect\hyperlink{ref-barbetta2008estatistica}{2008}). Imagine que um pesquisador está interessado em estudar a associação entre \texttt{câncer} e o \texttt{tabagismo} em uma amostra com 300 indivíduos e obteve a tabela de contingência mostrada na Tabela \ref{tab:associacao}. A variável \texttt{câncer} tem duas categorias: \texttt{sim} (a pessoa teve ou tem câncer); \texttt{não} (a pessoa não teve nem tem câncer). A variável \texttt{tabagismo} tem duas categorias: \texttt{fumante} (a pessoa tem o hábito de fumar); \texttt{não-fumante} (a pessoa não tem hábito de fumar).
+
+\begin{table}[htbp]
+\centering
+\caption{Tabela de distribuição de frequência entre Câncer e Tabagismo.}
+\label{tab:associacao}
+\begin{tabular}{l|cc|l}
+    & \multicolumn{2}{|c|}{Câncer} & \\ \cline{2-3}
+    Tabagismo & Não & Sim & Total\\ \hline
+    Não-Fumante & 200 & 0 & 200 \\
+    Fumante & 0 & 100 & 100\\ \hline
+    Total & 200 & 100 & 300
+\end{tabular}
+\end{table}
+
+Calculando a frequência relativa por linha na Tabela \ref{tab:associacao}, obtemos as frequências relativas da Tabela \ref{tab:associacaoRel}.
+
+\begin{table}[htbp]
+\centering
+\caption{Tabela de distribuição de frequência relativa ao total das linhas.}
+\label{tab:associacaoRel}
+\begin{tabular}{l|ll|l}
+& \multicolumn{2}{|c|}{Câncer (Y)} & \\ \cline{2-3}
+Tabagismo (X) & Não & Sim & Total\\ \hline
+Não-Fumante & $\frac{200}{200}\cdot 100 = 100\%$ & {\color{brown} $\frac{0}{200}\cdot 100 = 0\%$} & $\frac{200}{200}\cdot 100= 100\%$ \\
+Fumante & $\frac{0}{100}\cdot 100 = 0\%$  & {\color{blue} $\frac{100}{100}\cdot 100= 100\%$} &  $\frac{100}{100}\cdot 100=100\%$ \\ \hline
+Total & $\frac{200}{300}\cdot 100= 66,67\%$ & {\color{red} $\frac{100}{300}\cdot 100 = 33,33\%$}  & $\frac{300}{300}\cdot 100= 100\%$ 
+\end{tabular}
+\end{table}
+
+Na Tabela \ref{tab:associacaoRel}, notamos que os valores destacados em vermelho, azul e marrom são diferentes. Se não sabemos o valor da variável \texttt{tabagismo} de um indivíduo, dizemos que ele tem aproximadamente \(33\%\) de probabilidade de ter câncer (conforme destacado em vermelhado). Contudo, ao descobrir / revelar / conhecer o valor da variável \texttt{tabagismo}, essa probabilidade muda. Mais precisamente, se descobrirmos que a pessoa fuma (\texttt{tabagismo} = \texttt{fumante}) então a probabilidade da pessoa ter cancer é aproximadamente \(100\%\), e se descobrirmos que a pessoa não fuma (\texttt{tabagismo} = \texttt{não-fumante}) então a probabildiade da pessoa ter câncer é aproximadamente \(0\%\). Ou seja, conhecer o valor \texttt{tabagismo} para uma pessoa muda, ou altera, as probabilidades dos valores de \texttt{câncer}, e então dizemos as duas variáveis qualitativas estão associadas. Geralmente, é conveniente representar a Tabela \ref{tab:associacaoRel} usando gráfico de barras conforme ilustrado na Figura \ref{fig:associacao}. Note que na Figura \ref{fig:associacao}, as duas barras são diferentes. De uma forma geral, se as barras iguais indicam uma não associação entre as variáveis qualitativas e barras diferentes indicam uma associação entre as variáveis qualitativas.
+
+\begin{figure}[htbp]
+
+{\centering \includegraphics[width=0.5\linewidth]{relatorio_teste_files/figure-latex/associacao-1} 
+
+}
+
+\caption{Associação entre Tabagismo e Câncer.}\label{fig:associacao}
+\end{figure}
+
+\hypertarget{exemplo-de-nuxe3o-associauxe7uxe3o-entre-duas-variuxe1veis-qualitativas}{%
+\subsubsection{Exemplo de não associação entre duas variáveis qualitativas}\label{exemplo-de-nuxe3o-associauxe7uxe3o-entre-duas-variuxe1veis-qualitativas}}
+
+Para ilustração vamos estudar um exempo de não associação hipotético do livro Barbetta (\protect\hyperlink{ref-barbetta2008estatistica}{2008}). Imagine que um pesquisador está interessado em estudar a associação entre as variáveis qualitativas \texttt{gênero} e \texttt{tabagismo} em uma amostra de \(300\) pessoas e obteve a tabela de contingência da Tabela \ref{tab:naoAssociacao}. A variável \texttt{gênero} tem duas categorias: \texttt{masculino} (a pessoa se identifica com o gênero masculino) e \texttt{feminino} (a pessoa se identifica com o gênero feminino). A variável \texttt{tabagismo} tem duas categorias: \texttt{fumante} (a pessoa tem o hábito de fumar) e \texttt{não-fumante} (a pessoa não tem o hábito de fumar).
+
+\begin{table}[htbp]
+\centering
+\caption{Tabela de contingência para as Gênero e Tabagismo.}
+\label{tab:naoAssociacao}
+\begin{tabular}{l|cc|l}
+& \multicolumn{2}{|c|}{Gênero} & \\ \cline{2-3}
+Tabagismo & Masculino & Feminino & Total\\ \hline
+Não-Fumante & 80 & 40 & 120\\
+Fumante & 120 & 60 & 180\\ \hline
+Total & 200 & 100 & 300\\
+\end{tabular}
+\end{table}
+
+Calculando a frequência relativa por linha na Tabela \ref{tab:naoAssociacao}, obtemos as frequências relativas da Tabela \ref{tab:naoAssociacaoRel}.
+
+\begin{table}[htbp]
+\centering
+\caption{Tabela de distribuição de frequência relativa ao total das colunas.}
+\label{tab:naoAssociacaoRel}
+\begin{tabular}{l|ll|l}
+& \multicolumn{2}{|c|}{Gênero} & \\ \cline{2-3}
+Tabagismo & Homem & Mulher & Total\\ \hline
+Não-Fumante & {\color{brown} $\frac{80}{200}\cdot 100 = 40\%$} &  {\color{blue}$\frac{40}{100}\cdot 100 = 40\%$} & {\color{red}$\frac{120}{300}\cdot 100= 40\%$} \\
+Fumante & $\frac{120}{200}\cdot 100 = 60\%$  &  $\frac{60}{100}\cdot 100= 60\%$ &  $\frac{180}{300}\cdot 100=60\%$ \\ \hline
+Total & $\frac{200}{200}\cdot 100= 100\%$ &  $\frac{100}{100}\cdot 100 = 100\%$  & $\frac{300}{300}\cdot 100= 100\%$ \\ 
+\end{tabular}
+\end{table}
+
+Na Tabela \ref{tab:naoAssociacaoRel}, notamos que os valores destacados em vermelho, azul e marrom são iguais. Se não sabemos o valor da variável \texttt{gênero} de um indivíduo, dizemos que uma pessoa tem aproximadamente \(40\%\) de probabilidade de ser fumante (conforme destacado em vermelhado). Contudo, ao descobrir / revelar / conhecer o valor da variável \texttt{gênero}, essa probabilidade permanece idêntica. Mais precisamente, se descobrirmos que a pessoa se identifica com o gênero feminino (\texttt{gênero} = \texttt{feminino}) então a probabilidade da pessoa fumar é aproximadamente \(40\%\) (cor azul), e se descobrirmos que a pessoa se identifica com o gênero masculino (\texttt{gênero} = \texttt{masculino}) então a probabildiade da pessoa fumar também é aproximadamente \(40\%\) (cor marrom). Ou seja, conhecer o valor \texttt{gênero} para uma pessoa não muda nem se altera as probabilidades dos valores de \texttt{tabagismo}, e então dizemos as duas variáveis qualitativas não estão associadas. Isto é, conhecer o valor da variável \texttt{gênero} não nos ajuda a descobrir ou determinar o valor (ou a probabilidade dos valores) da variável \texttt{tabagismo}. Geralmente, é conveniente representar a Tabela \ref{tab:naoAssociacaoRel} usando gráfico de barras conforme ilustrado na Figura \ref{fig:naoAssociacao}. Note que na Figura \ref{fig:naoAssociacao}, as duas barras são idênticas. De uma forma geral, se as barras iguais indicam uma não associação entre as variáveis qualitativas e barras diferentes indicam uma associação entre as variáveis qualitativas.
+
+\begin{figure}[htbp]
+
+{\centering \includegraphics[width=0.5\linewidth]{relatorio_teste_files/figure-latex/naoAssociacao-1} 
+
+}
+
+\caption{Não associação entre Gênero e Tabagismo.}\label{fig:naoAssociacao}
+\end{figure}
+
+\hypertarget{teste-qui-quadrado-1}{%
+\subsubsection{Teste qui-quadrado}\label{teste-qui-quadrado-1}}
+
+O teste qui-quadrado é geralmente usado para checar a associação entre duas variáveis
+qualitativas. Considere as variáveis \(X\) e \(Y\) duas variáveis qualitativas da
+Tabela \ref{tab:contingencia}, então, como já comentamos, se \(X\) e \(Y\) não são associadas temos que
+\begin{equation}
+\label{eq:quiQuadrado}
+n_{ij} = \frac{n_{i \cdot } n_{\cdot j}}{n_{\cdot \cdot}} = \frac{\mbox{total da linha }i \cdot \mbox{total da colunha }j}{\mbox{tamanho da amostra}},
+\end{equation}
+em que \(n_{i \cdot}\) é o total da linha que corresponde ao valor \(A_i\) na Tabela \ref{tab:contingencia}, \(n_{\cdot j}\) é o total da colunha que corresponde ao valor \(B_j\) na Tabela \ref{tab:contingencia}, e \(n_{\cdot \cdot}\) é o tamanho da amostra.
+
+Quando coletamos uma amostra não sabemos se duas variáveis estão associadas. Então, calculamos a expressão do lado direito da equação \eqref{eq:quiQuadrado}
+\[
+e_{ij} = \frac{\mbox{total da linha }i \cdot \mbox{total da colunha }j}{\mbox{tamanho da amostra}}
+\]
+e comparamos com o valor \(n_{ij}\) que obtemos da amostra. Chamamos \(e_{ij}\) de valor frequência esperada e \(n_{ij}\) de valor de frequência observada. Se as frequências esperadas e as frequência observadas forem iguais (ou estiverem próximas), podemos concluir que \(X\) e \(Y\) não estão associadas. Ou seja, se as distâncias padronizadas \(\frac{(e_{ij} - n_{ij})^2}{e_{ij}}\) entre \(e_{ij}\) e \(n_{ij}\) forem pequenas, então \(X\) e \(Y\) \textbf{não} estão associadas. Estas distâncias padronizadas são não-negativas, então \(X\) e \(Y\) \textbf{não} estão associadas se, e somente se, a soma de todas estas distâncias \(\frac{(e_{ij} - n_{ij})^2}{e_{ij}}\) são pequenas. Consequentemente, se
+\[
+\chi_0^2 = \sum_{i=1}^{r} \sum_{j=1}^{s} \frac{(e_{ij} - n_{ij})^2}{e_{ij}},
+\]
+for pequeno, então \(X\) e \(Y\) não estão associadas.
+
+Para saber se \(\chi_0^2\) é pequeno ou grande, comparamos \(\chi_0^2\) o valor de quantil da distribuição qui-quadrado com \((r-1)(s-1)\) graus de liberdade (vide Montgomery and Runger \protect\hyperlink{ref-montgomery2010applied}{2010} para detalhes). Mais precisamente, queremos decidir entre as duas hipóteses científicas
+\begin{align*}
+H_0 &= \mbox{as duas variáveis qualitativas não estão associadas},\\
+H_1 &= \mbox{as duas variáveis qualitativas estão associadas},
+\end{align*}
+e para isso fixamos o nível de significância \(\alpha\), calculamos o valor-p \(p\) e rejeitamos \(H_0\) se \(p < \alpha\) (vide Spiegel et al. \protect\hyperlink{ref-spiegel2001probability}{2001} para detalhes sobre valor-p). Neste relatório, vamos usar o nível de significânica \(\alpha=0,05\) .
+
+\hypertarget{teste-kruskal-wallis}{%
+\subsection{Teste Kruskal-Wallis}\label{teste-kruskal-wallis}}
+
+Usamos o Teste Kruskal-Wallis para comparar populações através da mediana e adequado para populações onde não é adequado assumir a distribuição normal, como é caso escalas Likert. Neste teste, supomos que temos \(j,\quad j=1, \dots, k\) populações e para cada população \(j\) temos coletamos uma amostra de tamanho \(n_j\), ou seja, a amostra completa tem \(N = n_1 + \dots + n_k\) crianças. Seja \(X_{ij}\) é a resposta da criança \(i\) da população \(j\), então
+\[
+X_{ij} = \theta + \tau_j + \epsilon_{ij}, \qquad  j=1, \dots, k,\qquad i=1, \dots, n_j,
+\]
+onde \(\theta\) é a mediana da amostra completa, \(\tau_j\) é o efeito do \(j\)-ésimo tratamento da população e \(\epsilon_{ij}\) são erros aleatórios com mediana igual a zero, e queremos decidir entre duas hipóteses
+\[
+\begin{split}
+&H_0: \tau_1 = \tau_2 = \dots = \tau_j,\\
+&H_1: \tau_1, \tau_2, \dots,  \tau_j \mbox{ não são todos iguais}.
+\end{split}
+\]
+e para isso fixamos o nível de significância \(\alpha\), calculamos o valor-p \(p\) e rejeitamos \(H_0\) se \(p < \alpha\) (vide Spiegel et al. \protect\hyperlink{ref-spiegel2001probability}{2001} para detalhes sobre valor-p). Neste relatório, vamos usar o nível de significânica \(\alpha=0,05\).
+
+Para detalhes sobre o teste Kruskal-Wallis, recomendo a leitura de Hollander, Wolfe, and Chicken (\protect\hyperlink{ref-hollander2013nonparametric}{2013}).
+
+\hypertarget{teste-de-comparauxe7uxe3o-muxfaltipla-de-nemeyi}{%
+\subsection{Teste de comparação múltipla de Nemeyi}\label{teste-de-comparauxe7uxe3o-muxfaltipla-de-nemeyi}}
+
+O teste de Nemeyi (Nemenyi \protect\hyperlink{ref-nemenyi1963distribution}{1963}) é teste \emph{posthoc} de comparação múltipla que pode ser usada para identificar quais grupos tem medianas diferentes populações se o teste de Kruskal-Wallis indica que as populações tem medianas diferentes. O teste consiste em realizar comparações em pares para identificar quais populações tem medianas diferentes.
+
+O número de comparações de medianas realizadas é \(\frac{k(k-1)}{2}\), e o teste foi construído em soma de postos e na aplicação do método \emph{family-wise-error} para controlar a inflação do erro tipo I se várias comparações forem feitas. E para cada par de populações queremos decidir entre as hipóteses:
+\[
+\begin{split}
+&H_0: m_l = m_j\\
+&H_1: m_l \neq m_j
+\end{split}
+\]
+onde \(m_l\) é a mediana da população \(l\) e \(m_j\) é a mediana da população \(j\). Para decidirmos entre estas hipóteses, fixamos o nível de significância \(\alpha\), calculamos o valor-p \(p\) e rejeitamos \(H_0\) se \(p < \alpha\) (vide Spiegel et al. \protect\hyperlink{ref-spiegel2001probability}{2001} para detalhes sobre valor-p). Neste relatório, vamos usar o nível de significânica \(\alpha=0,05\).
+
+Para detalhes sobre o teste de comparação múltipla de Nemeyi, recomendo a leitura da vinheta do pacote da liguagem Pohlert (\protect\hyperlink{ref-PMCMR}{2014}).
+
+\hypertarget{arquivos-suplementares}{%
+\subsection{Arquivos suplementares}\label{arquivos-suplementares}}
+
+Para facilitar a redação de relatórios e artigos pelas consulentes, coloco em anexo os seguintes arquivos:
+
+\begin{itemize}
+\tightlist
+\item
+  \texttt{output.zip}: este arquivo contém o sequintes diretórios
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \texttt{kruskal\_wallis\_test}: diretório com arquivos \texttt{.csv} e \texttt{.xlsx} com os testes Kruskal-Wallis
+  \item
+    \texttt{medidas\_resumos\_bidimensional}: diretório com arquivos \texttt{.csv} e \texttt{.xlsx} com medidas de resumo calculas de cada grupo de uma variável categórica
+  \item
+    \texttt{medidas\_resumos\_unidimensional}: diretório com arquivos \texttt{.csv} e \texttt{.xlsx} com medidas de resumo para cada uma das variáveis neste relatório
+  \item
+    \texttt{nemenyi\_tests}: diretório com arquivos \texttt{.csv} e \texttt{.xlsx} com os valores-p do teste de comparação múltipla de Nemeyi
+  \item
+    \texttt{tabela\_contingencia}: diretório com arquivos \texttt{.csv} e \texttt{.xlsx} com as tabelas de contingências
+  \item
+    \texttt{tabela\_distribuicao}: diretório com arquivos \texttt{.csv} e \texttt{.xlsx} com as tabelas de distribuições de frequências para as variáveis categóricas
+  \item
+    \texttt{teste\_qui\_quadrado}: diretório com arquivos \texttt{.csv} e \texttt{.xlsx} com os testes qui-quadrado
+  \end{itemize}
+\item
+  \texttt{figuras.zip}: este arquivo contém os seguintes diretórios:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \texttt{boxplot\_bidimensional}: diretório com figuras nos formatos \texttt{.png} e \texttt{.pdf} com o diagrama de caixa (boxplot) de cada grupo da variável categórica
+  \item
+    \texttt{grafico\_barra\_bidimensional}: diretório com figuras nos formatos \texttt{.png} e \texttt{.pdf} com gráfico de barras para duas variáveis categóricas
+  \item
+    \texttt{grafico\_barra\_unidimensional}: diretório com figuras nos formatos \texttt{.png} e \texttt{.pdf} com gráfico de barras para cada variável categórica
+  \end{itemize}
+\end{itemize}
+
+\cleardoublepage
+
+\hypertarget{resultados}{%
+\section{Resultados}\label{resultados}}
+
+Dividimos esta seção em duas partes. Começamos com a análise descritiva para as seguintes variávies categóricas:
+
+\begin{enumerate}
+\def\labelenumi{\roman{enumi}.}
+\tightlist
+\item
+  Idade
+\item
+  Tipo de escola
+\item
+  Gênero
+\item
+  Raça
+\item
+  Cidades
+\end{enumerate}
+
+Nesta parte, apresentamos as tabelas de distribuição de frequências e o gráfico de barras sem comentários adicionais. Em seguida, comparamos as escalas de Likert por cada grupo especificado pelas variáveis categóricas elencadas acima. Nesta última parte, também seremos lacônicos, pois este relator acredita que as consulentes são qualificadas para dar uma interpretação adequada aos resultados dos métodos estatísticos.
+
+\cleardoublepage
+
+\hypertarget{q14}{%
+\subsection{Q14}\label{q14}}
+
+A variável Q14 corresponde ao campo de númeo 13 com enunciado \textbf{O quanto você está preocupado hoje com as questões abaixo} no quesito:
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Que minha família e meus amigos fiquem mais pobres, com menos dinheiro ou sem emprego}
+\end{itemize}
+
+\hypertarget{anuxe1lise-descritiva-para-q14}{%
+\subsubsection{Análise descritiva para Q14}\label{anuxe1lise-descritiva-para-q14}}
+
+\hypertarget{gruxe1fico-de-barras-q14}{%
+\paragraph{Gráfico de barras: Q14}\label{gruxe1fico-de-barras-q14}}
+
+\begin{center}\includegraphics[width=0.75\linewidth]{relatorio_teste_files/figure-latex/unnamed-chunk-9-1} \end{center}
+
+\hypertarget{tabela-de-distribuiuxe7uxe3o-q14}{%
+\paragraph{Tabela de distribuição: Q14}\label{tabela-de-distribuiuxe7uxe3o-q14}}
+
+\begin{longtable}[]{@{}cccc@{}}
+\caption{\label{tab:unnamed-chunk-10}Que minha família e meus amigos fiquem mais pobres, com menos dinheiro ou sem emprego}\tabularnewline
+\toprule
+Q14 & Frequência & Frequência relativa & Porcentagem\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Q14 & Frequência & Frequência relativa & Porcentagem\tabularnewline
+\midrule
+\endhead
+Pouca preocupação & 428 & 0,41 & 40,76\tabularnewline
+Sem preocupação & 325 & 0,31 & 30,95\tabularnewline
+Muita preocupação & 265 & 0,25 & 25,24\tabularnewline
+Sem resposta & 32 & 0,03 & 3,05\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{medidas-de-resumo-q14}{%
+\paragraph{Medidas de resumo: Q14}\label{medidas-de-resumo-q14}}
+
+\begin{longtable}[]{@{}ccccc@{}}
+\caption{\label{tab:unnamed-chunk-11}Resumos para variável Q14.}\tabularnewline
+\toprule
+Média & Desvio Padrão & Mediana & 1Qua & 3Qua\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Média & Desvio Padrão & Mediana & 1Qua & 3Qua\tabularnewline
+\midrule
+\endhead
+1 & 0,83 & 1 & 0 & 2\tabularnewline
+\bottomrule
+\end{longtable}
+
+\cleardoublepage
+
+\hypertarget{anuxe1lise-bidimensional-q14}{%
+\subsubsection{Análise bidimensional Q14}\label{anuxe1lise-bidimensional-q14}}
+
+\hypertarget{tabela-de-continguxeancia-cidade-e-q14}{%
+\paragraph{Tabela de contingência: Cidade e Q14}\label{tabela-de-continguxeancia-cidade-e-q14}}
+
+\begin{longtable}[]{@{}ccccc@{}}
+\caption{\label{tab:unnamed-chunk-12}Tabela de contingência: Cidade e Q14.}\tabularnewline
+\toprule
+Cidade & Muita preocupação & Pouca preocupação & Sem preocupação & Sem resposta\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Cidade & Muita preocupação & Pouca preocupação & Sem preocupação & Sem resposta\tabularnewline
+\midrule
+\endhead
+Camaçari & 72 & 77 & 40 & 8\tabularnewline
+Candeias & 12 & 15 & 9 & 2\tabularnewline
+Lauro de Freitas & 11 & 26 & 23 & 1\tabularnewline
+Outros & 23 & 41 & 19 &\tabularnewline
+Pojuca & 25 & 27 & 10 & 2\tabularnewline
+Salvador & 113 & 225 & 217 & 18\tabularnewline
+Simões Filho & 9 & 17 & 7 & 1\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{gruxe1fico-de-barras-cidade-e-q14}{%
+\paragraph{Gráfico de barras: Cidade e Q14}\label{gruxe1fico-de-barras-cidade-e-q14}}
+
+\begin{center}\includegraphics[width=0.75\linewidth]{relatorio_teste_files/figure-latex/unnamed-chunk-13-1} \end{center}
+
+\hypertarget{teste-qui-quadrado-2}{%
+\paragraph{Teste qui-quadrado}\label{teste-qui-quadrado-2}}
+
+Como o valor-p é menor que 0.01 (nível de significância), rejeitamos a hipótese nula e temos evidência estatística que as duas variáveis estão associadas.
+
+\begin{longtable}[]{@{}ccc@{}}
+\caption{\label{tab:unnamed-chunk-15}Teste qui-quadrado entre Cidade e Q14.}\tabularnewline
+\toprule
+Estatística & Graus de liberdade & Valor-p\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Estatística & Graus de liberdade & Valor-p\tabularnewline
+\midrule
+\endhead
+56,23 & 18 & 0\tabularnewline
+\bottomrule
+\end{longtable}
+
+\cleardoublepage
+
+\hypertarget{medidas-de-resumo-q14-por-cidade}{%
+\paragraph{Medidas de Resumo Q14 por Cidade}\label{medidas-de-resumo-q14-por-cidade}}
+
+\begin{longtable}[]{@{}cccccc@{}}
+\caption{\label{tab:unnamed-chunk-16}Medidas de resumo de Q14 por Cidade.}\tabularnewline
+\toprule
+Q14 & Média & Desvio Padrão & Mediana & 1 Quartil & 3 Quartil\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Q14 & Média & Desvio Padrão & Mediana & 1 Quartil & 3 Quartil\tabularnewline
+\midrule
+\endhead
+Camaçari & 1,24 & 0,82 & 1 & 1 & 2\tabularnewline
+Candeias & 1,18 & 0,87 & 1 & 1 & 2\tabularnewline
+Lauro de Freitas & 0,84 & 0,78 & 1 & 0 & 1\tabularnewline
+Outros & 1,05 & 0,71 & 1 & 1 & 2\tabularnewline
+Pojuca & 1,30 & 0,77 & 1 & 1 & 2\tabularnewline
+Salvador & 0,88 & 0,83 & 1 & 0 & 1\tabularnewline
+Simões Filho & 1,12 & 0,77 & 1 & 1 & 2\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{boxplot-de-q14-por-cidade}{%
+\paragraph{Boxplot de Q14 por Cidade}\label{boxplot-de-q14-por-cidade}}
+
+\begin{center}\includegraphics[width=0.75\linewidth]{relatorio_teste_files/figure-latex/unnamed-chunk-17-1} \end{center}
+
+\hypertarget{teste-de-kruskal-wallis-de-q14-por-cidade}{%
+\paragraph{Teste de Kruskal-Wallis de Q14 por Cidade}\label{teste-de-kruskal-wallis-de-q14-por-cidade}}
+
+Como o valor-p é menor que 0.01 (nível de significância), rejeitamos a hipótese nula e as medianas de Q14 entre as crianças de diversas cidades são diferentes.
+
+\begin{longtable}[]{@{}ccc@{}}
+\caption{\label{tab:unnamed-chunk-19}Valor-p para o teste de Kruskal-Wallis: Q14 e Cidade.}\tabularnewline
+\toprule
+Estatística & Parâmetro & valor p\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Estatística & Parâmetro & valor p\tabularnewline
+\midrule
+\endhead
+45,53 & 6 & 0\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{teste-de-nemeyi-de-q14-por-cidade}{%
+\paragraph{Teste de Nemeyi de Q14 por Cidade}\label{teste-de-nemeyi-de-q14-por-cidade}}
+
+Existem valores-p menores que 0.01 (nível de significância), e para estes pares rejeitamos a hipótese nula e as medianas de Q14 entre as crianças das cidades destes pares são diferentes.
+
+\begin{longtable}[]{@{}lcccccc@{}}
+\caption{\label{tab:unnamed-chunk-21}Valores-p para o teste de comparação múltipla de Nemeyi de Q14 por Cidade.}\tabularnewline
+\toprule
+& Camaçari & Candeias & Lauro de Freitas & Outros & Pojuca & Salvador\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+& Camaçari & Candeias & Lauro de Freitas & Outros & Pojuca & Salvador\tabularnewline
+\midrule
+\endhead
+Candeias & 1,00 & & & & &\tabularnewline
+Lauro de Freitas & 0,02 & 0,50 & & & &\tabularnewline
+Outros & 0,73 & 1,00 & 0,69 & & &\tabularnewline
+Pojuca & 1,00 & 0,99 & 0,04 & 0,66 & &\tabularnewline
+Salvador & 0,00 & 0,37 & 1,00 & 0,46 & 0,00 &\tabularnewline
+Simões Filho & 0,99 & 1,00 & 0,72 & 1,00 & 0,96 & 0,66\tabularnewline
+\bottomrule
+\end{longtable}
+
+\cleardoublepage
+
+\hypertarget{tabela-de-continguxeancia-guxeanero-e-q14}{%
+\paragraph{Tabela de contingência: Gênero e Q14}\label{tabela-de-continguxeancia-guxeanero-e-q14}}
+
+Apenas seis crianças se identificaram com o gênero \emph{outros} e foram removidas na análise estatística.
+
+\begin{longtable}[]{@{}ccccc@{}}
+\caption{\label{tab:unnamed-chunk-22}Tabela de contingência: Gênero e Q14.}\tabularnewline
+\toprule
+Gênero & Muita preocupação & Pouca preocupação & Sem preocupação & Sem resposta\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Gênero & Muita preocupação & Pouca preocupação & Sem preocupação & Sem resposta\tabularnewline
+\midrule
+\endhead
+Menina & 134 & 227 & 162 & 18\tabularnewline
+Menino & 131 & 196 & 162 & 14\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{gruxe1fico-de-barras-guxeanero-e-q14}{%
+\paragraph{Gráfico de barras: Gênero e Q14}\label{gruxe1fico-de-barras-guxeanero-e-q14}}
+
+Apenas seis crianças se identificaram com o gênero \emph{outros} e foram removidas na análise estatística.
+
+\begin{center}\includegraphics[width=0.75\linewidth]{relatorio_teste_files/figure-latex/unnamed-chunk-23-1} \end{center}
+
+\hypertarget{teste-qui-quadrado-3}{%
+\paragraph{Teste qui-quadrado}\label{teste-qui-quadrado-3}}
+
+Apenas seis crianças se identificaram com o gênero \emph{outros} e foram removidas na análise estatística.
+
+Como o valor-p é igual ou maior que 0.01 (nível de significância), não rejeitamos a hipótese nula e não temos evidência estatística que as duas variáveis estão associadas.
+
+\begin{longtable}[]{@{}ccc@{}}
+\caption{\label{tab:unnamed-chunk-25}Teste qui-quadrado entre Gênero e Q14.}\tabularnewline
+\toprule
+Estatística & Graus de liberdade & Valor-p\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Estatística & Graus de liberdade & Valor-p\tabularnewline
+\midrule
+\endhead
+1,42 & 3 & 0,7\tabularnewline
+\bottomrule
+\end{longtable}
+
+\cleardoublepage
+
+\hypertarget{medidas-de-resumo-q14-por-guxeanero}{%
+\paragraph{Medidas de Resumo Q14 por Gênero}\label{medidas-de-resumo-q14-por-guxeanero}}
+
+Apenas seis crianças se identificaram com o gênero \emph{outros} e foram removidas na análise estatística.
+
+\begin{longtable}[]{@{}cccccc@{}}
+\caption{\label{tab:unnamed-chunk-26}Medidas de resumo de Q14 por Gênero.}\tabularnewline
+\toprule
+Q14 & Média & Desvio Padrão & Mediana & 1 Quartil & 3 Quartil\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Q14 & Média & Desvio Padrão & Mediana & 1 Quartil & 3 Quartil\tabularnewline
+\midrule
+\endhead
+Menina & 1,01 & 0,83 & 1 & 0 & 2\tabularnewline
+Menino & 0,99 & 0,83 & 1 & 0 & 2\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{boxplot-de-q14-por-guxeanero}{%
+\paragraph{Boxplot de Q14 por Gênero}\label{boxplot-de-q14-por-guxeanero}}
+
+Apenas seis crianças se identificaram com o gênero \emph{outros} e foram removidas na análise estatística.
+
+\begin{center}\includegraphics[width=0.75\linewidth]{relatorio_teste_files/figure-latex/unnamed-chunk-27-1} \end{center}
+
+\hypertarget{teste-de-kruskal-wallis-de-q14-por-guxeanero}{%
+\paragraph{Teste de Kruskal-Wallis de Q14 por Gênero}\label{teste-de-kruskal-wallis-de-q14-por-guxeanero}}
+
+Apenas seis crianças se identificaram com o gênero \emph{outros} e foram removidas na análise estatística.
+
+Como o valor-p é maior ou igual a 0.01 (nível de significância), não rejeitamos a hipótese nula e as medianas de Q14 entre meninos e meninas são iguais.
+
+\begin{longtable}[]{@{}ccc@{}}
+\caption{\label{tab:unnamed-chunk-29}Valores-p para comparação múltipla de medianas: Q14 e Gênero.}\tabularnewline
+\toprule
+Estatística & Parâmetro & valor p\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Estatística & Parâmetro & valor p\tabularnewline
+\midrule
+\endhead
+0,15 & 1 & 0,7\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{teste-de-nemeyi-de-q14-por-guxeanero}{%
+\paragraph{Teste de Nemeyi de Q14 por Gênero}\label{teste-de-nemeyi-de-q14-por-guxeanero}}
+
+Apenas seis crianças se identificaram com o gênero \emph{outros} e foram removidas na análise estatística.
+
+Como os valores-p são iguais ou maiores que 0.01 (nível de significância), não rejeitamos a hipótese nula e as medianas de Q14 entre meninos e meninas são iguais.
+
+\begin{longtable}[]{@{}lc@{}}
+\caption{\label{tab:unnamed-chunk-31}valores-p para o teste de comparação múltipla de Nemeyi de Q14 por Gênero.}\tabularnewline
+\toprule
+& Menina\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+& Menina\tabularnewline
+\midrule
+\endhead
+Menino & 0,72\tabularnewline
+\bottomrule
+\end{longtable}
+
+\cleardoublepage
+
+\hypertarget{tabela-de-continguxeancia-idade-e-q14}{%
+\paragraph{Tabela de contingência: Idade e Q14}\label{tabela-de-continguxeancia-idade-e-q14}}
+
+\begin{longtable}[]{@{}ccccc@{}}
+\caption{\label{tab:unnamed-chunk-32}Tabela de contingência: Idade e Q14.}\tabularnewline
+\toprule
+Idade & Muita preocupação & Pouca preocupação & Sem preocupação & Sem resposta\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Idade & Muita preocupação & Pouca preocupação & Sem preocupação & Sem resposta\tabularnewline
+\midrule
+\endhead
+8 & 52 & 78 & 59 & 6\tabularnewline
+9 & 57 & 69 & 58 & 2\tabularnewline
+10 & 68 & 100 & 68 & 14\tabularnewline
+11 & 49 & 109 & 74 & 8\tabularnewline
+12 & 39 & 72 & 66 & 2\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{gruxe1fico-de-barras-idade-e-q14}{%
+\paragraph{Gráfico de barras: Idade e Q14}\label{gruxe1fico-de-barras-idade-e-q14}}
+
+\begin{center}\includegraphics[width=0.75\linewidth]{relatorio_teste_files/figure-latex/unnamed-chunk-33-1} \end{center}
+
+\hypertarget{teste-qui-quadrado-4}{%
+\paragraph{Teste qui-quadrado}\label{teste-qui-quadrado-4}}
+
+Como o valor-p é igual ou maior que 0.01 (nível de significância), não rejeitamos a hipótese nula e não temos evidência estatística que as duas variáveis estão associadas.
+
+\begin{longtable}[]{@{}ccc@{}}
+\caption{\label{tab:unnamed-chunk-35}Teste qui-quadrado entre Idade e Q14.}\tabularnewline
+\toprule
+Estatística & Graus de liberdade & Valor-p\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Estatística & Graus de liberdade & Valor-p\tabularnewline
+\midrule
+\endhead
+20,88 & 12 & 0,05\tabularnewline
+\bottomrule
+\end{longtable}
+
+\cleardoublepage
+
+\hypertarget{medidas-de-resumo-q14-por-idade}{%
+\paragraph{Medidas de Resumo Q14 por Idade}\label{medidas-de-resumo-q14-por-idade}}
+
+\begin{longtable}[]{@{}cccccc@{}}
+\caption{\label{tab:unnamed-chunk-36}Medidas de resumo de Q14 por Idade.}\tabularnewline
+\toprule
+Q14 & Média & Desvio Padrão & Mediana & 1 Quartil & 3 Quartil\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Q14 & Média & Desvio Padrão & Mediana & 1 Quartil & 3 Quartil\tabularnewline
+\midrule
+\endhead
+8 & 1,03 & 0,83 & 1 & 0 & 2\tabularnewline
+9 & 1,02 & 0,82 & 1 & 0 & 2\tabularnewline
+10 & 1,11 & 0,87 & 1 & 0 & 2\tabularnewline
+11 & 0,96 & 0,80 & 1 & 0 & 1\tabularnewline
+12 & 0,87 & 0,79 & 1 & 0 & 1\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{boxplot-de-q14-por-idade}{%
+\paragraph{Boxplot de Q14 por Idade}\label{boxplot-de-q14-por-idade}}
+
+\begin{center}\includegraphics[width=0.75\linewidth]{relatorio_teste_files/figure-latex/unnamed-chunk-37-1} \end{center}
+
+\hypertarget{teste-de-kruskal-wallis-de-q14-por-idade}{%
+\paragraph{Teste de Kruskal-Wallis de Q14 por Idade}\label{teste-de-kruskal-wallis-de-q14-por-idade}}
+
+Como o valor-p é maior ou igual a 0.01 (nível de significância), não rejeitamos a hipótese nula e as medianas de Q14 entre as idades não são iguais.
+
+\begin{longtable}[]{@{}ccc@{}}
+\caption{\label{tab:unnamed-chunk-39}Valores-p para comparação múltipla de medianas: Q14 e Idade.}\tabularnewline
+\toprule
+Estatística & Parâmetro & valor p\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Estatística & Parâmetro & valor p\tabularnewline
+\midrule
+\endhead
+8,61 & 4 & 0,07\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{teste-de-nemeyi-de-q14-por-idade}{%
+\paragraph{Teste de Nemeyi de Q14 por Idade}\label{teste-de-nemeyi-de-q14-por-idade}}
+
+Como os valores-p são iguais ou maiores que 0.01 (nível de significância), não rejeitamos a hipótese nula e as medianas de Q14 entre as crianças de diversas cidades são iguais.
+
+\begin{longtable}[]{@{}lcccc@{}}
+\caption{\label{tab:unnamed-chunk-41}Teste de Nemeyi de Q14 por Idade.}\tabularnewline
+\toprule
+& 8 & 9 & 10 & 11\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+& 8 & 9 & 10 & 11\tabularnewline
+\midrule
+\endhead
+9 & 1,00 & & &\tabularnewline
+10 & 0,90 & 0,91 & &\tabularnewline
+11 & 0,94 & 0,94 & 0,39 &\tabularnewline
+12 & 0,47 & 0,48 & 0,07 & 0,87\tabularnewline
+\bottomrule
+\end{longtable}
+
+\cleardoublepage
+
+\hypertarget{tabela-de-continguxeancia-rauxe7a-e-q14}{%
+\paragraph{Tabela de contingência: Raça e Q14}\label{tabela-de-continguxeancia-rauxe7a-e-q14}}
+
+\begin{longtable}[]{@{}ccccc@{}}
+\caption{\label{tab:unnamed-chunk-42}Tabela de contingência: Raça e Q14.}\tabularnewline
+\toprule
+Raça & Muita preocupação & Pouca preocupação & Sem preocupação & Sem resposta\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Raça & Muita preocupação & Pouca preocupação & Sem preocupação & Sem resposta\tabularnewline
+\midrule
+\endhead
+Amarela & 2 & 7 & 7 & 3\tabularnewline
+Branca & 41 & 76 & 95 & 1\tabularnewline
+Indígena & 5 & 11 & 4 & 1\tabularnewline
+Negra & 208 & 318 & 197 & 26\tabularnewline
+Outros & 5 & 4 & 7 &\tabularnewline
+Sem resposta & 4 & 12 & 15 & 1\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{gruxe1fico-de-barras-rauxe7a-e-q14}{%
+\paragraph{Gráfico de barras: Raça e Q14}\label{gruxe1fico-de-barras-rauxe7a-e-q14}}
+
+\begin{center}\includegraphics[width=0.75\linewidth]{relatorio_teste_files/figure-latex/unnamed-chunk-43-1} \end{center}
+
+\hypertarget{teste-qui-quadrado-5}{%
+\paragraph{Teste qui-quadrado}\label{teste-qui-quadrado-5}}
+
+Como o valor-p é menor que 0.01 (nível de significância), rejeitamos a hipótese nula e temos evidência estatística que as duas variáveis estão associadas.
+
+\begin{longtable}[]{@{}ccc@{}}
+\caption{\label{tab:unnamed-chunk-45}Teste qui-quadrado entre raca e Q14.}\tabularnewline
+\toprule
+Estatística & Graus de liberdade & Valor-p\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Estatística & Graus de liberdade & Valor-p\tabularnewline
+\midrule
+\endhead
+51,16 & 15 & 0\tabularnewline
+\bottomrule
+\end{longtable}
+
+\cleardoublepage
+
+\hypertarget{medidas-de-resumo-q14-por-rauxe7a}{%
+\paragraph{Medidas de Resumo Q14 por Raça}\label{medidas-de-resumo-q14-por-rauxe7a}}
+
+\begin{longtable}[]{@{}cccccc@{}}
+\caption{\label{tab:unnamed-chunk-46}Medidas de resumo de Q14 por raca.}\tabularnewline
+\toprule
+Q14 & Média & Desvio Padrão & Mediana & 1 Quartil & 3 Quartil\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Q14 & Média & Desvio Padrão & Mediana & 1 Quartil & 3 Quartil\tabularnewline
+\midrule
+\endhead
+Amarela & 1,05 & 1,08 & 1 & 0 & 1,5\tabularnewline
+Branca & 0,76 & 0,77 & 1 & 0 & 1,0\tabularnewline
+Indígena & 1,14 & 0,79 & 1 & 1 & 2,0\tabularnewline
+Negra & 1,08 & 0,82 & 1 & 0 & 2,0\tabularnewline
+Outros & 0,88 & 0,89 & 1 & 0 & 2,0\tabularnewline
+Sem resposta & 0,72 & 0,81 & 1 & 0 & 1,0\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{boxplot-de-q14-por-rauxe7a}{%
+\paragraph{Boxplot de Q14 por Raça}\label{boxplot-de-q14-por-rauxe7a}}
+
+\begin{center}\includegraphics[width=0.75\linewidth]{relatorio_teste_files/figure-latex/unnamed-chunk-47-1} \end{center}
+
+\hypertarget{teste-de-kruskal-wallis-de-q14-por-rauxe7a}{%
+\paragraph{Teste de Kruskal-Wallis de Q14 por Raça}\label{teste-de-kruskal-wallis-de-q14-por-rauxe7a}}
+
+Como o valor-p é menor que 0.01 (nível de significância), rejeitamos a hipótese nula e as medianas de Q14 entre raças não são todas diferentes.
+
+\begin{longtable}[]{@{}ccc@{}}
+\caption{\label{tab:unnamed-chunk-49}Valores-p para comparação múltipla de medianas: Q14 e Raça.}\tabularnewline
+\toprule
+Estatística & Parâmetro & valor p\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Estatística & Parâmetro & valor p\tabularnewline
+\midrule
+\endhead
+31,43 & 5 & 0\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{teste-de-nemeyi-de-q14-por-rauxe7a}{%
+\paragraph{Teste de Nemeyi de Q14 por Raça}\label{teste-de-nemeyi-de-q14-por-rauxe7a}}
+
+Existem valores-p menores que 0.01 (nível de significância), e para estes pares rejeitamos a hipótese nula e as medianas de Q14 entre as raças destes pares são diferentes.
+
+\begin{longtable}[]{@{}lccccc@{}}
+\caption{\label{tab:unnamed-chunk-51}Valores-p para o teste de Nemeyi de Q14 por Raça.}\tabularnewline
+\toprule
+& Amarela & Branca & Indígena & Negra & Outros\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+& Amarela & Branca & Indígena & Negra & Outros\tabularnewline
+\midrule
+\endhead
+Branca & 0,91 & & & &\tabularnewline
+Indígena & 0,99 & 0,39 & & &\tabularnewline
+Negra & 0,99 & 0,00 & 1,00 & &\tabularnewline
+Outros & 1,00 & 0,99 & 0,95 & 0,94 &\tabularnewline
+Sem resposta & 0,89 & 1,00 & 0,48 & 0,15 & 0,99\tabularnewline
+\bottomrule
+\end{longtable}
+
+\cleardoublepage
+
+\hypertarget{tabela-de-continguxeancia-tipo-de-escola-e-q14}{%
+\paragraph{Tabela de contingência: Tipo de escola e Q14}\label{tabela-de-continguxeancia-tipo-de-escola-e-q14}}
+
+Apenas sete crianças não estavam matriculadas na escola, e foram retiradas da análise para facilitar a análise de \emph{tipo de escola}.
+
+\begin{longtable}[]{@{}ccccc@{}}
+\caption{\label{tab:unnamed-chunk-52}Tabela de contingência: Tipo de escola e Q14.}\tabularnewline
+\toprule
+\begin{minipage}[b]{0.16\columnwidth}\centering
+Tipo de Escola\strut
+\end{minipage} & \begin{minipage}[b]{0.19\columnwidth}\centering
+Muita preocupação\strut
+\end{minipage} & \begin{minipage}[b]{0.19\columnwidth}\centering
+Pouca preocupação\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\centering
+Sem preocupação\strut
+\end{minipage} & \begin{minipage}[b]{0.14\columnwidth}\centering
+Sem resposta\strut
+\end{minipage}\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+\begin{minipage}[b]{0.16\columnwidth}\centering
+Tipo de Escola\strut
+\end{minipage} & \begin{minipage}[b]{0.19\columnwidth}\centering
+Muita preocupação\strut
+\end{minipage} & \begin{minipage}[b]{0.19\columnwidth}\centering
+Pouca preocupação\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\centering
+Sem preocupação\strut
+\end{minipage} & \begin{minipage}[b]{0.14\columnwidth}\centering
+Sem resposta\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.16\columnwidth}\centering
+Particular\strut
+\end{minipage} & \begin{minipage}[t]{0.19\columnwidth}\centering
+94\strut
+\end{minipage} & \begin{minipage}[t]{0.19\columnwidth}\centering
+238\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+238\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\centering
+20\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.16\columnwidth}\centering
+Pública\strut
+\end{minipage} & \begin{minipage}[t]{0.19\columnwidth}\centering
+171\strut
+\end{minipage} & \begin{minipage}[t]{0.19\columnwidth}\centering
+185\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+85\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\centering
+12\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{gruxe1fico-de-barras-tipo-de-escola-e-q14}{%
+\paragraph{Gráfico de barras: Tipo de escola e Q14}\label{gruxe1fico-de-barras-tipo-de-escola-e-q14}}
+
+Apenas sete crianças não estavam matriculadas na escola, e foram retiradas da análise para facilitar a análise de \emph{tipo de escola}.
+
+\begin{center}\includegraphics[width=0.75\linewidth]{relatorio_teste_files/figure-latex/unnamed-chunk-53-1} \end{center}
+
+\hypertarget{teste-qui-quadrado-6}{%
+\paragraph{Teste qui-quadrado}\label{teste-qui-quadrado-6}}
+
+Apenas sete crianças não estavam matriculadas na escola, e foram retiradas da análise para facilitar a análise de \emph{tipo de escola}.
+
+Como o valor-p é menor que 0.01 (nível de significância), rejeitamos a hipótese nula e temos evidência estatística que as duas variáveis estão associadas.
+
+\begin{longtable}[]{@{}ccc@{}}
+\caption{\label{tab:unnamed-chunk-55}Teste qui-quadrado entre Escola e Q14.}\tabularnewline
+\toprule
+Estatística & Graus de liberdade & Valor-p\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Estatística & Graus de liberdade & Valor-p\tabularnewline
+\midrule
+\endhead
+86,99 & 3 & 0\tabularnewline
+\bottomrule
+\end{longtable}
+
+\cleardoublepage
+
+\hypertarget{medidas-de-resumo-q14-por-tipo-de-escola}{%
+\paragraph{Medidas de Resumo Q14 por Tipo de escola}\label{medidas-de-resumo-q14-por-tipo-de-escola}}
+
+Apenas sete crianças não estavam matriculadas na escola, e foram retiradas da análise para facilitar a análise de \emph{tipo de escola}.
+
+\begin{longtable}[]{@{}cccccc@{}}
+\caption{\label{tab:unnamed-chunk-56}Medidas de resumo de Q14 por Escola.}\tabularnewline
+\toprule
+Q14 & Média & Desvio Padrão & Mediana & 1 Quartil & 3 Quartil\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Q14 & Média & Desvio Padrão & Mediana & 1 Quartil & 3 Quartil\tabularnewline
+\midrule
+\endhead
+Particular & 0,82 & 0,82 & 1 & 0 & 1\tabularnewline
+Pública & 1,24 & 0,78 & 1 & 1 & 2\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{boxplot-de-q14-por-tipo-de-escola}{%
+\paragraph{Boxplot de Q14 por Tipo de escola}\label{boxplot-de-q14-por-tipo-de-escola}}
+
+Apenas sete crianças não estavam matriculadas na escola, e foram retiradas da análise para facilitar a análise de \emph{tipo de escola}.
+
+\begin{center}\includegraphics[width=0.75\linewidth]{relatorio_teste_files/figure-latex/unnamed-chunk-57-1} \end{center}
+
+\hypertarget{teste-de-kruskal-wallis-de-q14-por-tipo-de-escola}{%
+\paragraph{Teste de Kruskal-Wallis de Q14 por Tipo de escola}\label{teste-de-kruskal-wallis-de-q14-por-tipo-de-escola}}
+
+Apenas sete crianças não estavam matriculadas na escola, e foram retiradas da análise para facilitar a análise de \emph{tipo de escola}.
+
+Como o valor-p é menor que 0.01 (nível de significância), rejeitamos a hipótese nula e as medianas de Q14 entre tipos de escola são diferentes.
+
+\begin{longtable}[]{@{}ccc@{}}
+\caption{\label{tab:unnamed-chunk-59}Valores-p para comparação múltipla de medianas: Q14 e Tipo de escola.}\tabularnewline
+\toprule
+Estatística & Parâmetro & valor p\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Estatística & Parâmetro & valor p\tabularnewline
+\midrule
+\endhead
+73,42 & 1 & 0\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{teste-de-nemeyi-de-q14-por-tipo-de-escola}{%
+\paragraph{Teste de Nemeyi de Q14 por Tipo de escola}\label{teste-de-nemeyi-de-q14-por-tipo-de-escola}}
+
+Apenas sete crianças não estavam matriculadas na escola, e foram retiradas da análise para facilitar a análise de \emph{tipo de escola}.
+
+O valor-p é maior ou igual que 0.01 (nível de significância), e rejeitamos a hipótese nula e as medianas de Q14 entre meninos e meninas são diferentes.
+
+\begin{longtable}[]{@{}lc@{}}
+\caption{\label{tab:unnamed-chunk-61}Teste de Nemeyi de Q14 por Escola.}\tabularnewline
+\toprule
+& Particular\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+& Particular\tabularnewline
+\midrule
+\endhead
+Pública & 0\tabularnewline
+\bottomrule
+\end{longtable}
+
+\cleardoublepage
+
+\cleardoublepage
+
+\hypertarget{referuxeancias}{%
+\section*{Referências}\label{referuxeancias}}
+\addcontentsline{toc}{section}{Referências}
+
+\hypertarget{refs}{}
+\leavevmode\hypertarget{ref-barbetta2008estatistica}{}%
+Barbetta, Pedro Alberto. 2008. \emph{Estatística Aplicada às Ciências Sociais}. Editora UFSC.
+
+\leavevmode\hypertarget{ref-bussab2002estatistica}{}%
+Bussab, Wilton de Oliveira, and Pedro Alberto Morettin. 2002. \emph{Estatística Básica. 5a Edição}. Editora Saraiva.
+
+\leavevmode\hypertarget{ref-hollander2013nonparametric}{}%
+Hollander, Myles, Douglas A Wolfe, and Eric Chicken. 2013. \emph{Nonparametric Statistical Methods}. Vol. 751. John Wiley \& Sons.
+
+\leavevmode\hypertarget{ref-montgomery2010applied}{}%
+Montgomery, Douglas C, and George C Runger. 2010. \emph{Applied Statistics and Probability for Engineers}. John Wiley \& Sons.
+
+\leavevmode\hypertarget{ref-nemenyi1963distribution}{}%
+Nemenyi, Peter Bjorn. 1963. \emph{Distribution-Free Multiple Comparisons.} Princeton University.
+
+\leavevmode\hypertarget{ref-PMCMR}{}%
+Pohlert, Thorsten. 2014. \emph{The Pairwise Multiple Comparison of Mean Ranks Package (Pmcmr)}. \url{https://CRAN.R-project.org/package=PMCMR}.
+
+\leavevmode\hypertarget{ref-Rlang}{}%
+R Core Team. 2021. \emph{R: A Language and Environment for Statistical Computing}. Vienna, Austria: R Foundation for Statistical Computing. \url{https://www.R-project.org/}.
+
+\leavevmode\hypertarget{ref-spiegel2001probability}{}%
+Spiegel, Murray R, John J Schiller, R Alu Srinivasan, and Mike LeVan. 2001. \emph{Probability and Statistics}. Vol. 2. Mcgraw-hill.
+
+\end{document}

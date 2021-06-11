@@ -1,0 +1,18 @@
+#### Gráfico de barras: Q15
+
+```{r}
+grafico(df, "Q15", "Q15", base = fig_path)
+```
+
+#### Tabela de distribuição: Q15
+
+```{r}
+tabela(df, 'Q15', 'Q15', 'Que falte comida nos supermercados', base = output)
+```
+
+
+#### Medidas de resumo: Q15
+
+```{r}
+resume_measures(dados, "Q15", base = output)
+```

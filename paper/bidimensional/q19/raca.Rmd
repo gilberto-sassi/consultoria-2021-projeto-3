@@ -1,0 +1,63 @@
+
+#### Tabela de contingência: Raça e Q19
+
+```{r}
+dados_raca <- dados |> dplyr::mutate(raca = raça |>
+           dplyr::recode('Não sei responder ou não quero responder' = 'Sem resposta',
+                  'Parda' = 'Negra',
+                  'Preta' = 'Negra'))
+contingency(df, "raca", "Q19", "Raça", caption="Tabela de contingência: Raça e Q19.", base = output)
+```
+
+#### Gráfico de barras: Raça e Q19
+
+Aparentemente as duas variáveis _Raça_ e _Q19_ estão associadas.
+
+```{r}
+grafico_2(df, "raca", "Q19", 'Raça', base = fig_path)
+```
+
+#### Teste qui-quadrado
+
+Como o valor-p é *próximo* a $\alpha=0,05$, não rejeitamos $H_0$ e não temos evidência evidência estatística que as duas variáveis estão associadas. 
+
+```{r}
+df |> 
+  qui_test("raca", "Q19", base = output)
+```
+
+\cleardoublepage
+
+#### Medidas de Resumo Q19 por Raça
+
+
+```{r}
+dados_raca |> 
+  resume_measures_2("raca", "Q19", base = output)
+```
+
+#### Boxplot de Q19 por Raça 
+
+```{r}
+dados_raca |>
+  boxplot_group('Q19', 'raca', 'Q19', 'Raça', base = fig_path)
+```
+
+#### Teste de Kruskal-Wallis de Q19 por Raça
+
+
+Como os valores-p são maiores que $\alpha=0,05$ e não rejeitamos $H_0$, ou seja, as medianas entre as diversas raças são iguais.
+
+```{r}
+dados_raca |> 
+  kruskal_wallis_test('Q19', 'raca', 'Valores-p para comparação múltipla de medianas: Q19 e Raça.', base = output)
+```
+
+#### Teste de Nemeyi de Q19 por Raça
+
+Como os valores-p são maiores que $\alpha=0,05$ e não rejeitamos $H_0$, ou seja, as medianas entre as raças são iguais.
+
+```{r}
+dados_raca |> 
+  nemenyi_tests('Q19', 'raca', caption = 'Teste de Nemeyi de Q19 por Raça.', base = output)
+``` 

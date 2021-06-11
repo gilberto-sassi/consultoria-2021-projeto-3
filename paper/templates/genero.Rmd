@@ -1,0 +1,110 @@
+
+#### Tabela de contingência: Gênero e `r questao`
+
+Apenas seis crianças se identificaram com o gênero _outros_ e foram removidas na análise estatística.
+
+```{r}
+df_genero <- df |> filter(!(`Gênero` %in% 'Outros'))
+dados_genero <- dados |> filter(!(`Gênero` %in% 'Outros'))
+legenda <- glue("Tabela de contingência: Gênero e {questao}.")
+contingency(df_genero, "Gênero", questao, "Gênero", caption = legenda, base = output)
+```
+
+#### Gráfico de barras: Gênero e `r questao`
+
+Apenas seis crianças se identificaram com o gênero _outros_ e foram removidas na análise estatística.
+
+```{r}
+grafico_2(df_genero, "Gênero", questao, 'Gênero', base = fig_path)
+```
+
+#### Teste qui-quadrado
+
+Apenas seis crianças se identificaram com o gênero _outros_ e foram removidas na análise estatística.
+
+```{r, results="asis"}
+base::suppressWarnings({
+  valor_p <- chisq.test(x = df_genero[, 'Gênero'][[1]], y = df_genero[, questao][[1]])$p.value
+})
+
+if (valor_p < niv_sig) {
+  glue("Como o valor-p é menor que {niv_sig} (nível de significância), rejeitamos a hipótese nula e temos evidência estatística que as duas variáveis estão associadas.") |>
+  print()
+} else {
+  glue("Como o valor-p é igual ou maior que {niv_sig} (nível de significância), não rejeitamos a hipótese nula e não temos evidência estatística que as duas variáveis estão associadas.") |>
+  print()
+} 
+```
+
+```{r}
+df_genero |> 
+  qui_test("Gênero", questao, base = output)
+```
+
+\cleardoublepage
+
+#### Medidas de Resumo `r questao` por Gênero
+
+Apenas seis crianças se identificaram com o gênero _outros_ e foram removidas na análise estatística.
+
+```{r}
+dados_genero |> 
+  resume_measures_2("Gênero", questao, base = output)
+```
+
+#### Boxplot de `r questao` por Gênero 
+
+Apenas seis crianças se identificaram com o gênero _outros_ e foram removidas na análise estatística.
+
+```{r}
+dados_genero |>
+  boxplot_group(questao, 'Gênero', questao, 'Gênero', base = fig_path)
+```
+
+#### Teste de Kruskal-Wallis de `r questao` por Gênero
+
+Apenas seis crianças se identificaram com o gênero _outros_ e foram removidas na análise estatística.
+
+```{r, results="asis"}
+valor_p <- kruskal.test(unlist(dados_genero[, questao]), unlist(dados_genero[, 'Gênero']))$p.value
+
+if (valor_p < niv_sig) {
+  glue("Como o valor-p é menor que {niv_sig} (nível de significância), rejeitamos a hipótese nula e as medianas de {questao} entre meninos e meninas são diferentes.") |>
+  print()
+} else {
+  glue("Como o valor-p é maior ou igual a {niv_sig} (nível de significância), não rejeitamos a hipótese nula e as medianas de {questao} entre meninos e meninas  são  iguais.") |>
+  print()
+} 
+```
+
+```{r}
+legenda <- glue('Valores-p para comparação múltipla de medianas: {questao} e Gênero.')
+dados_genero |> 
+  kruskal_wallis_test(questao, 'Gênero', legenda, base = output)
+```
+
+#### Teste de Nemeyi de `r questao` por Gênero
+
+Apenas seis crianças se identificaram com o gênero _outros_ e foram removidas na análise estatística.
+
+```{r, results="asis"}
+v1 <- unlist(dados_genero[, questao])
+v2 <- unlist(dados_genero[, 'Gênero']) |> as.factor()
+base::suppressWarnings({
+    valor_p <- posthoc.kruskal.nemenyi.test(v1, v2,
+                                          p.adjust.method	= 'bonferroni')$p.value
+  })
+if (all(valor_p >= niv_sig, na.rm = TRUE)) {
+  glue("Como os valores-p são iguais ou maiores que {niv_sig} (nível de significância), não rejeitamos a hipótese nula e as medianas de {questao} entre meninos e meninas são iguais.") |>
+  print()
+} else {
+  glue("O valor-p é maior ou igual que {niv_sig} (nível de significância), e  rejeitamos a hipótese nula e as medianas de {questao} entre meninos e meninas são diferentes.") |>
+  print()
+} 
+```
+
+```{r}
+legenda <- glue('valores-p para o teste de comparação múltipla de Nemeyi de {questao} por Gênero.')
+dados_genero |> 
+  nemenyi_tests(questao, 'Gênero', caption = legenda, base = output)
+``` 

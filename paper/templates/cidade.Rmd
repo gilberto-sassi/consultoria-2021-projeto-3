@@ -1,0 +1,99 @@
+
+#### Tabela de contingência: Cidade e `r questao`
+
+```{r}
+legenda <- glue("Tabela de contingência: Cidade e {questao}.")
+contingency(df, "Cidade", "Q14", "Cidade", caption = legenda, base = output)
+```
+
+#### Gráfico de barras: Cidade e `r questao`
+
+```{r}
+grafico_2(df, "Cidade", questao, 'Cidade', base = fig_path)
+```
+
+#### Teste qui-quadrado
+
+```{r, results="asis"}
+base::suppressWarnings({
+  valor_p <- chisq.test(x = df[, 'Cidade'][[1]], y = df[, questao][[1]])$p.value
+})
+
+if (valor_p < niv_sig) {
+  glue("Como o valor-p é menor que {niv_sig} (nível de significância), rejeitamos a hipótese nula e temos evidência estatística que as duas variáveis estão associadas.") |>
+  print()
+} else {
+  glue("Como o valor-p é igual igual ou maior que {niv_sig} (nível de significância), não rejeitamos a hipótese nula e não temos evidência estatística que as duas variáveis estão associadas.") |>
+  print()
+} 
+```
+
+```{r}
+df |> 
+  qui_test("Cidade", questao, base = output)
+```
+
+\cleardoublepage
+
+#### Medidas de Resumo `r questao` por Cidade
+
+
+```{r}
+dados |> 
+  resume_measures_2("Cidade", questao, base = output)
+```
+
+#### Boxplot de `r questao` por Cidade 
+
+
+```{r}
+dados |>
+  boxplot_group(questao, 'Cidade', questao, 'Cidade', base = fig_path)
+```
+
+#### Teste de Kruskal-Wallis de `r questao` por Cidade
+
+```{r, results="asis"}
+valor_p <- kruskal.test(unlist(dados[, questao]), unlist(dados[, 'Cidade']))$p.value
+
+if (valor_p < niv_sig) {
+  glue("Como o valor-p é menor que {niv_sig} (nível de significância), rejeitamos a hipótese nula e as medianas de {questao} entre as crianças de diversas cidades são diferentes.") |>
+  print()
+} else {
+  glue("Como o valor-p é maior ou igual a {niv_sig} (nível de significância), não rejeitamos a hipótese nula e as medianas de {questao} entre as crianças de diversas cidades não são todas iguais.") |>
+  print()
+} 
+```
+
+
+```{r}
+legenda <- glue('Valor-p para o teste de Kruskal-Wallis: {questao} e Cidade.')
+dados |> 
+  kruskal_wallis_test(questao, 'Cidade', legenda, base = output)
+```
+
+#### Teste de Nemeyi de `r questao` por Cidade
+
+
+```{r, results="asis"}
+v1 <- unlist(dados[, questao])
+v2 <- unlist(dados[, 'Cidade']) |> as.factor()
+base::suppressWarnings({
+    valor_p <- posthoc.kruskal.nemenyi.test(v1, v2,
+                                          p.adjust.method	= 'bonferroni')$p.value
+  })
+if (all(valor_p >= niv_sig, na.rm = TRUE)) {
+  glue("Como os valores-p são iguais ou maiores que {niv_sig} (nível de significância), não rejeitamos a hipótese nula e as medianas de {questao} entre as crianças de diversas cidades são iguais.") |>
+  print()
+} else {
+  glue("Existem valores-p menores que {niv_sig} (nível de significância), e para estes pares rejeitamos a hipótese nula e as medianas de {questao} entre as crianças das cidades destes pares são diferentes.") |>
+  print()
+} 
+```
+
+
+```{r}
+legenda <- glue('Valores-p para o teste de comparação múltipla de Nemeyi de {questao} por Cidade.')
+dados |> 
+  nemenyi_tests(questao, 'Cidade', caption = legenda, base = output)
+``` 

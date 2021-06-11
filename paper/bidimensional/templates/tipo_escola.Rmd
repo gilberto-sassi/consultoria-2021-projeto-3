@@ -1,0 +1,78 @@
+
+#### Tabela de contingência: Tipo de escola e Q14
+
+Apenas sete crianças não estavam matriculadas na escola, e foram retiradas da análise para facilitar a análise de _tipo de escola_.
+
+```{r}
+df_escola <- df |> filter(!(Escola %in% "sem matrícula"))
+dados_escola <- dados |> filter(!(Escola %in% 'sem matrícula'))
+contingency(df_escola, "Escola", "Q14", "Tipo de Escola", caption="Tabela de contingência: Tipo de escola e Q14.", base = output)
+```
+
+#### Gráfico de barras: Tipo de escola e Q14
+
+Apenas sete crianças não estavam matriculadas na escola, e foram retiradas da análise para facilitar a análise de _tipo de escola_.
+
+Aparentemente as duas variáveis _Tipo de Escola_ e _Q14_ estão associadas.
+
+```{r}
+grafico_2(df_escola, "Escola", "Q14", 'Tipo de Escola', base = fig_path)
+```
+
+#### Teste qui-quadrado
+
+Apenas sete crianças não estavam matriculadas na escola, e foram retiradas da análise para facilitar a análise de _tipo de escola_.
+
+
+Como o valor-p é menor que $\alpha=0,05$, rejeitamos $H_0$ e temos evidência evidência estatística que as duas variáveis estão associadas. 
+
+```{r}
+df_escola |> 
+  qui_test("Escola", "Q14", base = output)
+```
+
+\cleardoublepage
+
+#### Medidas de Resumo Q14 por Tipo de escola
+
+Apenas sete crianças não estavam matriculadas na escola, e foram retiradas da análise para facilitar a análise de _tipo de escola_.
+
+
+```{r}
+dados_escola |> 
+  resume_measures_2("Escola", "Q14", base = output)
+```
+
+#### Boxplot de Q14 por Tipo de escola 
+
+Apenas sete crianças não estavam matriculadas na escola, e foram retiradas da análise para facilitar a análise de _tipo de escola_.
+
+
+```{r}
+dados_escola |>
+  boxplot_group('Q14', 'Escola', 'Q14', 'Tipo de Escola', base = fig_path)
+```
+
+#### Teste de Kruskal-Wallis de Q14 por Tipo de escola
+
+Apenas sete crianças não estavam matriculadas na escola, e foram retiradas da análise para facilitar a análise de _tipo de escola_.
+
+
+Como o valor-p é menor que $\alpha=0,05$, rejeitamos $H_0$ e as medianas de $Q14$ entre as escolas particulares e públicas são diferentes.
+
+```{r}
+df_escola |> 
+  kruskal_wallis_test('Q14', 'Escola', 'Valores-p para comparação múltipla de medianas: Q14 e Tipo de escola.', base = output)
+```
+
+#### Teste de Nemeyi de Q14 por Tipo de escola
+
+Apenas sete crianças não estavam matriculadas na escola, e foram retiradas da análise para facilitar a análise de _tipo de escola_.
+
+
+Como o valor-p é menor que $\alpha=0,05$, rejeitamos $H_0$ e as medianas de $Q14$ entre as escolas particulares e públicas são diferentes.
+
+```{r}
+dados_escola |> 
+  nemenyi_tests('Q14', 'Escola', caption = 'Teste de Nemeyi de Q14 por Escola.', base = output)
+``` 

@@ -1,0 +1,54 @@
+#### Tabela de contingência: Idade e Q21
+
+```{r}
+contingency(df, "Idade", "Q21", "Idade", caption="Tabela de contingência: Idade e Q21.", base = output)
+```
+
+#### Gráfico de barras: Idade e Q21
+
+```{r}
+grafico_2(df, "Idade", "Q21", 'Idade', base = fig_path)
+```
+
+#### Teste qui-quadrado
+
+Como o valor-p está maior que $\alpha=0,05$, rejeitamos $H_0$ e temos temos evidência evidência estatística que as duas variáveis estão associadas. 
+
+```{r}
+df |> 
+  qui_test("Idade", "Q21", base = output)
+```
+
+\cleardoublepage
+
+#### Medidas de Resumo Q21 por Idade
+
+```{r}
+dados |> 
+  resume_measures_2("Idade", "Q21", base = output)
+```
+
+#### Boxplot de Q21 por Idade 
+
+```{r}
+dados |>
+  boxplot_group('Q21', 'Idade', 'Q21', 'Idade', base = fig_path)
+```
+
+#### Teste de Kruskal-Wallis de Q21 por Idade
+
+Como o valor-p é maior que $\alpha=0,05$, não rejeitamos $H_0$ e as medianas de $Q21$ dentro de cada categoria de Idade são iguais.
+
+```{r}
+df |> 
+  kruskal_wallis_test('Q21', 'Idade', 'Valores-p para comparação múltipla de medianas: Q21 e Idade.', base = output)
+```
+
+#### Teste de Nemeyi de Q21 por Idade
+
+Os valores-p são todos maiores que $\alpha=0,05$ e não rejeitamos $H_0$ para todos os pares de idade, ou seja, as medianas são iguais para cada par de idade.
+
+```{r}
+dados |> 
+  nemenyi_tests('Q21', 'Idade', caption = 'Teste de Nemeyi de Q21 por Idade.', base = output)
+```

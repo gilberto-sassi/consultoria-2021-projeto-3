@@ -1,0 +1,64 @@
+
+#### Tabela de contingência: Raça e Q14
+
+```{r}
+dados_raca <- dados |> dplyr::mutate(raca = raça |>
+           dplyr::recode('Não sei responder ou não quero responder' = 'Sem resposta',
+                  'Parda' = 'Negra',
+                  'Preta' = 'Negra'))
+contingency(df, "raca", "Q14", "Raça", caption="Tabela de contingência: Raça e Q14.", base = output)
+```
+
+#### Gráfico de barras: Raça e Q14
+
+Aparentemente as duas variáveis _Raça_ e _Q14_ estão associadas.
+
+```{r}
+grafico_2(df, "raca", "Q14", 'Raça', base = fig_path)
+```
+
+#### Teste qui-quadrado
+
+Como o valor-p é menor que $\alpha=0,05$, rejeitamos $H_0$ e temos evidência evidência estatística que as duas variáveis estão associadas. 
+
+```{r}
+df |> 
+  qui_test("raca", "Q14", base = output)
+```
+
+\cleardoublepage
+
+#### Medidas de Resumo Q14 por Raça
+
+
+```{r}
+dados_raca |> 
+  resume_measures_2("raca", "Q14", base = output)
+```
+
+#### Boxplot de Q14 por Raça 
+
+```{r}
+dados_raca |>
+  boxplot_group('Q14', 'raca', 'Q14', 'Raça', base = fig_path)
+```
+
+#### Teste de Kruskal-Wallis de Q14 por Raça
+
+
+Como o valor-p é menor que $\alpha=0,05$, rejeitamos $H_0$ e as medianas de $Q14$ entre as crianças de diversas raças são iguais.
+
+```{r}
+dados_raca |> 
+  kruskal_wallis_test('Q14', 'raca', 'Valores-p para comparação múltipla de medianas: Q14 e Raça.', base = output)
+```
+
+#### Teste de Nemeyi de Q14 por Raça
+
+Usando o teste de comparação múltipla identificamos, o valor-p para o par _Negra_ e _Branca_' é menor que $\alpha=0,05$ e rejeitamos $H_0$, ou seja, as medianas de Q14 para crianças brancas e negras são diferentes.
+
+
+```{r}
+dados_raca |> 
+  nemenyi_tests('Q14', 'raca', caption = 'Teste de Nemeyi de Q14 por Raça.', base = output)
+``` 
