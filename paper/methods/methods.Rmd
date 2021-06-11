@@ -212,7 +212,7 @@ Para saber se $\chi_0^2$ é pequeno ou grande, comparamos $\chi_0^2$ o valor de 
 H_0 &= \mbox{as duas variáveis qualitativas não estão associadas},\\
 H_1 &= \mbox{as duas variáveis qualitativas estão associadas},
 \end{align*}
-e para isso fixamos o nível de significância $\alpha$, calculamos o valor-p $p$ e rejeitamos $H_0$ se $p < \alpha$ [vide @spiegel2001probability para detalhes sobre valor-p]. Neste relatório, vamos usar o nível de significânica $\alpha=0,05$ .
+e para isso fixamos o nível de significância $\alpha$, calculamos o valor-p $p$ e rejeitamos $H_0$ se $p < \alpha$ [vide @spiegel2001probability para detalhes sobre valor-p]. Neste relatório, vamos usar o nível de significânica $\alpha=0,01$ .
 
 ## Teste Kruskal-Wallis
 
@@ -227,7 +227,7 @@ $$
 &H_1: \tau_1, \tau_2, \dots,  \tau_j \mbox{ não são todos iguais}.
 \end{split}
 $$
-e para isso fixamos o nível de significância $\alpha$, calculamos o valor-p $p$ e rejeitamos $H_0$ se $p < \alpha$ [vide @spiegel2001probability para detalhes sobre valor-p]. Neste relatório, vamos usar o nível de significânica $\alpha=0,05$.
+e para isso fixamos o nível de significância $\alpha$, calculamos o valor-p $p$ e rejeitamos $H_0$ se $p < \alpha$ [vide @spiegel2001probability para detalhes sobre valor-p]. Neste relatório, vamos usar o nível de significânica $\alpha=0,01$.
 
 Para detalhes sobre o teste Kruskal-Wallis, recomendo a leitura de @hollander2013nonparametric.
 
@@ -242,6 +242,6 @@ $$
 &H_1: m_l \neq m_j
 \end{split}
 $$
-onde $m_l$ é a mediana da população $l$ e $m_j$ é a mediana da população $j$. Para decidirmos entre estas hipóteses, fixamos o nível de significância $\alpha$, calculamos o valor-p $p$ e rejeitamos $H_0$ se $p < \alpha$ [vide @spiegel2001probability para detalhes sobre valor-p]. Neste relatório, vamos usar o nível de significânica $\alpha=0,05$.
+onde $m_l$ é a mediana da população $l$ e $m_j$ é a mediana da população $j$. Para decidirmos entre estas hipóteses, fixamos o nível de significância $\alpha$, calculamos o valor-p $p$ e rejeitamos $H_0$ se $p < \alpha$ [vide @spiegel2001probability para detalhes sobre valor-p]. Neste relatório, vamos usar o nível de significânica $\alpha=0,01$.
 
 Para detalhes sobre o teste de comparação múltipla de Nemeyi, recomendo a leitura da vinheta do pacote da liguagem @PMCMR.

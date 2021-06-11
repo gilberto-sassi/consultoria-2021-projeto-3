@@ -1,0 +1,279 @@
+---
+geometry: paper=a4paper,lmargin=2cm, rmargin=2cm, tmargin=2cm, bmargin=2cm
+font-size: 12pt
+bibliography: "references.bib"
+biblio-style: "asaPortuguese2"
+link-citations: true
+output: 
+  bookdown::pdf_book:
+    toc: false
+    number_sections: true
+    keep_tex: yes
+    fig_caption: true
+    includes:
+      in_header: "header.tex"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, cache = FALSE, fig.align = "center", out.width = "75%", fig.pos = "htbp", warning = FALSE, message=FALSE)
+library(readr)
+library(readxl)
+library(openxlsx)
+library(stringr)
+library(glue)
+library(PMCMR) # Nemeyi's test
+library(tidyverse)
+
+# setting theme
+theme_set(theme_minimal())
+
+# Loading code
+source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/functions/bar-graph.R")
+source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/functions/contingency_table.R")
+source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/functions/distribution-table.R")
+source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/functions/grafico_2.R")
+source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/functions/qui_quadrado_test.r")
+source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/functions/resume-measures.R")
+source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/functions/resume-measures-2.R")
+source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/functions/boxplot_group.R")
+source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/functions/kruskal_wallis_test.R")
+source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/functions/nemenyi_tests.R")
+
+
+# path directory
+output <- stringr::str_interp('/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/output/')
+
+# path to save figures
+fig_path <- "/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/figures/"
+
+# loading data
+dados <- read_xlsx("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/data/raw/Banco de dados atualizado15-03-211.xlsx")
+
+# source("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/scripts/tabela_grafico.R")
+
+df <- dados |> 
+  dplyr::mutate_at(dplyr::vars(dplyr::matches("^Q[4-6]$")), \(x) dplyr::recode(x,
+                                                      `0` = 'Não',
+                                                      `1` = 'Sim',
+                                                      `2` = 'Não sei')) |> 
+  dplyr::mutate_at(paste0("Q", 7:22), \(x) dplyr::recode(x,
+                                       `0` = 'Sem preocupação',
+                                       `1` = 'Pouca preocupação',
+                                       `2` = 'Muita preocupação',
+                                       `3` = 'Sem resposta')) |> 
+  dplyr::mutate_at(paste0("Q", 23:26),
+                   \(x) dplyr::recode(x,
+                                      `0` = 'Não',
+                                      `1` = 'Sim',
+                                      `2` = 'Às vezes',
+                                      `3` = 'Sem resposta')) |> 
+  dplyr::mutate_at(paste0("Q", 27:39),
+                   \(x) recode(x,
+                               `0` = 'Nenhum dia',
+                               `1` = 'Poucos dias',
+                               `2` = 'Todos dias',
+                               `3` = 'Todos dias e várias vezes')) |> 
+  dplyr::mutate_at(paste0("Q", 40:43),
+                   \(x) recode(x,
+                               `0` = 'Não',
+                               `1` = 'Sim',
+                               `2` = 'Sem resposta',
+                               `3` = 'Outros')) |>
+  dplyr::mutate(raca = raça |>
+           dplyr::recode('Não sei responder ou não quero responder' = 'Sem resposta',
+                  'Parda' = 'Negra',
+                  'Preta' = 'Negra'))
+
+openxlsx::write.xlsx(df, file = "/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/data/processed/banco_dados.xlsx")
+
+options(knitr.kable.NA = '')
+```
+
+\onehalfspacing
+
+  \begin{titlepage}
+    \drop=0.1\textheight
+    \centering
+    \vspace*{\baselineskip}
+    \rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt}
+    \rule{\textwidth}{0.4pt}\\[\baselineskip]
+    {\LARGE RELATÓRIO FINAL \\ 
+    \vspace*{\baselineskip}
+    INFÂNCIA EM TEMPOS DE PANDEMIA: EXPERIÊNCIAS DE CRIANÇAS 8 A 12 ANOS DURANTE O ISOLAMENTO SOCIAL EM DIFERENTES CONTEXTOS}\\[0.2\baselineskip]
+    \rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt}
+    \rule{\textwidth}{1.6pt}\\[\baselineskip]
+    \scshape
+    Trabalho de consultoria realizado no contexto da ação de extensão da Universidade Federal da Bahia com título \textit{Consultoria Estatística}. \\
+    \vspace*{2\baselineskip}
+    Elaborado por \\[\baselineskip]
+    {\Large Gilberto Pereira Sassi\par}
+    \vfill
+    {\scshape 2021} \\
+    {\large Universidade Federal da Bahia}\\
+    {\large Instituto de Matemática e Estatística}\\
+    {\large Departamento de Estatística}\par
+  \end{titlepage}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+# Introdução
+
+Este relatório apresenta os resultados da análise estatística do conjunto de dados referente à seguinte consultoria:
+
+* **Consulentes:**  Profa. Dra. Juliana Prates Santana – IPS/UFBA, e Profa. Dra. Adriana Ferriz – IPS/UFBA;
+* **Título do projeto:** Infância em tempos de Pandemia: Experiências de crianças 8 a 12 anos
+durante o isolamento social em diferentes contextos.
+
+O projeto tem o objetivo de analisar a percepção de crianças durante a pandemia de COVID-19 na região metropolitana de Salvador. As Consulentes solicitaram apoio para realizar comparações de médias de algumas escalas Likert. Mais especificamente, as consulentes desejam avaliar a influência das seguintes variáveis categóricas:
+
+i. Idade 
+i. Tipo de escola
+i. Gênero
+i. Raça
+i. Cidades
+
+nas seguintes variáveis que forem mensuradas como uma escala Likert:
+
+i. Campo de número 13: _O quanto você está preocupado hoje com as questões abaixo:_
+i. Campo de número 14: _Desde que a pandemia começou como está a sua relação com a sua família?_
+i. Campo de número 15: _Nesse período da pandemia do coronavírus, quantas vezes por semana você realiza as atividades abaixo?_
+i. Campo de número 16: _Nesse período da pandemia do coronavírus, quantas vezes por semana você realiza as atividades abaixo?_
+i. Campo de número 17: _Nesse período da pandemia do coronavírus, quantas vezes por semana você realiza as atividades abaixo?_
+i. Campo de número 18: _Neste período em que você não está indo a escola, você acha importante ter alguma atividade enviada pelas professoras para fazer em casa?_
+
+Para as diversas indagações de cada campo, eu usei na numeração descrita no documento _`Descrição dos dados 1.docx`_. Nos _gráficos de barras_ e nas _tabelas de contingência_, foi usado as seguintes abreviações conforme descrito nas tabelas _de-para_ abaixo.
+
+#### Tabela _de-para_ as colunas Q14 a Q22 do _`Banco de dados atualizado15-03-211.xlsx`_ referentes do campo 13 {.unlisted .unnumbered}
+
+|De|Para|
+|:------:|:----------:|
+|0|Sem preocupação|
+|1|Pouco preocupação|
+|2|Muita preocupação|
+|3|Sem resposta|
+
+#### Tabela _de-para_ as colunas Q23 a Q26 do _`Banco de dados atualizado15-03-211.xlsx`_ referentes do campo 14 {.unlisted .unnumbered}
+
+|De|Para|
+|:------:|:----------:|
+|0|Não|
+|1|Sim|
+|2|Às vezes|
+|3|Sem resposta|
+
+#### Tabela _de-para_ as colunas Q23 a Q26 do _`Banco de dados atualizado15-03-211.xlsx`_ referentes do campo 14 {.unlisted .unnumbered}
+
+|De|Para|
+|:------:|:----------:|
+|0|Não|
+|1|Sim|
+|2|Às vezes|
+|3|Sem resposta|
+
+#### Tabela _de-para_ as colunas Q27 a Q30 do _`Banco de dados atualizado15-03-211.xlsx`_ referentes do campo 15 {.unlisted .unnumbered}
+
+|De|Para|
+|:------:|:----------:|
+|0|Nenhum dia|
+|1|Poucos dias|
+|2|Todos os dias|
+|3|Todos os dias e várias vezes|
+
+#### Tabela _de-para_ as colunas Q31 a Q34 do _`Banco de dados atualizado15-03-211.xlsx`_ referentes do campo 16 {.unlisted .unnumbered}
+
+|De|Para|
+|:------:|:----------:|
+|0|Nenhum dia|
+|1|Poucos dias|
+|2|Todos os dias|
+|3|Todos os dias e várias vezes|
+
+#### Tabela _de-para_ as colunas Q35 a Q39 do _`Banco de dados atualizado15-03-211.xlsx`_ referentes do campo 17 {.unlisted .unnumbered}
+
+|De|Para|
+|:------:|:----------:|
+|0|Nenhum dia|
+|1|Poucos dias|
+|2|Todos os dias|
+|3|Todos os dias e várias vezes|
+
+#### Tabela _de-para_ as colunas Q40 a Q43 do _`Banco de dados atualizado15-03-211.xlsx`_ referentes do campo 18 {.unlisted .unnumbered}
+
+|De|Para|
+|:------:|:----------:|
+|0|Nenhum dia|
+|1|Poucos dias|
+|2|Todos os dias|
+|3|Todos os dias e várias vezes|
+
+
+# Materias e Métodos
+
+```{r, child="methods/methods.Rmd"}
+```
+
+## Arquivos suplementares
+
+Para facilitar a redação de relatórios e artigos pelas consulentes, coloco em anexo os seguintes arquivos:
+
+* `output.zip`: este arquivo contém o sequintes diretórios
+  * `kruskal_wallis_test`: diretório com arquivos `.csv` e `.xlsx` com os testes Kruskal-Wallis 
+  * `medidas_resumos_bidimensional`: diretório com arquivos `.csv` e `.xlsx` com medidas de resumo calculas de cada grupo de uma variável categórica
+  * `medidas_resumos_unidimensional`: diretório com arquivos `.csv` e `.xlsx` com medidas de resumo para cada uma das variáveis neste relatório
+  * `nemenyi_tests`: diretório com arquivos `.csv` e `.xlsx` com os valores-p do teste de comparação múltipla de Nemeyi
+  * `tabela_contingencia`: diretório com arquivos `.csv` e `.xlsx` com as tabelas de contingências 
+  * `tabela_distribuicao`: diretório com arquivos `.csv` e `.xlsx` com as tabelas de distribuições de frequências para as variáveis categóricas
+  * `teste_qui_quadrado`: diretório com arquivos `.csv` e `.xlsx` com os testes qui-quadrado
+* `figuras.zip`: este arquivo contém os seguintes diretórios:
+  * `boxplot_bidimensional`: diretório com figuras nos formatos `.png` e `.pdf` com o diagrama de caixa (boxplot) de cada grupo da variável categórica
+  * `grafico_barra_bidimensional`: diretório com figuras nos formatos `.png` e `.pdf` com gráfico de barras para duas variáveis categóricas
+  * `grafico_barra_unidimensional`: diretório com figuras nos formatos `.png` e `.pdf` com gráfico de barras para cada variável categórica
+
+\cleardoublepage
+
+# Resultados
+
+Dividimos esta seção em duas partes. Começamos com a análise descritiva para as seguintes variávies categóricas:
+
+i. Idade 
+i. Tipo de escola
+i. Gênero
+i. Raça
+i. Cidades
+
+Nesta parte, apresentamos as tabelas de distribuição de frequências e o gráfico de barras sem comentários adicionais. Em seguida, comparamos as escalas de Likert por cada grupo especificado pelas variáveis categóricas elencadas acima. Nesta última parte, também seremos lacônicos, pois este relator acredita que as consulentes são qualificadas para dar uma interpretação adequada aos resultados dos métodos estatísticos. 
+
+\cleardoublepage
+
+
+```{r, results = "asis"}
+
+niv_sig <- 0.01
+caminho <- "main.Rmd"
+
+df_info <- readxl::read_xlsx("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/data/processed/sessoes.xlsx")
+
+res <- lapply(nrow(df_info) |> seq_len(), \(l) {
+
+  questao <- glue("Q{df_info$questao[l]}")
+  main_text <- df_info$main_text[l]
+  secondary_text <- df_info$main_secondary[l]
+  campo <- df_info$campo[l]
+  knitr::knit_child(caminho, envir = environment(), quiet = TRUE) 
+
+})
+
+cat(unlist(res), sep = "\n")
+
+```
+
+\cleardoublepage
+
+
+# Referências
