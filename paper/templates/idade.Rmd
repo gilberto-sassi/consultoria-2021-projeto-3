@@ -59,7 +59,7 @@ if (valor_p < niv_sig) {
   glue("Como o valor-p é menor que {niv_sig} (nível de significância), rejeitamos a hipótese nula e as medianas de {questao} entre as idades são todas diferentes.") |>
   print()
 } else {
-  glue("Como o valor-p é maior ou igual a {niv_sig} (nível de significância), não rejeitamos a hipótese nula e as medianas de {questao} entre as idades não são  iguais.") |>
+  glue("Como o valor-p é maior ou igual a {niv_sig} (nível de significância), não rejeitamos a hipótese nula e as medianas de {questao} entre as idades são  iguais.") |>
   print()
 } 
 ```
@@ -80,10 +80,10 @@ base::suppressWarnings({
                                           p.adjust.method	= 'bonferroni')$p.value
   })
 if (all(valor_p >= niv_sig, na.rm = TRUE)) {
-  glue("Como os valores-p são iguais ou maiores que {niv_sig} (nível de significância), não rejeitamos a hipótese nula e as medianas de {questao} entre as crianças de diversas cidades são iguais.") |>
+  glue("Como os valores-p são iguais ou maiores que {niv_sig} (nível de significância), não rejeitamos a hipótese nula e as medianas de {questao} entre pares de crianças de diferentes idades são todas iguais.") |>
   print()
 } else {
-  glue("Existem valores-p menores que {niv_sig} (nível de significância), e para estes pares rejeitamos a hipótese nula e as medianas de {questao} entre as crianças das cidades destes pares são diferentes.") |>
+  glue("Existem valores-p menores que {niv_sig} (nível de significância), e para estes pares rejeitamos a hipótese nula e as medianas de {questao} entre as crianças com idades distintas são diferentes.") |>
   print()
 }
 ```

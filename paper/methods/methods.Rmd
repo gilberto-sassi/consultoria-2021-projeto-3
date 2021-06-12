@@ -1,5 +1,5 @@
 
-Começamos com uma análise descritiva de cada uma das variáveis de interesse, para depois passar para uma análise bidimensional. Na análise descritiva usamos medidas de posição e dispersão para variáveis mensuradas como uma escala Likert e tabela de distribuição de frequências para variáveis categóricas. Além disso, usamos o teste de associação qui-quadrado, o teste Kruskal-Wallis para comparar medianas e o teste de comparações múltiplas de Nemeyi. Neste projeto usamos a linguagem `R` [@Rlang]. Para detalhes de estística descritiva, recomendamos a leitura de @bussab2002estatistica. A seguir vamos apresentar detalhes metodológicos sobre o teste de associação qui-quadrado, o teste de Kruskal-Wallis para comparar medianas e o teste de comparações múltiplas de Nemeyi.
+Começamos com uma análise descritiva de cada uma das variáveis de interesse, para depois passar para uma análise bidimensional. Na análise descritiva usamos medidas de posição e dispersão para variáveis mensuradas como uma escala Likert e tabela de distribuição de frequências para variáveis categóricas. Além disso, usamos o teste de associação qui-quadrado, o teste Kruskal-Wallis para comparar medianas e o teste de comparações múltiplas de Nemeyi. Neste projeto usamos a linguagem `R` [@Rlang]. Para detalhes de estística descritiva, recomendamos a leitura de @bussab2002estatistica. A seguir vamos apresentar detalhes metodológicos sobre o teste de associação qui-quadrado, o teste de Kruskal-Wallis para comparar medianas e o teste de comparação múltipla de Nemeyi.
 
 ## Teste qui-quadrado
 
@@ -216,11 +216,11 @@ e para isso fixamos o nível de significância $\alpha$, calculamos o valor-p $p
 
 ## Teste Kruskal-Wallis
 
-Usamos o Teste Kruskal-Wallis para comparar populações através da mediana e adequado para populações onde não é adequado assumir a distribuição normal, como é caso escalas Likert. Neste teste, supomos que temos $j,\quad j=1, \dots, k$ populações e para cada população $j$ temos coletamos uma amostra de tamanho $n_j$, ou seja, a amostra completa tem $N = n_1 + \dots + n_k$ crianças. Seja $X_{ij}$ é a resposta da criança $i$ da população $j$, então 
+Usamos o Teste Kruskal-Wallis para comparar populações, através da mediana, onde não é adequado assumir a distribuição normal, como é caso escalas Likert. Neste teste, supomos que temos $k$ populações e para cada população $j,\ j=1, \dots, k,$  coletamos uma amostra de tamanho $n_j$, ou seja, a amostra completa com as crianças de todas as populações tem $N = n_1 + \dots + n_k$ crianças. Seja $X_{ij}$ é a resposta da criança $i$ da população $j$, então 
 $$
 X_{ij} = \theta + \tau_j + \epsilon_{ij}, \qquad  j=1, \dots, k,\qquad i=1, \dots, n_j,
 $$ 
-onde $\theta$ é a mediana da amostra completa, $\tau_j$ é o efeito do $j$-ésimo tratamento da população  e $\epsilon_{ij}$ são erros aleatórios com mediana igual a zero, e queremos decidir entre duas hipóteses
+onde $\theta$ é a mediana da amostra completa, $\tau_j$ é o efeito de tratamento da $j$-ésima população   e $\epsilon_{ij}$ são erros aleatórios com mediana igual a zero, e queremos decidir entre duas hipóteses
 $$
 \begin{split}
 &H_0: \tau_1 = \tau_2 = \dots = \tau_j,\\
@@ -233,7 +233,7 @@ Para detalhes sobre o teste Kruskal-Wallis, recomendo a leitura de @hollander201
 
 ## Teste de comparação múltipla  de Nemeyi
 
-O teste de Nemeyi [@nemenyi1963distribution] é teste _posthoc_ de comparação múltipla que pode ser usada para identificar quais grupos tem medianas diferentes populações se o teste de Kruskal-Wallis indica que as populações tem medianas diferentes. O teste consiste em realizar comparações em pares para identificar quais populações tem medianas diferentes. 
+O teste de Nemeyi [@nemenyi1963distribution] é teste _posthoc_ de comparação múltipla que pode ser usada para identificar pares têm medianas diferentes populações se o teste de Kruskal-Wallis indica que as medianas das populações não são todas iguais. O teste consiste em realizar comparações em pares para identificar quais populações tem medianas diferentes. 
 
 O número de comparações de medianas realizadas é $\frac{k(k-1)}{2}$, e o teste foi construído em soma de postos e na aplicação do método _family-wise-error_ para controlar a inflação do erro tipo I se várias comparações forem feitas. E para cada par de populações queremos decidir entre as hipóteses:
 $$

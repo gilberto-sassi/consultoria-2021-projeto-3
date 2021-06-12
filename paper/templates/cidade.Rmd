@@ -57,10 +57,10 @@ dados |>
 valor_p <- kruskal.test(unlist(dados[, questao]), unlist(dados[, 'Cidade']))$p.value
 
 if (valor_p < niv_sig) {
-  glue("Como o valor-p é menor que {niv_sig} (nível de significância), rejeitamos a hipótese nula e as medianas de {questao} entre as crianças de diversas cidades são diferentes.") |>
+  glue("Como o valor-p é menor que {niv_sig} (nível de significância), rejeitamos a hipótese nula e as medianas de {questao} entre as crianças de diversas cidades não são todas iguais.") |>
   print()
 } else {
-  glue("Como o valor-p é maior ou igual a {niv_sig} (nível de significância), não rejeitamos a hipótese nula e as medianas de {questao} entre as crianças de diversas cidades não são todas iguais.") |>
+  glue("Como o valor-p é maior ou igual a {niv_sig} (nível de significância), não rejeitamos a hipótese nula e as medianas de {questao} entre as crianças de diversas cidades são todas iguais.") |>
   print()
 } 
 ```
@@ -86,7 +86,7 @@ if (all(valor_p >= niv_sig, na.rm = TRUE)) {
   glue("Como os valores-p são iguais ou maiores que {niv_sig} (nível de significância), não rejeitamos a hipótese nula e as medianas de {questao} entre as crianças de diversas cidades são iguais.") |>
   print()
 } else {
-  glue("Existem valores-p menores que {niv_sig} (nível de significância), e para estes pares rejeitamos a hipótese nula e as medianas de {questao} entre as crianças das cidades destes pares são diferentes.") |>
+  glue("Existem valores-p menores que {niv_sig} (nível de significância), e para estes pares rejeitamos a hipótese nula e as medianas de {questao} entre as crianças destes pares de cidades são diferentes.") |>
   print()
 } 
 ```

@@ -135,7 +135,7 @@ O projeto tem o objetivo de analisar a percepção de crianças durante a pandem
 i. Idade 
 i. Tipo de escola
 i. Gênero
-i. Raça
+i. Raça (obs: juntei as crianças que se identificaram como _parda_ e _preta_ na categoria _negra_)
 i. Cidades
 
 nas seguintes variáveis que forem mensuradas como uma escala Likert:
@@ -147,9 +147,9 @@ i. Campo de número 16: _Nesse período da pandemia do coronavírus, quantas vez
 i. Campo de número 17: _Nesse período da pandemia do coronavírus, quantas vezes por semana você realiza as atividades abaixo?_
 i. Campo de número 18: _Neste período em que você não está indo a escola, você acha importante ter alguma atividade enviada pelas professoras para fazer em casa?_
 
-Para as diversas indagações de cada campo, eu usei na numeração descrita no documento _`Descrição dos dados 1.docx`_. Nos _gráficos de barras_ e nas _tabelas de contingência_, foi usado as seguintes abreviações conforme descrito nas tabelas _de-para_ abaixo.
+Para as diversas indagações de cada campo, eu usei na numeração descrita no documento _`Descrição dos dados 1.docx`_. Nos _gráficos de barras_ e nas _tabelas de contingência_, foi usado as seguintes abreviações conforme descrito nas tabelas _de-para_ para abaixo.
 
-#### Tabela _de-para_ as colunas Q14 a Q22 do _`Banco de dados atualizado15-03-211.xlsx`_ referentes do campo 13 {.unlisted .unnumbered}
+**Tabela _de-para_ para as colunas Q14 a Q22 do arquivo _`Banco de dados atualizado15-03-211.xlsx`_ referentes ao campo 13**
 
 |De|Para|
 |:------:|:----------:|
@@ -158,7 +158,7 @@ Para as diversas indagações de cada campo, eu usei na numeração descrita no 
 |2|Muita preocupação|
 |3|Sem resposta|
 
-#### Tabela _de-para_ as colunas Q23 a Q26 do _`Banco de dados atualizado15-03-211.xlsx`_ referentes do campo 14 {.unlisted .unnumbered}
+**Tabela _de-para_ para as colunas Q23 a Q26 do arquivo _`Banco de dados atualizado15-03-211.xlsx`_ referentes ao campo 14** 
 
 |De|Para|
 |:------:|:----------:|
@@ -167,7 +167,7 @@ Para as diversas indagações de cada campo, eu usei na numeração descrita no 
 |2|Às vezes|
 |3|Sem resposta|
 
-#### Tabela _de-para_ as colunas Q23 a Q26 do _`Banco de dados atualizado15-03-211.xlsx`_ referentes do campo 14 {.unlisted .unnumbered}
+**Tabela _de-para_ para as colunas Q23 a Q26 do arquivo _`Banco de dados atualizado15-03-211.xlsx`_ referentes ao campo 14**
 
 |De|Para|
 |:------:|:----------:|
@@ -176,7 +176,7 @@ Para as diversas indagações de cada campo, eu usei na numeração descrita no 
 |2|Às vezes|
 |3|Sem resposta|
 
-#### Tabela _de-para_ as colunas Q27 a Q30 do _`Banco de dados atualizado15-03-211.xlsx`_ referentes do campo 15 {.unlisted .unnumbered}
+**Tabela _de-para_ para as colunas Q27 a Q30 do arquivo _`Banco de dados atualizado15-03-211.xlsx`_ referentes ao campo 15**
 
 |De|Para|
 |:------:|:----------:|
@@ -185,7 +185,7 @@ Para as diversas indagações de cada campo, eu usei na numeração descrita no 
 |2|Todos os dias|
 |3|Todos os dias e várias vezes|
 
-#### Tabela _de-para_ as colunas Q31 a Q34 do _`Banco de dados atualizado15-03-211.xlsx`_ referentes do campo 16 {.unlisted .unnumbered}
+**Tabela _de-para_ para as colunas Q31 a Q34 do arquivo _`Banco de dados atualizado15-03-211.xlsx`_ referentes ao campo 16**
 
 |De|Para|
 |:------:|:----------:|
@@ -194,7 +194,7 @@ Para as diversas indagações de cada campo, eu usei na numeração descrita no 
 |2|Todos os dias|
 |3|Todos os dias e várias vezes|
 
-#### Tabela _de-para_ as colunas Q35 a Q39 do _`Banco de dados atualizado15-03-211.xlsx`_ referentes do campo 17 {.unlisted .unnumbered}
+**Tabela _de-para_ para as colunas Q35 a Q39 do arquivo _`Banco de dados atualizado15-03-211.xlsx`_ referentes ao campo 17**
 
 |De|Para|
 |:------:|:----------:|
@@ -203,7 +203,7 @@ Para as diversas indagações de cada campo, eu usei na numeração descrita no 
 |2|Todos os dias|
 |3|Todos os dias e várias vezes|
 
-#### Tabela _de-para_ as colunas Q40 a Q43 do _`Banco de dados atualizado15-03-211.xlsx`_ referentes do campo 18 {.unlisted .unnumbered}
+**Tabela _de-para_ para as colunas Q40 a Q43 do arquivo _`Banco de dados atualizado15-03-211.xlsx`_ referentes ao campo 18**
 
 |De|Para|
 |:------:|:----------:|
@@ -247,9 +247,10 @@ i. Gênero
 i. Raça
 i. Cidades
 
-Nesta parte, apresentamos as tabelas de distribuição de frequências e o gráfico de barras sem comentários adicionais. Em seguida, comparamos as escalas de Likert por cada grupo especificado pelas variáveis categóricas elencadas acima. Nesta última parte, também seremos lacônicos, pois este relator acredita que as consulentes são qualificadas para dar uma interpretação adequada aos resultados dos métodos estatísticos. 
+Nesta parte, apresentamos as tabelas de distribuição de frequências e o gráfico de barras sem comentários adicionais. Em seguida, comparamos as escalas de Likert por cada grupo especificado pelas variáveis categóricas elencadas acima. Nesta última parte, também seremos lacônicos, pois este consultar acredita que as consulentes são qualificadas para dar uma interpretação adequada aos resultados dos métodos estatísticos e para tentar diminuir o número de páginas deste relatório.
 
 \cleardoublepage
+
 
 
 ```{r, results = "asis"}
@@ -259,7 +260,7 @@ caminho <- "main.Rmd"
 
 df_info <- readxl::read_xlsx("/home/gilberto/Dropbox/UFBA/consultoria/2021/consultoria-jualiana-adriana/data/processed/sessoes.xlsx")
 
-res <- lapply(nrow(df_info) |> seq_len(), \(l) {
+res <- lapply(seq_len(26), \(l) {
 
   questao <- glue("Q{df_info$questao[l]}")
   main_text <- df_info$main_text[l]
@@ -273,7 +274,24 @@ cat(unlist(res), sep = "\n")
 
 ```
 
-\cleardoublepage
+```{r, results = "asis"}
+
+res <- lapply(27:nrow(df_info), \(l) {
+
+  questao <- glue("Q{df_info$questao[l]}")
+  main_text <- df_info$main_text[l]
+  secondary_text <- df_info$main_secondary[l]
+  campo <- df_info$campo[l]
+  knitr::knit_child("q40_q41.Rmd", envir = environment(), quiet = TRUE) 
+
+})
+
+cat(unlist(res), sep = "\n")
+
+```
+
+
+
 
 
 # Referências

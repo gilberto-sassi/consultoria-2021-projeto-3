@@ -99,7 +99,7 @@ if (all(valor_p >= niv_sig, na.rm = TRUE)) {
   glue("Como os valores-p são iguais ou maiores que {niv_sig} (nível de significância), não rejeitamos a hipótese nula e as medianas de {questao} entre tipos de escola são iguais.") |>
   print()
 } else {
-  glue("O valor-p é maior ou igual que {niv_sig} (nível de significância), e  rejeitamos a hipótese nula e as medianas de {questao} entre meninos e meninas são diferentes.") |>
+  glue("O valor-p é maior ou igual que {niv_sig} (nível de significância), e  rejeitamos a hipótese nula e as medianas de {questao} entre tipos de escolas são diferentes.") |>
   print()
 } 
 ```
